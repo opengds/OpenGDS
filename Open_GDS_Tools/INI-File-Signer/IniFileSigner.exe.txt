@@ -1,0 +1,6 @@
+There should be an exe file named: IniFileSigner.exe in this folder.
+This file is used to resign the Provider INI files located in the folder:
+LabVIEW 20XX\resource\Framework\Providers\GProviders
+Most often you don't need to resign the ini files, 
+The file can be requested from NI, use the user group:
+https://decibel.ni.com/content/groups/labview-project-providers
