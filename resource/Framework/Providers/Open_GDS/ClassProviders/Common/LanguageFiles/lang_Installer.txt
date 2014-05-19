@@ -1,0 +1,101 @@
+[_RestartIsNeededText]
+description=_RestartIsNeededText
+en=The GDS-toolkit has been installed.\0ALabVIEW has to be restarted to\0Ause the toolkit.
+[_RestartIsNeededText_Tip]
+en= The GDS-toolkit has been installed.\0ALabVIEW has to be restarted to\0Ause the toolkit.
+[_RestartIsNeededText_Help]
+en= The GDS-toolkit has been installed.\0ALabVIEW has to be restarted to\0Ause the toolkit.
+
+[_RestartLater]
+description=_RestartLater
+en=Restart later
+[_RestartLater_Tip]
+en=Restart later
+[_RestartLater_Help]
+en=Restart later
+
+[_RestartNow]
+description=_RestartNow
+en=Restart LabVIEW
+[_RestartNow_Tip]
+en=Restart LabVIEW
+[_RestartNow_Help]
+en=Restart LabVIEW
+
+[_CopyFiles]
+description=_CopyFiles
+en=Copying files
+[_CopyFiles_Tip]
+en=Copying files
+[_CopyFiles_Help]
+en=Copying files
+
+[_Process]
+description=_Process
+en=Process
+[_Process_Tip]
+en=Process
+[_Process_Help]
+en=Process
+
+[_InstallFolderInfoText]
+description=_InstallFolderInfoText
+en=This will install all needed files in your\0ALabVIEW program folder.
+[_InstallFolderInfoText_Tip]
+en=This will install all needed files in your\0ALabVIEW program folder.
+[_InstallFolderInfoText_Help]
+en=This will install all needed files in your\0ALabVIEW program folder.
+
+[_InstallWelcome]
+description=_InstallWelcome
+en=Welcome to the installer of the\0ASymbio GOOP Development Suite
+[_InstallWelcome_Tip]
+en=Welcome to the installer of the\0ASymbio GOOP Development Suite
+[_InstallWelcome_Help]
+en=Welcome to the installer of the\0ASymbio GOOP Development Suite
+
+[_Install]
+description=_Install
+en=Install
+[_Install_Tip]
+en=Install
+[_Install_Help]
+en=Install
+
+[_LabVIEWPath]
+description=_LabVIEWPath
+en=LabVIEW Path
+[_LabVIEWPath_Tip]
+en=LabVIEW Path
+[_LabVIEWPath_Help]
+en=LabVIEW Path
+
+[_Recompile]
+en=Recompiling
+
+
+[_UnInstall]
+en=Uninstall GDS toolkit
+
+[_UnInstallQuestionDialogTitle]
+en=Uninstall GDS?
+
+[_UnInstallQuestion]
+en=Are you sure you want to uninstall the GDS toolkit for LabVIEW?
+
+[UnInstallationDone]
+en=GDS toolkit has been uninstalled from LabVIEW.\0ANext time you start LabVIEW the toolkit will not longer appear in LabVIEWs menus.
+
+[_OpenGClickHereForMoreInfo]
+en=Click here for more information and to install
+[_OpenGClickHereForMoreInfo_Tip]
+en=http://goop.endevo.net/InstallOpenG
+[_OpenGClickHereForMoreInfo_Help]
+en=http://goop.endevo.net/InstallOpenG
+
+[_OpenGText]
+en=Congratulations, you have now installed Symbios GOOP Development suite.\0AThis tool also supports creation of the OpenG-classes.\0AYou can install more templates using the VIPM-application
+
+ 
+
+[Checksum:44F6D24]

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Pattern version='1.0' id='ChainofResponsibility' name='Chain of Responsibility' category='Behavioral' help='http://en.wikipedia.org/wiki/Chain_of_responsibility_pattern'>
+ <Desc>Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.</Desc>
+ <Nodes>
+<Node id='Handler' type='Class' name='Handler' stereotype='' x='200' y='0'>
+   <Desc>Defines an interface for handling requests, and implements the successor link.</Desc>
+   <Attributes>
+   </Attributes>
+   <Methods>
+  				<Method id='M1' name='HandleRequest()'/>
+  </Methods>
+  </Node>
+  <Node id='ConcreteHandler1' type='Class' name='ConcreteHandler1' stereotype='' x='100' y='150'>
+   <Desc>Handles requests it is responsible for, and can access its successor.</Desc>
+   <Attributes>
+   </Attributes>
+   <Methods>
+  				<Method id='M2' name='HandleRequest()'/>
+  </Methods>
+  </Node>
+  <Node id='ConcreteHandler2' type='Class' name='ConcreteHandler2' stereotype='' x='250' y='150'>
+   <Desc>Handles requests it is responsible for, and can access its successor.</Desc>
+   <Attributes>
+   </Attributes>
+   <Methods>
+  				<Method id='M3' name='HandleRequest()'/>
+  </Methods>
+  </Node>
+  <Node id='Client' type='Class' name='Client' stereotype='' x='0' y='0'>
+   <Desc>Initiates the request to a ConcreteHandler object on the chain.</Desc>
+   <Attributes>
+   </Attributes>
+   <Methods>
+  </Methods>
+  </Node>
+ </Nodes>
+ <Links>
+		<Link id='L1' name='' starttext='' endtext='' type='Inheritance' from='ConcreteHandler1' to='Handler'/>
+		<Link id='L2' name='' starttext='' endtext='' type='Inheritance' from='ConcreteHandler2' to='Handler'/>
+		<Link id='L3' name='' starttext='' endtext='' type='Aggregation' from='ConcreteHandler2' to='Handler'/>
+		<Link id='L4' name='' starttext='' endtext='' type='Association' from='Client' to='Handler'/>
+ </Links>
+</Pattern>

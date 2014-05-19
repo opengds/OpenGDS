@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Pattern version='1.0' id='Iterator' name='Iterator' category='Behavioral' help='http://en.wikipedia.org/wiki/Iterator_pattern'>
+ <Desc>Provide a way to access the elements of an aggregate object sequentially without exposing its underlying representation.</Desc>
+ <Nodes>
+<Node id='Iterator' type='Class' name='Iterator' stereotype='' x='250' y='0'>
+   <Desc>Defines an interface for accessing and traversing elements.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+ 
+  </Methods>
+  </Node>
+  <Node id='ConcreteIterator' type='Class' name='ConcreteIterator' stereotype='' x='250' y='150'>
+   <Desc>Implements the Iterator interface, and keeps track of the current position in the traversal of the aggregate.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+ 
+  </Methods>
+  </Node>
+  <Node id='Aggregate' type='Class' name='Aggregate' stereotype='' x='20' y='0'>
+   <Desc>Defines an interface for creating an Iterator object.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+ 
+  </Methods>
+  </Node>
+  <Node id='ConcreteAggregate' type='Class' name='ConcreteAggregate' stereotype='' x='0' y='150'>
+   <Desc>Implements the Iterator creation interface to return an instance of the proper ConcreteIterator.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+ 
+  </Methods>
+  </Node>
+ </Nodes>
+ <Links>
+	<Link id='L1' name='' starttext='' endtext='' type='Inheritance' from='ConcreteAggregate' to='Aggregate'/>
+	<Link id='L2' name='' starttext='' endtext='' type='Inheritance' from='ConcreteIterator' to='Iterator'/>
+	<Link id='L3' name='' starttext='' endtext='' type='Dependency' from='ConcreteAggregate' to='ConcreteIterator'/>
+	<Link id='L4' name='' starttext='' endtext='' type='Association' from='ConcreteIterator' to='ConcreteAggregate'/>
+ </Links>
+</Pattern>

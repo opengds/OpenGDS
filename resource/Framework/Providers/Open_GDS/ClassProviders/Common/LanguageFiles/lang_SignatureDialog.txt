@@ -1,0 +1,100 @@
+[_SignatureText]
+description=_SignatureText
+en=Signature text
+[_SignatureText_Tip]
+en=Signature text
+[_SignatureText_Help]
+en=Signature text
+
+[_Signatures]
+description=_Signatures
+en=Signatures
+[_Signatures_Tip]
+en=Signatures
+[_Signatures_Help]
+en=Signatures
+
+[_AddSignature]
+description=_AddSignature
+en=Add this signature
+[_AddSignature_Tip]
+en=Add this signature
+[_AddSignature_Help]
+en=Add this signature
+
+[_RemoveSignature]
+description=_RemoveSignature
+en=Remove signature
+[_RemoveSignature_Tip]
+en=Remove signature
+[_RemoveSignature_Help]
+en=Remove signature
+
+[_ModifySignature]
+description=_ModifySignature
+en=Modify signature
+[_ModifySignature_Tip]
+en=Modify signature
+[_ModifySignature_Help]
+en=Modify signature
+
+[_SignatureName]
+description=_SignatureName
+en=Signature name
+[_SignatureName_Tip]
+en=Signature name
+[_SignatureName_Help]
+en=Signature name
+
+[_SelectTagToAdd]
+description=_SelectTagToAdd
+en=Select a tag to a cursor
+[_SelectTagToAdd_Tip]
+en=Select a tag to a cursor
+[_SelectTagToAdd_Help]
+en=Select a tag to a cursor
+
+[_SelectTagToAdd(0)]
+en=Select tag from list
+[_SelectTagToAdd(1)]
+en=<Date>
+[_SelectTagToAdd(2)]
+en=<DateTime>
+[_SelectTagToAdd(3)]
+en=<User>
+[_SelectTagToAdd(4)]
+en=<LvVersion>
+
+
+[_TagPreview]
+description=_TagPreview
+en=Tag preview
+[_TagPreview_Tip]
+en=Tag preview
+[_TagPreview_Help]
+en=Tag preview
+
+[_InsertTag]
+description=_InsertTag
+en=Insert tag
+[_InsertTag_Tip]
+en=Insert tag
+[_InsertTag_Help]
+en=Insert tag
+
+[_UpdateSignature]
+description=_UpdateSignature
+en=Update this signature
+[_UpdateSignature_Tip]
+en=Update this signature
+[_UpdateSignature_Help]
+en=Update this signature
+
+[_HelpCreateSignature]
+description=_HelpCreateSignature
+en=
+[_HelpCreateSignature_Tip]
+en=
+[_HelpCreateSignature_Help]
+en=
+

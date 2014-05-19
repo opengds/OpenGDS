@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Pattern version='1.0' id='Facade' name='Facade' category='Structural' help='http://en.wikipedia.org/wiki/Facade_pattern'>
+ <Desc>Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.</Desc>
+ <Nodes>
+<Node id='Facade' type='Class' name='Facade' stereotype='' x='20' y='0'>
+   <Desc>Knows which subsystem classes are responsible for a request, and delegates client requests to appropriate subsystem objects.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+ 
+  </Methods>
+  </Node>
+  <Node id='SubsystemClasses' type='Class' name='Subsystem Classes' stereotype='' x='0' y='150'>
+   <Desc>Implement subsystem functionality, and handle work assigned by the Facade object, but have no knowledge of the facade; that is, they keep no references to it.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+ 
+  </Methods>
+  </Node>
+ </Nodes>
+ <Links>
+  <Link id='L1'  name='' starttext='' endtext='' type='Dependecy' from='Facade' to='SubsystemClasses'/>
+ 
+ </Links>
+</Pattern>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Pattern version='1.0' id='Builder' name='Builder' category='Creational' help='http://en.wikipedia.org/wiki/Builder_pattern'>
+ <Desc>Separate the construction of a complex object from its representation so that the same construction process can create different representations.</Desc>
+ <Nodes>
+<Node id='Builder' type='Class' name='Builder' stereotype='' x='210' y='0'>
+   <Desc>Specifies an abstract interface for creating parts of a Product object.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+ 				<Method id='M2' name='BuildPart()'/>
+  </Methods>
+  </Node>
+  <Node id='Director' type='Class' name='Director' stereotype='' x='0' y='0'>
+   <Desc>Constructs an object using the Builder interface.</Desc>
+   <Attributes>
+				<Attribute id='A1' name='BuilderRefs' type='Builder' dimension='1'/>
+   </Attributes>
+   <Methods>
+ 				<Method id='M1' name='Construct()'/>
+  </Methods>
+  </Node>
+  <Node id='ConcreteBuilder' type='Class' name='ConcreteBuilder' stereotype='' x='180' y='150'>
+   <Desc>Constructs and assembles parts of the product by implementing the Builder interface. </Desc>
+   <Attributes>
+   </Attributes>
+   <Methods>
+ 				<Method id='M3' name='BuildPart()'/>
+ 				<Method id='M4' name='GetResult()'/>
+  </Methods>
+  </Node>
+  <Node id='Product' type='Class' name='Product' stereotype='' x='350' y='150'>
+   <Desc>Represents the complex object under construction.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+ 
+  </Methods>
+  </Node>
+  		<Node id='N1' type='Note' name='' stereotype='' x='0' y='150'>
+			<Text>For all objects in structure {\n  builder->BuildPart()\n}</Text>
+			<Links>
+				<Link id='NL1' source='M1'/>
+			</Links>
+		</Node>
+
+ </Nodes>
+ <Links>
+		<Link id='L1' name='' starttext='' endtext='0..n' type='Aggregation' from='Director' to='Builder'/>
+		<Link id='L2' name='' starttext='' endtext='' type='Inheritance' from='ConcreteBuilder' to='Builder'/>
+		<Link id='L3' name='' starttext='' endtext='' type='Dependency' from='ConcreteBuilder' to='Product'/>
+ </Links>
+</Pattern>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Pattern version='1.0' id='Flyweight' name='Flyweight' category='Structural' help='http://en.wikipedia.org/wiki/Flyweight_pattern'>
+ <Desc>Use sharing to support large numbers of fine-grained objects efficiently.</Desc>
+ <Nodes>
+<Node id='Flyweight' type='Class' name='Flyweight' stereotype='' x='250' y='0'>
+   <Desc>Declares an interface through which flyweights can receive and act on extrinsic state.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+	<Method id='M1' name='Operation(extrinsicsState)'/>
+  </Methods>
+  </Node>
+  <Node id='ConcreteFlyweight' type='Class' name='ConcreteFlyweight' stereotype='' x='180' y='250'>
+   <Desc>Implements the Flyweight interface and adds storage for intrinsic state, if any. </Desc>
+   <Attributes>
+	<Attribute id='A1' name='intrinsicState' type='int' dimension='0'/>
+ 
+   </Attributes>
+   <Methods>
+	<Method id='M2' name='Operation(extrinsicsState)'/>
+  </Methods>
+  </Node>
+  <Node id='UnsharedConcreteFlyweight' type='Class' name='UnsharedConcreteFlyweight' stereotype='' x='350' y='320'>
+   <Desc>Not all Flyweight subclasses need to be shared. </Desc>
+   <Attributes>
+	<Attribute id='A2' name='allState' type='int' dimension='0'/>
+   </Attributes>
+   <Methods>
+	<Method id='M3' name='Operation(extrinsicsState)'/>
+  </Methods>
+  </Node>
+  <Node id='FlyweightFactory' type='Class' name='FlyweightFactory' stereotype='' x='0' y='0'>
+   <Desc>Creates and manages flyweight objects.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+ 	<Method id='M4' name='GetFlyweight(key)'/>
+  </Methods>
+  </Node>
+  <Node id='Client' type='Class' name='Client' stereotype='' x='20' y='320'>
+   <Desc>Maintains a reference to flyweights ,and computes or stores the extrinsic state of flyweight(s)</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+ </Methods>
+  </Node>
+  <Node id='N1' type='Note' name='' stereotype='' x='90' y='80'>
+	<Text><B>if (flyweight[key] exists {</B>\n  return existing flyweight;\n<B>} else {</B>\n  create new flyweight;\n  add it to pool of flyweights;\n  return the new flyweight;\n<B>}</B></Text>
+	<Links>
+			<Link id='NL1' source='M4'/>
+	</Links>
+  </Node>
+ </Nodes>
+ <Links>
+  <Link id='L1'  name='' starttext='' endtext='' type='Inheritance' from='UnsharedConcreteFlyweight' to='Flyweight'/>
+  <Link id='L2'  name='' starttext='' endtext='' type='Inheritance' from='ConcreteFlyweight' to='Flyweight'/>
+  <Link id='L3'  name='' starttext='' endtext='' type='Association' from='Client' to='ConcreteFlyweight'/>
+  <Link id='L4'  name='' starttext='' endtext='' type='Association' from='Client' to='UnsharedConcreteFlyweight'/>
+  <Link id='L5'  name='' starttext='' endtext='' type='Association' from='Client' to='FlyweightFactory'/>
+  <Link id='L6'  name='' starttext='Flyweights' endtext='' type='Aggregation' from='FlyweightFactory' to='Flyweight'/>
+
+ </Links>
+</Pattern>

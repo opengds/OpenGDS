@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Pattern version='1.0' id='Mediator' name='Mediator' category='Behavioral' help='http://en.wikipedia.org/wiki/Mediator_pattern'>
+ <Desc>Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently.</Desc>
+ <Nodes>
+<Node id='Mediator' type='Class' name='Mediator' stereotype='' x='20' y='0'>
+   <Desc>Defines an interface for communicating with Colleague objects.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+ 
+  </Methods>
+  </Node>
+  <Node id='ConcreteMediator' type='Class' name='ConcreteMediator' stereotype='' x='0' y='100'>
+   <Desc>Implements cooperative behavior by coordinating Colleague objects, and knows and maintains its colleagues.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+ 
+  </Methods>
+  </Node>
+  <Node id='Colleague' type='Class' name='Colleague' stereotype='' x='250' y='0'>
+   <Desc>Each Colleague class knows its Mediator object. Each colleague communicates with its mediator whenever it would have otherwise communicated with another colleague. </Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+ 
+  </Methods>
+  </Node>
+ </Nodes>
+ <Links>
+	<Link id='ObserverInheritance' name='' starttext='' endtext='' type='Inheritance' from='ConcreteMediator' to='Mediator'/>
+	<Link id='ObserverAssociation' name='' starttext='Mediator' endtext='' type='Association' from='Colleague' to='Mediator'/>
+ </Links>
+</Pattern>

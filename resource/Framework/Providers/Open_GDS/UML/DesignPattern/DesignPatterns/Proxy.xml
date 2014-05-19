@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Pattern version='1.0' id='Proxy' name='Proxy' category='Structural' help='http://en.wikipedia.org/wiki/Proxy_pattern'>
+ <Desc>Provide a surrogate or placeholder for another object to control access to it.</Desc>
+ <Nodes>
+<Node id='Proxy' type='Class' name='Proxy' stereotype='' x='200' y='150'>
+   <Desc>Maintains a reference that lets the proxy access the real subject. Proxy may refer to a Subject if the RealSubject and Subject interfaces are the same.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+	<Method id='M1' name='Request()'/>
+ 
+  </Methods>
+  </Node>
+  <Node id='Subject' type='Class' name='Subject' stereotype='' x='100' y='0'>
+   <Desc>Defines the common interface for RealSubject and Proxy so that a Proxy can be used anywhere a RealSubject is expected.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+	<Method id='M2' name='Request()'/>
+  
+  </Methods>
+  </Node>
+  <Node id='RealSubject' type='Class' name='RealSubject' stereotype='' x='0' y='150'>
+   <Desc>Defines the real object that the proxy represents.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+	<Method id='M3' name='Request()'/>
+  
+  </Methods>
+  </Node>
+	<Node id='N1' type='Note' name='' stereotype='' x='370' y='170'>
+		<Text>...\n<B>realSubject->Request()</B>\n...</Text>
+		<Links>
+			<Link id='NL1' source='M1'/>
+		</Links>
+	</Node>
+
+ </Nodes>
+ <Links>
+   <Link id='L1'  name='' starttext='' endtext='' type='Inheritance' from='Proxy' to='Subject'/>
+   <Link id='L2'  name='' starttext='' endtext='' type='Inheritance' from='RealSubject' to='Subject'/>
+   <Link id='L3'  name='realSubject' starttext='' endtext='' type='Association' from='Proxy' to='RealSubject'/>
+ 
+ </Links>
+</Pattern>

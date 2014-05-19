@@ -1,0 +1,154 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+
+  <head>
+    <meta name="generator" content="HelpNDoc Standard Edition">
+    <link rel="StyleSheet" href="toc.css" type="text/css"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.cookie.js"></script>
+    <script type="text/javascript" src="jquery.treeview.min.js"></script>
+    <script type="text/javascript" src="jquery.rich-array-hnd.js"></script>
+    <script type="text/javascript" src="searchdata.js"></script>
+    <script type="text/javascript"><!--
+      $(document).ready(function(){
+        $("#toc").treeview(
+        )
+        $("#keywords").treeview({collapsed: true});
+        $(document.body).click(function(e){var $target = $(e.target); if($target.is("a")) return; hidePopup();});
+        $(function(){var tabContainers = $("div.tabs > div");tabContainers.hide().filter(":first").show();$("div.tabs ul.tabNavigation a").click(function(){tabContainers.hide();
+        tabContainers.filter(this.hash).show();$("div.tabs ul.tabNavigation a").removeClass("selected");$(this).addClass("selected");return false;}).filter(":first").click();});
+      });
+      function hidePopup() {if($("#popupMenu")) $("#popupMenu").remove();}
+      function showPopup(oSender,aLinks){hidePopup();if (aLinks==0) return true;var oParentDiv=document.createElement("DIV");oParentDiv.id="popupMenu";var oLink,oBr=null;
+      for (var nCnt=0;nCnt<aLinks.length;nCnt++){oLink=document.createElement("A");oLink.innerHTML=aLinks[nCnt][0];oLink.href=aLinks[nCnt][1];oLink.target="FrameMain";oLink.onclick=hidePopup;
+      oParentDiv.appendChild(oLink);if (nCnt<aLinks.length-1){oBr=document.createElement("BR");oParentDiv.appendChild(oBr);}}document.body.appendChild(oParentDiv);var pos=$(oSender).offset(); 
+      var height=$(oSender).height();$(oParentDiv).css({"backgroundColor": "#EEEEEE","border": "1px solid #999999","position": "absolute","left": (pos.left+20)+"px","top": (pos.top+height+5)+"px",
+      "padding": 5+"px"});$(oParentDiv).show();return false;}
+      function performSearch(){sValue = $("#search_value").val().toLowerCase();var aValues = sValue.split(" ");var aFinalResults = [];for (var nValue = 0; nValue < aValues.length; nValue++){if (aValues[nValue] == "") continue;var aResults = oSearchData[aValues[nValue]];if (aResults && aResults.length > 0){if (nValue == 0) aFinalResults = aResults
+else aFinalResults = jQuery.richArray.intersect(aFinalResults, aResults);}else{aFinalResults = [];break;}}if (aFinalResults.length > 0){$("#search_results").html("Found " + aFinalResults.length + " results");for (var nCnt = 0; nCnt < aFinalResults.length; nCnt++){var oElmt = document.createElement("DIV");oElmt.innerHTML = "<a href='" + aFinalResults[nCnt][0] + "?search=" + sValue + "' target='FrameMain'>" + aFinalResults[nCnt][1] + "</a> (" + aFinalResults[nCnt][2] + ")<br/>";$(oElmt).appendTo($("#search_results"));}}else{$("#search_results").html("No result found");}}
+    //--></script>
+    <style type="text/css">
+      ul.tabNavigation{list-style: none;margin: 0;padding: 10px;}ul.tabNavigation li{display: inline;}ul.tabNavigation li A{padding: 3px 5px;background-color: #ccc;color: #000;
+      text-decoration: none;}ul.tabNavigation li A.selected,ul.tabNavigation li A:hover{background-color: #333;color: #fff;}ul.tabNavigation li A:focus{outline: 0;}
+      </style>
+  </head>
+
+  <body>
+  
+    <div class="tabs">
+      <ul class="tabNavigation">
+        <li><a href="#tab_toc">Contents</a></li>
+        <li><a href="#tab_keywords">Index</a></li>
+        <li><a href="#tab_search">Search</a></li>
+      </ul>
+      <div id="tab_toc">
+        <ul id="toc" class="filetree">
+          
+          <li>
+            <a href="GettingStartedwithGOOPDevelopm5.html" class="folder" target="FrameMain">Getting Started with GOOP Development Suite</a>
+            <ul>
+              
+              <li>
+                <a href="Findingthefeatures5.html" class="file" target="FrameMain">Finding the features</a>
+              </li>
+              
+              <li>
+                <a href="CreateNewClass5.html" class="file" target="FrameMain">Create New Class</a>
+              </li>
+              
+              <li>
+                <a href="CreateDesignPattern5.html" class="file" target="FrameMain">Create Design Pattern</a>
+              </li>
+              
+              <li>
+                <a href="CreateNewMethod5.html" class="file" target="FrameMain">Create New Method</a>
+              </li>
+              
+              <li>
+                <a href="CreateVIIcon5.html" class="file" target="FrameMain">Create VI Icon</a>
+              </li>
+              
+              <li>
+                <a href="PlatformCompatibility.html" class="file" target="FrameMain">Platform Compatibility</a>
+              </li>
+            </ul>
+          </li>
+          
+          <li>
+            <a href="GOOPOptionsDialog5.html" class="folder" target="FrameMain">Class Provider Options</a>
+            <ul>
+              
+              <li>
+                <a href="EndevoGOOP4ClassTemplate5.html" class="file" target="FrameMain">Endevo GOOP 4 Class Template</a>
+              </li>
+              
+              <li>
+                <a href="EndevoGOOP3ClassTemplate5.html" class="file" target="FrameMain">Endevo GOOP 3 Class Template</a>
+              </li>
+                       
+              <li>
+                <a href="ChangeorAddMethodsinaClassTemp5.html" class="file" target="FrameMain">Change or Add Methods in a Class Template </a>
+              </li>
+              
+              <li>
+                <a href="CreateClassTemplate5.html" class="file" target="FrameMain">Create Class Template</a>
+              </li>
+            </ul>
+          </li>
+          
+          <li>
+            <a href="GOOPDebugger5.html" class="file" target="FrameMain">GOOP Debugger </a>
+          </li>
+          
+          <li>
+            <a href="GOOP4vsGOOP35.html" class="file" target="FrameMain">GOOP 4 vs GOOP 3</a>
+          </li>
+          
+          <li>
+            <a href="HowGOOP3comparestoGOOP25.html" class="file" target="FrameMain">GOOP 3 vs GOOP 2</a>
+          </li>
+          
+          <li>
+            <a href="UMLModeller5.html" class="folder" target="FrameMain">UML Modeller</a>
+            <ul>
+              
+              <li>
+                <a href="ClassDiagram5.html" class="file" target="FrameMain">Class Diagram</a>
+              </li>
+              
+              <li>
+                <a href="SequenceDiagram5.html" class="file" target="FrameMain">Sequence Diagram</a>
+              </li>
+              
+              <li>
+                <a href="UseCaseDiagram5.html" class="file" target="FrameMain">Use Case Diagram</a>
+              </li>
+              
+              <li>
+                <a href="PackageDiagram5.html" class="file" target="FrameMain">Package Diagram</a>
+              </li>
+              
+              <li>
+                <a href="StateDiagram5.html" class="file" target="FrameMain">State Diagram</a>
+              </li>
+            </ul>
+          </li>
+                   
+          <li>
+            <a href="Demos5.html" class="file" target="FrameMain">Demo Videos</a>
+          </li>
+      </ul>
+    </div>
+    
+    <div id="tab_keywords">
+      <ul id="keywords" class="filetree">
+      </ul>
+    </div>
+    <div id="tab_search" style="padding:10px">
+      Search: <form onsubmit="performSearch(); return false;"><input id="search_value"></input><input type="submit" value="search"/></form><div id="search_results"></div>
+    </div>
+  </div>
+</div>
+</body>
+
+</html>

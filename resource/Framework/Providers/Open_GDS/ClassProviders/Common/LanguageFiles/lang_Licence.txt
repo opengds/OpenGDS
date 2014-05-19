@@ -1,0 +1,48 @@
+
+[_LicenseAgreement]
+en=License Agreement
+[_LicenseAgreement_Tip]
+en=License Agreement
+[_LicenseAgreement_Help]
+en=License Agreement
+
+[_IAcceptAgreement]
+en=I accept agreement
+[_IAcceptAgreement_Tip]
+en=I accept agreement
+[_IAcceptAgreement_Help]
+en=I accept agreement
+
+[_IDoNotAcceptAgreement]
+description=_IDoNotAcceptAgreement
+en=I do not accept agreement
+[_IDoNotAcceptAgreement_Tip]
+en=I do not accept agreement
+[_IDoNotAcceptAgreement_Help]
+en=I do not accept agreement
+
+
+
+
+[_Version]
+description=_Version
+en=Version
+[_Version_Tip]
+en=Version
+[_Version_Help]
+en=Version
+
+
+
+[NewVersionAvailable]
+en=There is a new version available.\0ADo you want to download this version?\0A(Your browser will be directed to the latest installer)
+
+[_MainHelp]
+en=Main help
+
+[_GDSOnline]
+en=GDS Web Page
+
+
+[Checksum:C1DEDDCB]
+

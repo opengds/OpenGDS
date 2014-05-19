@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Pattern version='1.0' id='FactoryMethod' name='Factory Method' category='Creational' help='http://en.wikipedia.org/wiki/Factory_method_pattern'>
+ <Desc>Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.</Desc>
+ <Nodes>
+<Node id='Product' type='Class' name='Product' stereotype='' x='20' y='0'>
+   <Desc>Defines the interface of objects the factory method creates.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+ 
+  </Methods>
+  </Node>
+  <Node id='ConcreteProduct' type='Class' name='ConcreteProduct' stereotype='' x='0' y='150'>
+   <Desc>Implements the Product interface.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+ 
+  </Methods>
+  </Node>
+  <Node id='Creator' type='Class' name='Creator' stereotype='' x='220' y='0'>
+   <Desc>Declares the factory method, which returns an object of type Product.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+	<Method id='M1' name='FactoryMethod()'/>
+	<Method id='M2' name='AnOperation()'/>
+  </Methods>
+  </Node>
+  <Node id='ConcreteCreator' type='Class' name='ConcreteCreator' stereotype='' x='200' y='150'>
+   <Desc>Overrides the factory method to return an instance of a ConcreteProduct.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+	<Method id='M3' name='FactoryMethod()'/>
+  </Methods>
+  </Node>
+	<Node id='N1' type='Note' name='' stereotype='' x='370' y='40'>
+		<Text>...\n<B>Product = FactoryMethod()</B>\n...</Text>
+		<Links>
+			<Link id='NL1' source='M2'/>
+		</Links>
+	</Node>
+	<Node id='N2' type='Note' name='' stereotype='' x='370' y='180'>
+		<Text><B>return new ConcreteProduct</B></Text>
+		<Links>
+			<Link id='NL2' source='M3'/>
+		</Links>
+	</Node>
+ </Nodes>
+ <Links>
+   <Link id='L1'  name='' starttext='' endtext='' type='Inheritance' from='ConcreteCreator' to='Creator'/>
+   <Link id='L2'  name='' starttext='' endtext='' type='Inheritance' from='ConcreteProduct' to='Product'/>
+   <Link id='L3'  name='' starttext='' endtext='' type='Dependency' from='ConcreteCreator' to='ConcreteProduct'/>
+ </Links>
+</Pattern>

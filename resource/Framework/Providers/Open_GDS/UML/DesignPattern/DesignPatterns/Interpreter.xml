@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Pattern version='1.0' id='Interpreter' name='Interpreter' category='Behavioral' help='http://en.wikipedia.org/wiki/Interpreter_pattern'>
+ <Desc>Given a language, define a represention for its grammar along with an interpreter that uses the representation to interpret sentences in the language.</Desc>
+ <Nodes>
+<Node id='AbstractExpression' type='Class' name='AbstractExpression' stereotype='' x='200' y='150'>
+   <Desc>Declares an abstract Interpret operation that is common to all nodes in the abstract syntax tree.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+ 
+  </Methods>
+  </Node>
+  <Node id='TerminalExpression' type='Class' name='TerminalExpression' stereotype='' x='80' y='300'>
+   <Desc>Implements an Interpret operation associated with terminal symbols in the grammar. An instance is required for every terminal symbol in a sentence.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+ 
+  </Methods>
+  </Node>
+  <Node id='NonterminalExpression' type='Class' name='NonterminalExpression' stereotype='' x='300' y='300'>
+   <Desc>Implements an Interpret operation for nonterminal symbols in the grammar.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+ 
+  </Methods>
+  </Node>
+  <Node id='Context' type='Class' name='Context' stereotype='' x='200' y='00'>
+   <Desc>Contains information that&apos;s global to the interpreter.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+ 
+  </Methods>
+  </Node>
+  <Node id='Client' type='Class' name='Client' stereotype='' x='0' y='100'>
+   <Desc>Builds (or is given) an abstract syntax tree representing a particular sentence in the language that the grammar defines.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+ 
+  </Methods>
+  </Node>
+ </Nodes>
+ <Links>
+	<Link id='L1'  name='' starttext='' endtext='' type='Inheritance' from='NonterminalExpression' to='AbstractExpression'/>
+	<Link id='L2' name='' starttext='' endtext='' type='Inheritance' from='TerminalExpression' to='AbstractExpression'/>
+	<Link id='L3' name='' starttext='' endtext='' type='Association' from='Client' to='AbstractExpression'/>
+	<Link id='L4' name='' starttext='' endtext='' type='Association' from='Client' to='Context'/>
+	<Link id='L5' name='' starttext='' endtext='' type='Aggregation' from='NonterminalExpression' to='AbstractExpression'/>
+ </Links>
+</Pattern>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Pattern version='1.0' id='State' name='State' category='Behavioral' help='http://en.wikipedia.org/wiki/State_pattern'>
+	<Desc>Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.</Desc>
+	<Nodes>
+		<Node id='Context' type='Class' name='Context' stereotype='' x='0' y='0'>
+			<Desc>Defines the interface of interest to clients.\nMaintains an instance of a ConcreateState subclass that defines the current state.</Desc>
+			<Attributes>
+				<Attribute id='StateRef' name='CurrentState' type='State' dimension='0'/>
+			</Attributes>
+			<Methods>
+				<Method id='Request' name='Request()'/>
+			</Methods>
+		</Node>
+		<Node id='State' type='Class' name='State' stereotype='ABSTRACT' x='220' y='0'>
+			<Desc>Defines an interface for encapsulating the behavior associated with a particular state of the Context.</Desc>
+			<Methods>
+				<Method id='Handle' name='Handle()'/>
+			</Methods>
+		</Node>
+		<Node id='ConcreteStateA' type='Class' name='ConcreteStateA' stereotype='' x='120' y='180'>
+			<Desc>Subclass that implements a specific behaviour associated with a state of the Context</Desc>
+			<Methods>
+				<Method id='Handle' name='Handle()'/>
+			</Methods>
+		</Node>
+		<Node id='ConcreteStateB' type='Class' name='ConcreteStateB' stereotype='' x='320' y='180'>
+			<Desc>Subclass that implements a specific behavior associated with a state of the Context</Desc>
+			<Methods>
+				<Method id='Handle' name='Handle()'/>
+			</Methods>
+		</Node>
+		<Node id='RequestNote' type='Note' name='' stereotype='' x='0' y='100'>
+			<Text>state->Handle()</Text>
+			<Links>
+				<Link id='ToRequest' source='Request'/>
+			</Links>
+		</Node>
+
+	</Nodes>
+	<Links>
+		<Link id='L1' name='' starttext='' endtext='' type='Aggregation' from='Context' to='State'/>
+		<Link id='L2' name='' starttext='' endtext='' type='Inheritance' from='ConcreteStateA' to='State'/>
+		<Link id='L3' name='' starttext='' endtext='' type='Inheritance' from='ConcreteStateB' to='State'/>
+	</Links>
+</Pattern>

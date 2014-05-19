@@ -1,0 +1,516 @@
+From: <Sparad av WINDOWS Internet Explorer 7>
+Subject: 
+Date: Tue, 8 Apr 2008 22:51:53 +1000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01C899CB.238A82F0"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.3028
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01C899CB.238A82F0
+Content-Type: text/html;
+	charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file://C:\Temp\GDS_API.html
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE></TITLE>
+<META http-equiv=3DContent-Type content=3D"text/html; =
+charset=3Dwindows-1252">
+<META content=3D"MSHTML 6.00.6000.16441" name=3DGENERATOR></HEAD>
+<BODY><B></B>
+<P align=3Dcenter></P>
+<H1>API</H1>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD width=3D"10%"></TD>
+    <TD width=3D"90%">This is an API for GDS.</TD></TR>
+  <TR>
+    <TD width=3D"10%"></TD>
+    <TD width=3D"90%">API is located at: C:\Program\National =
+Instruments\LabVIEW=20
+      =
+8.2\resource\Framework\Providers\Endevo\API</TD></TR></TBODY></TABLE>
+<P>&nbsp;</P>
+<H2>1&nbsp;&nbsp;&nbsp; CloneClass<BR><IMG=20
+src=3D"file:///C:/Temp/DocPictures/CloneClass.png" border=3D0></H2>
+<H3>&nbsp;&nbsp;&nbsp; 1.1&nbsp;&nbsp;&nbsp; Description:</H3>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD width=3D"10%"></TD>
+    <TD width=3D"90%">Clone class This VI clones the original class to a =
+new=20
+      class. Make sure the new class is located in a new=20
+folder.</TD></TR></TBODY></TABLE>
+<H3>&nbsp;&nbsp;&nbsp; 1.2&nbsp;&nbsp;&nbsp; Input:</H3>
+<TABLE cellSpacing=3D0 cellPadding=3D0 border=3D1>
+  <TBODY>
+  <TR>
+    <TD width=3D"25%"><B>NAME</B></TD>
+    <TD width=3D"15%"><B>TYPE</B></TD>
+    <TD width=3D"10%"><B>DEFAULT</B></TD>
+    <TD width=3D"50%"><B>DESCRIPTION</B></TD></TR>
+  <TR>
+    <TD width=3D"25%">OriginalClassPath(*.lvclass)</TD>
+    <TD width=3D"15%">Path</TD>
+    <TD width=3D"10%">&lt;REQUIRED&gt;</TD>
+    <TD width=3D"25%">The original path the the lvclass-file that should =
+be=20
+      cloned.</TD></TR>
+  <TR>
+    <TD width=3D"25%">NewClassPath(*.lvclass)</TD>
+    <TD width=3D"15%">Path</TD>
+    <TD width=3D"10%">&lt;REQUIRED&gt;</TD>
+    <TD width=3D"25%">The new lvclass file that should be cretaed. Make =
+sure=20
+      this class is located in a new folder.</TD></TR></TBODY></TABLE>
+<H3>&nbsp;&nbsp;&nbsp; 1.3&nbsp;&nbsp;&nbsp; Output:</H3>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D1>
+  <TBODY>
+  <TR>
+    <TD width=3D"25%"><B>NAME</B></TD>
+    <TD width=3D"25%"><B>TYPE</B></TD>
+    <TD width=3D"50%"><B>DESCRIPTION</B></TD></TR></TBODY></TABLE>
+<H2>2&nbsp;&nbsp;&nbsp; CreateClass<BR><IMG=20
+src=3D"file:///C:/Temp/DocPictures/CreateClass.png" border=3D0></H2>
+<H3>&nbsp;&nbsp;&nbsp; 2.1&nbsp;&nbsp;&nbsp; Description:</H3>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD width=3D"10%"></TD>
+    <TD width=3D"90%">NOT Yet implemented</TD></TR></TBODY></TABLE>
+<H3>&nbsp;&nbsp;&nbsp; 2.2&nbsp;&nbsp;&nbsp; Input:</H3>
+<TABLE cellSpacing=3D0 cellPadding=3D0 border=3D1>
+  <TBODY>
+  <TR>
+    <TD width=3D"25%"><B>NAME</B></TD>
+    <TD width=3D"15%"><B>TYPE</B></TD>
+    <TD width=3D"10%"><B>DEFAULT</B></TD>
+    <TD width=3D"50%"><B>DESCRIPTION</B></TD></TR>
+  <TR>
+    <TD width=3D"25%">ClassProvider(EndevoGOOP300)</TD>
+    <TD width=3D"15%">ENUM {Endevo LabVIEW Native, EndevoGOOP300, =
+OpenG100}</TD>
+    <TD width=3D"10%">EndevoGOOP300</TD>
+    <TD width=3D"25%">The class provider type of the class that should =
+be=20
+      created.</TD></TR>
+  <TR>
+    <TD width=3D"25%">NewClassPath(*.lvclass)</TD>
+    <TD width=3D"15%">Path</TD>
+    <TD width=3D"10%">&lt;REQUIRED&gt;</TD>
+    <TD width=3D"25%">The path of the new lvclass =
+file.</TD></TR></TBODY></TABLE>
+<H3>&nbsp;&nbsp;&nbsp; 2.3&nbsp;&nbsp;&nbsp; Output:</H3>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D1>
+  <TBODY>
+  <TR>
+    <TD width=3D"25%"><B>NAME</B></TD>
+    <TD width=3D"25%"><B>TYPE</B></TD>
+    <TD width=3D"50%"><B>DESCRIPTION</B></TD></TR></TBODY></TABLE>
+<H2>3&nbsp;&nbsp;&nbsp; CreateMethods<BR><IMG=20
+src=3D"file:///C:/Temp/DocPictures/CreateMethods.png" border=3D0></H2>
+<H3>&nbsp;&nbsp;&nbsp; 3.1&nbsp;&nbsp;&nbsp; Description:</H3>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD width=3D"10%"></TD>
+    <TD width=3D"90%">This VI creates Methods in a =
+class.</TD></TR></TBODY></TABLE>
+<H3>&nbsp;&nbsp;&nbsp; 3.2&nbsp;&nbsp;&nbsp; Input:</H3>
+<TABLE cellSpacing=3D0 cellPadding=3D0 border=3D1>
+  <TBODY>
+  <TR>
+    <TD width=3D"25%"><B>NAME</B></TD>
+    <TD width=3D"15%"><B>TYPE</B></TD>
+    <TD width=3D"10%"><B>DEFAULT</B></TD>
+    <TD width=3D"50%"><B>DESCRIPTION</B></TD></TR>
+  <TR>
+    <TD width=3D"25%">ClassPath(*.lvclass)</TD>
+    <TD width=3D"15%">Path</TD>
+    <TD width=3D"10%">&lt;REQUIRED&gt;</TD>
+    <TD width=3D"25%">Class to add methods to</TD></TR>
+  <TR>
+    <TD width=3D"25%">Methods</TD>
+    <TD width=3D"15%">Array</TD>
+    <TD width=3D"10%">&lt;REQUIRED&gt;</TD>
+    <TD width=3D"25%">Array of methods</TD></TR></TBODY></TABLE>
+<H3>&nbsp;&nbsp;&nbsp; 3.3&nbsp;&nbsp;&nbsp; Output:</H3>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D1>
+  <TBODY>
+  <TR>
+    <TD width=3D"25%"><B>NAME</B></TD>
+    <TD width=3D"25%"><B>TYPE</B></TD>
+    <TD width=3D"50%"><B>DESCRIPTION</B></TD></TR></TBODY></TABLE>
+<H2>4&nbsp;&nbsp;&nbsp; GetMethodOptions<BR><IMG=20
+src=3D"file:///C:/Temp/DocPictures/GetMethodOptions.png" =
+border=3D0></H2>
+<H3>&nbsp;&nbsp;&nbsp; 4.1&nbsp;&nbsp;&nbsp; Description:</H3>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD width=3D"10%"></TD>
+    <TD width=3D"90%">This VI could be used to view the possible options =
+that=20
+      are available when creating methods in a class, using the API VI=20
+      "CreateMethods.vi",</TD></TR></TBODY></TABLE>
+<H3>&nbsp;&nbsp;&nbsp; 4.2&nbsp;&nbsp;&nbsp; Input:</H3>
+<TABLE cellSpacing=3D0 cellPadding=3D0 border=3D1>
+  <TBODY>
+  <TR>
+    <TD width=3D"25%"><B>NAME</B></TD>
+    <TD width=3D"15%"><B>TYPE</B></TD>
+    <TD width=3D"10%"><B>DEFAULT</B></TD>
+    <TD width=3D"50%"><B>DESCRIPTION</B></TD></TR>
+  <TR>
+    <TD width=3D"25%">OriginalClassPath(*.lvclass)</TD>
+    <TD width=3D"15%">Path</TD>
+    <TD width=3D"10%">&lt;REQUIRED&gt;</TD>
+    <TD width=3D"25%">The class path.</TD></TR></TBODY></TABLE>
+<H3>&nbsp;&nbsp;&nbsp; 4.3&nbsp;&nbsp;&nbsp; Output:</H3>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D1>
+  <TBODY>
+  <TR>
+    <TD width=3D"25%"><B>NAME</B></TD>
+    <TD width=3D"25%"><B>TYPE</B></TD>
+    <TD width=3D"50%"><B>DESCRIPTION</B></TD></TR>
+  <TR>
+    <TD width=3D"25%">NormalMethodTemplates</TD>
+    <TD width=3D"25%">Array</TD>
+    <TD width=3D"50%">List of templates the class supports:</TD></TR>
+  <TR>
+    <TD width=3D"25%">OverrideMethodTemplates</TD>
+    <TD width=3D"25%">Array</TD>
+    <TD width=3D"50%">List of Override templates the class =
+supports:</TD></TR>
+  <TR>
+    <TD width=3D"25%">PropertyMethodTemplates</TD>
+    <TD width=3D"25%">Array</TD>
+    <TD width=3D"50%">List of Property templates the class =
+supports:</TD></TR>
+  <TR>
+    <TD width=3D"25%">AllDynamicMethodsToOverride</TD>
+    <TD width=3D"25%">Array</TD>
+    <TD width=3D"50%">List of dynamic methods that this class could=20
+  override</TD></TR>
+  <TR>
+    <TD width=3D"25%">Properties</TD>
+    <TD width=3D"25%">Array</TD>
+    <TD width=3D"50%">A list of properties this class =
+has.</TD></TR></TBODY></TABLE>
+<H2>5&nbsp;&nbsp;&nbsp; UpdateAttributes<BR><IMG=20
+src=3D"file:///C:/Temp/DocPictures/UpdateAttributes.png" =
+border=3D0></H2>
+<H3>&nbsp;&nbsp;&nbsp; 5.1&nbsp;&nbsp;&nbsp; Description:</H3>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D0>
+  <TBODY>
+  <TR>
+    <TD width=3D"10%"></TD>
+    <TD width=3D"90%">This VI updates the attributes of a=20
+class.</TD></TR></TBODY></TABLE>
+<H3>&nbsp;&nbsp;&nbsp; 5.2&nbsp;&nbsp;&nbsp; Input:</H3>
+<TABLE cellSpacing=3D0 cellPadding=3D0 border=3D1>
+  <TBODY>
+  <TR>
+    <TD width=3D"25%"><B>NAME</B></TD>
+    <TD width=3D"15%"><B>TYPE</B></TD>
+    <TD width=3D"10%"><B>DEFAULT</B></TD>
+    <TD width=3D"50%"><B>DESCRIPTION</B></TD></TR>
+  <TR>
+    <TD width=3D"25%">OriginalClassPath(*.lvclass)</TD>
+    <TD width=3D"15%">Path</TD>
+    <TD width=3D"10%">&lt;REQUIRED&gt;</TD>
+    <TD width=3D"25%">The class path.</TD></TR>
+  <TR>
+    <TD width=3D"25%">Attributes(Name : Type)</TD>
+    <TD width=3D"15%">Array</TD>
+    <TD width=3D"10%">&lt;REQUIRED&gt;</TD>
+    <TD width=3D"25%">The list of attributes to add, e.g. MyInteger : =
+I32 Number=20
+      : DBL ManyNames : String[]</TD></TR>
+  <TR>
+    <TD width=3D"25%">DeleteAllPreviousAttributes(True)</TD>
+    <TD width=3D"15%">Boolean</TD>
+    <TD width=3D"10%">1</TD>
+    <TD width=3D"25%">If this option is True existing attributes will be =
+
+      removed. Otherwise these attributes will be added after the =
+current=20
+      attributes.</TD></TR></TBODY></TABLE>
+<H3>&nbsp;&nbsp;&nbsp; 5.3&nbsp;&nbsp;&nbsp; Output:</H3>
+<TABLE cellSpacing=3D0 cellPadding=3D0 width=3D"100%" border=3D1>
+  <TBODY>
+  <TR>
+    <TD width=3D"25%"><B>NAME</B></TD>
+    <TD width=3D"25%"><B>TYPE</B></TD>
+    <TD width=3D"50%"><B>DESCRIPTION</B></TD></TR></TBODY></TABLE>
+<P>This document has been autogenerated by the tool:=20
+<B>\Tools\ClassDocumentationApp.vi<BR></B>And could be customized by =
+selecting=20
+different HTML-templates</P></BODY></HTML>
+
+------=_NextPart_000_0000_01C899CB.238A82F0
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Temp/DocPictures/CloneClass.png
+
+iVBORw0KGgoAAAANSUhEUgAAAVMAAAAxCAIAAADoYt3GAAAHoklEQVR4Xu2c2ZGkOhBFZV4bxH/b
+8SLKFxwYH8oUXrFJNxctLEI0lTeIaSESbeRRCijGDSZTI7nKytX/1bLRMTXThOd/1Tbz7ZRsdEzN
+5MmHHJKWRzFHPQpm5tsp2eiYmmkmfwCkcXdYJwIWzGMGwt58OyUbHVMzIflrDicZD+Eu2qMBWJpv
+p2SjY2omFvOHCPlyIogEeSN/g2x0TM1Ucp/Pdo38s3SP0em70Qe6fr9Bbb1fP58G/Lze2sG5ddC8
+0Tra2K192WovNZcQaXxDefLrbPfw7bsqjM7ivo45MdHs/wkvzBroos69FIJNOe79tH8uBwKvMEE+
+ms5m3Wskv+v0M7b2Zau9puTE1UyusnL1f7Xm0aHAXh8iwLlp/Jwa9kmf4P3Yq6W/iS4Wk68dSA/g
+1r5stdfVR+ahlhrh/FdrM/LTmkaHeypMBN7txkTXoxeqQdQbLER03Q8e5gF9ySS1OOrmfYfkq6dr
+CxaRQzoZeqgVSPMmu3R3fDsw5o//JGL+KzrbYtM/OSf03ZvdC31n5LfTODoSt5CzeOTP4qXcC3GN
+q5FPfHky/uRLZ1+PR28WsFhxOqFvMpA5KfIV+LDFA5wguqPzNFpHgzTtLM41Y5q1gpG/s++Dr4K1
+yv3+fjafuDjtjPx20skPYBBH1L02Rb4eGQdaWEjJlghTJW85C4qXORRsvR6sRCdfdEfFKSNliDj4
+pMAT+h4OyOwsnxXTRn47lcV8f4giSsNJKflL4auQ/HzMV09/i2WwzOHn8T6x/CvID+UEKNPk7+17
+KEeS31BOkD8roJs7NCe8jPxyFd/nz6KI7oj5WFUom4cw9Hxyn6+fHkwd7Qjm8E6igSywkPw9OEHR
+y8QBbwES5B/o+6g9k1RlOckq5TlxCG1YOUZ+iXLP9iPkU45gp4x8cHs+v1D2JxtBPjt9uhsO5pOZ
+9PcU+bw9jHS+DzvcLibRQ6wGG0aa+X514T7/QN99wfmGXikXIV/u+rSjwLOEkV+u3Pv8GPlkmTk/
+ACwiH319fWzIa6HLVUqLdjppObQCc2Lk6+3hrZDPzfxOIfoR8n0tWAC2/kd9tr+172uh2WZeK3cg
+5scsjfxCnTE6hc7/VLHJ8Za65yWSxM7CNNuNTQR41Mgv0e7RIaHldj51regdyv0UWe40lxPkn7gZ
++WnZ6JiC8u/hTk0b+Q1lo2MKyrJ6ctrIbycbHVPQzORlMvIb6o+MTvOnaMlHZOI+f7SONnZrX7ba
+SxXf5/uAfI0Y+bMCt5FDfheNmYGRn9Xh0Vmf9M2eedxLh/Rbvf2ijyRzIPAKE+Sj6fIK/a9+pXsl
+9gMl31HmCw/JXSO/UIdHxwN1EqE0fk4e619bHymXBL5lbkmQUEy+diAdY7f2Zau9rqL3+Q1jvovz
+jMIcZmDkJ/VxVHL5D4/O4pefADf6JvFS+luYQYUPlwr+VyvEze0r3eN992YZ9K/Eftgb80smCyNf
+qBb5fd/R2Lww8EkFOpD2xTunxqgGai2jqWCF0Pe2r3Rl3wdfBbYq9ux9uEoueZ/vdx0lHw/J3buS
+76ft1VkmEl/jhZyumU+jrWocK5gavwdM86AxnEj+mFgaR6cAtKEOPt0Je28Pbp8iP1IzdtwfokQq
+UZXVg5Xo5JN5I4xoFHJVymhw8EmBJ/Q9HMDs2Ps2lH/1XmNzkVv0U7aPsg2ouuEwTnC8SWq65stV
+xTSGDdWYKGLMyWe5o84jf6pZ/z258764kjL+/Xn1c39CEe9szB94yXCaqAdzRIt8JUqB15AfyglQ
+psnf2/dQjpwQ0po82A3rf5l3ejoL8O7NK9uGGmlKft8Rd5sugs4nI1QzRmWNLyE/+KUnP4LwfLu8
+Rr15ukDgyHn2le7xvo/aM0mt5Gfj277NVSY/24CqWxhEOhe7NPl9BxdxDekx8rPG15Dv0SfxbDZ7
+rzecOD3wPTi+7L+XVQ71fqBmPsi9277SxRxoQb6hTL8Tn8SPz5OrTH6u/svUQ8xfFSN/5Xc9UUwT
+qJixz7yIfA3bIGqztEKGKn4epQVQ2filqk6+WqBoxfd+pVub/KrK1X+deojN0yI2Tj6C60+LkR8z
+RqeHmILTz41G56+KkHxTFc5PUr/raj9naEoLAomEmYEdbGXoFpLGkDe+OyariaUBg5F/iuhS536K
+LHdKZOQ/VXZFTSlVXe2bGsquqCklI/+psitqSslW+0+VXdEqmh6m3Oe+Hx/xbpOR/1TZFS1W4vkq
+E3nLehPhe6UNstX+U2VX9HzthKyy9k1HRv5T9cgrCi8u32vG8e+i5pgfjsZelFHwY/ayXq7Te6H9
+kiwnW+0/VQ+8ooE88qsm8qs5/KGe9hMoDRFPvhOnSDPcVey1eqkq9ILfrqR/du43I/+Ret4V7et+
+FxU9fRWLrKq9Wi9RlV6wps0rebf5yzPTE/S4KxrWvbD6jXFCoFsj5wXkq/Wi6vRCkl++DaZn6XlX
+VLubTUTLdGhFFZLPMmMxX9ZLVKMXsY6ZvlHPI5+QdOZ3UYXkM5J1e61eqgq90GYT07fqgeTPJOAy
+Oc4M2sLzskPki9V3NFDTerlO7gVMDybTM8lvrTtCFllamL5VRn4VvSNvBhup3/3rXdNT9T8hr1yM
+Hgt6tAAAAABJRU5ErkJggg==
+
+------=_NextPart_000_0000_01C899CB.238A82F0
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Temp/DocPictures/CreateClass.png
+
+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
+
+------=_NextPart_000_0000_01C899CB.238A82F0
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Temp/DocPictures/CreateMethods.png
+
+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
+SUVORK5CYII=
+
+------=_NextPart_000_0000_01C899CB.238A82F0
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Temp/DocPictures/GetMethodOptions.png
+
+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
+
+------=_NextPart_000_0000_01C899CB.238A82F0
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/Temp/DocPictures/UpdateAttributes.png
+
+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
+YII=
+
+------=_NextPart_000_0000_01C899CB.238A82F0--

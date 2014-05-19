@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Pattern version='1.0' id='Singleton' name='Singleton' category='Creational' help='http://en.wikipedia.org/wiki/Singleton_pattern'>
+ <Desc>Ensure a class only has one instance, and provide a global point of access to it.</Desc>
+ <Nodes>
+<Node id='Singleton' type='Class' name='Singleton' stereotype='' x='0' y='0'>
+   <Desc>Defines an Instance operation that lets clients access its unique instance, and may be responsible for creating its own unique instance.</Desc>
+   <Attributes>
+	<Attribute id='A1' name='static UniqueInstance' type='Singleton' dimension='0'/>
+	<Attribute id='A1' name='SingletonData' type='int' dimension='0'/>
+   </Attributes>
+   <Methods>
+	<Method id='M1' name='static Instance()'/>
+	<Method id='M2' name='SingletonOperation()'/>
+	<Method id='M3' name='GetSingeltonData()'/>
+  </Methods>
+  </Node>
+	<Node id='N1' type='Note' name='' stereotype='' x='200' y='30'>
+		<Text><B>return UniqueInstance</B></Text>
+		<Links>
+			<Link id='NL1' source='M1'/>
+		</Links>
+	</Node>
+ </Nodes>
+ <Links>
+
+ </Links>
+</Pattern>

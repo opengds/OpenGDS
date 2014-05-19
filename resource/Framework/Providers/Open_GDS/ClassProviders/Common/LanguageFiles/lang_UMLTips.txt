@@ -1,0 +1,39 @@
+[_DontShowTip]
+en=Show this next time\0AUML Modeller starts
+
+[_PreviousTip]
+en=Previous Tip
+
+[_NextTip]
+en=Next Tip
+
+
+[UML_Tip1]
+en=WELCOME TO THE UML MODELLER\0ATo get started with connecting a class diagram to a project, make sure your project is selected in the lower left corner.\0A-You can right click on the diagram and select “Open project”.\0A-You can drag classes from the project explorer tree on to the class diagram.\0A-You can right click on a class in the project tree and select “UML->View class in class diagram”.\0A-You can right click on “My Computer” in the project tree and select “UML->View all classes in class diagram…”
+
+[UML_Tip2]
+en= You connect a class in the class diagram to a LabVIEW lvclass by specifying the class path to the file. After that you can right click on the class to synchronize the code or the UML diagram.
+
+[UML_Tip3]
+en=When a class node is connected to a real class (using the class path), you can view the VI method in the context help dialog by pointing the mouse on a method and press Shift-key.
+
+[UML_Tip4]
+en=When a class node is connected to a real class (using the class path), you can open the VI method by pressing Ctrl while double clicking on it.
+
+[UML_Tip5]
+en=One VERY useful feature is to view detailed information about a relationship.\0AAfter you have done a reverse engineering of your classes you can place the mouse over a relationship between 2 classes and press Shift, to see what causes this relationship.
+
+[UML_Tip6]
+en=Nodes can be moved using the arrow keys, and by holding the shift key down the object will be move 5 times longer.
+
+[UML_Tip7]
+en=Type Def controls can also be created and synchronized. To create a Type Def add a class node on the class diagram. Open its properties and select stereotype <<TYPE>>, <<ENUM>>. You can then also select if this control should belong to a particular class.
+
+[UML_Tip8]
+en=You can connect a class to a package by creating a new class inside a package or by dragging a class over the package and open the class node properties.\0AYou can then select connect to package. To disconnect a class from a package you open the class properties and click disconnect class from package.
+
+[UML_Tip9]
+en=By pressing Space-key, the selection tool becomes active.
+
+
+[Checksum:FEEE6CB5]

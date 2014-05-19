@@ -1,0 +1,322 @@
+[_Scope]
+description=_Scope
+en=Visibility
+[_Scope_Tip]
+en=Current VI access scope
+[_Scope_Help]
+en= Access scope of the current VI.
+
+[_Before]
+description=_Before
+en=Current
+[_Before_Tip]
+en=Current icon appearence
+[_Before_Help]
+en=The original icon before making modifications.
+
+[_VIPath]
+description=_VIPath
+en=VI Path
+[_VIPath_Tip]
+en=Current VI path
+[_VIPath_Help]
+en=Path to the current VI.
+
+[_TemplateVI]
+description=_TemplateVI
+en=Template VI...
+[_TemplateVI_Tip]
+en=Use header from template VI
+[_TemplateVI_Help]
+en=Press to browse for VI to be used as a \0Atemplate for icon header appearence.
+
+[_EditHeader]
+description=_EditHeader
+en=Edit Header...
+[_EditHeader_Tip]
+en=Edit VI Header
+[_EditHeader_Help]
+en=Press to edit VI header.
+
+[_ViNotSavedMessage]
+description=_ViNotSavedMessage
+en=VI not saved. Please select a path!
+[_ViNotSavedMessage_Tip]
+en=VI not saved. Please select a path!
+[_ViNotSavedMessage_Help]
+en=VI not saved. Please select a path!
+
+[_After]
+description=_After
+en=New
+[_After_Tip]
+en=New icon appearence
+[_After_Help]
+en=The new icon appearence.
+
+[_IconPreview]
+description=_IconPreview
+en=Icon Preview
+[_IconPreview_Tip]
+en=Icon preview
+[_IconPreview_Help]
+en=Preview of new icon
+
+[_FontCapitalOnly]
+description=_FontCapitalOnly
+en=Force Capital Letters
+[_FontCapitalOnly_Tip]
+en=Use only capital letters
+[_FontCapitalOnly_Help]
+en=Check to use only capital letters.
+
+[_BackgroundColor]
+description=_BackgroundColor
+en=Body Background
+[_BackgroundColor_Tip]
+en=Body background color
+[_BackgroundColor_Help]
+en=Select body background color
+
+[_BodyTextColor]
+description=_BodyTextColor
+en=Body Text
+[_BodyTextColor_Tip]
+en=Body text color
+[_BodyTextColor_Help]
+en=Select body text color
+
+[_ApplyHeaderToAll]
+description=_ApplyHeaderToAll
+en=Apply this header to all\0AVIs/Ctrls in this folder
+[_ApplyHeaderToAll_Tip]
+en=Apply this header to all\0AVIs/Ctrls in this folder
+[_ApplyHeaderToAll_Help]
+en=Check to apply this header to all VIs and \0Actls placed in the same folder.
+
+[_ApplyHeaderToAll_Text1]
+en=This header will be\0Abe applied to...
+
+[_ApplyHeaderToAll_Text2]
+en=%d VIs and controls\0Ain the same folder
+
+[_FilePrefixFound]
+description=_FilePrefixFound
+en=Prefix found
+[_FilePrefixFound_Tip]
+en=File prefix found
+[_FilePrefixFound_Help]
+en= File prefix found
+
+
+[_HelpCreateViIcon]
+en=
+[_HelpCreateViIcon_Tip]
+en=Toggle the context help.
+[_HelpCreateViIcon_Help]
+en=Press to toggle the context help.
+
+[_HeaderText]
+description=_HeaderText
+en=Text
+[_HeaderText_Tip]
+en=Header text color
+[_HeaderText_Help]
+en= Select header text color.
+
+[_HeaderBk]
+description=_HeaderBk
+en=Background
+[_HeaderBk_Tip]
+en=Header background color
+[_HeaderBk_Help]
+en= Select header background color.
+
+[_Text]
+description=_Text
+en=Text
+[_Text_Tip]
+en=Class header text
+[_Text_Help]
+en=Class header text.
+
+[_Height]
+description=_Height
+en=Height (pixels)
+[_Height_Tip]
+en=Total header height
+[_Height_Help]
+en=Select the height - no of pixels - for the header.
+
+[_Rows]
+description=_Rows
+en=Rows
+[_Rows_Tip]
+en=No of rows for header text
+[_Rows_Help]
+en=Select the number of rows for header text.
+
+[_Thickness]
+description=_Thickness
+en=Thickness (pixels)
+[_Thickness_Tip]
+en=Frame thickness (pixels)
+[_Thickness_Help]
+en= Frame thickness - select no of pixels.
+
+
+[_ClassIcon]
+description=_ClassIcon
+en=Library icon
+[_ClassIcon_Tip]
+en=Library icon text and colors
+[_ClassIcon_Help]
+en=Library icon - this icon header will be used for all new methods of the library.
+
+[_PublicIcon]
+description=_PublicIcon
+en=Public icon
+[_PublicIcon_Tip]
+en=Colors for public VIs and CTLs
+[_PublicIcon_Help]
+en=These colors will be used for all public VIs and ctls of the class.
+
+[_ProtectedIcon]
+description=_ProtectedIcon
+en=Protected icon
+[_ProtectedIcon_Tip]
+en=Colors for protected VIs and CTLs
+[_ProtectedIcon_Help]
+en=These colors will be used for all private VIs and ctls of the class.
+
+[_PrivateIcon]
+description=_PrivateIcon
+en=Private icon
+[_PrivateIcon_Tip]
+en=Colors for private VIs and CTLs
+[_PrivateIcon_Help]
+en=These colors will be used for all private VIs and ctls of the class.
+
+[_Dice]
+description=_Dice
+en=
+[_Dice_Tip]
+en=Random color generation
+[_Dice_Help]
+en= Press to random generate colors for header and public methods.
+
+[_ProtectedPrivateSame]
+description=_ProtectedPrivateSame
+en=Make Protected\0Asame as Private
+[_ProtectedPrivateSame_Tip]
+en=Use the private colors for protected
+[_ProtectedPrivateSame_Help]
+en=Check to use the same colors for protected as for private.
+
+
+
+[_Public]
+description=_Public
+en=Public
+[_Public_Tip]
+en=Public body background color
+[_Public_Help]
+en=Select body background color for public VIs and ctls.
+
+[_Protected]
+description=_Protected
+en=Protected
+[_Protected_Tip]
+en=Protected body background color
+[_Protected_Help]
+en=Select body background color for protected VIs and ctls.
+
+[_Private]
+description=_Private
+en=Private
+[_Private_Tip]
+en=Private body background color
+[_Private_Help]
+en=Select body background color for private VIs and ctls.
+
+[_Header]
+description=_Header
+en=Header
+[_Header_Tip]
+en=Header
+[_Header_Help]
+en=Header
+
+[_RandomColorGeneration]
+description=_RandomColorGeneration
+en=Random color generation
+[_RandomColorGeneration_Tip]
+en=Random color generation
+[_RandomColorGeneration_Help]
+en=Random color generation
+
+[_Frame]
+description=_Frame
+en=Frame
+[_Frame_Tip]
+en=Icon frame color
+[_Frame_Help]
+en=Select icon frame color.
+
+[_BodyColors ]
+description=_BodyColors 
+en=Body colors 
+[_BodyColors _Tip]
+en=Body colors 
+[_BodyColors _Help]
+en=Settings for body colors.
+
+[_IconSize]
+description=_IconSize
+en=Icon Size
+[_IconSize_Tip]
+en=Icon Size
+[_IconSize_Help]
+en=Icon Size
+
+[_TextAlignment]
+description=_TextAlignment
+en=Text Alignment
+[_TextAlignment_Tip]
+en=Text Alignment
+[_TextAlignment_Help]
+en=Text Alignment
+
+[_Icons]
+description=_Icons
+en=I\0Ac\0Ao\0An\0As
+[_Icons_Tip]
+en=I\0Ac\0Ao\0An\0As
+[_Icons_Help]
+en=I\0Ac\0Ao\0An\0As
+
+[_Folders]
+description=_Folders
+en=Folders
+[_Folders_Tip]
+en=Folders
+[_Folders_Help]
+en=Folders
+
+[_Manage]
+description=_Manage
+en=Manage
+[_Manage_Tip]
+en=Manage
+[_Manage_Help]
+en=Manage
+
+[_IconSearchText]
+description=_IconSearchText
+en=Icon search text
+[_IconSearchText_Tip]
+en=Icon search text
+[_IconSearchText_Help]
+en=Icon search text
+
+[Checksum:355F144B]

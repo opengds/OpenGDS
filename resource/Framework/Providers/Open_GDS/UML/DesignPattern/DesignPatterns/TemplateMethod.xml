@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Pattern version='1.0' id='TemplateMethod' name='Template Method' category='Behavioral' help='http://en.wikipedia.org/wiki/Template_Method_pattern'>
+ <Desc>Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.</Desc>
+ <Nodes>
+<Node id='AbstractClass' type='Class' name='AbstractClass' stereotype='' x='0' y='0'>
+   <Desc>Defines abstract primitive operations that concrete subclasses define to implement steps of an algorithm.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+	<Method id='M1' name='TemplateMethod()'/>
+	<Method id='M2' name='PrimitiveOperation1()'/>
+	<Method id='M3' name='PrimitiveOperation2()'/> 
+  </Methods>
+  </Node>
+  <Node id='ConcreteClass' type='Class' name='ConcreteClass' stereotype='' x='0' y='150'>
+   <Desc>Implements the primitive operations to carry out subclass-specific steps of the algorithm.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+	<Method id='M4' name='PrimitiveOperation1()'/>
+	<Method id='M5' name='PrimitiveOperation2()'/> 
+ 
+  </Methods>
+  </Node>
+	<Node id='N1' type='Note' name='' stereotype='' x='150' y='5'>
+		<Text>...\n<B>PrimativeOperation1()</B>\n...\n<B>PrimativeOperation1()</B>\n...</Text>
+		<Links>
+			<Link id='NL1' source='M1'/>
+		</Links>
+	</Node>
+ </Nodes>
+ <Links>
+<Link id='L1'  name='' starttext='' endtext='' type='Inheritance' from='ConcreteClass' to='AbstractClass'/>
+
+ </Links>
+</Pattern>

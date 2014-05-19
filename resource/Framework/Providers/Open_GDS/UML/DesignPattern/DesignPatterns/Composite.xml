@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Pattern version='1.0' id='Composite' name='Composite' category='Structural' help='http://en.wikipedia.org/wiki/Composite_pattern'>
+	<Desc>Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly.</Desc>
+	<Nodes>
+		<Node id='Component' type='Class' name='Component' stereotype='' x='100' y='0'>
+			<Desc>Declares the interface for objects in the composition.\nImplements default behavior for the interface common to all classes, as appropriate.</Desc>
+			<Methods>
+				<Method id='Operation' name='Operation()'/>
+				<Method id='Add' name='Add(Component)'/>
+				<Method id='Remove' name='Remove(Component)'/>
+				<Method id='GetChild' name='GetChild(int)'/>
+			</Methods>
+		</Node>
+		<Node id='Leaf' type='Class' name='Leaf' stereotype='' x='0' y='200'>
+			<Desc>Represents leaf objects in the composition. A leaf has no children.\nDefines behavior for primitive objects in the composition.</Desc>
+			<Methods>
+				<Method id='LeafOperation' name='Operation()'/>
+			</Methods>
+		</Node>
+		<Node id='Composite' type='Class' name='Composite' stereotype='' x='200' y='200'>
+			<Desc>Defines behavior for components having children.\nStores child components.</Desc>
+			<Attributes>
+				<Attribute id='Children' name='Children' type='Component' dimension='1'/>
+			</Attributes>
+			<Methods>
+				<Method id='C_Operation' name='Operation()'/>
+				<Method id='C_Add' name='Add(Component)'/>
+				<Method id='C_Remove' name='Remove(Component)'/>
+				<Method id='C_GetChild' name='GetChild(int)'/>
+			</Methods>
+		</Node>
+		<Node id='OperationNote' type='Note' name='' stereotype='' x='375' y='220'>
+			<Text>for all g in children\n g->Operation()</Text>
+			<Links>
+				<Link id='ToOperation' source='C_Operation'/>
+			</Links>
+		</Node>
+	</Nodes>
+	<Links>
+		<Link id='LeafInheritance'  	name='' starttext='' endtext='' type='Inheritance' from='Leaf' to='Component'/>
+		<Link id='CompositeInheritance' name='' starttext='' endtext='' type='Inheritance' from='Composite' to='Component'/>
+		<Link id='Aggregation' name='' starttext='children' endtext='' type='Aggregation' from='Composite' to='Component'/>
+	</Links>
+</Pattern>

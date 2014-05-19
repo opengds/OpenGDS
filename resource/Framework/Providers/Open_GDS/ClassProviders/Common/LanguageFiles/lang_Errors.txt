@@ -1,0 +1,83 @@
+[ErrorDialog]
+en=Symbio GDS Error
+
+[1051]
+en=The task could not finish due to file of that name already exists in memory. If this problem persist try open the lvclass separately and perform this action.
+
+[8]
+en=File permission error. You do not have the correct permissions for change a file. The file might be read-only (checked in). Make sure all files in your class are editable.
+
+[1040]
+en=The task could not be performed because the VI is locked/write protected.
+
+[1044]
+en=The VI is locked or read-only and can't be changed.
+
+[1357]
+en=A LabVIEW file from that path already exists in memory, or exists within a project library already in memory.
+
+[1508]
+en=The VI/class is locked or read-only and can't be changed.
+
+[1507]
+en=The VI/class is locked or read-only and can't be changed.
+
+[1562]
+en=The task could not be performed because the Library is locked. It could be loaded in multiple application instances or reserved for execution.
+
+[Error_ProjectNotValid]
+en=The Project is invalid. This could be because you've working on a class that isn't under a Project/My Computer item.
+
+
+[CreateViIconOnlyFromVI]
+en=The "Create VI Icon" function could only be used from the tools menu bar of a VI.\0AMake sure the VI is writable (checked out).
+
+[AlreadyUpdated]
+en=This product is already activated.
+
+[Error_LicenseFileMissing]
+en=License File Missing
+
+[Error_LicenseFileNotCorrect]
+en=License File Not Correct
+
+[Error_NoProductAccessGranted]
+en=No Product Access Granted
+[Error_AgreementNoAccepted]
+en=The agreement was not accepted.\0AYou should uninstall the application right away.
+
+[Error_NoValidProviderFound]
+en=No valid class provider was found.\0ATry to delete the "GoopClassProviders.ini"-file and restart LabVIEW.
+
+[Error_LicenseExpired]
+en=The license you have installed for GOOP Development Suit has expired.
+
+[Error_LanguageUndefined]
+en=The language used is undefined
+
+[Error_LanguageFileMissing]
+en=The language files are missing.
+
+[Error_LanguageFileChecksumError]
+en=There is a language file checksum error.\0AThe files has been changed since installation. Please reinstall the application/language files.\0ATo be able to update the language files the checksum has to be updated by a checksum calculator.
+
+[Error_DublicateLanguageTranslation]
+en=There is a duplicate language translation for a string ID.
+
+[Error_LanguageStringIDNotFound]
+en=There are a language translation missing for a string ID.
+
+[LimitReachedDialogTitle]
+en=Limit Reached
+
+[CommunityLimitReached]
+en=Hi community user\0AYou have reached the limits of number of allowed classes in one project for the free community edition.\0AYou have %d classes in your project,\0A%d of these are of SymbioGOOP-type.\0ATo be able to create more classes you have to upgrade to professional edition. Upgrade now?
+
+[Error_ClassFileReadOnly]
+en=Cannot edit class since it is read-only. 
+
+
+[Error_ClassFileLocked]
+en=Cannot edit class since it is locked.
+
+[Checksum:656A371A]

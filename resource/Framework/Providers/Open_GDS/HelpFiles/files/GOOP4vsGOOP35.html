@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>GOOP 4 vs GOOP 3</title>
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<style type="text/css"><!--
+body {
+  margin: 5px 5px 5px 5px;
+  background-color: #ffffff;
+}
+/* ========== Text Styles ========== */
+hr { color: #000000}
+body, table, span.rvts0 /* Font Style */
+{
+ font-size: 14pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ font-style: normal;
+ font-weight: normal;
+ color: #000000;
+ text-decoration: none;
+}
+span.rvts1 /* Heading */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ font-weight: bold;
+ color: #0000ff;
+}
+span.rvts2 /* Subheading */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ font-weight: bold;
+ color: #000080;
+}
+span.rvts3 /* Keywords */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ font-style: italic;
+ color: #800000;
+}
+a.rvts4, span.rvts4 /* Jump 1 */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ color: #000080;
+ text-decoration: underline;
+}
+a.rvts5, span.rvts5 /* Jump 2 */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ color: #000080;
+ text-decoration: underline;
+}
+span.rvts6 /* Font Hint */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ color: #aca899;
+}
+span.rvts7 /* Font Hint Title */
+{
+ font-size: 15pt;
+ font-family: 'Tahoma', 'Geneva', sans-serif;
+ font-weight: bold;
+ color: #716f64;
+}
+span.rvts8 /* Font Hint Bold */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ font-weight: bold;
+ color: #aca899;
+}
+span.rvts9 /* Font Hint Italic */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ font-style: italic;
+ color: #aca899;
+}
+span.rvts10
+{
+ font-size: 12pt;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts11
+{
+ font-size: 12pt;
+ color: #000000;
+}
+span.rvts12
+{
+ font-size: 12pt;
+ color: #000000;
+}
+span.rvts13
+{
+ font-size: 12pt;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts14 /* Font Style */
+{
+ font-size: 16pt;
+ font-family: 'Tahoma', 'Geneva', sans-serif;
+ font-weight: bold;
+ color: #ffffff;
+}
+span.rvts15 /* Font Style */
+{
+ font-size: 8pt;
+ font-family: 'MS Sans Serif', 'Geneva', sans-serif;
+ color: #808080;
+}
+/* ========== Para Styles ========== */
+p,ul,ol /* Paragraph Style */
+{
+ text-align: left;
+ text-indent: 0px;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
+}
+.rvps1 /* Centered */
+{
+ text-align: center;
+}
+.rvps2
+{
+ text-indent: -30px;
+ margin: 0px 0px 0px 60px;
+}
+.rvps3 /* Paragraph Style */
+{
+ background: #000000;
+ padding: 5px 5px 2px 5px;
+ margin: -5px -5px 18px -5px;
+}
+.rvps4 /* Paragraph Style */
+{
+ text-align: center;
+ background: #e4e4e4;
+ margin: 20px 0px 0px 0px;
+}
+--></style>
+<link rel="StyleSheet" href="hnd.css" type="text/css"/>
+<script type="text/javascript">if(top.frames.length == 0) { sTopic = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length); top.location.href="../OpenGDS_GOOPHelp.htm?" + sTopic; }</script>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="jquery.cookie.js"></script>
+<script type="text/javascript" src="hnd.js"></script>
+
+<body>
+<p class=rvps3><span class=rvts14>GOOP 4 vs GOOP 3</span></p>
+<p><span class=rvts10>GOOP4 vs. GOOP3</span></p>
+<p><span class=rvts11>This section highlights differences between GOOP 4 and GOOP 3 and is intended for comparison, especially for existing GOOP 3 users. To get a more complete description of GOOP 4 we refer to the GOOP 4 class template section.</span></p>
+<p><span class=rvts11><br></span></p>
+<p><span class=rvts10>The object kernel</span></p>
+<p><span class=rvts11>GOOP 4 has a new object kernel. Whereas GOOP 3 classes stores the by reference object data in an un-initialized shift register the new GOOP 4 classes uses the native DVR (Data Value Reference). Since the DVR is used there is very little extra code in a GOOP 4 class as compared to a standard LabVIEW class or a GOOP 3 class.</span></p>
+<p><span class=rvts11><br></span></p>
+<p><span class=rvts11>Each GOOP 4 class has a CTL file that defines a cluster of the by reference data of the class. This looks just like GOOP 3 and previous GOOP versions. The difference is that we use DVR to get a reference to the cluster data, i.e. the by reference object. </span></p>
+<p><span class=rvts11><br></span></p>
+<p><span class=rvts10>The object reference</span></p>
+<p><span class=rvts11>As in GOOP 3 the reference is embedded into the native LabVIEW class. So a GOOP 4 class is a native LabVIEW class with one data field, “ref”, which contains the DVR reference. Therefore, in the code you cannot really see the difference between using a GOOP 4 by reference class or a standard by value class or a GOOP 3 class.</span></p>
+<p><span class=rvts11><br></span></p>
+<p><span class=rvts10>Access parent class data</span></p>
+<p><span class=rvts11>In GOOP 3 the parent class data is accessed through unbundling the class data cluster after reading object data using the GetAttributes VI.</span></p>
+<p><span class=rvts11><br></span></p>
+<p><span class=rvts11>In GOOP 4 the data is accessed through a separate DVR reference on each class in the inheritance hierarchy. To access parent class data simply call the parent class GetAttributes VI to get the parent class data DVR, use this to read or modify parent class data.</span></p>
+<p><span class=rvts11><br></span></p>
+<p><span class=rvts11>Another way to access parent class data in GOOP 3 and GOOP 4 is to create protected/public methods that reads/writes data. This is often a more controlled way of accessing the data.</span></p>
+<p><span class=rvts11><br></span></p>
+<p><span class=rvts10>GOOP 4 </span><span class=rvts13>&#8211;</span><span class=rvts10> a light weight class template</span></p>
+<p><span class=rvts11>The GOOP 4 class has all features of the GOOP 3 class and even more. But they are not added by default. The reason for this is that many of those features are not used in each class, therefore they often add dead code and complexity to the class. Instead these features are added explicitly to each class when they are needed. This is done using the Design Pattern concept. This concept enables you to add features like “persistent”, “active object”, “interface”, “class attribute” and “debugging” to an existing class.</span></p>
+<p><span class=rvts11><br></span></p>
+<p><span class=rvts10>Summary of benefits of GOOP 4 as compared to GOOP 3</span></p>
+<ul style="text-indent: 0px; margin-left: 60px; list-style-position: outside;">
+<li class=rvps2 style="margin-left: 0; text-indent: 0px"><span class=rvts11>Better run-time performance for read/write data thanks to usage of LabVIEW DVR.</span></li>
+<li class=rvps2 style="margin-left: 0; text-indent: 0px"><span class=rvts11>Less generated code since the kernel VIs are replaced with the DVR. The extra generated code is kept to a minimum.</span></li>
+<li class=rvps2 style="margin-left: 0; text-indent: 0px"><span class=rvts11>Less generated code by default since the standard class doesn</span><span class=rvts12>&#8217;</span><span class=rvts11>t have all features, only the most important ones. This way unused code is avoided. Features are added using the design pattern concept.</span></li>
+<li class=rvps2 style="margin-left: 0; text-indent: 0px"><span class=rvts11>Less tool dependency since the generated code is less complex and kept to a minimum.</span></li>
+<li class=rvps2 style="margin-left: 0; text-indent: 0px"><span class=rvts11>The Design Pattern concept that allows you to add features like “persistent”, “active object”, “interface”, “class attribute” and “debugging” to an existing class when they are needed.</span></li>
+</ul>
+<p class=rvps2><span class=rvts11><br></span></p>
+
+</body></html>

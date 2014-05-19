@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Pattern version='1.0' id='Memento' name='Memento' category='Behavioral' help='http://en.wikipedia.org/wiki/Memento_pattern'>
+ <Desc>Without violating encapsulation, capture and externalize an object's internal state so that the object can be restored to this state later.</Desc>
+ <Nodes>
+<Node id='Memento' type='Class' name='Memento' stereotype='' x='225' y='0'>
+   <Desc>Stores internal state of the Originator object.</Desc>
+   <Attributes>
+	<Attribute id='A1' name='State' type='object' dimension='0'/>
+   </Attributes>
+   <Methods>
+	<Method id='M1' name='GetState()'/>  
+	<Method id='M2' name='SetState()'/> 
+  </Methods>
+  </Node>
+  <Node id='Originator' type='Class' name='Originator' stereotype='' x='0' y='0'>
+   <Desc>Creates a memento containing a snapshot of its current internal state, and uses the memento to restore its internal state.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+	<Method id='M3' name='SetMemento(Memento m)'/>  
+	<Method id='M4' name='CreateMemento()'/> 
+  </Methods>
+  </Node>
+  <Node id='Caretaker' type='Class' name='Caretaker' stereotype='' x='450' y='10'>
+   <Desc>Is responsible for the memento&apos;s safekeeping, but never operates on or examines the contents of a memento.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+ 
+  </Methods>
+  </Node>
+	<Node id='N1' type='Note' name='' stereotype='' x='220' y='100'>
+		<Text>State = m->GetState()</Text>
+		<Links>
+			<Link id='NL1' source='M3'/>
+		</Links>
+	</Node>
+	<Node id='N2' type='Note' name='' stereotype='' x='0' y='100'>
+		<Text>Return New Memento(state)</Text>
+		<Links>
+			<Link id='NL2' source='M4'/>
+		</Links>
+	</Node>
+ </Nodes>
+ <Links>
+	<Link id='L1' name='' starttext='' endtext='' type='Association' from='Originator' to='Memento'/>
+	<Link id='L2' name='' starttext='Memento' endtext='' type='Aggregation' from='Caretaker' to='Memento'/>
+ </Links>
+</Pattern>

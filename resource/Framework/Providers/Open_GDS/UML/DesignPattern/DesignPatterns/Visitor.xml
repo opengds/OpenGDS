@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Pattern version='1.0' id='Visitor' name='Visitor' category='Behavioral' help='http://en.wikipedia.org/wiki/Visitor_pattern'>
+ <Desc>Represent an operation to be performed on the elements of an object structure. Visitor lets you define a new operation without changing the classes of the elements on which it operates.</Desc>
+ <Nodes>
+<Node id='client' type='Class' name='Client' stereotype='' x='0' y='0'>
+   <Desc>Client</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+ 
+  </Methods>
+  </Node>
+<Node id='Visitor' type='Class' name='Visitor' stereotype='' x='400' y='0'>
+   <Desc>Declares a Visit operation for each class of ConcreteElement in the object structure.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+	<Method id='M1' name='Visit(ConcreateElement : Object)'/>
+  </Methods>
+  </Node>
+  <Node id='ConcreteVisitor' type='Class' name='ConcreteVisitor' stereotype='' x='400' y='120'>
+   <Desc>Implements each operation declared by Visitor.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+	<Method id='M2' name='Visit(ConcreateElement : Object)'/> 
+  </Methods>
+  </Node>
+  <Node id='Element' type='Class' name='Element' stereotype='' x='180' y='120'>
+   <Desc>Defines an Accept operation that takes a visitor as an argument. </Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+	<Method id='M3' name='Accpect (Visitor : Object)'/> 
+  </Methods>
+  </Node>
+  <Node id='ConcreateElement' type='Class' name='ConcreateElement' stereotype='' x='180' y='250'>
+   <Desc>Implements an Accept operation that takes a visitor as an argument.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+	<Method id='M4' name='Accpect (Visitor : Object)'/>  
+  </Methods>
+  </Node>
+  <Node id='ObjectStruture' type='Class' name='ObjectStruture' stereotype='' x='0' y='120'>
+   <Desc>Can enumerate its elements, and may provide a high-level interface to allow the visitor to visit its elements.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+ 
+  </Methods>
+  </Node>
+	<Node id='N1' type='Note' name='' stereotype='' x='380' y='280'>
+		<Text>V->VisitConcreteElement(this)</Text>
+		<Links>
+			<Link id='NL1' source='M4'/>
+		</Links>
+	</Node>
+ </Nodes>
+ <Links>
+	<Link id='L1'  name='' starttext='' endtext='' type='Inheritance' from='ConcreateElement' to='Element'/>
+	<Link id='L2' name='' starttext='' endtext='' type='Inheritance' from='ConcreteVisitor' to='Visitor'/>
+	<Link id='L3' name='' starttext='' endtext='' type='Association' from='Client' to='ObjectStruture'/>
+	<Link id='L4' name='' starttext='' endtext='' type='Association' from='Client' to='Visitor'/>
+	<Link id='L5' name='' starttext='' endtext='' type='Association' from='ObjectStruture' to='Element'/>
+ </Links>
+</Pattern>

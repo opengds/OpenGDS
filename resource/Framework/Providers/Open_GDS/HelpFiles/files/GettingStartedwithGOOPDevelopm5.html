@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>Getting Started with GOOP Development Suite</title>
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<style type="text/css"><!--
+body {
+  margin: 5px 5px 5px 5px;
+  background-color: #ffffff;
+}
+/* ========== Text Styles ========== */
+hr { color: #000000}
+body, table, span.rvts0 /* Font Style */
+{
+ font-size: 14pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ font-style: normal;
+ font-weight: normal;
+ color: #000000;
+ text-decoration: none;
+}
+span.rvts1 /* Heading */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ font-weight: bold;
+ color: #0000ff;
+}
+span.rvts2 /* Subheading */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ font-weight: bold;
+ color: #000080;
+}
+span.rvts3 /* Keywords */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ font-style: italic;
+ color: #800000;
+}
+a.rvts4, span.rvts4 /* Jump 1 */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ color: #000080;
+ text-decoration: underline;
+}
+a.rvts5, span.rvts5 /* Jump 2 */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ color: #000080;
+ text-decoration: underline;
+}
+span.rvts6 /* Font Hint */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ color: #aca899;
+}
+span.rvts7 /* Font Hint Title */
+{
+ font-size: 15pt;
+ font-family: 'Tahoma', 'Geneva', sans-serif;
+ font-weight: bold;
+ color: #716f64;
+}
+span.rvts8 /* Font Hint Bold */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ font-weight: bold;
+ color: #aca899;
+}
+span.rvts9 /* Font Hint Italic */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ font-style: italic;
+ color: #aca899;
+}
+span.rvts10
+{
+ font-size: 10pt;
+ color: #000000;
+}
+span.rvts11
+{
+ font-size: 12pt;
+ color: #000000;
+}
+a.rvts12, span.rvts12
+{
+ font-size: 12pt;
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts12:hover { color: #0000ff; }
+span.rvts13
+{
+ font-size: 12pt;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts14 /* Font Style */
+{
+ font-size: 16pt;
+ font-family: 'Tahoma', 'Geneva', sans-serif;
+ font-weight: bold;
+ color: #ffffff;
+}
+span.rvts15 /* Font Style */
+{
+ font-size: 8pt;
+ font-family: 'MS Sans Serif', 'Geneva', sans-serif;
+ color: #808080;
+}
+/* ========== Para Styles ========== */
+p,ul,ol /* Paragraph Style */
+{
+ text-align: left;
+ text-indent: 0px;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
+}
+.rvps1 /* Centered */
+{
+ text-align: center;
+}
+.rvps2 /* Paragraph Style */
+{
+ background: #000000;
+ padding: 5px 5px 2px 5px;
+ margin: -5px -5px 18px -5px;
+}
+.rvps3 /* Paragraph Style */
+{
+ text-align: center;
+ background: #e4e4e4;
+ margin: 20px 0px 0px 0px;
+}
+--></style>
+<link rel="StyleSheet" href="hnd.css" type="text/css"/>
+<script type="text/javascript">if(top.frames.length == 0) { sTopic = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length); top.location.href="../OpenGDS_GOOPHelp.htm?" + sTopic; }</script>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="jquery.cookie.js"></script>
+<script type="text/javascript" src="hnd.js"></script>
+<body>
+<p class=rvps2><span class=rvts14>Getting Started with GOOP Development Suite</span></p>
+<p><span class=rvts11><br></span></p>
+<p><span class=rvts11>This tool will make you more productive when creating and maintaining LabVIEW classes. In addition, it will help you create and maintain reference based classes using different class templates;&nbsp; Endevo GOOP 4,&nbsp; Endevo GOOP 3 and the OpenG Class Templates.</span></p>
+<p><span class=rvts11><br></span></p>
+<p><span class=rvts11>The GOOP Development Suite creates LabVIEW classes from three alternative groups, or providers, of class templates: LabVIEW classes, Endevo GOOP 4, Endevo GOOP 3. Which class provider is used when you create a new classes depends on the selection in the GOOP Options. </span><span class=rvts13>GOOP 3 Class Template</span><span class=rvts11> and </span><span class=rvts11>.</span></p>
+<p><span class=rvts11><br></span></p>
+<p><span class=rvts11>The tool will maintain VI icons of classes and all VI:s of the class but also supports VI icons of&nbsp; VI:s not belonging to a class. </span></p>
+<p><span class=rvts11><br></span></p>
+<p><span class=rvts11>You can rename classes, clone classes, change inheritance, edit class wire and the class appearance in the LabVIEW project.</span></p>
+<p><span class=rvts11><br></span></p>
+<p><span class=rvts11>When renaming a (GOOP 4 or GOOP 3) class or changing inheritance make sure to use the features in this tool and not the native LabVIEW features, since this tool will ensure the class templates are handled properly by re linking and renaming VI:s and CTL:s of the class.</span></p>
+<p><span class=rvts11><br></span></p>
+<p><span class=rvts11>Use the index to the left to get more information about the various tool features.</span></p>
+<p><span class=rvts11><br></span></p>
+<p><span class=rvts11>Introduction video:</span></p>
+<p><a class=rvts12 href="http://goop.endevo.net/GDS/videos/GOOP4Demo" target="_blank">Introduction to GOOP Development Suite</a></p>
+<p><span class=rvts11><br></span></p>
+<p><span class=rvts11><br></span></p>
+
+</body></html>

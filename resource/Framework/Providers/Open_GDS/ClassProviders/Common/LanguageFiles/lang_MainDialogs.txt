@@ -1,0 +1,876 @@
+[RemoveThisProvider]
+en=Are you sure you want to remove this\0Aclass provider: %s
+
+[ProgressBarDialogTitle]
+en=Progress Dialog
+
+[_ClassFolder]
+description=This tag/control is referring to the Path control the user defines where the new class will be created in.
+en=Class folder (The lvclass file will be saved in this directory)
+sv=Klass katalog (lvclass-filen kommer att sparas i denna katalog)
+[_ClassFolder_Tip]
+en=Class file folder
+sv=Välj en klass katalog
+[_ClassFolder_Help]
+en=The class folder will contain the lvclass file and all the class VIs and controls.\0AIt's recommended to create a new folder for a class
+sv=Klass katalogen kommer att innehålla lvclass-filen och alla VIs och kontroll-filer.\0ADet är rekommenderat att skapa en ny katalog för en klass.
+
+[_ClassDescription]
+description=_ClassDescription
+en=Class description
+[_ClassDescription_Tip]
+en=Class description
+[_ClassDescription_Help]
+en=The class description shows in the LabVIEW context help window. \0AThe description can be modified at any time through the lvclass Properties.
+
+[_CreateClass]
+description=_CreateClass
+en=Create class
+[_CreateClass_Tip]
+en=Create class
+[_CreateClass_Help]
+en=Press to create class.
+
+[_ClassName]
+description=_ClassName
+en=Class name
+[_ClassName_Tip]
+en=Class name
+[_ClassName_Help]
+en=The name of the lvclass.
+
+[_ClassFolderSuffix]
+description=_ClassFolderSuffix
+en=Class Folder Suffix
+[_ClassFolderSuffix_Tip]
+en=Class Folder Suffix
+[_ClassFolderSuffix_Help]
+en=Optional suffix to indicate that this folder contains a class. \OARemove this string if you do not want a suffix to be used.
+
+[_SelectParentClass]
+description=_SelectParentClass
+en=Select Parent Class
+[_SelectParentClass_Tip]
+en=Class to inherit from
+[_SelectParentClass_Help]
+en=Select the class to inherit from, LabVIEW Object is the ultimate ancestor for all LabVIEW classes.
+
+[_ClassType]
+description=_ClassType
+en=Class Template
+[_ClassType_Tip]
+en=Class Template to use
+[_ClassType_Help]
+en=Select which class template to use when creating this class. User defied class templates can be added, read the on line help for more information about creating your own class templates.
+
+[_Method]
+description=_Method
+en=Method Template
+[_Method_Tip]
+en=VI template used for method creation
+[_Method_Help]
+en=VI template used for method creation. \0AThe selection affects the block diagram layout.
+
+[_MethodDescription]
+description=_MethodDescription
+en=Method description
+[_MethodDescription_Tip]
+en=Method description
+[_MethodDescription_Help]
+en=The method description will show in the LabVIEW help window. \0AIt can be edited later.
+
+[_CreateMethod]
+description=_CreateMethod
+en=Create method
+[_CreateMethod_Tip]
+en=Create method
+[_CreateMethod_Help]
+en=Press to create method.
+
+[_MethodName]
+description=_MethodName
+en=Method Name
+[_MethodName_Tip]
+en=Method Name
+[_MethodName_Help]
+en=Name of the method to create.
+
+[_DubMethodName]
+en=This method already exists in the class
+
+[_MethodLocation]
+description=_MethodLocation
+en=Method Location
+[_MethodLocation_Tip]
+en=Method Location
+[_MethodLocation_Help]
+en=Select method location in project.\0AEach row represents a combination of project folder, file folder and visibility.\0AProject sub folder:\0A- <class root> - directly below the lvclass in the project. Use Visibility radio \0Abuttons to set method access scope when using this selection.\0AAll available sub folders are listed below <class root>.
+
+[_Visibility]
+description=_Visibility
+en=Visibility
+[_Visibility_Tip]
+en=Method access scope
+[_Visibility_Help]
+en=Method access scope. \0AThe method will be placed directly below the lvclass in the project. \0ATo place the method in a sub folder use the Method Location selection instead.
+
+[_Visibility(0)]
+description=_Visibility(0)
+en=Public
+[_Visibility(0)_Tip]
+en=Public
+[_Visibility(0)_Help]
+en=Can be accessed from any VI.
+
+[_Visibility(1)]
+description=_Visibility(1)
+en=Protected
+[_Visibility(1)_Tip]
+en=Protected
+[_Visibility(1)_Help]
+en=Can only be accessed from VIs of child classes.
+
+[_Visibility(2)]
+description=_Visibility(2)
+en=Private
+[_Visibility(2)_Tip]
+en=Private
+[_Visibility(2)_Help]
+en=Can only be accessed from VIs of the same class.
+
+[_Property]
+description=_Property
+en=Data Fields/Attributes
+[_Property_Tip]
+en=Available attributes (data fields of the class)
+[_Property_Help]
+en=Select which attribute (class data field) to create a property method for.
+
+[_MethodType]
+description=_MethodType
+en=Method Type
+[_MethodType_Tip]
+en=Type of method 
+[_MethodType_Help]
+en=Type of method.
+
+[_MethodType(0)]
+description=_MethodType(0)
+en=Normal Method
+[_MethodType(0)_Tip]
+en=Normal Method
+[_MethodType(0)_Help]
+en=Select to create a normal method of the class, it can be static or\OA dynamic according to selection in the Dynamic dispatch checkbox.
+
+[_MethodType(1)]
+description=_MethodType(1)
+en=Override Method
+[_MethodType(1)_Tip]
+en=Override ancestor dynamic method
+[_MethodType(1)_Help]
+en=Select to create a dynamic dispatch VI overriding a \0Aparent class method. Available overrides will be listed.
+
+[_MethodType(2)]
+description=_MethodType(2)
+en=Property Method
+[_MethodType(2)_Tip]
+en=Reads or writes an attribute (data field)
+[_MethodType(2)_Help]
+en=Select to create a method reading or writing an attribute \0A(data field) of the class. Available attributes will be listed.
+
+[_MethodType(3)]
+description=_MethodType(3)
+en=Property Node
+[_MethodType(3)_Tip]
+en=Creates a Property Definition reads or writes VI (data field)
+[_MethodType(3)_Help]
+en=Select to create a Property Definition reading or writing VI \0A of the class. Available data fields/attributes will be listed.
+
+[_OverrideMethods]
+description=_OverrideMethods
+en=Override Methods
+[_OverrideMethods_Tip]
+en=Available methods from ancestor classes to override
+[_OverrideMethods_Help]
+en=Available methods from ancestor classes to override. 
+
+[_CapitalOnly]
+description=_CapitalOnly
+en=Force Capital Letters
+[_CapitalOnly_Tip]
+en=Only use capital letters
+[_CapitalOnly_Help]
+en=Select to force capital letters to be used in the icon.
+
+[_FontCompression]
+description=_FontCompression
+en=Font Compression
+[_FontCompression_Tip]
+en=Font Compression
+[_FontCompression_Help]
+en=Select font compression setting.
+
+[_BodyText]
+description=_BodyText
+en=Body text
+[_BodyText_Tip]
+en=Body text color
+[_BodyText_Help]
+en=Select body text color.
+
+[_BodyBk]
+description=_BodyBk
+en=Body Background
+[_BodyBk_Tip]
+en=Body Background color
+[_BodyBk_Help]
+en=Select body background color.
+
+[_MethodIconName]
+description=_MethodIconName
+en=Body Text
+[_MethodIconName_Tip]
+en=VI icon body text
+[_MethodIconName_Help]
+en=The text displayed in the lower part of the Icon. Default \0Ais VI name.
+
+[_CreateOpenClass]
+description=_CreateOpenClass
+en=Create and Open method
+[_CreateOpenClass_Tip]
+en=Create and Open method
+[_CreateOpenClass_Help]
+en=Press to create and open method.
+
+[_IconGrouping]
+description=_IconGrouping
+en=Icon
+[_IconGrouping_Tip]
+en=Icon
+[_IconGrouping_Help]
+en=Icon selections.
+
+[_VisibilityAndLlocationGrouping]
+description=_VisibilityAndLlocationGrouping
+en=Visibility and location
+[_VisibilityAndLlocationGrouping_Tip]
+en=Visibility and location
+[_VisibilityAndLlocationGrouping_Help]
+en=Visibility and location selections.
+
+[SelectLanguageDialog_Title]
+en=Select language
+sv=Välj språk
+
+[_SelectLanguage]
+description=_SelectLanguage
+en=Choose language
+sv=Välj språk
+[_SelectLanguage_Tip]
+en=Choose language
+sv=Välj språk
+[_SelectLanguage_Help]
+en=Choose language.
+sv=Välj språk.
+
+
+[_ClassProviderName]
+description=_ClassProviderName
+en=Class Provider Name
+[_ClassProviderName_Tip]
+en=Class provider used to create this class
+[_ClassProviderName_Help]
+en=Name of the class provider plug-in used to create this class.
+
+[_ClassTemplateUsed]
+description=_ClassTemplateUsed
+en=Class Template Used
+[_ClassTemplateUsed_Tip]
+en=Class template used when creating this class
+[_ClassTemplateUsed_Help]
+en=The class template used when creating this class.
+
+[_ClassTemplateVersion]
+description=_ClassTemplateVersion
+en=Class Template Version
+[_ClassTemplateVersion_Tip]
+en=Version of class template
+[_ClassTemplateVersion_Help]
+en=Version of the class template used to create this class.
+
+
+[_ClassPlugIn]
+description=_ClassPlugIn
+en=Connected PlugIn 
+[_ClassPlugIn_Tip]
+en=Connected PlugIn 
+[_ClassPlugIn_Help]
+en=Connected PlugIn.
+
+[_RemovePlugIn]
+description=_RemovePlugIn
+en=OK
+[_RemovePlugIn_Tip]
+en=OK
+[_RemovePlugIn_Help]
+en=OK.
+
+[_EditPlugIn]
+description=_EditPlugIn
+en=OK
+[_EditPlugIn_Tip]
+en=OK
+[_EditPlugIn_Help]
+en=OK.
+
+[SelectPlugInVI]
+en=Select a plug-in VI to be associated with this class
+
+[SomeLanguageDependentStringRemarks]
+en=Some language strings will not be updated until you have restarted LabVIEW.\0ACurrent language supports %d of %d possible language strings.
+
+[KillAllObjectsOfThisClass]
+en=Kill all objects of this class
+
+[KillAllObjects]
+en=Kill all objects
+
+[ClassAttribute]
+en=Class Attribute
+
+[ObjectAttribute]
+en=Object Attribute
+
+[_Locked?]
+description=_Locked?
+en=Locked
+[_Locked?_Tip]
+en=Shows if the attribute is currently locked
+[_Locked?_Help]
+en=Shows if the attribute is currently locked
+
+[_Size (kB)]
+description=_Size (kB)
+en=Size (kB)
+[_Size (kB)_Tip]
+en=Size (kB) of object
+[_Size (kB)_Help]
+en=Size (kB) of object.
+
+[_Action]
+description=_Action
+en=Action
+[_Action_Tip]
+en=Periodicity to read attribute values or select modify attribute values
+[_Action_Help]
+en=Periodicity to read attribute values. \0AModify - Set attribute values.
+
+[_KillAll]
+description=_KillAll
+en=Kill all objects
+[_KillAll_Tip]
+en=Kill all objects
+[_KillAll_Help]
+en=Press to kill all objects.
+
+[_Project]
+description=_Project
+en=Project
+[_Project_Tip]
+en=Current project
+[_Project_Help]
+en=Select project to debug.
+
+[_Objects]
+description=_Objects
+en=Objects
+[_Objects_Tip]
+en=Existing objects of current class
+[_Objects_Help]
+en=Select object to debug.
+
+[_KillObject]
+description=_KillObject
+en=Kill selected object
+[_KillObject_Tip]
+en=Kill selected object
+[_KillObject_Help]
+en=Kill selected object.
+
+[_Classes]
+description=_Classes
+en=Classes
+[_Classes_Tip]
+en=Current Class
+[_Classes_Help]
+en=Select class to debug.
+
+[_AttributeType]
+description=_AttributeType
+en=Class Attribute
+[_AttributeType_Tip]
+en=Toggle between object and class attribute
+[_AttributeType_Help]
+en=Press to toggle between debugging object and class Attributes.
+
+[_LockPanel]
+description=_LockPanel
+en=
+[_LockPanel_Tip]
+en=Lock panel on top
+[_LockPanel_Help]
+en=Lock forces window to stay on top.
+
+[_Help]
+description=_Help
+en=
+[_Help_Tip]
+en=View help manual
+[_Help_Help]
+en=Press to view help manual.
+
+[_HelpDebugger]
+description=_HelpDebugger
+en=
+[_HelpDebugger_Tip]
+en=Toggle the context help
+[_HelpDebugger_Help]
+en=Press to toggle the context help.
+
+[_NoOfObjects]
+en=No of objects
+[_NoOfObjects_Tip]
+en=No of objects
+[_NoOfObjects_Help]
+en=No of objects.
+
+[GoopOptionsDialogTitle]
+en=GOOP Options Dialog
+
+[_ProviderName]
+description=Used when adding a new provider in the GOOP Options Dialog
+en=ProviderName
+[_ProviderName_Tip]
+en=Provider name
+[_ProviderName_Help]
+en=Write a provider name.
+
+[_ProviderClassWriterPath]
+en=Provider Class Writer Path
+[_ProviderClassWriterPath_Tip]
+en=The lvclass that takes care of class writing functions for the provider
+[_ProviderClassWriterPath_Help]
+en=Select the lvclass that takes care of class writing functions for the provider.
+
+[_ProviderClassReaderPath]
+en=Provider Class Reader Path
+[_ProviderClassReaderPath_Tip]
+en=The lvclass that takes care of class reading functions for the provider
+[_ProviderClassReaderPath_Help]
+en=Select the lvclass that takes care of class reading functions for the provider.
+
+
+[_EdgeThickness]
+description=_EdgeThickness
+en=Edge thickness
+[_EdgeThickness_Tip]
+en=Edge thickness
+[_EdgeThickness_Help]
+en=Edge thickness.
+
+[_CenterThickness]
+description=_CenterThickness
+en=Center thickness
+[_CenterThickness_Tip]
+en=Center thickness
+[_CenterThickness_Help]
+en=Center thickness.
+
+[_EdgeColor]
+description=_EdgeColor
+en=Edge color
+[_EdgeColor_Tip]
+en=Edge color
+[_EdgeColor_Help]
+en=Edge color.
+
+[_CenterPattern]
+description=_CenterPattern
+en=Center pattern
+[_CenterPattern_Tip]
+en=Center pattern
+[_CenterPattern_Help]
+en=Center pattern.
+
+[_CenterColor1]
+description=_CenterColor1
+en=Pattern Colors
+[_CenterColor1_Tip]
+en=Pattern Colors
+[_CenterColor1_Help]
+en=Pattern Colors.
+
+[_CenterColor2]
+description=_CenterColor2
+en=Pattern Colors
+[_CenterColor2_Tip]
+en=Pattern Colors
+[_CenterColor2_Help]
+en=Pattern Colors.
+
+[_TunnelsAndTerminalsColors]
+description=_TunnelsAndTerminalsColors
+en=Tunnels and terminals colors
+[_TunnelsAndTerminalsColors_Tip]
+en=Tunnels and terminals colors
+[_TunnelsAndTerminalsColors_Help]
+en=Tunnels and terminals colors.
+
+[_Icon]
+description=_Icon
+en=Icon
+[_Icon_Tip]
+en=Icon
+[_Icon_Help]
+en=Icon.
+
+[_Preview]
+description=_Preview
+en=Preview
+[_Preview_Tip]
+en=Preview
+[_Preview_Help]
+en=Preview.
+
+
+[_SetToDefaultForAllClasses]
+description=_SetToDefaultForAllClasses
+en=Set this to default\0Afor all future classes
+[_SetToDefaultForAllClasses_Tip]
+en=Set this to default\0Afor all future classes
+[_SetToDefaultForAllClasses_Help]
+en=Set this to default\0Afor all future classes.
+
+[_WireApperance]
+en=Wire Appearance
+[_WireApperance_Tip]
+en=Wire Appearance
+[_WireApperance_Help]
+en=Wire Appearance.
+
+[_ClassItemIconApperance]
+description=_ClassItemIconApperance
+en=Class item icon appearance
+[_ClassItemIconApperance_Tip]
+en=Class item icon appearance
+[_ClassItemIconApperance_Help]
+en=Class item icon appearance
+
+[_OldClassPath]
+description=_OldClassPath
+en=Current Class Folder
+[_OldClassPath_Tip]
+en=Current class file folder
+[_OldClassPath_Help]
+en=File folder for class to be renamed.
+
+[_RenameClass]
+description=_RenameClass
+en=Rename class
+[_RenameClass_Tip]
+en=Rename class
+[_RenameClass_Help]
+en=Press to rename class.
+
+[_OldClassName]
+description=_OldClassName
+en=Current Class Name
+[_OldClassName_Tip]
+en=Current name of the class
+[_OldClassName_Help]
+en=Current name of the class.
+
+[_DubName]
+description=_DubName
+en=This class already exists
+[_DubName_Tip]
+en=This class already exists
+[_DubName_Help]
+en=This class already exists.
+
+[_NewClassName]
+description=_NewClassName
+en=New Class Name
+[_NewClassName_Tip]
+en=New class name
+[_NewClassName_Help]
+en=New class name.
+
+[_RelinkWholeProject]
+description=_NewClassName
+en=Relink whole project
+[_RelinkWholeProject_Tip]
+en=Should the whole project be relink or only the VIs/Classes already loaded in memory
+[_RelinkWholeProject_Help]
+en=This option allows you to control if all VIs/classes in the project should be loaded into memory before the renaming is done. If not checked only the VI's in memory will be relinked.
+
+[_NewClassPath]
+description=_NewClassPath
+en=New Class Folder
+[_NewClassPath_Tip]
+en=New class file folder
+[_NewClassPath_Help]
+en=File folder for renamed class.\0AAll class VIs will be placed in this folder.
+
+[_UseClassSuffix]
+description=_UseClassSuffix
+en=Class Folder Suffix
+[_UseClassSuffix_Tip]
+en=Class folder suffix
+[_UseClassSuffix_Help]
+en=Optional suffix to indicate that this folder contains a class. \0ARemove this string if you do not want a suffix to be used.
+
+[_ChangeinheritanceToClass]
+description=_ChangeinheritanceToClass
+en=New Parent Class
+[_ChangeinheritanceToClass_Tip]
+en=Class to inherit from
+[_ChangeinheritanceToClass_Help]
+en=Select the new class to inherit from.
+
+[_MustOverride]
+description=_MustOverride
+en=Must Override
+[_MustOverride_Tip]
+en=Require descendant classes to override this dynamic dispatch VI
+[_MustOverride_Help]
+en=Require descendant classes to override this dynamic dispatch VI
+
+[_MustCallParent]
+description=_MustCallParent
+en=Must Call Parent
+[_MustCallParent_Tip]
+en=Require overrides of this dynamic dipatch VI to always invoke the Call Parent Method node
+[_MustCallParent_Help]
+en=Require overrides of this dynamic dipatch VI to always invoke the Call Parent Method node
+
+[_DynamicDispatch]
+description=_DynamicDispatch
+en=Dynamic Dispatch
+[_DynamicDispatch_Tip]
+en=Dynamic dispatch (Make this method possible to override)
+[_DynamicDispatch_Help]
+en=Check Dynamic dispatch to make this method possible to \0Aoverride in child classes.
+
+
+[_Loading]
+description=_Loading
+en=Loading...
+[_Loading_Tip]
+en=Loading...
+[_Loading_Help]
+en=Loading...
+
+[_MethodsLlocationOverrideInfo]
+description=_MethodsLlocationOverrideInfo
+en=The methods location is controlled by\0Athe method you override.\0A
+[_MethodsLlocationOverrideInfo_Tip]
+en=The methods location is controlled by\0Athe method you override.\0A
+[_MethodsLlocationOverrideInfo_Help]
+en=The methods location is controlled by\0Athe method you override.\0A
+
+[_CloneClass]
+description=_CloneClass
+en=Clone class
+[_CloneClass_Tip]
+en=Clone class
+[_CloneClass_Help]
+en=Press to clone class.
+
+[_HelpCreateMethod]
+en=
+[_HelpCreateMethod_Tip]
+en=Toggle the context help
+[_HelpCreateMethod_Help]
+en=Press to toggle the context help.
+
+
+[_HelpCreateClass]
+en=
+[_HelpCreateClass_Tip]
+en=Toggle the context help
+[_HelpCreateClass_Help]
+en=Press to toggle the context help.
+
+[_HelpChangeInheritance]
+en=
+[_HelpChangeInheritance_Tip]
+en=Toggle the context help
+[_HelpChangeInheritance_Help]
+en=Press to toggle the context help.
+
+[_HelpRenameClass]
+en=
+[_HelpRenameClass_Tip]
+en=Toggle the context help
+[_HelpRenameClass_Help]
+en=Press to toggle the context help.
+
+[_HelpCloneClass]
+en=
+[_HelpCloneClass_Tip]
+en=Toggle the context help
+[_HelpCloneClass_Help]
+en=Press to toggle the context help.
+
+[_HelpGoopOption]
+en=
+[_HelpGoopOption_Tip]
+en=Toggle the context help
+[_HelpGoopOption_Help]
+en=Press to toggle the context help.
+
+[_DefaultConnectorPanePattern]
+en=Default Connector Pane Pattern
+[_DefaultConnectorPanePattern_Tip]
+en=This is the connector pane pattern VIs will get as default when created.
+[_DefaultConnectorPanePattern_Help]
+en=This is the connector pane pattern VIs will get as default when created.
+
+[_CurrentClassProvider]
+en=Current Class provider to use:
+[_CurrentClassProvider_Tip]
+en=Current class provider
+[_CurrentClassProvider_Help]
+en=Select which class provider that will be used when creating new classes.
+
+[_InstallNewClassProvider]
+en=Install new class provider
+[_InstallNewClassProvider_Tip]
+en=Install new class provider
+[_InstallNewClassProvider_Help]
+en=Click to install a new class provider.
+
+[_RemoveClassProvider]
+en=Remove class provider
+[_RemoveClassProvider _Tip]
+en=Remove selected class provider
+[_RemoveClassProvider _Help]
+en=Click to remove the selected class provider.
+
+[_ConfigureCurrentClassProvider]
+en=Configure class provider
+[_ConfigureCurrentClassProvider_Tip]
+en=Configure selected class provider
+[_ConfigureCurrentClassProvider_Help]
+en=Click to configure the selected class provider.
+
+[_UseLLB]
+description=_UseLLB
+en=Use LLB
+[_UseLLB_Tip]
+en=Use LLB
+[_UseLLB_Help]
+en=Select to store class in LLB file.
+
+[_MethodSignature]
+description=__MethodSignature
+en=Method signature
+[_MethodSignature_Tip]
+en=Method signature
+[_MethodSignature_Help]
+en=Select signature to be added to method description.
+
+[_DesignPatterns]
+description=Design Patterns
+en=Design Patterns
+[_DesignPatterns_Tip]
+en=Design Patterns
+[_DesignPatterns_Help]
+en=Design Patterns
+
+[_CloneVI]
+description=_CloneVI
+en=Clone VI
+[_CloneVI_Tip]
+en=Clone VI
+[_CloneVI_Help]
+en=Clone VI
+
+[_CloneAndOpenVI]
+description=Clone Vi And Open it afterwards
+en=Clone and Open VI
+sv=Klona och öppna
+[_CloneAndOpenVI_Tip]
+en=Clone VI and Opens it afterwards
+[_CloneAndOpenVI_Help]
+en=Select this option to clone the VI and then automatically open it.
+
+
+[_NewVIName]
+description=_NewVIName
+en=New VI name
+[_NewVIName_Tip]
+en=New VI name
+[_NewVIName_Help]
+en=New VI name
+
+[_NewVIPath]
+description=_NewVIPath
+en=New VI path
+[_NewVIPath_Tip]
+en=New VI path
+[_NewVIPath_Help]
+en=New VI path
+
+[_ClassOwner]
+description=_ClassOwner
+en=New VI Owner
+[_ClassOwner_Tip]
+en=New VI Owner
+[_ClassOwner_Help]
+en=New VI Owner
+
+[_CloneViName]
+description=_CloneViName
+en=Original VI Name
+[_CloneViName_Tip]
+en=Original VI Name
+[_CloneViName_Help]
+en=Original VI Name
+
+[_ViPathAlreadyExists]
+description=_ViPathAlreadyExists
+en=This VI already exists
+[_ViPathAlreadyExists_Tip]
+en=
+[_ViPathAlreadyExists_Help]
+en=
+
+[_CloneMethodClasses]
+description=_CloneMethodClasses
+en=Select which classes to clone the VI to 
+[_ChildClasses_Tip]
+en=Select Which classes to clone the VI to 
+[_ChildClasses_Help]
+en=Select Which classes to clone the VI to 
+
+[_GOOP4Control]
+description=_GOOP4Control
+en=G4 Ctrl
+[_GOOP4Control_Tip]
+en=Use this option to control the debugging of GOOP4 classes
+[_GOOP4Control_Help]
+en=Use this option to control the debugging of GOOP4 classes
+
+[_FlatFolderStructure]
+description=This is the option that turns flat folder structure ON for the GOOP4 class provider
+en=Use flat folder structure for new classes
+[_FlatFolderStructure_Tip]
+en=Turn this option ON to have all new classes using a flat folder structure
+[_FlatFolderStructure_Help]
+en= Turn this option ON to have all new classes using a flat folder structure.\0AThis will not make the physical private and protected folders on disk, but still create the virtual folders. The physical and virtual utils-folder will still be created.
+
+
+
+[Checksum:C9AA8E1A]

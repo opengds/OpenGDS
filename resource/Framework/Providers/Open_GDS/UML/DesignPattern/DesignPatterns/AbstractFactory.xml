@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Pattern version='1.0' id='AbstractFactory' name='Abstract Factory' category='Creational' help='http://en.wikipedia.org/wiki/Abstract_Factory_pattern'>
+ <Desc>Provide an interface for creating families of related or dependent objects without specifying their concrete classes.</Desc>
+ <Nodes>
+<Node id='AbstractFactory' type='Class' name='AbstractFactory' stereotype='' x='0' y='0'>
+   <Desc>Declares an interface for operations that create abstract product objects.</Desc>
+   <Attributes>
+   </Attributes>
+   <Methods>
+    <Method id='M1' name='CreateProductA()'/> 
+    <Method id='M2' name='CreateProductB()'/>  
+  </Methods>
+  </Node>
+  <Node id='AbstractProductA' type='Class' name='AbstractProductA' stereotype='' x='250' y='100'>
+   <Desc>Declares an interface for a type of product object.</Desc>
+   <Attributes>
+   </Attributes>
+   <Methods>
+  </Methods>
+  </Node>
+  <Node id='ConcreteFactory1' type='Class' name='ConcreteFactory1' stereotype='' x='0' y='250'>
+   <Desc>Implements the operations to create concrete product objects.</Desc>
+   <Attributes>
+   </Attributes>
+   <Methods>
+    <Method id='M3' name='CreateProductA()'/> 
+    <Method id='M4' name='CreateProductB()'/>  
+  </Methods>
+  </Node>
+  <Node id='ConcreteProductA1' type='Class' name='ConcreteProductA1' stereotype='' x='250' y='250'>
+   <Desc>Defines a product object to be created by the corresponding concrete factory, and implements the AbstractProduct interface.</Desc>
+   <Attributes>
+   </Attributes>
+   <Methods>
+ 
+  </Methods>
+  </Node>
+  <Node id='Client' type='Class' name='Client' stereotype='' x='450' y='10'>
+   <Desc>Uses only interfaces declared by AbstractFactory and AbstractProduct classes.</Desc>
+   <Attributes>
+   </Attributes>
+   <Methods>
+  </Methods>
+  </Node>
+ </Nodes>
+ <Links>
+  <Link id='I1' name='' starttext='' endtext='' type='Inheritance' from='ConcreteFactory1' to='AbstractFactory'/>
+  <Link id='I2' name='' starttext='' endtext='' type='Inheritance' from='ConcreteProductA1' to='AbstractProductA'/>
+  <Link id='I3' name='' starttext='' endtext='' type='Association' from='Client' to='AbstractFactory'/>
+  <Link id='I4' name='' starttext='' endtext='' type='Association' from='Client' to='AbstractProductA'/>
+  <Link id='D1' name='' starttext='' endtext='' type='Dependency'  from='ConcreteFactory1' to='ConcreteProductA1'/>
+ </Links>
+</Pattern>

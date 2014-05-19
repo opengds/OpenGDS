@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Pattern version='1.0' id='Prototype' name='Prototype' category='Creational' help='http://en.wikipedia.org/wiki/Prototype_pattern'>
+ <Desc>Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype.</Desc>
+ <Nodes>
+<Node id='Prototype' type='Class' name='Prototype' stereotype='' x='230' y='0'>
+   <Desc>Declares an interface for cloning itself.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+	<Method id='M1' name='Clone()'/>
+  </Methods>
+  </Node>
+  <Node id='ConcretePrototype1' type='Class' name='ConcretePrototype1' stereotype='' x='100' y='150'>
+   <Desc>Implements an operation for cloning itself.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+	<Method id='M2' name='Clone()'/>
+  </Methods>
+  </Node>
+  <Node id='ConcretePrototype2' type='Class' name='ConcretePrototype2' stereotype='' x='290' y='150'>
+   <Desc>Implements an operation for cloning itself.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+	<Method id='M4' name='Clone()'/>
+  </Methods>
+  </Node>
+  <Node id='Client' type='Class' name='Client' stereotype='' x='0' y='0'>
+   <Desc>Creates a new object by asking a prototype to clone itself.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+	<Method id='M3' name='Operation()'/>
+  </Methods>
+  </Node>
+	<Node id='N1' type='Note' name='' stereotype='' x='370' y='260'>
+		<Text><B>\nreturn copy of self</B></Text>
+		<Links>
+			<Link id='NL2' source='M2'/>
+			<Link id='NL3' source='M4'/>
+		</Links>
+	</Node>
+	<Node id='N2' type='Note' name='' stereotype='' x='10' y='80'>
+		<Text><B>\np = prototype->Clone()</B></Text>
+		<Links>
+			<Link id='NL4' source='M3'/>
+		</Links>
+	</Node>
+ </Nodes>
+ <Links>
+   <Link id='L1'  name='' starttext='' endtext='' type='Inheritance' from='ConcretePrototype1' to='Prototype'/>
+   <Link id='L2'  name='' starttext='' endtext='' type='Association' from='Client' to='Prototype'/>
+   <Link id='L3'  name='' starttext='' endtext='' type='Inheritance' from='ConcretePrototype2' to='Prototype'/>
+ </Links>
+</Pattern>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Pattern version='1.0' id='Command' name='Command' category='Behavioral' help='http://en.wikipedia.org/wiki/Command_pattern'>
+ <Desc>Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.</Desc>
+ <Nodes>
+<Node id='Command' type='Class' name='Command' stereotype='Interface' x='350' y='30'>
+   <Desc>Declares an interface for executing an operation.</Desc>
+   <Attributes>
+   </Attributes>
+   <Methods>
+    				<Method id='M1' name='Execute()'/>
+  </Methods>
+  </Node>
+  <Node id='ConcreteCommand' type='Class' name='ConcreteCommand' stereotype='' x='320' y='170'>
+   <Desc>Defines a binding between a Receiver object and an action, and implements Execute by invoking the corresponding operation(s) on Receiver.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+    				<Method id='M2' name='Execute()'/>
+  </Methods>
+  </Node>
+  <Node id='Invoker' type='Class' name='Invoker' stereotype='' x='180' y='40'>
+   <Desc>Asks the command to carry out the request.</Desc>
+   <Attributes>
+   </Attributes>
+   <Methods>
+  </Methods>
+  </Node>
+  <Node id='Client' type='Class' name='Client' stereotype='' x='0' y='170'>
+   <Desc>Creates a ConcreteCommand object and sets its receiver.</Desc>
+   <Attributes>
+   </Attributes>
+   <Methods>
+  </Methods>
+  </Node>
+  <Node id='Receiver' type='Class' name='Receiver' stereotype='' x='70' y='280'>
+   <Desc>Knows how to perform the operations associated with carrying out a request.</Desc>
+   <Attributes>
+   </Attributes>
+   <Methods>
+    				<Method id='M3' name='Action()'/>
+  </Methods>
+  </Node>
+    		<Node id='N1' type='Note' name='' stereotype='' x='0' y='0'>
+			<Text>At some time asks to\nexecute the command</Text>
+			<Links>
+				<Link id='NL1' source='Invoker'/>
+			</Links>
+		</Node>
+    		<Node id='N2' type='Note' name='' stereotype='' x='0' y='100'>
+			<Text>Create the ConcreteCommand\nand sets its Receiver</Text>
+			<Links>
+				<Link id='NL2' source='Client'/>
+			</Links>
+		</Node>
+    		<Node id='N3' type='Note' name='' stereotype='' x='210' y='320'>
+			<Text>At some time asks to\nexecute the command</Text>
+			<Links>
+				<Link id='NL3' source='M3'/>
+			</Links>
+		</Node>
+    		<Node id='N4' type='Note' name='' stereotype='' x='380' y='270'>
+			<Text>Receiver->Action()</Text>
+			<Links>
+				<Link id='NL4' source='M2'/>
+			</Links>
+		</Node>
+ </Nodes>
+ <Links>
+		<Link id='L1' name='' starttext='' endtext='0..n' type='Aggregation' from='Invoker' to='Command'/>
+		<Link id='L2' name='' starttext='' endtext='' type='Inheritance' from='ConcreteCommand' to='Command'/>
+		<Link id='L3' name='' starttext='' endtext='' type='Dependency' from='Client' to='ConcreteCommand'/>
+		<Link id='L4' name='' starttext='' endtext='' type='Association' from='Client' to='Receiver'/>
+		<Link id='L5' name='' starttext='' endtext='' type='Association' from='ConcreteCommand' to='Receiver'/>
+ </Links>
+</Pattern>

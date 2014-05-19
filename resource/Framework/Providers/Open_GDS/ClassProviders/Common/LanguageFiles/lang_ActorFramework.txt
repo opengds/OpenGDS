@@ -1,0 +1,43 @@
+[_AF Message Wire preview]
+description=_AF Message Wire preview
+en=Message wire preview
+[_AF Message Wire preview_Tip]
+en=Message wire preview
+[_AF Message Wire preview_Help]
+en=Message wire preview
+
+[_AFWireApperance]
+description=_AFWireApperance
+en=Message class wire Appearance
+[_AFWireApperance_Tip]
+en=Message class wire Appearance
+[_AFWireApperance_Help]
+en=Message class wire Appearance
+
+[_AFMessageClassItemIconApperance]
+description=_AFMessageClassItemIconApperance
+en=Message classes item icon 
+[_AFMessageClassItemIconApperance_Tip]
+en=Message classes item icon 
+[_AFMessageClassItemIconApperance_Help]
+en=Message classes item icon 
+
+[_HelpDefaultConfiguration]
+description=_HelpDefaultConfiguration
+en=
+[_HelpDefaultConfiguration_Tip]
+en=
+[_HelpDefaultConfiguration_Help]
+en=
+
+[_MessageFolderName]
+description=_MessageFolderName
+en=Virtual message folder name to use
+[_MessageFolderName_Tip]
+en=Virtual message folder name to use
+[_MessageFolderName_Help]
+en=Virtual message folder name to use
+
+
+[Checksum:C1DEDDCB]
+

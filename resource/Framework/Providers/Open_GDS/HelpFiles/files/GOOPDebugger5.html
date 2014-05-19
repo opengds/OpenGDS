@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head><title>GOOP Debugger </title>
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<style type="text/css"><!--
+body {
+  margin: 5px 5px 5px 5px;
+  background-color: #ffffff;
+}
+/* ========== Text Styles ========== */
+hr { color: #000000}
+body, table, span.rvts0 /* Font Style */
+{
+ font-size: 14pt;
+ font-family: 'Times New Roman', 'Times', serif;
+ font-style: normal;
+ font-weight: normal;
+ color: #000000;
+ text-decoration: none;
+}
+span.rvts1 /* Heading */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ font-weight: bold;
+ color: #0000ff;
+}
+span.rvts2 /* Subheading */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ font-weight: bold;
+ color: #000080;
+}
+span.rvts3 /* Keywords */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ font-style: italic;
+ color: #800000;
+}
+a.rvts4, span.rvts4 /* Jump 1 */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ color: #000080;
+ text-decoration: underline;
+}
+a.rvts5, span.rvts5 /* Jump 2 */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ color: #000080;
+ text-decoration: underline;
+}
+span.rvts6 /* Font Hint */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ color: #aca899;
+}
+span.rvts7 /* Font Hint Title */
+{
+ font-size: 15pt;
+ font-family: 'Tahoma', 'Geneva', sans-serif;
+ font-weight: bold;
+ color: #716f64;
+}
+span.rvts8 /* Font Hint Bold */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ font-weight: bold;
+ color: #aca899;
+}
+span.rvts9 /* Font Hint Italic */
+{
+ font-size: 10pt;
+ font-family: 'Arial', 'Helvetica', sans-serif;
+ font-style: italic;
+ color: #aca899;
+}
+span.rvts10
+{
+ font-size: 10pt;
+ color: #000000;
+}
+span.rvts11
+{
+ font-size: 12pt;
+ color: #000000;
+}
+a.rvts12, span.rvts12
+{
+ font-size: 12pt;
+ color: #0000ff;
+ text-decoration: underline;
+}
+a.rvts12:hover { color: #0000ff; }
+span.rvts13
+{
+ font-size: 12pt;
+ font-weight: bold;
+ color: #000000;
+}
+span.rvts14
+{
+ font-size: 12pt;
+ font-style: italic;
+ color: #000000;
+}
+span.rvts15
+{
+ font-size: 11pt;
+}
+span.rvts16
+{
+ font-size: 11pt;
+ font-weight: bold;
+}
+span.rvts17 /* Font Style */
+{
+ font-size: 16pt;
+ font-family: 'Tahoma', 'Geneva', sans-serif;
+ font-weight: bold;
+ color: #ffffff;
+}
+span.rvts18 /* Font Style */
+{
+ font-size: 8pt;
+ font-family: 'MS Sans Serif', 'Geneva', sans-serif;
+ color: #808080;
+}
+/* ========== Para Styles ========== */
+p,ul,ol /* Paragraph Style */
+{
+ text-align: left;
+ text-indent: 0px;
+ padding: 0px 0px 0px 0px;
+ margin: 0px 0px 0px 0px;
+}
+.rvps1 /* Centered */
+{
+ text-align: center;
+}
+.rvps2 /* Paragraph Style */
+{
+ background: #000000;
+ padding: 5px 5px 2px 5px;
+ margin: -5px -5px 18px -5px;
+}
+.rvps3 /* Paragraph Style */
+{
+ text-align: center;
+ background: #e4e4e4;
+ margin: 20px 0px 0px 0px;
+}
+--></style>
+<link rel="StyleSheet" href="hnd.css" type="text/css"/>
+<script type="text/javascript">if(top.frames.length == 0) { sTopic = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length); top.location.href="../OpenGDS_GOOPHelp.htm?" + sTopic; }</script>
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="jquery.cookie.js"></script>
+<script type="text/javascript" src="hnd.js"></script>
+
+<body>
+<p class=rvps2><span class=rvts17>GOOP Debugger </span></p>
+<p><span class=rvts13>GOOP Debugger</span></p>
+<p><span class=rvts13><br></span></p>
+<p><span class=rvts11>Right click on an lvclass in the project explorer tree and select </span><span class=rvts13>GOOP&gt;&gt;Object&nbsp; Debugger</span><span class=rvts11> or use the </span><span class=rvts13>Tools</span><span class=rvts11> menu and select </span><span class=rvts13>GOOP&gt;&gt;Debuggers.</span></p>
+<p><span class=rvts11><br></span></p>
+<p><span class=rvts11>This tool allows you to monitor the objects created from GOOP 3/4 and OpenG class templates. Standard LV classes are debugged using standard LabVIEW Probes on the wire.</span></p>
+<p><span class=rvts11><br></span></p>
+<p><span class=rvts16>Note.</span><span class=rvts15> The debugger will only find objects executing on the local target. Therefore it will not work if you run code on RT target.</span></p>
+<p><span class=rvts11><br></span></p>
+<p><span class=rvts13>Dialog Box Options</span></p>
+<p><span class=rvts11><br></span></p>
+<p><span class=rvts11><br></span></p>
+<div><table width="100%" border=1 cellpadding=1 cellspacing=2 style="border-color: #000000; border-style: solid;">
+<tr valign=top>
+<td style="border-color: #000000; border-style: solid;"><p><span class=rvts13>Project</span></p>
+</td>
+<td style="border-color: #000000; border-style: solid;"><p><span class=rvts11>Select the project to debug.</span></p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-color: #000000; border-style: solid;"><p><span class=rvts13>Classes</span></p>
+</td>
+<td style="border-color: #000000; border-style: solid;"><p><span class=rvts11>Select the class to debug.</span></p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-color: #000000; border-style: solid;"><p><span class=rvts13>Class/Object Attribute</span></p>
+</td>
+<td style="border-color: #000000; border-style: solid;"><p><span class=rvts11>Select if class or the object attributes shall be shown in the Object Attribute window. Only GOOP 3 supports class attributes.</span></p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-color: #000000; border-style: solid;"><p><span class=rvts13>Objects</span></p>
+</td>
+<td style="border-color: #000000; border-style: solid;"><p><span class=rvts11>Lists existing objects for the current class. Select an object to view its data.</span></p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-color: #000000; border-style: solid;"><p><span class=rvts13>Kill selected object</span></p>
+</td>
+<td style="border-color: #000000; border-style: solid;"><p><span class=rvts11>Kills the object selected in the objects display. Note, this feature removes the memory for the object, it does not run the Destroy method.</span></p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-color: #000000; border-style: solid;"><p><span class=rvts13>Kill all objects</span></p>
+</td>
+<td style="border-color: #000000; border-style: solid;"><p><span class=rvts11>Kills all objects shown in the objects display.</span></p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-color: #000000; border-style: solid;"><p><span class=rvts13>Size (KB)</span></p>
+</td>
+<td style="border-color: #000000; border-style: solid;"><p><span class=rvts11>Shows the size of the object.</span></p>
+</td>
+</tr>
+<tr valign=top>
+<td style="border-color: #000000; border-style: solid;"><p><span class=rvts13>Action</span></p>
+</td>
+<td style="border-color: #000000; border-style: solid;"><p><span class=rvts11>Select update frequency for the attributes in the debugger window. You can change the value of an attribute by selecting </span><span class=rvts14>modify</span><span class=rvts11> and </span><span class=rvts14>update attribute</span><span class=rvts11>.</span></p>
+</td>
+</tr>
+</table>
+</div>
+<p><span class=rvts13><br></span></p>
+<p><img border=0 alt="" hspace=1 vspace=1 src="img_152.jpg"></p>
+<p><span class=rvts11><br></span></p>
+<p><span class=rvts11><br></span></p>
+<p><span class=rvts11>Video link:</span></p>
+<p><a class=rvts12 href="http://goop.endevo.net/GDS/videos/Debugger" target="_blank">Debugger introduction</a></p>
+<p><span class=rvts11><br></span></p>
+
+</body></html>

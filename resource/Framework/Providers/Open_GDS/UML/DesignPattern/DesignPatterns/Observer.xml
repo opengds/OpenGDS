@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Pattern version='1.0' id='Observer' name='Observer' category='Behavioral' help='http://en.wikipedia.org/wiki/Observer_pattern'>
+	<Desc>Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.</Desc>
+	<Nodes>
+		<Node id='Observer' type='Class' name='Observer' stereotype='ABSTRACT' x='300' y='0'>
+			<Desc>Defines an updating interface for objects that should be notified of changes in a subject.</Desc>
+			<Methods>
+				<Method id='Update' name='Update()'/>
+			</Methods>
+		</Node>
+		<Node id='ConcreteObserver' type='Class' name='ConcreteObserver' stereotype='' x='300' y='180'>
+			<Desc>Maintains a reference to a ConcreteSubject object.\n Stores state that should stay consistent with the subject's.\nImplements the Observer updating interface to keep its state consistent with the subject's</Desc>
+			<Methods>
+				<Method id='UpdateA' name='Update()'/>
+			</Methods>
+		</Node>
+		<Node id='Subject' type='Class' name='Subject' stereotype='' x='0' y='0'>
+			<Desc>Knows its observers. Any number of Observer objects may observe a subject.\nProvides an interface for attaching and detaching Observer objects.</Desc>
+			<Attributes>
+				<Attribute id='ObserverList' name='Observers' type='Observer' dimension='1'/>
+			</Attributes>
+			<Methods>
+				<Method id='Attach' name='Attach()'/>
+				<Method id='Detach' name='Detach()'/>
+				<Method id='Notify' name='Notify()'/>
+			</Methods>
+		</Node>
+		<Node id='ConcreteSubject' type='Class' name='ConcreteSubject' stereotype='' x='0' y='180'>
+			<Desc>Store state of interest to ConcreteObserver objetcs.\nSend a notification to its observers when its state changes.</Desc>
+			<Attributes>
+				<Attribute id='SubjectState' name='SubjectState' type='int' dimension='0'/>
+			</Attributes>			<Methods>
+				<Method id='GetState' name='GetState()'/>
+				<Method id='SetState' name='SetState()'/>
+			</Methods>
+		</Node>
+		<Node id='NotifyNote' type='Note' name='' stereotype='' x='150' y='80'>
+			<Text>for all o in observers {\n   o->Update()\n}</Text>
+			<Links>
+				<Link id='ToNotify' source='Notify'/>
+			</Links>
+		</Node>
+		<Node id='UpdateNote' type='Note' name='' stereotype='' x='400' y='270'>
+			<Text>observerState=\n  subject-GetState()</Text>
+			<Links>
+				<Link id='ToNUpdateA' source='UpdateA'/>
+			</Links>
+		</Node>
+		<Node id='GetState' type='Note' name='' stereotype='' x='150' y='220'>
+			<Text>return subjectState</Text>
+			<Links>
+				<Link id='ToGetState' source='GetState'/>
+			</Links>
+		</Node>
+
+	</Nodes>
+	<Links>
+		<Link id='SubjectInheritance'  name='' starttext='' endtext='' type='Inheritance' from='ConcreteSubject' to='Subject'/>
+		<Link id='ObserverInheritance' name='' starttext='' endtext='' type='Inheritance' from='ConcreteObserver' to='Observer'/>
+		<Link id='ObserverAssociation' name='' starttext='' endtext='observers' type='Association' from='Subject' to='Observer'/>
+	</Links>
+</Pattern>

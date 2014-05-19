@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Pattern version='1.0' id='Strategy' name='Strategy' category='Behavioral' help='http://en.wikipedia.org/wiki/Strategy_pattern'>
+ <Desc>Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.</Desc>
+ <Nodes>
+<Node id='Strategy' type='Class' name='Strategy' stereotype='' x='170' y='0'>
+   <Desc>Declares an interface common to all supported algorithms.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+	<Method id='M1' name='AlogrithmInterface()'/>  
+  </Methods>
+  </Node>
+  <Node id='ConcreteStrategy' type='Class' name='ConcreteStrategy' stereotype='' x='160' y='150'>
+   <Desc>Implements the algorithm using the Strategy interface.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+	<Method id='M2' name='AlogrithmInterface()'/>  
+  </Methods>
+  </Node>
+  <Node id='Context' type='Class' name='Context' stereotype='' x='0' y='0'>
+   <Desc>Is configured with a ConcreteStrategy object.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+	<Method id='M3' name='ContextInterface()'/> 
+  </Methods>
+  </Node>
+ </Nodes>
+ <Links>
+	<Link id='SubjectInheritance'  name='' starttext='' endtext='' type='Inheritance' from='ConcreteStrategy' to='Strategy'/>
+ </Links>
+</Pattern>
