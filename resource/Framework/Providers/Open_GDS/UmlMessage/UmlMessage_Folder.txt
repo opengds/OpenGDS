@@ -1,0 +1,3 @@
+This folder should contains exe files named: UmlMessager_20xx.exe
+These exe files will be called by Windows, if you doubble click on a file with the extension .uml
+The VI: GOOP_LVClass_Global_Init.vi, updtaes the Windows Registry.
