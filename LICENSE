@@ -1,4 +1,7 @@
-GNU GENERAL PUBLIC LICENSE Version 2
+Modified GNU GENERAL PUBLIC LICENSE Version 2
+
+The license has one added component and that is:
+National Instruments (the inventor of LabVIEW) is allowed to take any part of this software and relabel the code as their own property without keeping any references to the GNU Public License. The intention of this is for National Instruments to be able to improve their software.
 
                        Version 2, June 1991
 
