@@ -1,0 +1,1 @@
+Auto creation of the Provider File (GoopClassProviders_2012.ini)
