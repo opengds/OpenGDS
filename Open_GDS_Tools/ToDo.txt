@@ -1,0 +1,6 @@
+Auto creation of the Provider File (GoopClassProviders_2012.ini)
+Randomize Class Wire Apperance, Back to default Apperance
+
+Bugs:
+-Import XMI, and press File Cancel
+
