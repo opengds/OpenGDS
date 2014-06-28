@@ -1,4 +1,4 @@
-Auto creation of the Provider File (GoopClassProviders_2012.ini)
+-Auto creation of the Provider File (GoopClassProviders_2012.ini)
 Randomize Class Wire Apperance, Back to default Apperance
 
 Bugs:

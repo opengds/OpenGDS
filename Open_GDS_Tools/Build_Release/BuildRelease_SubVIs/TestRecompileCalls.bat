@@ -1,1 +1,1 @@
-"C:\Program Files\National Instruments\LabVIEW 2012\LabVIEW.exe" "E:\OpenGDS\Open_GDS_Tools\Build_Release\BuildRelease_SubVIs\BuildRelease_RecompileOpenGDS.vi" -- "2120" "C:\...\spec"
+"C:\Program Files\National Instruments\LabVIEW 2013\LabVIEW.exe" "C:\Program Files (x86)\National Instruments\LabVIEW 2012\Open_GDS_Tools\Build_Release\BuildRelease_SubVIs\BuildRelease_RecompileOpenGDS.vi" -- "2120" "C:\...\spec"
