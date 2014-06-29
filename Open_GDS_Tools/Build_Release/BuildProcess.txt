@@ -1,0 +1,15 @@
+Find all versions of LV installed.
+Create list and select versions to build.
+Get version Number
+Update the Global Version Number ctl.
+get all files needed.
+Create a VIP package.
+
+For all Versions to build do:
+
+	Copy all files into correct location
+	Run a Recompile VI from that version of LV.
+	This VI uses the File list, and auto runs and starts recompiling VIs, and Exists LV when done.
+	
+	
+

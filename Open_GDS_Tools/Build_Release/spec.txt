@@ -1,0 +1,73 @@
+[Package]
+Name="opengds_lib_opengds"
+Version="1.0.0.1"
+Release=""
+ID=a27a0c4ae5a731bf3ed8239d324849f3
+File Format="vip"
+Format Version="2010"
+Display Name="OpenGDS"
+
+
+[Description]
+Description="Open Source GOOP Development Suite"
+Summary="Open Source GOOP Development Suite"
+License=""
+Copyright="Copyright (c) 2014, OpenGDS"
+Distribution=""
+Vendor="OpenGDS"
+URL="https://opengds.github.io/"
+Packager="OpenGDS"
+Demo="FALSE"
+Release Notes=""
+System Package="FALSE"
+Sub Package="FALSE"
+License Agreement="FALSE"
+
+
+[Platform]
+Exclusive_LabVIEW_Version=">=12.0"
+Exclusive_LabVIEW_System="ALL"
+Exclusive_OS="ALL"
+
+
+[Script VIs]
+PreInstall=""
+PostInstall=""
+PreUninstall=""
+PostUninstall=""
+Verify=""
+PreBuild=""
+PostBuild=""
+
+
+[Dependencies]
+AutoReqProv=FALSE
+Requires=""
+Conflicts=""
+
+
+[Activation]
+License File=""
+Licensed Library=""
+
+
+[Files]
+Num File Groups="2"
+Sub-Packages=""
+Namespaces=""
+
+
+[File Group 0]
+Target Dir="<application>"
+Replace Mode="Always"
+Num Files=3
+File 0="vi.lib/OpenGDS/OpenGDS/BuildRelease_RecompileOpenGDS.vi"
+File 1="vi.lib/OpenGDS/OpenGDS/BuildRelease_SuppressLvDialogs.vi"
+File 2="vi.lib/OpenGDS/OpenGDS/TestRecompileCalls.bat"
+
+
+[File Group 1]
+Target Dir="<menus>/Categories"
+Replace Mode="Always"
+Num Files=1
+File 0="functions_opengds_lib_opengds.mnu"

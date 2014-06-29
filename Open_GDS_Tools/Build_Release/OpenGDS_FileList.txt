@@ -1,0 +1,12 @@
+menus\Categories\GOOP.mnu
+examples\Open_GDS
+vi.lib\addons\_goop3.llb
+vi.lib\addons\_goop4.llb
+vi.lib\addons\GOOPUtility
+resource\Framework\Providers\Open_GDS
+resource\Framework\Providers\GProviders\GOOP_Library.ini
+resource\Framework\Providers\GProviders\GOOP_LVClass.ini
+resource\Framework\Providers\GProviders\GOOP_MyComputer.ini
+resource\Framework\Providers\GProviders\GOOP_VI.ini
+resource\Framework\Providers\GProviders\GOOP_VirtualFolder.ini
+resource\Framework\Providers\GProviders\GOOP_XControl.ini
