@@ -36,10 +36,10 @@ Exclusive_OS="ALL"
 
 
 [Script VIs]
-PreInstall=""
-PostInstall=""
-PreUninstall=""
-PostUninstall=""
+PreInstall="PreInstall.vi"
+PostInstall="PostInstall.vi"
+PreUninstall="PreUninstall.vi"
+PostUninstall="PostUninstall.vi"
 Verify=""
 PreBuild=""
 PostBuild=""
