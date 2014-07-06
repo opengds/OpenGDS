@@ -2,8 +2,6 @@
 Name="opengds"
 Version="1.0.0.1"
 Release=""
-ID=a27a0c4ae5a731bf3ed8239d324849f3
-File Format="vip"
 Format Version="2014"
 Display Name="Open Source GOOP Development Suite"
 
