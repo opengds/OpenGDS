@@ -1,5 +1,6 @@
 menus\Categories\GOOP.mnu
 examples\Open_GDS
+vi.lib\addons\_goop2.llb
 vi.lib\addons\_goop3.llb
 vi.lib\addons\_goop4.llb
 vi.lib\addons\GOOPUtility
