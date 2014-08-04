@@ -1,5 +1,8 @@
-
+Features:
+Fix AF in 2014, replace Launch Actor with Launch Root Actor
+Remove Obtain Queu, Read EnQueue
 
 Bugs:
 Save All VIs, ignore untiltled VIs, Ingore Class Save Error due to untitiled VIs
+Wrong temp folder name: ogds1.0.3(Maste-LV2014-32
 
