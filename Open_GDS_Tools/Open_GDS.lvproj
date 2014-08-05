@@ -384,6 +384,46 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
-		<Item Name="Build Specifications" Type="Build"/>
+		<Item Name="Build Specifications" Type="Build">
+			<Item Name="AutoInstaller" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{209C4D96-11F7-4CE8-9A13-5665B7AAC22F}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{F9A15B40-C31E-4324-8C97-0219CB702D57}</Property>
+				<Property Name="App_winsec.description" Type="Str">http://www.Symbio.com</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{BD1FA994-D4D9-439C-B422-6BFECA068D7C}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">AutoInstaller</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../OpenGDS_Tests/AutoInstaller/EXE</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{EFCF2E14-609D-4A0D-934D-5A33779A1995}</Property>
+				<Property Name="Destination[0].destName" Type="Str">AutoInstaller.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../OpenGDS_Tests/AutoInstaller/EXE/AutoInstaller.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../OpenGDS_Tests/AutoInstaller/EXE/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E2461D14-7BEB-4A95-B23A-3CD851A9E733}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Open_GDS_Tools/OpenGDS_Tests/AutoInstaller/AutoInstaller.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Symbio</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">AutoInstaller</Property>
+				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
+				<Property Name="TgtF_internalName" Type="Str">AutoInstaller</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2014 Symbio</Property>
+				<Property Name="TgtF_productName" Type="Str">AutoInstaller</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{7A35A9A9-40F6-4312-88B9-3D5DECE643D2}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">AutoInstaller.exe</Property>
+			</Item>
+		</Item>
 	</Item>
 </Project>

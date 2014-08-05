@@ -6,3 +6,10 @@ Bugs:
 Save All VIs, ignore untiltled VIs, Ingore Class Save Error due to untitiled VIs
 Wrong temp folder name: ogds1.0.3(Maste-LV2014-32
 
+
+AutoInstaller
+Find all zip files
+For every LV version
+Unzip
+Run Insatller in Auto Mode
+Exit LV
