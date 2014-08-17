@@ -11,12 +11,18 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="DemoClass1.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/GOOPUtility/_Demo/GOOPUtil_Demo/DemoClass1_class/DemoClass1.lvclass"/>
-		<Item Name="DemoSubClass1.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/GOOPUtility/_Demo/GOOPUtil_Demo/DemoSubClass1_class/DemoSubClass1.lvclass"/>
-		<Item Name="DemoSubClass2.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/GOOPUtility/_Demo/GOOPUtil_Demo/DemoSubClass2_class/DemoSubClass2.lvclass"/>
-		<Item Name="DemoSubSubClass1.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/GOOPUtility/_Demo/GOOPUtil_Demo/DemoSubSubClass1_class/DemoSubSubClass1.lvclass"/>
-		<Item Name="AnotherClass.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/GOOPUtility/_Demo/GOOPUtil_Demo/AnotherClass_class/AnotherClass.lvclass"/>
+		<Item Name="GOOP3" Type="Folder">
+			<Item Name="DemoClass1.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/GOOPUtility/_Demo/GOOPUtil_Demo/DemoClass1_class/DemoClass1.lvclass"/>
+			<Item Name="DemoSubClass1.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/GOOPUtility/_Demo/GOOPUtil_Demo/DemoSubClass1_class/DemoSubClass1.lvclass"/>
+			<Item Name="DemoSubClass2.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/GOOPUtility/_Demo/GOOPUtil_Demo/DemoSubClass2_class/DemoSubClass2.lvclass"/>
+			<Item Name="DemoSubSubClass1.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/GOOPUtility/_Demo/GOOPUtil_Demo/DemoSubSubClass1_class/DemoSubSubClass1.lvclass"/>
+			<Item Name="AnotherClass.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/GOOPUtility/_Demo/GOOPUtil_Demo/AnotherClass_class/AnotherClass.lvclass"/>
+		</Item>
+		<Item Name="GOOP4" Type="Folder"/>
 		<Item Name="GOOPUtil Demo.vi" Type="VI" URL="/&lt;vilib&gt;/addons/GOOPUtility/_Demo/GOOPUtil_Demo/GOOPUtil Demo.vi"/>
+		<Item Name="GOOPUtil Demo_GOOP4.vi" Type="VI" URL="/&lt;vilib&gt;/addons/GOOPUtility/_Demo/GOOPUtil_Demo/GOOPUtil Demo_GOOP4.vi"/>
+		<Item Name="AnotherClass_GOOP4.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/GOOPUtility/_Demo/GOOPUtil_Demo/AnotherClass_GOOP4_class/AnotherClass_GOOP4.lvclass"/>
+		<Item Name="GOOPUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/GOOPUtility/GOOPUtility.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Get LV Class Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Path.vi"/>
@@ -29,11 +35,15 @@
 				<Item Name="3GOOPSharedInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPSharedInfo.ctl"/>
 				<Item Name="3GOOPObjectInfoType.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPObjectInfoType.ctl"/>
 				<Item Name="3GOOPVersion.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPVersion.vi"/>
-				<Item Name="GOOPUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/GOOPUtility/GOOPUtility.lvlib"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="VIMemory VI info.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/allVIsInMemory.llb/VIMemory VI info.ctl"/>
 				<Item Name="VIMemory Get VIs in Memory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/allVIsInMemory.llb/VIMemory Get VIs in Memory.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="VIMemory Get All Computing Nodes.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/allVIsInMemory.llb/VIMemory Get All Computing Nodes.vi"/>
+				<Item Name="VIMemory Computing Node.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/allVIsInMemory.llb/VIMemory Computing Node.ctl"/>
+				<Item Name="VIMemory Get Computing Nodes.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/allVIsInMemory.llb/VIMemory Get Computing Nodes.vi"/>
+				<Item Name="VIMemory Get VIs in Memory from Computing Node.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/allVIsInMemory.llb/VIMemory Get VIs in Memory from Computing Node.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -62,70 +72,70 @@
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GOOPUtil Demo.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/DemoSubSubClass1.lvclass/utils/DemoSubSubClass1_GetObjectStatus.vi</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/GOOP3/DemoSubSubClass1.lvclass/utils/DemoSubSubClass1_GetObjectStatus.vi</Property>
 				<Property Name="Source[10].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[10].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[10].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[10].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[10].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[10].type" Type="Str">VI</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/AnotherClass.lvclass/utils/AnotherClass_GetObjectStatus.vi</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/GOOP3/AnotherClass.lvclass/utils/AnotherClass_GetObjectStatus.vi</Property>
 				<Property Name="Source[11].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[11].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[11].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[11].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[11].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[11].type" Type="Str">VI</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/DemoClass1.lvclass/utils/DemoClass1_GetObjectStatus.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GOOP3/DemoClass1.lvclass/utils/DemoClass1_GetObjectStatus.vi</Property>
 				<Property Name="Source[2].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[2].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[2].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[2].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/DemoClass1.lvclass/Destroy.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/GOOP3/DemoClass1.lvclass/Destroy.vi</Property>
 				<Property Name="Source[3].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[3].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[3].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[3].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[3].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/DemoSubClass1.lvclass/Destroy.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/GOOP3/DemoSubClass1.lvclass/Destroy.vi</Property>
 				<Property Name="Source[4].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[4].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[4].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[4].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[4].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/DemoSubClass2.lvclass/Destroy.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/GOOP3/DemoSubClass2.lvclass/Destroy.vi</Property>
 				<Property Name="Source[5].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[5].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[5].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[5].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[5].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/DemoSubSubClass1.lvclass/Destroy.vi</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/GOOP3/DemoSubSubClass1.lvclass/Destroy.vi</Property>
 				<Property Name="Source[6].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[6].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[6].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[6].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[6].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/AnotherClass.lvclass/Destroy.vi</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/GOOP3/AnotherClass.lvclass/Destroy.vi</Property>
 				<Property Name="Source[7].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[7].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[7].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[7].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[7].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/DemoSubClass1.lvclass/utils/DemoSubClass1_GetObjectStatus.vi</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/GOOP3/DemoSubClass1.lvclass/utils/DemoSubClass1_GetObjectStatus.vi</Property>
 				<Property Name="Source[8].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[8].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[8].properties[1].type" Type="Str">Remove block diagram</Property>
 				<Property Name="Source[8].properties[1].value" Type="Bool">true</Property>
 				<Property Name="Source[8].propertiesCount" Type="Int">2</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/DemoSubClass2.lvclass/utils/DemoSubClass2_GetObjectStatus.vi</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/GOOP3/DemoSubClass2.lvclass/utils/DemoSubClass2_GetObjectStatus.vi</Property>
 				<Property Name="Source[9].properties[0].type" Type="Str">Remove front panel</Property>
 				<Property Name="Source[9].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[9].properties[1].type" Type="Str">Remove block diagram</Property>

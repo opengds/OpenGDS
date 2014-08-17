@@ -48,31 +48,11 @@
 				<Item Name="GOOPUtility" Type="Folder">
 					<Item Name="_Demo" Type="Folder">
 						<Item Name="GOOPUtil_Demo" Type="Folder">
-							<Item Name="AnotherClass_class" Type="Folder">
-								<Item Name="protected" Type="Folder"/>
-								<Item Name="utils" Type="Folder"/>
-								<Item Name="AnotherClass.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/GOOPUtility/_Demo/GOOPUtil_Demo/AnotherClass_class/AnotherClass.lvclass"/>
-							</Item>
-							<Item Name="DemoClass1_class" Type="Folder">
-								<Item Name="protected" Type="Folder"/>
-								<Item Name="utils" Type="Folder"/>
-								<Item Name="DemoClass1.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/GOOPUtility/_Demo/GOOPUtil_Demo/DemoClass1_class/DemoClass1.lvclass"/>
-							</Item>
-							<Item Name="DemoSubClass1_class" Type="Folder">
-								<Item Name="protected" Type="Folder"/>
-								<Item Name="utils" Type="Folder"/>
-								<Item Name="DemoSubClass1.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/GOOPUtility/_Demo/GOOPUtil_Demo/DemoSubClass1_class/DemoSubClass1.lvclass"/>
-							</Item>
-							<Item Name="DemoSubClass2_class" Type="Folder">
-								<Item Name="protected" Type="Folder"/>
-								<Item Name="utils" Type="Folder"/>
-								<Item Name="DemoSubClass2.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/GOOPUtility/_Demo/GOOPUtil_Demo/DemoSubClass2_class/DemoSubClass2.lvclass"/>
-							</Item>
-							<Item Name="DemoSubSubClass1_class" Type="Folder">
-								<Item Name="protected" Type="Folder"/>
-								<Item Name="utils" Type="Folder"/>
-								<Item Name="DemoSubSubClass1.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/GOOPUtility/_Demo/GOOPUtil_Demo/DemoSubSubClass1_class/DemoSubSubClass1.lvclass"/>
-							</Item>
+							<Item Name="AnotherClass.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/GOOPUtility/_Demo/GOOPUtil_Demo/AnotherClass_class/AnotherClass.lvclass"/>
+							<Item Name="DemoClass1.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/GOOPUtility/_Demo/GOOPUtil_Demo/DemoClass1_class/DemoClass1.lvclass"/>
+							<Item Name="DemoSubClass1.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/GOOPUtility/_Demo/GOOPUtil_Demo/DemoSubClass1_class/DemoSubClass1.lvclass"/>
+							<Item Name="DemoSubClass2.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/GOOPUtility/_Demo/GOOPUtil_Demo/DemoSubClass2_class/DemoSubClass2.lvclass"/>
+							<Item Name="DemoSubSubClass1.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/addons/GOOPUtility/_Demo/GOOPUtil_Demo/DemoSubSubClass1_class/DemoSubSubClass1.lvclass"/>
 							<Item Name="GOOPUtil Demo ClassDiagram.jpg" Type="Document" URL="/&lt;vilib&gt;/addons/GOOPUtility/_Demo/GOOPUtil_Demo/GOOPUtil Demo ClassDiagram.jpg"/>
 							<Item Name="GOOPUtil Demo ClassDiagram.uml" Type="Document" URL="/&lt;vilib&gt;/addons/GOOPUtility/_Demo/GOOPUtil_Demo/GOOPUtil Demo ClassDiagram.uml"/>
 							<Item Name="GOOPUtil Demo.vi" Type="VI" URL="/&lt;vilib&gt;/addons/GOOPUtility/_Demo/GOOPUtil_Demo/GOOPUtil Demo.vi"/>
@@ -226,6 +206,7 @@
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="Insert Queue Element.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/queue.llb/Insert Queue Element.vi"/>
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
+				<Item Name="LabVIEWHTTPClient.lvlib" Type="Library" URL="/&lt;vilib&gt;/httpClient/LabVIEWHTTPClient.lvlib"/>
 				<Item Name="Librarian Copy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian Copy.vi"/>
 				<Item Name="Librarian Delete Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian Delete Dialog.vi"/>
 				<Item Name="Librarian Delete.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian Delete.vi"/>
