@@ -1,15 +1,10 @@
-Features:
-Fix AF in 2014, replace Launch Actor with Launch Root Actor
-Remove Obtain Queu, Read EnQueue
+Todo:
+First time, check if OpenGDS files needs to be re-compiled, and ask if the user wants to do this:
+Warn that this will take some some.
+Try to open this Re-Compile VI in Normal/Temp Project Applicatin instance, or will it work in the Provider App instance?
+1) Get all files
+2) Remove Read-Only Attribute
+3) Open and Save All VIs/Ctls/Libraries/Classes
+4) Set Read-Only again
 
-Bugs:
-Save All VIs, ignore untiltled VIs, Ingore Class Save Error due to untitiled VIs
-Wrong temp folder name: ogds1.0.3(Maste-LV2014-32
-
-
-AutoInstaller
-Find all zip files
-For every LV version
-Unzip
-Run Insatller in Auto Mode
-Exit LV
+Ask to restart LV.
