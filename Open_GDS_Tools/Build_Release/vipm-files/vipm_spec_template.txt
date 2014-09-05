@@ -1,6 +1,6 @@
 [Package]
 Name="opengds"
-Version="1.0.0.1"
+Version="<version>"
 Release=""
 Format Version="2014"
 Display Name="Open Source GOOP Development Suite"
