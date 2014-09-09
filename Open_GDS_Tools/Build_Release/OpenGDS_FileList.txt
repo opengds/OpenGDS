@@ -1,3 +1,4 @@
+help\Open_GDS_Help.vi
 menus\Categories\GOOP.mnu
 examples\Open_GDS
 vi.lib\addons\_goop2.llb
