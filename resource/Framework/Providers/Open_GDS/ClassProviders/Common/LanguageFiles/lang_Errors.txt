@@ -1,5 +1,5 @@
 [ErrorDialog]
-en=Symbio GDS Error
+en=OpenGDS Error
 
 [1051]
 en=The task could not finish due to file of that name already exists in memory. If this problem persist try open the lvclass separately and perform this action.
@@ -71,7 +71,7 @@ en=There are a language translation missing for a string ID.
 en=Limit Reached
 
 [CommunityLimitReached]
-en=Hi community user\0AYou have reached the limits of number of allowed classes in one project for the free community edition.\0AYou have %d classes in your project,\0A%d of these are of SymbioGOOP-type.\0ATo be able to create more classes you have to upgrade to professional edition. Upgrade now?
+en=Hi community user\0A
 
 [Error_ClassFileReadOnly]
 en=Cannot edit class since it is read-only. 

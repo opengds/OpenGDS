@@ -48,11 +48,11 @@ en=This will install all needed files in your\0ALabVIEW program folder.
 
 [_InstallWelcome]
 description=_InstallWelcome
-en=Welcome to the installer of the\0ASymbio GOOP Development Suite
+en=Welcome to the installer of the\0AOpen GOOP Development Suite
 [_InstallWelcome_Tip]
-en=Welcome to the installer of the\0ASymbio GOOP Development Suite
+en=Welcome to the installer of the\0AOpen GOOP Development Suite
 [_InstallWelcome_Help]
-en=Welcome to the installer of the\0ASymbio GOOP Development Suite
+en=Welcome to the installer of the\0AOpen GOOP Development Suite
 
 [_Install]
 description=_Install
@@ -94,7 +94,7 @@ en=http://goop.endevo.net/InstallOpenG
 en=http://goop.endevo.net/InstallOpenG
 
 [_OpenGText]
-en=Congratulations, you have now installed Symbios GOOP Development suite.\0AThis tool also supports creation of the OpenG-classes.\0AYou can install more templates using the VIPM-application
+en=Congratulations, you have now installed Open GOOP Development suite.\0AThis tool also supports creation of the OpenG-classes.\0AYou can install more templates using the VIPM-application
 
  
 
