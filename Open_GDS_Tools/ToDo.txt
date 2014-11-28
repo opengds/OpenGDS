@@ -1,10 +1,2 @@
-Todo:
-First time, check if OpenGDS files needs to be re-compiled, and ask if the user wants to do this:
-Warn that this will take some some.
-Try to open this Re-Compile VI in Normal/Temp Project Applicatin instance, or will it work in the Provider App instance?
-1) Get all files
-2) Remove Read-Only Attribute
-3) Open and Save All VIs/Ctls/Libraries/Classes
-4) Set Read-Only again
-
-Ask to restart LV.
+Bug:
+Setting White color as Text in CLass Edit
