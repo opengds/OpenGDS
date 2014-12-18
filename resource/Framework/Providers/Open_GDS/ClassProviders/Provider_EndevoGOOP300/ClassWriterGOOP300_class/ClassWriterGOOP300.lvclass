@@ -64,13 +64,13 @@
 		</Item>
 	</Item>
 	<Item Name="GetTemplatePath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/ClassWriterGOOP300_class/GetTemplatePath.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'L!!!!$!!U1(!!(A!!("J$&lt;'&amp;T=V&gt;S;82F=E&gt;04V!T-$!O&lt;(:D&lt;'&amp;T=Q!!$(*F:G6S:7ZD:3"J&lt;A!!)E!Q`````RF$&lt;'&amp;T=V2F&lt;8"M982F5X6C2'FS:7.U&lt;X*Z!!1!!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!$!!1!"2.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$2!=!!?!!!='E.M98.T6X*J&gt;'6S2U^05$-Q-#ZM&gt;G.M98.T!!!.=G6G:8*F&lt;G.F)'^V&gt;!!71$,`````$5:P&lt;'2F=F"B&gt;'B0&gt;81!(E!S`````R6.:82I&lt;W25:7VQ&lt;'&amp;U:6"B&gt;'B0&gt;81!&amp;E"1!!-!!Q!%!!5*:8*S&lt;X)A&lt;X6U!)1!]!!5!!!!!1!#!!)!!A!'!!)!!A!#!!)!!A!#!!)!!A!(!!A!!A!*!!)!#A-!!2!!!*!!!!))!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!D1!!!!E!!!!!!!!!#1!!!!!!!!!."1!!!!%!#Q!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!($!!!!$1!U1(!!(A!!("J$&lt;'&amp;T=V&gt;S;82F=E&gt;04V!T-$!O&lt;(:D&lt;'&amp;T=Q!!$(*F:G6S:7ZD:3"J&lt;A!!)E!Q`````RF$&lt;'&amp;T=V2F&lt;8"M982F5X6C2'FS:7.U&lt;X*Z!!1!!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!$!!1!"2.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$2!=!!?!!!='E.M98.T6X*J&gt;'6S2U^05$-Q-#ZM&gt;G.M98.T!!!.=G6G:8*F&lt;G.F)'^V&gt;!!71$,`````$5:P&lt;'2F=F"B&gt;'B0&gt;81!(E!S`````R6.:82I&lt;W25:7VQ&lt;'&amp;U:6"B&gt;'B0&gt;81!'%!B%U.P&lt;7VP&lt;E.M98.T6'6N='RB&gt;'5!&amp;E"1!!-!!Q!%!!5*:8*S&lt;X)A&lt;X6U!)1!]!!5!!!!!1!#!!)!!A!'!!)!!A!#!!)!!A!#!!)!!A!(!!A!!A!*!!I!#Q-!!2!!!*!!!!))!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!D1!!!!E!!!!!!!!!#1!!!!E!!!!."1!!!!%!$!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1117782544</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 	<Item Name="GetClassProperties.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/ClassWriterGOOP300_class/GetClassProperties.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'&lt;!!!!$1!U1(!!(A!!("J$&lt;'&amp;T=V&gt;S;82F=E&gt;04V!T-$!O&lt;(:D&lt;'&amp;T=Q!!$(*F:G6S:7ZD:3"J&lt;A!!'%"Q!!A!!!"6!!!,4(:$&lt;'&amp;T=UFU:7U!#!!Q`````Q!-!%!!!@````]!!A!;1(!!#!!"!!-!1A!!#V2S:76$&lt;WZU=G^M!!1!!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!'!!=!#".F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$2!=!!?!!!='E.M98.T6X*J&gt;'6S2U^05$-Q-#ZM&gt;G.M98.T!!!.=G6G:8*F&lt;G.F)'^V&gt;!!71&amp;!!!Q!'!!=!#!FF=H*P=C"P&gt;81!B!$Q!"1!!!!"!!1!"1!&amp;!!E!"1!&amp;!!5!"1!&amp;!!5!"1!&amp;!!I!"1!&amp;!!5!"1!,!Q!"%!!!E!!!!!I!!!!+!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#.!!!!!!!!!!!!!!!!!!!!!!!!!!U&amp;!!!!!1!-!!!!!!</Property>
@@ -172,12 +172,12 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 	</Item>
 	<Item Name="GOOP_CheckClassFolder.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_CheckClassFolder.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$3!!!!#!!11#%,1WRB=X.'&lt;WRE:8)!%%!B#E:J&lt;'6&amp;?'FT&gt;(-!!!Z!)1F%;8*F9X2P=HE!&amp;%!S`````QN$&lt;'&amp;T=U:P&lt;'2F=A!31$,`````#5.M98.T5'&amp;U;!!%!!!!(E!S`````R6$&lt;'&amp;T=S"0=C"$&lt;'&amp;T=S"'&lt;'^E:8)!6!$Q!!Q!!!!"!!)!!Q!%!!5!"1!&amp;!!5!"1!&amp;!!9$!!"Y!!!*!!!!#1!!!!E!!!!*!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!!!!!!1!(!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%A#!"!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$3!!!!#!!11#%,1WRB=X.'&lt;WRE:8)!%%!B#E:J&lt;'6&amp;?'FT&gt;(-!!!Z!)1F%;8*F9X2P=HE!&amp;%!S`````QN$&lt;'&amp;T=U:P&lt;'2F=A!31$,`````#5.M98.T5'&amp;U;!!%!!!!(E!S`````R6$&lt;'&amp;T=S"0=C"$&lt;'&amp;T=S"'&lt;'^E:8)!6!$Q!!Q!!!!"!!)!!Q!%!!5!"1!&amp;!!5!"1!&amp;!!9$!!"Y!!!*!!!!#1!!!!E!!!!.#Q!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")!!!!!!1!(!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 	</Item>
 </LVClass>
