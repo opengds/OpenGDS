@@ -24,6 +24,10 @@
 		<Item Name="A4.lvclass" Type="LVClass" URL="../A4_class/A4.lvclass"/>
 		<Item Name="B4.lvclass" Type="LVClass" URL="../B4_class/B4.lvclass"/>
 		<Item Name="C4.lvclass" Type="LVClass" URL="../C4_class/C4.lvclass"/>
+		<Item Name="BuildRelease_Interface_ViServerCall(2013-XXXX).vi" Type="VI" URL="../../../../../Open_GDS_Tools/Build_Release/BuildRelease_SubVIs/BuildRelease_Interface_ViServerCall(2013-XXXX).vi"/>
+		<Item Name="Interface_RunVI.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/Interface_RunVI.vi"/>
+		<Item Name="BuildRelease_Interface_RunVI(2013-XXXX).vi" Type="VI" URL="../../../../../Open_GDS_Tools/Build_Release/BuildRelease_SubVIs/BuildRelease_Interface_RunVI(2013-XXXX).vi"/>
+		<Item Name="ByViServerInterfaceTemplate_6x8x6_Method.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/CommonClasses/ByViServerInterfaceTemplate_4x4x4/methods/ByViServerInterfaceTemplate_6x8x6_Method.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="GOOPUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/GOOPUtility/GOOPUtility.lvlib"/>
