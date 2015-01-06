@@ -429,11 +429,22 @@
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
+				<Item Name="VIAnUtil Check If ErrClust.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Check If ErrClust.vi"/>
+				<Item Name="VIAnUtil Check Type If ErrClust.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Check Type If ErrClust.vi"/>
 				<Item Name="VIAnUtil Clear Specific Error.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Clear Specific Error.vi"/>
 				<Item Name="VIAnUtil Has Diagram.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Has Diagram.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="ByValueInterfaceTemplate_4x4x4_CreateClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/CommonClasses/ByValueInterfaceTemplate_4x4x4/ByValueInterfaceTemplate_4x4x4_CreateClass.vi"/>
+			<Item Name="ByViServerInterfaceTemplate_CreateClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/CommonClasses/ByViServerInterfaceTemplate_CreateClass.vi"/>
+			<Item Name="CommonVIs_AlignToConnectorPane.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_AlignToConnectorPane.vi"/>
+			<Item Name="CommonVIs_PropertyType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_PropertyType.ctl"/>
+			<Item Name="CommonVIs_UpdateMethodArguments.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_UpdateMethodArguments.vi"/>
+			<Item Name="GDSString_MethodDescriptionType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_MethodDescriptionType.ctl"/>
+			<Item Name="GDSString_ModifierType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ModifierType.ctl"/>
+			<Item Name="GOOP_CreateControlsAndIndicatorsOnVI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_CreateControlsAndIndicatorsOnVI.vi"/>
+			<Item Name="GOOP_MethodArgumentConnectionType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_MethodArgumentConnectionType.ctl"/>
+			<Item Name="GOOP_MethodArgumentType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_MethodArgumentType.ctl"/>
+			<Item Name="ReversedEngineering AttributeDataType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering AttributeDataType.ctl"/>
 			<Item Name="TRef FinderCallback.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/traverseref.llb/TRef FinderCallback.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
