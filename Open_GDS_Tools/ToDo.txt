@@ -1,2 +1,9 @@
 Bug:
-Setting White color as Text in CLass Edit
+-Interface Method under virtual folder
+UML:
+-Open New Project: APP_PROJECT_NEW Missing
+-Get/Set<Property> needs fix
+Struct/Enum Icon should be auto created.
+
+Design Desc Scroll Bar
+Impleen tinTerafce By Aggregartion
