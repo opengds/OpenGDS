@@ -1,9 +1,16 @@
-Bug:
--Interface Method under virtual folder
-UML:
--Open New Project: APP_PROJECT_NEW Missing
--Get/Set<Property> needs fix
-Struct/Enum Icon should be auto created.
 
-Design Desc Scroll Bar
-Impleen tinTerafce By Aggregartion
+
+Static ethod in Virtual Folder for GOOP4 Fail
+VI Path: C:\Program Files (x86)\National Instruments\LabVIEW 2014\resource\Framework\Providers\Open_GDS\ClassProviders\Provider_EndevoGOOP400\Templates\G4SubTemplate_Simple_6x8x6\methods\Static_6x8x6.vi<Array>
+
+Abstract Method Only Must Call
+
+If method Static, use Static template, no class Ref In/outs
+Also After updating Attribute, please Fix All UnBundle un bundle by name that is broken.
+Example: http://www.csharp-station.com/Tutorial/CSharp/lesson08
+
+Problem with this example: http://www.codeproject.com/Articles/339390/Understanding-and-Implementing-Command-Pattern-in
+
+Empty ttype: http://www.codeguru.com/csharp/.net/net_general/patterns/article.php/c15663/Implement-a-Command-Pattern-Using-C.htm
+
+** Check if Created Method is broken, then fix Undubkle by name.
