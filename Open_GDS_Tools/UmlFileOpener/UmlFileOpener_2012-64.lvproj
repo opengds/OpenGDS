@@ -18,9 +18,6 @@
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="Dflt Data Dir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Dflt Data Dir.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
-				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
-				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -36,8 +33,8 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{78CA9EC8-0A3F-4D0D-88D6-63FD710B1074}</Property>
-				<Property Name="Destination[0].destName" Type="Str">UmlMessager_2012.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">resource/Framework/Providers/Open_GDS/UmlMessage/UmlMessager_2012.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">UmlMessager_2012-64.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">resource/Framework/Providers/Open_GDS/UmlMessage/UmlMessager_2012-64.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">relativeToAppDir</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -46,7 +43,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">relativeToAppDir</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/UML_Icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{D9DDF836-F23D-41D4-9D2B-75A08F3B2F29}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{31055734-4E69-431C-BED0-738AE7021769}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UmlFileOpener_2012.vi</Property>
@@ -60,7 +57,7 @@
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 OpenGDS</Property>
 				<Property Name="TgtF_productName" Type="Str">UmlMessager</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{75060214-757C-4A14-BCEE-DF5D32453F6A}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">UmlMessager_2012.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">UmlMessager_2012-64.exe</Property>
 			</Item>
 		</Item>
 	</Item>
