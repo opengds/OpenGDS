@@ -1,6 +1,6 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <LVClass LVVersion="12008004">
-	<Property Name="EndevoGOOP_ClassItemIcon" Type="Str">BlueCircle</Property>
+	<Property Name="EndevoGOOP_ClassItemIcon" Type="Str">BlueFrame</Property>
 	<Property Name="EndevoGOOP_ClassProvider" Type="Str">Endevo LabVIEW Native</Property>
 	<Property Name="EndevoGOOP_ColorFrame" Type="UInt">0</Property>
 	<Property Name="EndevoGOOP_ColorHeader" Type="UInt">10452224</Property>

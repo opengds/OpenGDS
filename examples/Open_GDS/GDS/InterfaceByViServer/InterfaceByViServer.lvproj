@@ -14,33 +14,15 @@
 		<Item Name="Interface1.lvclass" Type="LVClass" URL="../Interface1_Interface/Interface1.lvclass"/>
 		<Item Name="Base.lvclass" Type="LVClass" URL="../Base_class/Base.lvclass"/>
 		<Item Name="Sub.lvclass" Type="LVClass" URL="../Sub_class/Sub.lvclass"/>
-		<Item Name="Interface_FindInterfaceImplementationVI.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/Interface_FindInterfaceImplementationVI.vi"/>
-		<Item Name="Interface_ViServerCall.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/Interface_ViServerCall.vi"/>
-		<Item Name="InterfaceByViServer_Example1.vi" Type="VI" URL="../InterfaceByViServer_Example1.vi"/>
 		<Item Name="Leaf.lvclass" Type="LVClass" URL="../Leaf_class/Leaf.lvclass"/>
-		<Item Name="A3.lvclass" Type="LVClass" URL="../A3_class/A3.lvclass"/>
-		<Item Name="B3.lvclass" Type="LVClass" URL="../B3_class/B3.lvclass"/>
-		<Item Name="C3.lvclass" Type="LVClass" URL="../C3_class/C3.lvclass"/>
-		<Item Name="A4.lvclass" Type="LVClass" URL="../A4_class/A4.lvclass"/>
-		<Item Name="B4.lvclass" Type="LVClass" URL="../B4_class/B4.lvclass"/>
-		<Item Name="C4.lvclass" Type="LVClass" URL="../C4_class/C4.lvclass"/>
-		<Item Name="BuildRelease_Interface_ViServerCall(2013-XXXX).vi" Type="VI" URL="../../../../../Open_GDS_Tools/Build_Release/BuildRelease_SubVIs/BuildRelease_Interface_ViServerCall(2013-XXXX).vi"/>
-		<Item Name="Interface_RunVI.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/Interface_RunVI.vi"/>
-		<Item Name="BuildRelease_Interface_RunVI(2013-XXXX).vi" Type="VI" URL="../../../../../Open_GDS_Tools/Build_Release/BuildRelease_SubVIs/BuildRelease_Interface_RunVI(2013-XXXX).vi"/>
-		<Item Name="ByViServerInterfaceTemplate_6x8x6_Method.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/CommonClasses/ByViServerInterfaceTemplate_4x4x4/methods/ByViServerInterfaceTemplate_6x8x6_Method.vi"/>
+		<Item Name="InterfaceByViServer_Example1.vi" Type="VI" URL="../InterfaceByViServer_Example1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="GOOPUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/GOOPUtility/GOOPUtility.lvlib"/>
-				<Item Name="3GOOPVersion.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPVersion.vi"/>
-				<Item Name="3GOOPCallChain.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPCallChain.vi"/>
-				<Item Name="3GOOPSetError.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPSetError.vi"/>
-				<Item Name="3GOOPObjectInfoType.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPObjectInfoType.ctl"/>
-				<Item Name="3GOOPSharedInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPSharedInfo.ctl"/>
-				<Item Name="3GOOPClassInfoTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPClassInfoTypeDef.ctl"/>
-				<Item Name="3GOOPClassStatistics.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPClassStatistics.ctl"/>
-				<Item Name="3GOOPStates.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPStates.ctl"/>
-				<Item Name="3GOOPKernelSlave.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPKernelSlave.vi"/>
-				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
+				<Item Name="Interface_RunVI.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/Interface_RunVI.vi"/>
+				<Item Name="Interface_FindInterfaceImplementationVI.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/Interface_FindInterfaceImplementationVI.vi"/>
+				<Item Name="Interface_ViServerCall.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/Interface_ViServerCall.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
