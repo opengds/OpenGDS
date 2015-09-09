@@ -12,3 +12,4 @@ resource\Framework\Providers\GProviders\GOOP_MyComputer.ini
 resource\Framework\Providers\GProviders\GOOP_VI.ini
 resource\Framework\Providers\GProviders\GOOP_VirtualFolder.ini
 resource\Framework\Providers\GProviders\GOOP_XControl.ini
+user.lib\_probes\GOOP

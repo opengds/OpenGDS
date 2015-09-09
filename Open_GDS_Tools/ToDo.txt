@@ -6,10 +6,9 @@ UML:
 Struct/Enum Icon should be auto created.
 
 Design Desc Scroll Bar
--Impleen tinTerafce By Aggregartion
-
+-Implement interface By Aggregation
 
 Abstract Method Only Must Call
 
-Support Interface creationg and analyse from UML
+Support Interface creation and analyse from UML
 Better Auto Layout
