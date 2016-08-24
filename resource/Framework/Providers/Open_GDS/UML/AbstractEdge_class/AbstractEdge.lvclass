@@ -45,6 +45,15 @@
 			<Property Name="NI.ClassItem.State" Type="Int">1074266640</Property>
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
+		<Item Name="AbstractEdge_GetObjectStatus.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/AbstractEdge_class/utils/AbstractEdge_GetObjectStatus.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(\!!!!%!!O1(!!(A!!&amp;B2"9H.U=G&amp;D&gt;%6E:W5O&lt;(:D&lt;'&amp;T=Q!!$(*F:G6S:7ZD:3"J&lt;A!!"!!!!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!#"!5!!$!!)!!Q!%%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;%!Q`````QN09GJF9X1A&lt;G&amp;N:1!?1%!!!@````]!"B&amp;"&lt;'QA&lt;W*K:7.U=S"O97VF=Q!41!-!$#-A&lt;W9A&lt;W*K:7.U=Q!!&amp;%!Q`````QJ$&lt;'&amp;T=S"O97VF!!!O1(!!(A!!&amp;B2"9H.U=G&amp;D&gt;%6E:W5O&lt;(:D&lt;'&amp;T=Q!!$8*F:G6S:7ZD:3"P&gt;81!%E!B$5ZP&gt;#"B)(*F:GZV&lt;4]!'E"!!!(`````!!I-17RM)(*F:H-A&lt;X6U!!!91#%3182U=GFC&gt;82F=S"M&lt;W.L:71`!!!71&amp;!!!Q!#!!-!"!FF=H*P=C"P&gt;81!G1$Q!"1!!!!"!!%!!1!"!!5!!1!"!!%!!1!(!!%!#!!*!!I!#Q!'!!Q!$1!/!Q!"%!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!!!!!!!!!!!!!E!!!!!!!!!#1!!!!E!!!!.!!!!#1!!!!E!!!!*!!!!#1!!!!U&amp;!"5!!!!!!!!!!!!!!!!!!!%!!!!!!!!!!1!0!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
+		</Item>
 	</Item>
 	<Item Name="protected" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
