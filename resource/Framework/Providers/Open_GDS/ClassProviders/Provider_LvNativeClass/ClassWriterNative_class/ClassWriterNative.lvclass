@@ -117,13 +117,13 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1117782544</Property>
 	</Item>
 	<Item Name="AddViToProject.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/ClassWriterNative_class/private/AddViToProject.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%V!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"2!=!!)!!!!3A!!"U&amp;E:%:J&lt;'5!(%!Q`````R*1=G^Q:8*U?5:P&lt;'2F=EZB&lt;75!!"*!-0````])5(*P='6S&gt;(E!!"B!5!!$!!!!!1!##W6S=G^S)'^V&gt;#!S!"*!)1R1=G^Q:8*U?5ZP:'5!!"*!-P````]*4G6X6EF1982I!"J!=!!)!!!!3A!!$6"S&lt;WJF9X2'&lt;WRE:8)!6!$Q!!Q!!Q!%!!1!"1!%!!9!"!!(!!A!#1!+!!M$!!"Y!!!.#!!!!!!!!!!!!!!*!!!!!!!!!B!!!!!!!!!#%!!!!!I!!!!1!!!!%A!!!")!!!!!!1!-!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;,!!!!$A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"2!=!!)!!!!3A!!"U&amp;E:%:J&lt;'5!(%!Q`````R*1=G^Q:8*U?5:P&lt;'2F=EZB&lt;75!!":!=!!)!!!!61!!#%.M98.T5G6G!!!31$$`````#&amp;"S&lt;X"F=H2Z!!!91&amp;!!!Q!!!!%!!ANF=H*P=C"P&gt;81A-A!31#%-5(*P='6S&gt;(F/&lt;W2F!!!31$,`````#5ZF&gt;V:*5'&amp;U;!!;1(!!#!!!!%I!!!V1=G^K:7.U2G^M:'6S!&amp;1!]!!-!!-!"!!%!!5!"!!'!!=!#!!*!!I!#Q!-!Q!!?!!!$1A!!!!!!!!!!!!!#1!!!!!!!!)1!!!!#A!!!B!!!!!+!!!!%!!!!")!!!!3!!!!!!%!$1!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1117782544</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 	<Item Name="ChangeInheritance.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/ClassWriterNative_class/ChangeInheritance.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'L!!!!#Q![1(!!(A!!'RF$&lt;'&amp;T=V&gt;S;82F=EZB&gt;'FW:3ZM&gt;G.M98.T!"6$&lt;'&amp;T=V&gt;S;82F=E&gt;04V!T-$!A;7Y!&amp;%"Q!!A!!!"6!!!(4(:$&lt;'&amp;T=Q!U1$,`````+UZF&gt;U*B=W6$&lt;'&amp;T=SB&amp;&lt;8"U?4V$&lt;WZW:8*U1WRB=X.5&lt;U*B=W6$&lt;'&amp;T=SE!"!!!!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!#"!5!!$!!1!"1!'%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!0%"Q!"Y!!"M:1WRB=X.8=GFU:8*/982J&gt;G5O&lt;(:D&lt;'&amp;T=Q!71WRB=X.8=GFU:8*(4U^1-T!Q)'^V&gt;!!!&amp;E"1!!-!"!!&amp;!!9*:8*S&lt;X)A&lt;X6U!)1!]!!5!!!!!1!#!!-!!Q!(!!-!!Q!$!!-!!Q!$!!-!!Q!)!!-!!Q!$!!-!#1-!!2!!!*!!!!!1!!!!%!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!D1!!!!!!!!!!!!!!!!!!!!!!!!!."1!!!!%!#A!!!!!</Property>
