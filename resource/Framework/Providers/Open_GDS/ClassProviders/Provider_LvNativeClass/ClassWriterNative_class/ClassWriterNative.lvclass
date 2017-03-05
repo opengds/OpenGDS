@@ -153,13 +153,13 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 	</Item>
 	<Item Name="CloneMethod.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/ClassWriterNative_class/CloneMethod.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'`!!!!$A!_1(!!(A!!'RF$&lt;'&amp;T=V&gt;S;82F=EZB&gt;'FW:3ZM&gt;G.M98.T!"F$&lt;'&amp;T=V&gt;S;82F=EZB&gt;'FW:3ZM&gt;G.M98.T!"B!=!!)!!!!3A!!#V:*382F&lt;6*F:EFO!":!-P````]-4G6X1WRB=X.1982I!!!C1(!!#!!!!&amp;!!!"20&gt;WZF=E.M98.T382F&lt;6*F:E^V&gt;!!!'E"!!!(`````!!-.4'FC=G&amp;S?5^X&lt;G6S=Q!51#%/4X"F&lt;F:*6WBF&lt;E2P&lt;G5!!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!#"!5!!$!!9!"Q!)%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!"!!!!":!-0````].6GF%:8.D=GFQ&gt;'FP&lt;A!71&amp;!!!Q!'!!=!#!FF=H*P=C"P&gt;81!B!$Q!"1!!!!"!!)!"!!&amp;!!E!#A!,!!I!#A!+!!I!#A!+!!!!#A!+!!I!#A!-!Q!"%!!!E!!!!!A!!!!)!!!##!!!!!A!!!!+!!!!!!!!!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#.!!!!!!!!!!!!!!!!!!!!!!!!!!U&amp;!!!!!1!.!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'\!!!!$A!_1(!!(A!!'RF$&lt;'&amp;T=V&gt;S;82F=EZB&gt;'FW:3ZM&gt;G.M98.T!"F$&lt;'&amp;T=V&gt;S;82F=EZB&gt;'FW:3ZM&gt;G.M98.T!"B!=!!)!!!!3A!!#V:*382F&lt;6*F:EFO!"*!-P````]*4G6X6EF1982I!#*!=!!)!!!!5!!!&amp;%^X&lt;G6S1WRB=X.*&gt;'6N5G6G4X6U!!!;1%!!!@````]!!QV-;7*S98*Z4X&gt;O:8*T!"2!)1Z0='6O6EF8;'6O2'^O:1!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!)%"1!!-!"A!(!!A4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!%!!!!&amp;E!Q`````QV7;52F=W.S;8"U;7^O!":!5!!$!!9!"Q!)#76S=G^S)'^V&gt;!#%!0!!&amp;!!!!!%!!A!%!!5!#1!+!!M!#A!+!!I!#A!+!!I!!!!+!!I!#A!+!!Q$!!%1!!#1!!!!#!!!!!A!!!))!!!!#!!!!!I!!!!!!!!!%!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)U!!!!!!!!!!!!!!!!!!!!!!!!!$15!!!!"!!U!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1117782544</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 	<Item Name="Create.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/ClassWriterNative_class/Create.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%D!!!!#!!W1(!!(A!!'RF$&lt;'&amp;T=V&gt;S;82F=EZB&gt;'FW:3ZM&gt;G.M98.T!"&amp;$&lt;'&amp;T=V&gt;S;82F=EZB&gt;'FW:1!%!!!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!)%"1!!-!!A!$!!14:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!71&amp;!!!Q!#!!-!"!FF=H*P=C"P&gt;81!B!$Q!"1!!!!"!!%!!1!"!!5!!1!"!!%!!1!"!!%!!1!"!!!!!1!"!!%!!1!'!Q!"%!!!EA!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#.!!!!!!!!!!!!!!!!!!!!!!!!!!U&amp;!!!!!1!(!!!!!!</Property>
