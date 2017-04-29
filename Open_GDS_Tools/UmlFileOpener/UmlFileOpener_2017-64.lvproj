@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="15008000">
+<Project Type="Project" LVVersion="17006000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -46,8 +46,8 @@
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{78CA9EC8-0A3F-4D0D-88D6-63FD710B1074}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">UmlMessager_2015.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2014/resource/Framework/Providers/Open_GDS/UmlMessage/UmlMessager_2015.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">UmlMessager_2017-64.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2014/resource/Framework/Providers/Open_GDS/UmlMessage/UmlMessager_2017-64.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
@@ -56,7 +56,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/UML_Icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{87610C77-3760-4E74-B268-25BA9B355B8D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{19786664-E704-40BB-A0F5-1C1CB75260E8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UmlFileOpener_20XX.vi</Property>
@@ -64,12 +64,13 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">OpenGDS</Property>
+				<Property Name="TgtF_fastFileFormat" Type="Bool">true</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">UmlMessager</Property>
 				<Property Name="TgtF_internalName" Type="Str">UmlMessager</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2015 OpenGDS</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 OpenGDS</Property>
 				<Property Name="TgtF_productName" Type="Str">UmlMessager</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{75060214-757C-4A14-BCEE-DF5D32453F6A}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">UmlMessager_2015.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">UmlMessager_2017-64.exe</Property>
 			</Item>
 		</Item>
 	</Item>

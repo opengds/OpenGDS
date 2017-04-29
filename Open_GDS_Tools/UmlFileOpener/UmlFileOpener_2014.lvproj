@@ -20,7 +20,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="UmlFileOpener_2012.vi" Type="VI" URL="../UmlFileOpener_2012.vi"/>
+		<Item Name="UmlFileOpener_20XX.vi" Type="VI" URL="../UmlFileOpener_20XX.vi"/>
 		<Item Name="UML_Icon.ico" Type="Document" URL="../UML_Icon.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -42,24 +42,25 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2012/resource/Framework/Providers/Open_GDS/UmlMessage</Property>
+				<Property Name="Bld_localDestDir" Type="Path">resource/Framework/Providers/Open_GDS/UmlMessage</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{78CA9EC8-0A3F-4D0D-88D6-63FD710B1074}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UmlMessager_2014.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2012/resource/Framework/Providers/Open_GDS/UmlMessage/UmlMessager_2014.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].path" Type="Path">resource/Framework/Providers/Open_GDS/UmlMessage/UmlMessager_2014.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">relativeToAppDir</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2012/resource/Framework/Providers/Open_GDS/UmlMessage/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[1].path" Type="Path">resource/Framework/Providers/Open_GDS/UmlMessage/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">relativeToAppDir</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/UML_Icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{0FC40CE8-6858-4837-81F9-9FFA4728CCDC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6C72B21F-DAB6-45C0-AB2B-B8DB23D08102}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UmlFileOpener_2012.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UmlFileOpener_20XX.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
