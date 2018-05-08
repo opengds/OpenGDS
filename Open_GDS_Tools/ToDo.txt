@@ -12,3 +12,24 @@ Abstract Method Only Must Call
 
 Support Interface creation and analyse from UML
 Better Auto Layout
+
+Create a new project automatically when creating class with no project active. (or ask to open one)
+Singleton GOOP4, don’t become singleton?!?! 5x6x5
+Fix Unbundle by name don’t work when creating classes from the UML modeller. (If no attribute exists remove, and remove dead wires.)
+Get Property Method is putting the label on the wrong side.
+Maybe make you own set default class and lvlib configs based on INI file settings.
+After removing some class methods in the code, and when selecting Generate Classes no classes are visible but it still generates the methods, but it fails if VI name already exists and dies. (Destroy VI can’t re recreated.
+
+
+In Create Class API, wire up ClassIcon 
+API Add Design Pattern ==> Implement Interface Design Pattern
+
+Atfer craeted alsses from UML, lots of VI's classes needs to be resaved, due to connector pane changes 
+
+-Fixed PropertyNode Method Control/Indicator location
+
+Sync classes:
+Don't use Class.ctl
+Support Actors (inside lvlibs)
+
+From UML, when creating a sub class and you select diffrent connectorpane settings?!?!
