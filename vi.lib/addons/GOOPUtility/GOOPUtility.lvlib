@@ -29,4 +29,5 @@
 	<Item Name="GOOPUtil_IsValidReference.vi" Type="VI" URL="/&lt;vilib&gt;/addons/GOOPUtility/GOOPUtil_IsValidReference.vi"/>
 	<Item Name="GOOPUtil_MemberDefinition.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/GOOPUtility/GOOPUtil_MemberDefinition.ctl"/>
 	<Item Name="GOOPUtil_GetParentClassesHiererchy.vi" Type="VI" URL="/&lt;vilib&gt;/addons/GOOPUtility/GOOPUtil_GetParentClassesHiererchy.vi"/>
+	<Item Name="GOOPUtil_EatError.vi" Type="VI" URL="/&lt;vilib&gt;/addons/GOOPUtility/GOOPUtil_EatError.vi"/>
 </Library>
