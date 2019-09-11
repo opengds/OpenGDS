@@ -108,9 +108,10 @@
 			<Item Name="LineStyle.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/LineStyle_class/LineStyle.lvclass"/>
 		</Item>
 		<Item Name="Graphs" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="Graph.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/Graph_class/Graph.lvclass"/>
 			<Item Name="ClassDiagramGraph.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ClassDiagramGraph_class/ClassDiagramGraph.lvclass"/>
 			<Item Name="DqmhModuleDiagramGraph.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DqmhModuleDiagramGraph_class/DqmhModuleDiagramGraph.lvclass"/>
-			<Item Name="Graph.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/Graph_class/Graph.lvclass"/>
 			<Item Name="SequenceDiagramGraph.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/SequenceDiagramGraph_class/SequenceDiagramGraph.lvclass"/>
 			<Item Name="StateDiagramGraph.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/StateDiagramGraph_class/StateDiagramGraph.lvclass"/>
 			<Item Name="UseCaseDiagramGraph.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/UseCaseDiagramGraph_class/UseCaseDiagramGraph.lvclass"/>
@@ -139,6 +140,7 @@
 		<Item Name="Graphics.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/Graphics_class/Graphics.lvclass"/>
 		<Item Name="Grid.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/Grid_class/Grid.lvclass"/>
 		<Item Name="MultiLineString.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/MultiLineString_class/MultiLineString.lvclass"/>
+		<Item Name="RadioButtonToolBar.vi" Type="VI" URL="../../../../../../Open_GDS_Tools/Temp/RadioButtonToolBar.vi"/>
 		<Item Name="StateReverse.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/StateReverse_class/StateReverse.lvclass"/>
 		<Item Name="UMLEditor Main.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/UMLEditor Main.vi"/>
 		<Item Name="UmlEditor.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/UmlEditor_class/UmlEditor.lvclass"/>
