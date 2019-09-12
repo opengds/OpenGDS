@@ -169,21 +169,30 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
 	</Item>
 	<Item Name="GetToolbarButtons.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ClassDiagramGraph_class/GetToolbarButtons.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(^!!!!$1!S1(!!(A!!'RF$&lt;'&amp;T=U2J97&gt;S97V(=G&amp;Q;#ZM&gt;G.M98.T!!RS:7:F=G6O9W5A;7Y!!!1!!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!#!!-!"".F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$*!=!!?!!!&lt;'5.M98.T2'FB:X*B&lt;5&gt;S98"I,GRW9WRB=X-!$8*F:G6S:7ZD:3"P&gt;81!$E!Q`````Q25:8BU!!"!!0']0]8/!!!!!2:645R&amp;:'FU&lt;X)A&gt;'^P&lt;(2Z='5O9X2M!#&amp;!&amp;A!$"%ZP&lt;G5%4G^E:12&amp;:'&gt;F!!!%6(FQ:1!!1A$R!!!!!!!!!!).2X*B='AO&lt;(:D&lt;'&amp;T=R65&lt;W^M9G&amp;S1H6U&gt;'^O6(FQ:3ZD&gt;'Q!&amp;E"1!!)!"Q!)"E*V&gt;(2P&lt;A!!(%"!!!(`````!!E/6'^P&lt;'*B=E*V&gt;(2P&lt;H-!!":!5!!$!!)!!Q!%#76S=G^S)'^V&gt;!#%!0!!&amp;!!!!!%!!1!"!!%!"1!"!!%!!1!"!!%!!1!"!!%!"A!+!!%!!1!"!!M#!!%1!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)U!!!!*!!!!!!!!!!!!!!!!!!!!$15!!!!"!!Q!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)/!!!!$A!S1(!!(A!!'RF$&lt;'&amp;T=U2J97&gt;S97V(=G&amp;Q;#ZM&gt;G.M98.T!!RS:7:F=G6O9W5A;7Y!!!1!!!!21!=!#U&gt;S98"I1H6U&gt;'^O!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!#"!5!!$!!-!"!!&amp;%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-E"Q!"Y!!"M:1WRB=X.%;7&amp;H=G&amp;N2X*B='AO&lt;(:D&lt;'&amp;T=Q!.=G6G:8*F&lt;G.F)'^V&gt;!!/1$$`````"&amp;2F?(1!!%!!]&lt;Q`R=Y!!!!"&amp;F6.4%6E;82P=C"U&lt;W^M&gt;(FQ:3ZD&gt;'Q!)5!7!!-%4G^O:12/&lt;W2F"%6E:W5!!!25?8"F!!"#!0%!!!!!!!!!!AV(=G&amp;Q;#ZM&gt;G.M98.T&amp;62P&lt;WRC98*#&gt;82U&lt;WZ5?8"F,G.U&lt;!!71&amp;!!!A!)!!E'1H6U&gt;'^O!!!=1%!!!@````]!#AZ5&lt;W^M9G&amp;S1H6U&gt;'^O=Q!!&amp;E"1!!-!!Q!%!!5*:8*S&lt;X)A&lt;X6U!)1!]!!5!!!!!1!#!!%!!1!'!!%!!1!"!!%!!1!"!!%!!1!(!!M!#!!*!!%!$!)!!2!!!*!!!!!!!!!!#!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!D1!!!!E!!!!*!!!!#1!!!!!!!!!."1!!!!%!$1!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 	</Item>
 	<Item Name="CreateToolbarObject.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ClassDiagramGraph_class/CreateToolbarObject.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;2!!!!#1!S1(!!(A!!'RF$&lt;'&amp;T=U2J97&gt;S97V(=G&amp;Q;#ZM&gt;G.M98.T!!RS:7:F=G6O9W5A;7Y!!!1!!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!#!!-!"".F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$*!=!!?!!!&lt;'5.M98.T2'FB:X*B&lt;5&gt;S98"I,GRW9WRB=X-!$8*F:G6S:7ZD:3"P&gt;81!&amp;E"1!!-!!A!$!!1*:8*S&lt;X)A&lt;X6U!)1!]!!5!!!!!1!"!!%!!1!&amp;!!%!!1!"!!%!!1!"!!%!!1!'!!%!!1!"!!%!"Q-!!2!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!D1!!!!!!!!!!!!!!!!!!!!!!!!!."1!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)1!!!!$A!S1(!!(A!!'RF$&lt;'&amp;T=U2J97&gt;S97V(=G&amp;Q;#ZM&gt;G.M98.T!!RS:7:F=G6O9W5A;7Y!!!1!!!!21!=!#U&gt;S98"I1H6U&gt;'^O!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!#"!5!!$!!-!"!!&amp;%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-E"Q!"Y!!"M:1WRB=X.%;7&amp;H=G&amp;N2X*B='AO&lt;(:D&lt;'&amp;T=Q!.=G6G:8*F&lt;G.F)'^V&gt;!"%!0']0]8/!!!!!2:645R&amp;:'FU&lt;X)A&gt;'^P&lt;(2Z='5O9X2M!#6!&amp;A!$"%ZP&lt;G5%4G^E:12&amp;:'&gt;F!!!)&gt;'^P&lt;&amp;2Z='5!!#:!=!!?!!!7&amp;%&amp;C=X2S97.U272H:3ZM&gt;G.M98.T!!!%272H:1!!*E"Q!"Y!!"9517*T&gt;(*B9X2/&lt;W2F,GRW9WRB=X-!!!2/&lt;W2F!!!?1$$`````&amp;5*V&gt;(2P&lt;EZB&lt;76$&lt;WVQ=G6T=W6E+1!71&amp;!!!Q!$!!1!"1FF=H*P=C"P&gt;81!B!$Q!"1!!!!"!!)!!1!"!!9!!1!"!!%!!1!"!!%!!1!"!!=!#!!*!!I!#Q!-!Q!"%!!!EA!!!!!!!!!1!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#.!!!!#1!!!!E!!!!*!!!!#1!!!!U&amp;!!!!!1!.!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">2</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+	</Item>
+	<Item Name="AllowEdgeStartCheck.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ClassDiagramGraph_class/AllowEdgeStartCheck.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'=!!!!$!!S1(!!(A!!'RF$&lt;'&amp;T=U2J97&gt;S97V(=G&amp;Q;#ZM&gt;G.M98.T!!RS:7:F=G6O9W5A;7Y!!#Z!=!!?!!!7&amp;%&amp;C=X2S97.U4G^E:3ZM&gt;G.M98.T!!!.272H:6.U98*U4G^E:1!21!=!#U&gt;S98"I1H6U&gt;'^O!!1!!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!%!!5!"B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$*!=!!?!!!&lt;'5.M98.T2'FB:X*B&lt;5&gt;S98"I,GRW9WRB=X-!$8*F:G6S:7ZD:3"P&gt;81!$%!B"U&amp;M&lt;'^X:71!&amp;E"1!!-!"!!&amp;!!9*:8*S&lt;X)A&lt;X6U!)1!]!!5!!!!!1!#!!-!!Q!(!!-!!Q!$!!-!!Q!$!!-!!Q!)!!-!#1!$!!-!#A-!!2!!!*)!!!!1!!!!%!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!D1!!!!!!!!!*!!!!!!!!!!!!!!!."1!!!!%!#Q!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
 </LVClass>
