@@ -112,7 +112,7 @@
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 	<Item Name="Destroy.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ClassDiagramGraph_class/Destroy.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%&lt;!!!!#!!O1(!!(A!!'RF$&lt;'&amp;T=U2J97&gt;S97V(=G&amp;Q;#ZM&gt;G.M98.T!!FS:7:F=G6O9W5!"!!!!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!#"!5!!$!!)!!Q!%%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!&amp;E"1!!-!!A!$!!1*:8*S&lt;X)A&lt;X6U!)1!]!!5!!!!!1!"!!%!!1!&amp;!!%!!1!"!!%!!1!"!!%!!1!"!!%!!1!"!!%!"A-!!2!!!*!!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!."1!!!!%!"Q!!!!!</Property>
@@ -194,5 +194,23 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+	</Item>
+	<Item Name="GetToolsMenuItems.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ClassDiagramGraph_class/GetToolsMenuItems.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!((!!!!%!!G1(!!(A!!$QV(=G&amp;Q;#ZM&gt;G.M98.T!!RS:7:F=G6O9W5A;7Y!!!1!!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!#!!-!"".F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#:!=!!?!!!0$5&gt;S98"I,GRW9WRB=X-!$8*F:G6S:7ZD:3"P&gt;81!#!!Q`````Q!91#%3;7ZD&lt;(6E:3"4;'FG&gt;#"L:8E`!!!91#%3;7ZD&lt;(6E:3"$&gt;(*M)'NF?4]A!!!71$$`````$(.I&lt;X*U9X6U)'NF?1!!'E"1!!-!#!!*!!I.=WBP=H1A9X6U)'^V&gt;!!-!&amp;!!!Q!(!!=!#Q!;1%!!!@````]!$!V5&lt;W^M476O&gt;5FU:7VT!":!5!!$!!)!!Q!%#76S=G^S)'^V&gt;!#%!0!!&amp;!!!!!%!!1!"!!%!"1!"!!%!!1!"!!%!!1!"!!%!"A!"!!U!!1!"!!Y$!!%1!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)U!!!!!!!!!#1!!!!!!!!!!!!!!$15!!!!"!!]!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
+	</Item>
+	<Item Name="GetButtonHelpText.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ClassDiagramGraph_class/GetButtonHelpText.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(/!!!!$A!S1(!!(A!!'RF$&lt;'&amp;T=U2J97&gt;S97V(=G&amp;Q;#ZM&gt;G.M98.T!!RS:7:F=G6O9W5A;7Y!!!1!!!!71$$`````$%*V&gt;(2P&lt;F.U=GFO:Q!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!)%"1!!-!!Q!%!!54:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!S1(!!(A!!'RF$&lt;'&amp;T=U2J97&gt;S97V(=G&amp;Q;#ZM&gt;G.M98.T!!VS:7:F=G6O9W5A&lt;X6U!""!-0````]'3'6B:'6S!!!11$0`````"V"J9X2V=G5!$E!Q`````Q25:8BU!!!Z!0%!!!!!!!!!!2B$&lt;WZU:8BU3'6M=&amp;^4;'^X6(FQ:3ZD&gt;'Q!'%"1!!-!#!!*!!I(3'6M=%^V&gt;!!71&amp;!!!Q!$!!1!"1FF=H*P=C"P&gt;81!B!$Q!"1!!!!"!!)!!1!"!!9!!1!"!!%!!1!"!!%!!1!"!!=!!1!,!!%!!1!-!Q!"%!!!E!!!!!!!!!)1!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#.!!!!!!!!!!E!!!!!!!!!!!!!!!U&amp;!!!!!1!.!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 </LVClass>
