@@ -106,13 +106,13 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
 	</Item>
 	<Item Name="Destroy.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/RectangularNode_class/Destroy.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%M!!!!#1!M1(!!(A!!'2&gt;3:7.U97ZH&gt;7RB=EZP:'5O&lt;(:D&lt;'&amp;T=Q!*=G6G:8*F&lt;G.F!!1!!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!#!!-!"".F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!".!!Q!-)S"P:C"P9GJF9X2T!!!71&amp;!!!Q!#!!-!"!FF=H*P=C"P&gt;81!B!$Q!"1!!!!"!!%!!1!"!!5!!1!"!!%!!1!"!!%!!1!"!!%!"A!"!!%!!1!(!Q!"%!!!EA!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!U&amp;!!!!!1!)!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%M!!!!#1!M1(!!(A!!'2&gt;3:7.U97ZH&gt;7RB=EZP:'5O&lt;(:D&lt;'&amp;T=Q!*=G6G:8*F&lt;G.F!!1!!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!#!!-!"".F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!".!!Q!-)S"P:C"P9GJF9X2T!!!71&amp;!!!Q!#!!-!"!FF=H*P=C"P&gt;81!B!$Q!"1!!!!"!!%!!1!"!!5!!1!"!!%!!1!"!!%!!1!"!!%!"A!"!!%!!1!(!Q!"%!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!U&amp;!!!!!1!)!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082397200</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 	</Item>
 	<Item Name="draw.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/RectangularNode_class/draw.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;P!!!!#A!M1(!!(A!!'2&gt;3:7.U97ZH&gt;7RB=EZP:'5O&lt;(:D&lt;'&amp;T=Q!*=G6G:8*F&lt;G.F!#:!=!!?!!!3%%&gt;S98"I;7.T,GRW9WRB=X-!!!BH=G&amp;Q;'FD=Q!!"!!!!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!#"!5!!$!!-!"!!&amp;%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!-%"Q!"Y!!"E85G6D&gt;'&amp;O:X6M98*/&lt;W2F,GRW9WRB=X-!$8*F:G6S:7ZD:3"P&gt;81!&amp;E"1!!-!!Q!%!!5*:8*S&lt;X)A&lt;X6U!)1!]!!5!!!!!1!#!!)!!A!'!!)!!A!#!!)!!A!#!!)!!A!(!!)!!A!#!!)!#!-!!2!!!*!!!!!1!!!!!!!!!!!!!!!!!!!!%A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!D1!!!!!!!!!!!!!!!!!!!!!!!!!."1!!!!%!#1!!!!!</Property>
@@ -169,13 +169,13 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1116209680</Property>
 	</Item>
 	<Item Name="translate.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/RectangularNode_class/translate.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&lt;!!!!#Q!M1(!!(A!!'2&gt;3:7.U97ZH&gt;7RB=EZP:'5O&lt;(:D&lt;'&amp;T=Q!*=G6G:8*F&lt;G.F!!F!#A!#:(A!!!F!#A!#:(E!!!1!!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!%!!5!"B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!:&amp;V*F9X2B&lt;G&gt;V&lt;'&amp;S4G^E:3ZM&gt;G.M98.T!!VS:7:F=G6O9W5A&lt;X6U!":!5!!$!!1!"1!'#76S=G^S)'^V&gt;!#%!0!!&amp;!!!!!%!!A!$!!-!"Q!$!!-!!Q!$!!-!!Q!$!!-!#!!$!!-!!Q!$!!E$!!%1!!#1!!!!%!!!!"!!!!!!!!!!!!!!!"!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)E!!!!!!!!!!!!!!!!!!!!!!!!!#1!!!!!"!!I!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&lt;!!!!#Q!M1(!!(A!!'2&gt;3:7.U97ZH&gt;7RB=EZP:'5O&lt;(:D&lt;'&amp;T=Q!*=G6G:8*F&lt;G.F!!F!#A!#:(A!!!F!#A!#:(E!!!1!!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!%!!5!"B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!:&amp;V*F9X2B&lt;G&gt;V&lt;'&amp;S4G^E:3ZM&gt;G.M98.T!!VS:7:F=G6O9W5A&lt;X6U!":!5!!$!!1!"1!'#76S=G^S)'^V&gt;!#%!0!!&amp;!!!!!%!!A!$!!-!"Q!$!!-!!Q!$!!-!!Q!$!!-!#!!$!!-!!Q!$!!E$!!%1!!#1!!!!%!!!!"!!!!!!!!!!!!!!!")!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)U!!!!!!!!!!!!!!!!!!!!!!!!!$15!!!!"!!I!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">16777347</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1082393104</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 	</Item>
 	<Item Name="GetGrabberPositions.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/RectangularNode_class/GetGrabberPositions.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!+M!!!!%A!M1(!!(A!!'2&gt;3:7.U97ZH&gt;7RB=EZP:'5O&lt;(:D&lt;'&amp;T=Q!*=G6G:8*F&lt;G.F!!1!!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!#!!-!"".F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$"!=!!?!!!:&amp;V*F9X2B&lt;G&gt;V&lt;'&amp;S4G^E:3ZM&gt;G.M98.T!!VS:7:F=G6O9W5A&lt;X6U!!&gt;!#A!"?!!(1!I!!8E!-!$RP$`$\!!!!!%25'^J&lt;H1A5'^J&lt;H1S2#ZD&gt;'Q!&amp;E"1!!)!"Q!)"X"P;7ZU-E1!(E"!!!(`````!!E12X*B9G*F=F"P=WFU;7^O=Q!!*E"Q!"Y!!"9517*T&gt;(*B9X2/&lt;W2F,GRW9WRB=X-!!!2/&lt;W2F!!!Q!0']0]0M!!!!!2&amp;1&lt;WFO&gt;#"1&lt;WFO&gt;$*%,G.U&lt;!!71&amp;!!!A!(!!A(3'^U5X"P&gt;!"&lt;!0%!!!!!!!!!!2F645R&amp;:'FU&lt;X*@3'^U5X"P&gt;&amp;2Z='5O9X2M!$F!&amp;A!+!5Y#4E5"21*421&amp;4!F.8!6=#4F='28BQ97ZE"U.P&lt;'RB=(-!!!B'&gt;7ZD&gt;'FP&lt;A!!1!$R!!!!!!!!!!%:65V-272J&gt;'^S8UBP&gt;&amp;.Q&lt;X2%982B,G.U&lt;!!?1&amp;!!!Q!,!!Q!$1V09GJF9X2)&lt;X24='^U!":!1!!"`````Q!/#%BP&gt;&amp;.Q&lt;X2T!!!71&amp;!!!Q!#!!-!"!FF=H*P=C"P&gt;81!B!$Q!"1!!!!"!!%!!1!"!!5!!1!"!!%!!1!"!!%!!1!"!!9!#A!0!!%!!1!1!Q!"%!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#.!!!!#1!!!!E!!!!!!!!!!!!!!!U&amp;!!!!!1!2!!!!!!</Property>
@@ -194,5 +194,14 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1116209680</Property>
+	</Item>
+	<Item Name="FactoryCreate.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/RectangularNode_class/FactoryCreate.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;.!!!!#1!Q1(!!(A!!'2&gt;3:7.U97ZH&gt;7RB=EZP:'5O&lt;(:D&lt;'&amp;T=Q!-=G6G:8*F&lt;G.F)'FO!!!%!!!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!)%"1!!-!!A!$!!14:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!'2&gt;3:7.U97ZH&gt;7RB=EZP:'5O&lt;(:D&lt;'&amp;T=Q!.=G6G:8*F&lt;G.F)'^V&gt;!!71&amp;!!!Q!#!!-!"!FF=H*P=C"P&gt;81!B!$Q!"1!!!!"!!%!!1!"!!5!!1!"!!%!!1!"!!%!!1!"!!9!!1!"!!%!!1!(!Q!"%!!!EA!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#.!!!!!!!!!!!!!!!!!!!!!!!!!!U&amp;!!!!!1!)!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1351361040</Property>
 	</Item>
 </LVClass>

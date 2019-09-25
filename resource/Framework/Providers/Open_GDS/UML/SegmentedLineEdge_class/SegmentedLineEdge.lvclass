@@ -368,4 +368,13 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
+	<Item Name="FactoryCreate.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/SegmentedLineEdge_class/FactoryCreate.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;2!!!!#1!S1(!!(A!!'RF4:7&gt;N:7ZU:72-;7ZF272H:3ZM&gt;G.M98.T!!RS:7:F=G6O9W5A;7Y!!!1!!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!#!!-!"".F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$*!=!!?!!!&lt;'6.F:WVF&lt;H2F:%RJ&lt;G6&amp;:'&gt;F,GRW9WRB=X-!$8*F:G6S:7ZD:3"P&gt;81!&amp;E"1!!-!!A!$!!1*:8*S&lt;X)A&lt;X6U!)1!]!!5!!!!!1!"!!%!!1!&amp;!!%!!1!"!!%!!1!"!!%!!1!'!!%!!1!"!!%!"Q-!!2!!!*)!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!D1!!!!!!!!!!!!!!!!!!!!!!!!!."1!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1351361040</Property>
+	</Item>
 </LVClass>

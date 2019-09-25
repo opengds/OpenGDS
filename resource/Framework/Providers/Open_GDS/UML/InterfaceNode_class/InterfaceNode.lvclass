@@ -167,4 +167,13 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
+	<Item Name="FactoryCreate.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/InterfaceNode_class/FactoryCreate.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;*!!!!#1!O1(!!(A!!&amp;R6*&lt;H2F=G:B9W6/&lt;W2F,GRW9WRB=X-!$(*F:G6S:7ZD:3"J&lt;A!!"!!!!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!#"!5!!$!!)!!Q!%%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!,E"Q!"Y!!"=637ZU:8*G97.F4G^E:3ZM&gt;G.M98.T!!VS:7:F=G6O9W5A&lt;X6U!":!5!!$!!)!!Q!%#76S=G^S)'^V&gt;!#%!0!!&amp;!!!!!%!!1!"!!%!"1!"!!%!!1!"!!%!!1!"!!%!"A!"!!%!!1!"!!=$!!%1!!#3!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)U!!!!!!!!!!!!!!!!!!!!!!!!!$15!!!!"!!A!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1351361040</Property>
+	</Item>
 </LVClass>
