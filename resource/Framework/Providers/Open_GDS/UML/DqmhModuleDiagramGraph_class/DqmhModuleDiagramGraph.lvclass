@@ -68,7 +68,7 @@
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 		<Item Name="DqmhModuleDiagramGraph_GetClassAttributes.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DqmhModuleDiagramGraph_class/utils/DqmhModuleDiagramGraph_GetClassAttributes.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!,Q!!!!%Q!Y1(!!(A!!)"Z%=7VI47^E&gt;7RF2'FB:X*B&lt;5&gt;S98"I,GRW9WRB=X-!!!RS:7:F=G6O9W5A;7Y!!!1!!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!#!!-!"".F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$B!=!!?!!!A(E2R&lt;7B.&lt;W2V&lt;'6%;7&amp;H=G&amp;N2X*B='AO&lt;(:D&lt;'&amp;T=Q!!$8*F:G6S:7ZD:3"P&gt;81!+E"Q!"Y!!"9517*T&gt;(*B9X2/&lt;W2F,GRW9WRB=X-!!!FS:7:F=G6O9W5!&amp;E"!!!(`````!!=*4E^%26^15E^5!""!-0````]'5X2S;7ZH!!!71%!!!@````]!#1F/&lt;W2F4G&amp;N:8-!+%"Q!"Y!!"9517*T&gt;(*B9X2&amp;:'&gt;F,GRW9WRB=X-!!!&gt;O&lt;W2F5G6G!":!1!!"`````Q!,#56%2U6@5&amp;*06!!71%!!!@````]!#1F&amp;:'&gt;F4G&amp;N:8-!3!$RR-=S4A!!!!).2X*B='AO&lt;(:D&lt;'&amp;T=R.$&lt;'&amp;T=U&amp;U&gt;(*J9H6U:8-O9X2M!"Z!5!!%!!A!#A!-!!U+1G&amp;T:3"D&lt;'&amp;T=Q!!6Q$RW:P0\A!!!!)?2(&amp;N;%VP:(6M:52J97&gt;S97V(=G&amp;Q;#ZM&gt;G.M98.T%U.M98.T182U=GFC&gt;82F=SZD&gt;'Q!(%"1!!%!$A^$&lt;'&amp;T=S"B&gt;(2S;7*V&gt;'5!*5"Q!#!!!1!0!"F$&lt;'&amp;T=S"B&gt;(2S;7*V&gt;'5A5G6G:8*F&lt;G.F!":!5!!$!!)!!Q!%#76S=G^S)'^V&gt;!#:!0!!&amp;!!!!!%!!1!"!!%!"1!"!!%!!1!"!!%!!1!"!!%!"A!0!!%!%!!"!"%$!!%1!!!)!!!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!U!!!!*!!!!!!!!!!E!!!!!!!!!$15!&amp;1!!!!!!!!!!!!!!!!!!!1!!!!!!!!!"!")!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!.W!!!!'!!Y1(!!(A!!)"Z%=7VI47^E&gt;7RF2'FB:X*B&lt;5&gt;S98"I,GRW9WRB=X-!!!RS:7:F=G6O9W5A;7Y!!!1!!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!#!!-!"".F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$B!=!!?!!!A(E2R&lt;7B.&lt;W2V&lt;'6%;7&amp;H=G&amp;N2X*B='AO&lt;(:D&lt;'&amp;T=Q!!$8*F:G6S:7ZD:3"P&gt;81!+E"Q!"Y!!"9517*T&gt;(*B9X2/&lt;W2F,GRW9WRB=X-!!!FS:7:F=G6O9W5!&amp;E"!!!(`````!!=*4E^%26^15E^5!""!-0````]'5X2S;7ZH!!!71%!!!@````]!#1F/&lt;W2F4G&amp;N:8-!+%"Q!"Y!!"9517*T&gt;(*B9X2&amp;:'&gt;F,GRW9WRB=X-!!!&gt;O&lt;W2F5G6G!":!1!!"`````Q!,#56%2U6@5&amp;*06!!71%!!!@````]!#1F&amp;:'&gt;F4G&amp;N:8-!(E"Q!"Y!!!].2X*B='AO&lt;(:D&lt;'&amp;T=Q!&amp;2X*B='A!'%"!!!(`````!!Y+2X*B='B5?8"F=Q!!(%"!!!(`````!!E/2X*B='B5?8"F4G&amp;N:8-!!":!1!!"`````Q!(#5ZP:'65?8"F=Q!71%!!!@````]!#QF&amp;:'&gt;F6(FQ:8-!5!$RW;R;]Q!!!!).2X*B='AO&lt;(:D&lt;'&amp;T=R.$&lt;'&amp;T=U&amp;U&gt;(*J9H6U:8-O9X2M!#:!5!!)!!A!#A!-!!U!$Q!1!"%!%AJ#98.F)'.M98.T!!"8!0(:G]`O!!!!!BZ%=7VI47^E&gt;7RF2'FB:X*B&lt;5&gt;S98"I,GRW9WRB=X-41WRB=X."&gt;(2S;7*V&gt;'6T,G.U&lt;!!=1&amp;!!!1!4$U.M98.T)'&amp;U&gt;(*J9H6U:1!F1(!!)!!"!"1!'5.M98.T)'&amp;U&gt;(*J9H6U:3"3:7:F=G6O9W5!&amp;E"1!!-!!A!$!!1*:8*S&lt;X)A&lt;X6U!*E!]!!5!!!!!1!"!!%!!1!&amp;!!%!!1!"!!%!!1!"!!%!!1!'!"1!!1!6!!%!&amp;A-!!2!!!!A!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!$1!!!!E!!!!!!!!!#1!!!!!!!!!."1!6!!!!!!!!!!!!!!!!!!!"!!!!!!!!!!%!&amp;Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">8192</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
@@ -188,12 +188,40 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1351361040</Property>
 	</Item>
 	<Item Name="CreateToolbarObject.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DqmhModuleDiagramGraph_class/CreateToolbarObject.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)=!!!!$A!Y1(!!(A!!)"Z%=7VI47^E&gt;7RF2'FB:X*B&lt;5&gt;S98"I,GRW9WRB=X-!!!RS:7:F=G6O9W5A;7Y!!!1!!!!21!=!#U&gt;S98"I1H6U&gt;'^O!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!#"!5!!$!!-!"!!&amp;%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!/%"Q!"Y!!#!?2(&amp;N;%VP:(6M:52J97&gt;S97V(=G&amp;Q;#ZM&gt;G.M98.T!!!.=G6G:8*F&lt;G.F)'^V&gt;!"%!0']0]8/!!!!!2:645R&amp;:'FU&lt;X)A&gt;'^P&lt;(2Z='5O9X2M!#6!&amp;A!$"%ZP&lt;G5%4G^E:12&amp;:'&gt;F!!!)&gt;'^P&lt;&amp;2Z='5!!#:!=!!?!!!7&amp;%&amp;C=X2S97.U272H:3ZM&gt;G.M98.T!!!%272H:1!!*E"Q!"Y!!"9517*T&gt;(*B9X2/&lt;W2F,GRW9WRB=X-!!!2/&lt;W2F!!!?1$$`````&amp;5*V&gt;(2P&lt;EZB&lt;76$&lt;WVQ=G6T=W6E+1!71&amp;!!!Q!$!!1!"1FF=H*P=C"P&gt;81!B!$Q!"1!!!!"!!)!!1!"!!9!!1!"!!%!!1!"!!%!!1!"!!=!#!!*!!I!#Q!-!Q!"%!!!EA!!!!!!!!!1!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#.!!!!#1!!!!E!!!!*!!!!#1!!!!U&amp;!!!!!1!.!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)=!!!!$A!Y1(!!(A!!)"Z%=7VI47^E&gt;7RF2'FB:X*B&lt;5&gt;S98"I,GRW9WRB=X-!!!RS:7:F=G6O9W5A;7Y!!!1!!!!21!=!#U&gt;S98"I1H6U&gt;'^O!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!#"!5!!$!!-!"!!&amp;%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!/%"Q!"Y!!#!?2(&amp;N;%VP:(6M:52J97&gt;S97V(=G&amp;Q;#ZM&gt;G.M98.T!!!.=G6G:8*F&lt;G.F)'^V&gt;!"%!0']0]8/!!!!!2:645R&amp;:'FU&lt;X)A&gt;'^P&lt;(2Z='5O9X2M!#6!&amp;A!$"%ZP&lt;G5%4G^E:12&amp;:'&gt;F!!!)&gt;'^P&lt;&amp;2Z='5!!#:!=!!?!!!7&amp;%&amp;C=X2S97.U272H:3ZM&gt;G.M98.T!!!%272H:1!!*E"Q!"Y!!"9517*T&gt;(*B9X2/&lt;W2F,GRW9WRB=X-!!!2/&lt;W2F!!!?1$$`````&amp;5*V&gt;(2P&lt;EZB&lt;76$&lt;WVQ=G6T=W6E+1!71&amp;!!!Q!$!!1!"1FF=H*P=C"P&gt;81!B!$Q!"1!!!!"!!)!!1!"!!9!!1!"!!%!!1!"!!%!!1!"!!=!#!!*!!I!#Q!-!Q!"%!!!EA!!!!!!!!!)!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#.!!!!#1!!!!E!!!!*!!!!#1!!!!U&amp;!!!!!1!.!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+	</Item>
+	<Item Name="GetGraphTypeInfo.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DqmhModuleDiagramGraph_class/GetGraphTypeInfo.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!),!!!!$Q!Y1(!!(A!!)"Z%=7VI47^E&gt;7RF2'FB:X*B&lt;5&gt;S98"I,GRW9WRB=X-!!!RS:7:F=G6O9W5A;7Y!!!1!!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!#!!-!"".F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$B!=!!?!!!A(E2R&lt;7B.&lt;W2V&lt;'6%;7&amp;H=G&amp;N2X*B='AO&lt;(:D&lt;'&amp;T=Q!!$8*F:G6S:7ZD:3"P&gt;81!&amp;E!Q`````QV(=G&amp;Q;&amp;2Z='6/97VF!#J!=!!?!!!7&amp;%&amp;C=X2S97.U4G^E:3ZM&gt;G.M98.T!!!*=G6G:8*F&lt;G.F!":!1!!"`````Q!)#5ZP:'65?8"F=Q!I1(!!(A!!&amp;B2"9H.U=G&amp;D&gt;%6E:W5O&lt;(:D&lt;'&amp;T=Q!!"WZP:'63:79!&amp;E"!!!(`````!!I*272H:62Z='6T!"J!-0````]22X*B='B5?8"F68.F=EZB&lt;75!&amp;E"1!!-!!A!$!!1*:8*S&lt;X)A&lt;X6U!)1!]!!5!!!!!1!"!!%!!1!&amp;!!%!!1!"!!%!!1!"!!%!!1!'!!=!#1!,!!Q!$1-!!2!!!*)!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!D1!!!!E!!!!*!!!!#1!!!!E!!!!."1!!!!%!$A!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">33554432</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1342972432</Property>
+	</Item>
+	<Item Name="FactoryCreate.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DqmhModuleDiagramGraph_class/FactoryCreate.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&gt;!!!!#1!Y1(!!(A!!)"Z%=7VI47^E&gt;7RF2'FB:X*B&lt;5&gt;S98"I,GRW9WRB=X-!!!RS:7:F=G6O9W5A;7Y!!!1!!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!#!!-!"".F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$B!=!!?!!!A(E2R&lt;7B.&lt;W2V&lt;'6%;7&amp;H=G&amp;N2X*B='AO&lt;(:D&lt;'&amp;T=Q!!$8*F:G6S:7ZD:3"P&gt;81!&amp;E"1!!-!!A!$!!1*:8*S&lt;X)A&lt;X6U!)1!]!!5!!!!!1!"!!%!!1!&amp;!!%!!1!"!!%!!1!"!!%!!1!'!!%!!1!"!!%!"Q-!!2!!!*)!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!D1!!!!!!!!!!!!!!!!!!!!!!!!!."1!!!!%!#!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1351361040</Property>
+		<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
+	</Item>
+	<Item Name="GetDiagramHelpText.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DqmhModuleDiagramGraph_class/GetDiagramHelpText.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'A!!!!$1!G1(!!(A!!$QV(=G&amp;Q;#ZM&gt;G.M98.T!!RS:7:F=G6O9W5A;7Y!!!1!!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!#!!-!"".F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#:!=!!?!!!0$5&gt;S98"I,GRW9WRB=X-!$8*F:G6S:7ZD:3"P&gt;81!%%!Q`````Q:):7&amp;E:8)!!""!-`````](5'FD&gt;(6S:1!/1$$`````"&amp;2F?(1!!$E!]1!!!!!!!!!"'%.P&lt;H2F?(2):7RQ8V.I&lt;X&gt;5?8"F,G.U&lt;!!91&amp;!!!Q!(!!A!#1&gt;):7RQ4X6U!":!5!!$!!)!!Q!%#76S=G^S)'^V&gt;!#%!0!!&amp;!!!!!%!!1!"!!%!"1!"!!%!!1!"!!%!!1!"!!%!"A!"!!I!!1!"!!M$!!%1!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)U!!!!!!!!!#1!!!!!!!!!!!!!!$15!!!!"!!Q!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">2</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
 	</Item>
 </LVClass>
