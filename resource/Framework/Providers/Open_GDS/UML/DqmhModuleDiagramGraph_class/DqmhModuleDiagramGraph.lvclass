@@ -224,4 +224,13 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1342972416</Property>
 	</Item>
+	<Item Name="AllowEdgeStartCheck.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DqmhModuleDiagramGraph_class/AllowEdgeStartCheck.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'I!!!!$!!Y1(!!(A!!)"Z%=7VI47^E&gt;7RF2'FB:X*B&lt;5&gt;S98"I,GRW9WRB=X-!!!RS:7:F=G6O9W5A;7Y!!#Z!=!!?!!!7&amp;%&amp;C=X2S97.U4G^E:3ZM&gt;G.M98.T!!!.272H:6.U98*U4G^E:1!21!=!#U&gt;S98"I1H6U&gt;'^O!!1!!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!%!!5!"B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$B!=!!?!!!A(E2R&lt;7B.&lt;W2V&lt;'6%;7&amp;H=G&amp;N2X*B='AO&lt;(:D&lt;'&amp;T=Q!!$8*F:G6S:7ZD:3"P&gt;81!$%!B"U&amp;M&lt;'^X:71!&amp;E"1!!-!"!!&amp;!!9*:8*S&lt;X)A&lt;X6U!)1!]!!5!!!!!1!#!!-!!Q!(!!-!!Q!$!!-!!Q!$!!-!!Q!)!!-!#1!$!!-!#A-!!2!!!*)!!!!1!!!!%!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!D1!!!!!!!!!*!!!!!!!!!!!!!!!."1!!!!%!#Q!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1351361040</Property>
+	</Item>
 </LVClass>
