@@ -134,6 +134,7 @@
 			<Item Name="StateNode.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/StateNode_class/StateNode.lvclass"/>
 			<Item Name="SystemNode.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/SystemNode_class/SystemNode.lvclass"/>
 			<Item Name="UseCaseNode.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/UseCaseNode_class/UseCaseNode.lvclass"/>
+			<Item Name="VINode.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/VINode_class/VINode.lvclass"/>
 		</Item>
 		<Item Name="UMLEditor" Type="Folder" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/UMLEditor">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -411,6 +412,7 @@
 			<Item Name="DesignPatterns_Pattern.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DesignPattern/SubVIs/DesignPatterns_Pattern.ctl"/>
 			<Item Name="DesignPatterns_UpdateTreeControl.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DesignPattern/SubVIs/DesignPatterns_UpdateTreeControl.vi"/>
 			<Item Name="Error_ClearError.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Error/Error_ClearError.vi"/>
+			<Item Name="EventType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/VINode_class/EventType.ctl"/>
 			<Item Name="File_ApplicationPaths.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_ApplicationPaths.vi"/>
 			<Item Name="File_CreateFolders.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_CreateFolders.vi"/>
 			<Item Name="File_StingToPath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_StingToPath.vi"/>
