@@ -36,6 +36,15 @@
 	</Item>
 	<Item Name="private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Item Name="AdjustModuleNameAndPath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DQMHModuleNode_class/private/AdjustModuleNameAndPath.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$U!!!!#1!31#%-5G6M982J&gt;G61982I!!!51$,`````#EVP:(6M:6"B&gt;'A!!!1!!!!71$$`````$5VP:(6M:5ZB&lt;760&gt;81!&amp;E!S`````QV0&lt;'2.&lt;W2V&lt;'61982I!":!-P````].4G6X47^E&gt;7RF5'&amp;U;!!71$$`````$5^M:%VP:(6M:5ZB&lt;75!&amp;E!Q`````QV/:8&gt;.&lt;W2V&lt;'6/97VF!&amp;1!]!!-!!!!!1!#!!-!!A!#!!)!!A!%!!5!"A!(!Q!!?!!!#1!!!!E!!!!!!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!%!!!!AA!!!)1!!!!!!%!#!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1073741826</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082393104</Property>
+		</Item>
 		<Item Name="DirectionConnectionType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DQMHModuleNode_class/private/DirectionConnectionType.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#'!!!!!Q!:1"9!!1!!!!^"=X.P9WFB&gt;'FP&lt;F2Z='5!$5!$!!:0:G:T:81!!&amp;A!]1!!!!!!!!!#%5.M98.T4G^E:3ZM&gt;G.M98.T'U2J=G6D&gt;'FP&lt;E.P&lt;GZF9X2J&lt;WZ5?8"F,G.U&lt;!!C1&amp;!!!A!!!!%42'FS:7.U;7^O1W^O&lt;G6D&gt;'^S=Q!"!!)!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
