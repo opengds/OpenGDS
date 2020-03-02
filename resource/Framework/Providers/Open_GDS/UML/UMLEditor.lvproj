@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="14008000">
+<Project Type="Project" LVVersion="16008000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -297,6 +297,7 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="lv_icon.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/lv_icon.lvlib"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="LVDeltaXY32Cluster.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDeltaXY32Cluster.ctl"/>
 				<Item Name="lveventtype.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/lveventtype.ctl"/>
 				<Item Name="LVMenuShortCut.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMenuShortCut.ctl"/>
 				<Item Name="LVNodeAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVNodeAndColumnTypeDef.ctl"/>
@@ -312,6 +313,7 @@
 				<Item Name="Menu Launch VI Information.vi" Type="VI" URL="/&lt;vilib&gt;/VIServer/Menu Launch VI Information.vi"/>
 				<Item Name="New VI Library.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/New VI Library.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
@@ -339,6 +341,7 @@
 				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
 				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
+				<Item Name="Remove and Rewire Objects_core.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/Remove and Rewire Objects_core.vi"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Scripting DQMH Help.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH Project Template/_support/Scripting DQMH Help.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
@@ -445,6 +448,40 @@
 			<Item Name="ContextHelp_SplitString.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ContextHelp/ContextHelp_SplitString.vi"/>
 			<Item Name="ContextHelp_StartPopUpTask.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ContextHelp/ContextHelp_StartPopUpTask.vi"/>
 			<Item Name="ContextHelp_StopPopUpTask.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ContextHelp/ContextHelp_StopPopUpTask.vi"/>
+			<Item Name="Delacor - Align 1 Row of FP Controls.vi" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Align 1 Row of FP Controls.vi"/>
+			<Item Name="Delacor - Arrange BD.vi" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Arrange BD.vi"/>
+			<Item Name="Delacor - Arrange FP Controls Columns.vi" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Arrange FP Controls Columns.vi"/>
+			<Item Name="Delacor - Arrange FP Controls Rows.vi" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Arrange FP Controls Rows.vi"/>
+			<Item Name="Delacor - Arrange FP Controls.vi" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Arrange FP Controls.vi"/>
+			<Item Name="Delacor - Arrange FP.vi" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Arrange FP.vi"/>
+			<Item Name="Delacor - Arrange Other FP Objects.vi" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Arrange Other FP Objects.vi"/>
+			<Item Name="Delacor - Compute Bound on Grid.vi" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Compute Bound on Grid.vi"/>
+			<Item Name="Delacor - Compute Top Row Vertical Delta.vi" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Compute Top Row Vertical Delta.vi"/>
+			<Item Name="Delacor - Compute Window Bounds.vi" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Compute Window Bounds.vi"/>
+			<Item Name="Delacor - Ensure Leftmost BD Object Is Visible.vi" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Ensure Leftmost BD Object Is Visible.vi"/>
+			<Item Name="Delacor - Establish Window Bounds.vi" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Establish Window Bounds.vi"/>
+			<Item Name="Delacor - Filter FP Conn Pane Controls.vi" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Filter FP Conn Pane Controls.vi"/>
+			<Item Name="Delacor - FP Control Info.ctl" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - FP Control Info.ctl"/>
+			<Item Name="Delacor - FP Objects Arrangement Info.ctl" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - FP Objects Arrangement Info.ctl"/>
+			<Item Name="Delacor - Get BD Canvas Margin.vi" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Get BD Canvas Margin.vi"/>
+			<Item Name="Delacor - Get Display Workspace Bounds.vi" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Get Display Workspace Bounds.vi"/>
+			<Item Name="Delacor - Get FP Controls Max Bottom.vi" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Get FP Controls Max Bottom.vi"/>
+			<Item Name="Delacor - Get FP Controls Rows.vi" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Get FP Controls Rows.vi"/>
+			<Item Name="Delacor - Get FP Objects Arrangement Info.vi" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Get FP Objects Arrangement Info.vi"/>
+			<Item Name="Delacor - Get Min Window Dimensions.vi" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Get Min Window Dimensions.vi"/>
+			<Item Name="Delacor - Get Window Gaps.vi" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Get Window Gaps.vi"/>
+			<Item Name="Delacor - Get Window INI tokens.vi" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Get Window INI tokens.vi"/>
+			<Item Name="Delacor - Get Window Margins.vi" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Get Window Margins.vi"/>
+			<Item Name="Delacor - Min Window Dimensions.ctl" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Min Window Dimensions.ctl"/>
+			<Item Name="Delacor - Move All BD Objects.vi" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Move All BD Objects.vi"/>
+			<Item Name="Delacor - Order FP Conn Pane Controls.vi" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Order FP Conn Pane Controls.vi"/>
+			<Item Name="Delacor - Rectangle Dimensions.ctl" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Rectangle Dimensions.ctl"/>
+			<Item Name="Delacor - Resize BD.vi" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Resize BD.vi"/>
+			<Item Name="Delacor - Resize FP.vi" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Resize FP.vi"/>
+			<Item Name="Delacor - Space FP Controls.vi" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Space FP Controls.vi"/>
+			<Item Name="Delacor - Window Gaps.ctl" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Window Gaps.ctl"/>
+			<Item Name="Delacor - Window Margins.ctl" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Window Margins.ctl"/>
+			<Item Name="Delacor - Window Type.ctl" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Window Type.ctl"/>
 			<Item Name="DesignPatterns_Attribute.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DesignPattern/SubVIs/DesignPatterns_Attribute.ctl"/>
 			<Item Name="DesignPatterns_ClassNodeData.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DesignPattern/SubVIs/DesignPatterns_ClassNodeData.ctl"/>
 			<Item Name="DesignPatterns_DrawNodesAndLinks.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DesignPattern/SubVIs/DesignPatterns_DrawNodesAndLinks.vi"/>
@@ -558,6 +595,7 @@
 			<Item Name="GDSString_SetTextStyle.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_SetTextStyle.vi"/>
 			<Item Name="GDSString_SplitStrings.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_SplitStrings.vi"/>
 			<Item Name="GDSString_XmlEnumToStringValue.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_XmlEnumToStringValue.vi"/>
+			<Item Name="Get Module Main Private Virtual Folder.vi" Type="VI" URL="../../../../../../project/Delacor/DQMH/_DQMH Validate Module/fixers/support/Get Module Main Private Virtual Folder.vi"/>
 			<Item Name="GetTagAttributes.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DesignPattern/SubVIs/GetTagAttributes.vi"/>
 			<Item Name="GOOP300_FindFilesToExchange.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/GOOP300_SubVIs/GOOP300_FindFilesToExchange.vi"/>
 			<Item Name="GOOP300_RemoveUnwantedChars.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/GOOP300_SubVIs/GOOP300_RemoveUnwantedChars.vi"/>
@@ -609,12 +647,12 @@
 			<Item Name="LV Config Read Pathlist.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Pathlist.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="LV Config Read.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read.vi"/>
-			<Item Name="LV Config Write Boolean.vi" Type="VI" URL="/&lt;resource&gt;/Dialog/lvconfig.llb/LV Config Write Boolean.vi"/>
-			<Item Name="LV Config Write Color.vi" Type="VI" URL="/&lt;resource&gt;/Dialog/lvconfig.llb/LV Config Write Color.vi"/>
-			<Item Name="LV Config Write Numeric (I32).vi" Type="VI" URL="/&lt;resource&gt;/Dialog/lvconfig.llb/LV Config Write Numeric (I32).vi"/>
-			<Item Name="LV Config Write Pathlist.vi" Type="VI" URL="/&lt;resource&gt;/Dialog/lvconfig.llb/LV Config Write Pathlist.vi"/>
-			<Item Name="LV Config Write String.vi" Type="VI" URL="/&lt;resource&gt;/Dialog/lvconfig.llb/LV Config Write String.vi"/>
-			<Item Name="LV Config Write.vi" Type="VI" URL="/&lt;resource&gt;/Dialog/lvconfig.llb/LV Config Write.vi"/>
+			<Item Name="LV Config Write Boolean.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Write Boolean.vi"/>
+			<Item Name="LV Config Write Color.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Write Color.vi"/>
+			<Item Name="LV Config Write Numeric (I32).vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Write Numeric (I32).vi"/>
+			<Item Name="LV Config Write Pathlist.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Write Pathlist.vi"/>
+			<Item Name="LV Config Write String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Write String.vi"/>
+			<Item Name="LV Config Write.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Write.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MM.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/AF/MM.vi"/>
 			<Item Name="MM_CleanUpPanel.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/AF/MM_CleanUpPanel.vi"/>
