@@ -36,7 +36,6 @@
 			<Item Name="ContextHelp_EventType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ContextHelp/ContextHelp_EventType.ctl"/>
 			<Item Name="ContextHelp_HelpTexts.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ContextHelp/ContextHelp_HelpTexts.ctl"/>
 			<Item Name="ContextHelp_ShowType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ContextHelp/ContextHelp_ShowType.ctl"/>
-			<Item Name="DesignPatterns_LinkType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DesignPattern/SubVIs/DesignPatterns_LinkType.ctl"/>
 			<Item Name="DesignPatternsData.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/DesignPatternsData.ctl"/>
 			<Item Name="EndevoG4ProviderName.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/EndevoG4ProviderName.ctl"/>
 			<Item Name="EndevoG4TemplateNames.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/EndevoG4TemplateNames.ctl"/>
@@ -79,15 +78,6 @@
 			<Item Name="Point Point2D.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/General/Point/Point Point2D.ctl"/>
 			<Item Name="Rectangle DirectionToTest.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/General/Rectangle/Rectangle DirectionToTest.ctl"/>
 			<Item Name="Rectangle Rectangle2D.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/General/Rectangle/Rectangle Rectangle2D.ctl"/>
-			<Item Name="ReversedEngineering AttributeInfoType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering AttributeInfoType.ctl"/>
-			<Item Name="ReversedEngineering QueuedStateMachinMemoryAction.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering QueuedStateMachinMemoryAction.ctl"/>
-			<Item Name="ReversedEngineering StateAnalyseVIAction.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering StateAnalyseVIAction.ctl"/>
-			<Item Name="ReversedEngineering StateDiagramCommentSearchType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering StateDiagramCommentSearchType.ctl"/>
-			<Item Name="ReversedEngineering StateDiagramReverseOptions.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering StateDiagramReverseOptions.ctl"/>
-			<Item Name="ReversedEngineering StateDiagramSerachActions.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering StateDiagramSerachActions.ctl"/>
-			<Item Name="ReversedEngineering StateMachineStateInfo.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering StateMachineStateInfo.ctl"/>
-			<Item Name="ReversedEngineering TypeDefType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering TypeDefType.ctl"/>
-			<Item Name="ReversedEngineering_ViDependencyDetailsType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering_ViDependencyDetailsType.ctl"/>
 			<Item Name="Scripting_ConnectorPanePatternType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ConnectorPanePatternType.ctl"/>
 			<Item Name="Scripting_ObjectType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ObjectType.ctl"/>
 			<Item Name="Scripting_VIClassDependency.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_VIClassDependency.ctl"/>
@@ -141,6 +131,23 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="UMLEditor" Type="Folder" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/UMLEditor">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="Common" Type="Folder">
+			<Item Name="ClassReader.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/ClassReader_class/ClassReader.lvclass"/>
+			<Item Name="ClassReaderGOOP300.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/ClassReaderGOOP300_class/ClassReaderGOOP300.lvclass"/>
+			<Item Name="ClassReaderGOOP400.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/ClassReaderGOOP400_class/ClassReaderGOOP400.lvclass"/>
+			<Item Name="ClassReaderNative.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/ClassReaderNative_class/ClassReaderNative.lvclass"/>
+			<Item Name="ClassWriter.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/ClassWriter_class/ClassWriter.lvclass"/>
+			<Item Name="ClassWriterGOOP300.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/ClassWriterGOOP300_class/ClassWriterGOOP300.lvclass"/>
+			<Item Name="ClassWriterGOOP400.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/ClassWriterGOOP400_class/ClassWriterGOOP400.lvclass"/>
+			<Item Name="ClassWriterNative.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/ClassWriterNative_class/ClassWriterNative.lvclass"/>
+			<Item Name="Scripting.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting.lvclass"/>
+		</Item>
+		<Item Name="DesignPattern" Type="Folder" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DesignPattern">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="ReversedEngineering" Type="Folder" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="DQMH_API.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DQMH_API_class/DQMH_API.lvclass"/>
@@ -222,6 +229,8 @@
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="Escape Characters for HTTP.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Escape Characters for HTTP.vi"/>
+				<Item Name="Escape XML.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Escape XML.vi"/>
+				<Item Name="EscapeChars.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/EscapeChars.vi"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
@@ -313,7 +322,6 @@
 				<Item Name="Menu Launch VI Information.vi" Type="VI" URL="/&lt;vilib&gt;/VIServer/Menu Launch VI Information.vi"/>
 				<Item Name="New VI Library.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/New VI Library.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
-				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
@@ -341,7 +349,6 @@
 				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
 				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
-				<Item Name="Remove and Rewire Objects_core.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/Remove and Rewire Objects_core.vi"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Scripting DQMH Help.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH Project Template/_support/Scripting DQMH Help.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
@@ -410,14 +417,6 @@
 			<Item Name="BaseProvider_PlugInManager.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_PlugInManager.vi"/>
 			<Item Name="ByViServerInterfaceTemplate_CreateClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/CommonClasses/ByViServerInterfaceTemplate_CreateClass.vi"/>
 			<Item Name="CheckIfGoop2VI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/ClassReader_class/CheckIfGoop2VI.vi"/>
-			<Item Name="ClassReader.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/ClassReader_class/ClassReader.lvclass"/>
-			<Item Name="ClassReaderGOOP300.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/ClassReaderGOOP300_class/ClassReaderGOOP300.lvclass"/>
-			<Item Name="ClassReaderGOOP400.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/ClassReaderGOOP400_class/ClassReaderGOOP400.lvclass"/>
-			<Item Name="ClassReaderNative.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/ClassReaderNative_class/ClassReaderNative.lvclass"/>
-			<Item Name="ClassWriter.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/ClassWriter_class/ClassWriter.lvclass"/>
-			<Item Name="ClassWriterGOOP300.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/ClassWriterGOOP300_class/ClassWriterGOOP300.lvclass"/>
-			<Item Name="ClassWriterGOOP400.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/ClassWriterGOOP400_class/ClassWriterGOOP400.lvclass"/>
-			<Item Name="ClassWriterNative.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/ClassWriterNative_class/ClassWriterNative.lvclass"/>
 			<Item Name="Common_DoesClassExist.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/Common_DoesClassExist.vi"/>
 			<Item Name="CommonVIs ClassItemStringParser.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs ClassItemStringParser.vi"/>
 			<Item Name="CommonVIs RemoveWhiteSpace.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs RemoveWhiteSpace.vi"/>
@@ -482,23 +481,10 @@
 			<Item Name="Delacor - Window Gaps.ctl" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Window Gaps.ctl"/>
 			<Item Name="Delacor - Window Margins.ctl" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Window Margins.ctl"/>
 			<Item Name="Delacor - Window Type.ctl" Type="VI" URL="../../../../../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Window Type.ctl"/>
-			<Item Name="DesignPatterns_Attribute.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DesignPattern/SubVIs/DesignPatterns_Attribute.ctl"/>
-			<Item Name="DesignPatterns_ClassNodeData.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DesignPattern/SubVIs/DesignPatterns_ClassNodeData.ctl"/>
-			<Item Name="DesignPatterns_DrawNodesAndLinks.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DesignPattern/SubVIs/DesignPatterns_DrawNodesAndLinks.vi"/>
-			<Item Name="DesignPatterns_GetAttributesAndMethods.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DesignPattern/SubVIs/DesignPatterns_GetAttributesAndMethods.vi"/>
-			<Item Name="DesignPatterns_GetNoteTextAndLinks.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DesignPattern/SubVIs/DesignPatterns_GetNoteTextAndLinks.vi"/>
-			<Item Name="DesignPatterns_InterfaceNodeData.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DesignPattern/SubVIs/DesignPatterns_InterfaceNodeData.ctl"/>
-			<Item Name="DesignPatterns_Link.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DesignPattern/SubVIs/DesignPatterns_Link.ctl"/>
-			<Item Name="DesignPatterns_Method.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DesignPattern/SubVIs/DesignPatterns_Method.ctl"/>
-			<Item Name="DesignPatterns_Node.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DesignPattern/SubVIs/DesignPatterns_Node.ctl"/>
-			<Item Name="DesignPatterns_NodeType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DesignPattern/SubVIs/DesignPatterns_NodeType.ctl"/>
-			<Item Name="DesignPatterns_NoteLink.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DesignPattern/SubVIs/DesignPatterns_NoteLink.ctl"/>
-			<Item Name="DesignPatterns_NoteNodeData.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DesignPattern/SubVIs/DesignPatterns_NoteNodeData.ctl"/>
-			<Item Name="DesignPatterns_Pattern.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DesignPattern/SubVIs/DesignPatterns_Pattern.ctl"/>
-			<Item Name="DesignPatterns_UpdateTreeControl.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DesignPattern/SubVIs/DesignPatterns_UpdateTreeControl.vi"/>
 			<Item Name="DQMH Create RT Tester.lvlib" Type="Library" URL="../../../../../../project/Delacor/DQMH/_DQMH Create RT Tester/DQMH Create RT Tester.lvlib"/>
 			<Item Name="DQMH New Event.lvlib" Type="Library" URL="../../../../../../project/Delacor/DQMH/_DQMH New Event/DQMH New Event.lvlib"/>
 			<Item Name="DQMH New Module.lvlib" Type="Library" URL="../../../../../../project/Delacor/DQMH/_DQMH New Module/DQMH New Module.lvlib"/>
+			<Item Name="DQMH New Unit Test.lvlib" Type="Library" URL="../../../../../../project/Delacor/DQMH/_DQMH New Unit Test/DQMH New Unit Test.lvlib"/>
 			<Item Name="DQMH Remove Do Something.lvlib" Type="Library" URL="../../../../../../project/Delacor/DQMH/_DQMH Remove Do Something/DQMH Remove Do Something.lvlib"/>
 			<Item Name="DQMH Remove Event.lvlib" Type="Library" URL="../../../../../../project/Delacor/DQMH/_DQMH Remove Event/DQMH Remove Event.lvlib"/>
 			<Item Name="Error_ClearError.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Error/Error_ClearError.vi"/>
@@ -596,7 +582,6 @@
 			<Item Name="GDSString_SplitStrings.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_SplitStrings.vi"/>
 			<Item Name="GDSString_XmlEnumToStringValue.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_XmlEnumToStringValue.vi"/>
 			<Item Name="Get Module Main Private Virtual Folder.vi" Type="VI" URL="../../../../../../project/Delacor/DQMH/_DQMH Validate Module/fixers/support/Get Module Main Private Virtual Folder.vi"/>
-			<Item Name="GetTagAttributes.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DesignPattern/SubVIs/GetTagAttributes.vi"/>
 			<Item Name="GOOP300_FindFilesToExchange.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/GOOP300_SubVIs/GOOP300_FindFilesToExchange.vi"/>
 			<Item Name="GOOP300_RemoveUnwantedChars.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/GOOP300_SubVIs/GOOP300_RemoveUnwantedChars.vi"/>
 			<Item Name="GOOP400_ConfigurationMemory.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/GOOP400_SubVIs/GOOP400_ConfigurationMemory.vi"/>
@@ -675,7 +660,6 @@
 			<Item Name="Point getDistance.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/General/Point/Point getDistance.vi"/>
 			<Item Name="Point getDistanceToLine.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/General/Point/Point getDistanceToLine.vi"/>
 			<Item Name="Point getValues.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/General/Point/Point getValues.vi"/>
-			<Item Name="ReadPatternFile.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DesignPattern/ReadPatternFile.vi"/>
 			<Item Name="Rectangel Add.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/General/Rectangle/Rectangel Add.vi"/>
 			<Item Name="Rectangel ContainsInBound.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/General/Rectangle/Rectangel ContainsInBound.vi"/>
 			<Item Name="Rectangel GetRectCornerPoints.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/General/Rectangle/private/Rectangel GetRectCornerPoints.vi"/>
@@ -686,60 +670,6 @@
 			<Item Name="Rectangel RectangleOverlap.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/General/Rectangle/private/Rectangel RectangleOverlap.vi"/>
 			<Item Name="Rectangel StraightenLineBetweenRectangles.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/General/Rectangle/private/Rectangel StraightenLineBetweenRectangles.vi"/>
 			<Item Name="Remove and Rewire.vi" Type="VI" URL="/&lt;resource&gt;/dialog/QuickDrop/plugins/Remove and Rewire.vi"/>
-			<Item Name="ReversedEngineering AnalyseStateMachineWhileLoop.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering AnalyseStateMachineWhileLoop.vi"/>
-			<Item Name="ReversedEngineering AttributesTypeToString.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering AttributesTypeToString.vi"/>
-			<Item Name="ReversedEngineering CheckCtlStereoType.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering CheckCtlStereoType.vi"/>
-			<Item Name="ReversedEngineering CheckStateStringTransation.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering CheckStateStringTransation.vi"/>
-			<Item Name="ReversedEngineering ClassInfoType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering ClassInfoType.ctl"/>
-			<Item Name="ReversedEngineering ConvertAttributesAndMethodsToString.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering ConvertAttributesAndMethodsToString.vi"/>
-			<Item Name="ReversedEngineering ConvertTypeDefsAttributesToString.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering ConvertTypeDefsAttributesToString.vi"/>
-			<Item Name="ReversedEngineering CountNoOfObjectAggregations.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering CountNoOfObjectAggregations.vi"/>
-			<Item Name="ReversedEngineering CreateEdges.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering CreateEdges.vi"/>
-			<Item Name="ReversedEngineering CreateNodes.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering CreateNodes.vi"/>
-			<Item Name="ReversedEngineering CreateOneStateNode.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering CreateOneStateNode.vi"/>
-			<Item Name="ReversedEngineering CreateStateNodes.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering CreateStateNodes.vi"/>
-			<Item Name="ReversedEngineering CreateStateTransationEdges.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering CreateStateTransationEdges.vi"/>
-			<Item Name="ReversedEngineering CreateTypeDefEdges.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering CreateTypeDefEdges.vi"/>
-			<Item Name="ReversedEngineering EvaluateStateActions.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering EvaluateStateActions.vi"/>
-			<Item Name="ReversedEngineering FilterClassSearch.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering FilterClassSearch.vi"/>
-			<Item Name="ReversedEngineering FindAttributeToCopy.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering FindAttributeToCopy.vi"/>
-			<Item Name="ReversedEngineering FindStateIndexToJumpTo.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering FindStateIndexToJumpTo.vi"/>
-			<Item Name="ReversedEngineering GetAdditionalTransitionStates.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering GetAdditionalTransitionStates.vi"/>
-			<Item Name="ReversedEngineering GetCaseStringConstants.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering GetCaseStringConstants.vi"/>
-			<Item Name="ReversedEngineering GetClassAttrubutes.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering GetClassAttrubutes.vi"/>
-			<Item Name="ReversedEngineering GetClassDependencyInfo.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering GetClassDependencyInfo.vi"/>
-			<Item Name="ReversedEngineering GetClassObjectRefPath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering GetClassObjectRefPath.vi"/>
-			<Item Name="ReversedEngineering GetCompleteDependencyInfo.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering GetCompleteDependencyInfo.vi"/>
-			<Item Name="ReversedEngineering GetDepNodeIndex.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering GetDepNodeIndex.vi"/>
-			<Item Name="ReversedEngineering GetDiagramStateMachineInfo.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering GetDiagramStateMachineInfo.vi"/>
-			<Item Name="ReversedEngineering GetDiagramSubVIs.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering GetDiagramSubVIs.vi"/>
-			<Item Name="ReversedEngineering GetInheritanceClasses.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering GetInheritanceClasses.vi"/>
-			<Item Name="ReversedEngineering GetObjectRefsFromPanel.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering GetObjectRefsFromPanel.vi"/>
-			<Item Name="ReversedEngineering GetRunTimeMenuTags.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering GetRunTimeMenuTags.vi"/>
-			<Item Name="ReversedEngineering GetSelectorCaseStates.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering GetSelectorCaseStates.vi"/>
-			<Item Name="ReversedEngineering HideClassMethods.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering HideClassMethods.vi"/>
-			<Item Name="ReversedEngineering MergeEdges.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering MergeEdges.vi"/>
-			<Item Name="ReversedEngineering QueuedStateMachinieMemory.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering QueuedStateMachinieMemory.vi"/>
-			<Item Name="ReversedEngineering RecursiveSearchElements.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering RecursiveSearchElements.ctl"/>
-			<Item Name="ReversedEngineering RemoveErrorObjects.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering RemoveErrorObjects.vi"/>
-			<Item Name="ReversedEngineering RemoveThesePathes.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering RemoveThesePathes.vi"/>
-			<Item Name="ReversedEngineering SortTypeDefsInOrder.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering SortTypeDefsInOrder.vi"/>
-			<Item Name="ReversedEngineering StateQueuedSettings.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering StateQueuedSettings.vi"/>
-			<Item Name="ReversedEngineering StateReverseDialog.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering StateReverseDialog.vi"/>
-			<Item Name="ReversedEngineering SyncUmlFromCode.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering SyncUmlFromCode.vi"/>
-			<Item Name="ReversedEngineering SyncUmlFromCodeActions.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering SyncUmlFromCodeActions.ctl"/>
-			<Item Name="ReversedEngineering TypeDefToClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering TypeDefToClass.vi"/>
-			<Item Name="ReversedEngineering TypeDescNonNameDepentent.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering TypeDescNonNameDepentent.vi"/>
-			<Item Name="ReversedEngineering UpdateAttributes.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering UpdateAttributes.vi"/>
-			<Item Name="ReversedEngineering UpdateClassMethods.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering UpdateClassMethods.vi"/>
-			<Item Name="ReversedEngineering ViCachMemory.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering ViCachMemory.vi"/>
-			<Item Name="ReversedEngineering_AttributeToDataType.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering_AttributeToDataType.vi"/>
-			<Item Name="ReversedEngineering_ClassDependencyDetailsType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering_ClassDependencyDetailsType.ctl"/>
-			<Item Name="ReversedEngineering_EvaluateMethodText.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering_EvaluateMethodText.vi"/>
-			<Item Name="ReversedEngineering_GetClassPathFromNode.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering_GetClassPathFromNode.vi"/>
-			<Item Name="ReversedEngineering_GetDatatypeFromString.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering_GetDatatypeFromString.vi"/>
-			<Item Name="ReversedEngineering_GetDiagramComments.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering_GetDiagramComments.vi"/>
-			<Item Name="Scripting.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting.lvclass"/>
 			<Item Name="Scripting_ChangeBaseClassInSubClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ChangeBaseClassInSubClass.vi"/>
 			<Item Name="Scripting_ChangeNativeBaseClassInSubClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ChangeNativeBaseClassInSubClass.vi"/>
 			<Item Name="Scripting_CheckIfErrorCluster.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_CheckIfErrorCluster.vi"/>
@@ -789,7 +719,6 @@
 			<Item Name="Scripting_UpdateNewVI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_UpdateNewVI.vi"/>
 			<Item Name="Scripting_UpdateProtectedClassData.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_UpdateProtectedClassData.vi"/>
 			<Item Name="Scripting_UpdateViFromTemplate.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_UpdateViFromTemplate.vi"/>
-			<Item Name="SelectPatternDialog.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DesignPattern/SelectPatternDialog.vi"/>
 			<Item Name="UMLEditor.rtm" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/UMLEditor.rtm"/>
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
