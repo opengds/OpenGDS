@@ -33,3 +33,11 @@ Don't use Class.ctl
 Support Actors (inside lvlibs)
 
 From UML, when creating a sub class and you select diffrent connectorpane settings?!?!
+
+Broadcast event don't set the EventName
+We can't detect if teh Event Script VI is running or not, but we can just check when the Main window has become idle.
+Then we know it'a done.
+The Broadcast didn't deetct if the Event name has been created.
+The "Creation Progress", dialog, should be hidden when we go to the Event GUI.
+If all events have been created, close the Event GUI.
+
