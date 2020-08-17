@@ -1,3 +1,6 @@
+Copy UML Node, wrong size
+Change to DQMH raph, error
+
 Bug:
 -Interface Method under virtual folder
 UML:
