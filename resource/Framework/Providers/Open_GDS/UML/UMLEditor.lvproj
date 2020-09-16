@@ -600,6 +600,7 @@
 			<Item Name="GOOP_ClassSettingsMemory.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_ClassSettingsMemory.vi"/>
 			<Item Name="GOOP_ClassTemplateLookup.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_ClassTemplateLookup.vi"/>
 			<Item Name="GOOP_CopyLibraryClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_CopyLibraryClass.vi"/>
+			<Item Name="GOOP_CreateClassFromTemplate.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_CreateClassFromTemplate.vi"/>
 			<Item Name="GOOP_CreateDefaultIniFile.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_CreateDefaultIniFile.vi"/>
 			<Item Name="GOOP_CropImage.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_CropImage.vi"/>
 			<Item Name="GOOP_CurrentProviderClass_Memory.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_CurrentProviderClass_Memory.vi"/>
