@@ -12,4 +12,5 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Item Name="GetInterfacesInProject.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/InterfaceLibrary/GetInterfacesInProject.vi"/>
+	<Item Name="InterfaceInfo.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/InterfaceLibrary/InterfaceInfo.ctl"/>
 </Library>
