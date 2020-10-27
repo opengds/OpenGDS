@@ -282,13 +282,13 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 	<Item Name="DialogManageInterfaces.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/ClassWriterNative_class/DialogManageInterfaces.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"A!!!!!A!%!!!!6!$Q!!Q!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#!!"Y!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!"!!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%P!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!&lt;'5.M98.T6X*J&gt;'6S4G&amp;U;8:F,GRW9WRB=X-!&amp;%.M98.T6X*J&gt;'6S4G&amp;U;8:F4X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$B!=!!?!!!&lt;'5.M98.T6X*J&gt;'6S4G&amp;U;8:F,GRW9WRB=X-!%U.M98.T6X*J&gt;'6S4G&amp;U;8:F37Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!I!!!!!!!!!!!!!!*!!!!!!!1!)!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">1073774656</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1074037056</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1074278912</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 	</Item>
 	<Item Name="DialogRenameClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/ClassWriterNative_class/DialogRenameClass.vi">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(B!!!!$A!_1(!!(A!!'RF$&lt;'&amp;T=V&gt;S;82F=EZB&gt;'FW:3ZM&gt;G.M98.T!"F$&lt;'&amp;T=V&gt;S;82F=EZB&gt;'FW:3ZM&gt;G.M98.T!"R!=!!)!!!!61!!$E.M98.T382F&lt;6*F:EFO!!!%!!!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!)%"1!!-!!Q!%!!54:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"#1(!!(A!!'RF$&lt;'&amp;T=V&gt;S;82F=EZB&gt;'FW:3ZM&gt;G.M98.T!"V$&lt;'&amp;T=V&gt;S;82F=E&gt;04V!T-$!O&lt;(:D&lt;'&amp;T=U^V&gt;!!=1(!!#!!!!&amp;5!!!^$&lt;'&amp;T=UFU:7V3:7:0&gt;81!&amp;E!S`````QR/:8&gt;$&lt;'&amp;T=V"B&gt;'A!!!Z!)1F$97ZD:7RM:71!'%!B%F*F&lt;'FO;V&gt;I&lt;WRF5(*P;G6D&gt;!!!&amp;E"1!!-!!Q!%!!5*:8*S&lt;X)A&lt;X6U!)1!]!!5!!!!!1!#!!)!!A!'!!)!!A!#!!)!!A!#!!)!!A!(!!A!#1!+!!M!$!-!!2!!!*!!!!!)!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!D1!!!!U"!!!*!!!!#1!!!!E!!!!."1!!!!%!$1!!!!!</Property>
