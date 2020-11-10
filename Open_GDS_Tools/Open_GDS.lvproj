@@ -37,15 +37,16 @@
 		</Item>
 		<Item Name="resource" Type="Folder">
 			<Item Name="Framework" Type="Folder">
-				<Item Name="GProviders" Type="Folder">
-					<Item Name="GOOP_Library.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/GProviders/GOOP_Library.ini"/>
-					<Item Name="GOOP_LVClass.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/GProviders/GOOP_LVClass.ini"/>
-					<Item Name="GOOP_MyComputer.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/GProviders/GOOP_MyComputer.ini"/>
-					<Item Name="GOOP_VI.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/GProviders/GOOP_VI.ini"/>
-					<Item Name="GOOP_VirtualFolder.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/GProviders/GOOP_VirtualFolder.ini"/>
-					<Item Name="GOOP_XControl.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/GProviders/GOOP_XControl.ini"/>
-				</Item>
 				<Item Name="Providers" Type="Folder">
+					<Item Name="GProviders" Type="Folder">
+						<Item Name="GOOP_Library.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/GProviders/GOOP_Library.ini"/>
+						<Item Name="GOOP_LVClass.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/GProviders/GOOP_LVClass.ini"/>
+						<Item Name="GOOP_MyComputer.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/GProviders/GOOP_MyComputer.ini"/>
+						<Item Name="GOOP_MyComputer_Interface.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/GProviders/GOOP_MyComputer_Interface.ini"/>
+						<Item Name="GOOP_VI.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/GProviders/GOOP_VI.ini"/>
+						<Item Name="GOOP_VirtualFolder.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/GProviders/GOOP_VirtualFolder.ini"/>
+						<Item Name="GOOP_XControl.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/GProviders/GOOP_XControl.ini"/>
+					</Item>
 					<Item Name="Open_GDS" Type="Folder" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS">
 						<Property Name="NI.DISK" Type="Bool">true</Property>
 					</Item>
@@ -142,6 +143,7 @@
 				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
 				<Item Name="Create Mask By Alpha.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Create Mask By Alpha.vi"/>
 				<Item Name="Create Mask.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Create Mask.vi"/>
+				<Item Name="Create New Class or Interface in Library.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Create New Class or Interface in Library.vi"/>
 				<Item Name="Create Queue.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/queue.llb/Create Queue.vi"/>
 				<Item Name="Create Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Create Registry Key.vi"/>
 				<Item Name="Delete Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Delete Directory Recursive.vi"/>
@@ -320,6 +322,10 @@
 				<Item Name="Queue RefNum" Type="VI" URL="/&lt;vilib&gt;/Utility/queue.llb/Queue RefNum"/>
 				<Item Name="Queue SRdB command.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/queue.llb/Queue SRdB command.ctl"/>
 				<Item Name="Queue SRdB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/queue.llb/Queue SRdB.vi"/>
+				<Item Name="Random Number (Range) DBL.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) DBL.vi"/>
+				<Item Name="Random Number (Range) I64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) I64.vi"/>
+				<Item Name="Random Number (Range) U64.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range) U64.vi"/>
+				<Item Name="Random Number (Range).vi" Type="VI" URL="/&lt;vilib&gt;/numeric/Random Number (Range).vi"/>
 				<Item Name="Read BMP File Data.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP File Data.vi"/>
 				<Item Name="Read BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP File.vi"/>
 				<Item Name="Read BMP Header Info.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP Header Info.vi"/>
@@ -356,9 +362,12 @@
 				<Item Name="Set VI Library File Info.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Set VI Library File Info.vi"/>
 				<Item Name="SetMenuItemInfoSCConverter.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/SetMenuItemInfoSCConverter.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Single String To Qualified Name Array.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Single String To Qualified Name Array.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
+				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
 				<Item Name="sub2ShouldUseDefSigName.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/sub2ShouldUseDefSigName.vi"/>
+				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="subGetSignalName.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/subGetSignalName.vi"/>
@@ -423,6 +432,13 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
+			<Item Name="Class Provider Support.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/_ClassSupport/Class Provider Support.lvlib"/>
+			<Item Name="CLSUIP_GetAllClassesInProject.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVClassLibrary/CLSUIP_GetAllClassesInProject.vi"/>
+			<Item Name="CLSUIP_GetAllClassesInThisClassesAppByName.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVClassLibrary/CLSUIP_GetAllClassesInThisClassesAppByName.vi"/>
+			<Item Name="CLSUIP_GetFlowObjectName.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVClassLibrary/CLSUIP_GetFlowObjectName.vi"/>
+			<Item Name="CLSUIP_GetUDClassParentRefFromIDAndVerifyChange.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVClassLibrary/CLSUIP_GetUDClassParentRefFromIDAndVerifyChange.vi"/>
+			<Item Name="CLSUIP_Set Class Tree Glyph.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVClassLibrary/CLSUIP_Set Class Tree Glyph.vi"/>
+			<Item Name="CLSUIP_TidyAllClassesList.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVClassLibrary/CLSUIP_TidyAllClassesList.vi"/>
 			<Item Name="CreateNewWizard_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/CreateNewWizard_Interface.ctl"/>
 			<Item Name="Delacor - Align 1 Row of FP Controls.vi" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Align 1 Row of FP Controls.vi"/>
 			<Item Name="Delacor - Arrange BD.vi" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Arrange BD.vi"/>
@@ -493,6 +509,7 @@
 			<Item Name="mxLvGetItemRef.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetItemRef.vi"/>
 			<Item Name="mxLvGetNIIM.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetNIIM.vi"/>
 			<Item Name="mxLvGetProjectRef.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetProjectRef.vi"/>
+			<Item Name="mxLvGetTarget.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvGetTarget.vi"/>
 			<Item Name="mxLvMenuItem.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvMenuItem.ctl"/>
 			<Item Name="mxLvNIIM.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvNIIM.ctl"/>
 			<Item Name="mxLvOverlayAlias.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvOverlayAlias.ctl"/>
