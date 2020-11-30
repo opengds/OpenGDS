@@ -2,27 +2,52 @@
 <Pattern version='1.0' id='Facade' name='Facade' category='Structural' help='http://en.wikipedia.org/wiki/Facade_pattern'>
  <Desc>Provide a unified interface to a set of interfaces in a subsystem. Facade defines a higher-level interface that makes the subsystem easier to use.</Desc>
  <Nodes>
-<Node id='Facade' type='Class' name='Facade' stereotype='' x='20' y='0'>
+ <Node id='Client' type='Class' name='Client' stereotype='' x='120' y='0'>
+   <Desc>The object that is using the Facade Pattern to access resources from the subsystems.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+
+  </Methods>
+  </Node>
+<Node id='Facade' type='Class' name='Facade' stereotype='' x='130' y='100'>
    <Desc>Knows which subsystem classes are responsible for a request, and delegates client requests to appropriate subsystem objects.</Desc>
    <Attributes>
 
    </Attributes>
    <Methods>
- 
+ <Method id='M1' name='DoSomething()'/>
   </Methods>
   </Node>
-  <Node id='SubsystemClasses' type='Class' name='Subsystem Classes' stereotype='' x='0' y='150'>
+  <Node id='Class1' type='Class' name='Class1' stereotype='Subsystem' x='0' y='250'>
    <Desc>Implement subsystem functionality, and handle work assigned by the Facade object, but have no knowledge of the facade; that is, they keep no references to it.</Desc>
    <Attributes>
 
    </Attributes>
    <Methods>
- 
+	<Method id='M2' name='DoThis()'/>
   </Methods>
   </Node>
+    <Node id='Class2' type='Class' name='Class2' stereotype='Subsystem' x='200' y='250'>
+   <Desc>Implement subsystem functionality, and handle work assigned by the Facade object, but have no knowledge of the facade; that is, they keep no references to it.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+	<Method id='M3' name='DoThat()'/>
+  </Methods>
+  </Node>
+    		<Node id='N1' type='Note' name='' stereotype='' x='350' y='90'>
+			<Text>DoSomthing()\n{\n Class1 C1 = new Class1();\n Class2 C2 = new Class2();\n C1.DoThis();\n C2.DoThat();\n return True;\n}</Text>
+			<Links>
+				<Link id='NL1' source='M1'/>
+			</Links>
+		</Node>
  </Nodes>
  <Links>
-  <Link id='L1'  name='' starttext='' endtext='' type='Dependecy' from='Facade' to='SubsystemClasses'/>
- 
+  <Link id='L1'  name='' starttext='' endtext='' type='Dependecy' from='Facade' to='Class1' bendstyle='VHV'/>
+  <Link id='L2'  name='' starttext='' endtext='' type='Dependecy' from='Facade' to='Class2' bendstyle='VHV'/>
+  <Link id='L3'  name='' starttext='' endtext='' type='Dependecy' from='Client' to='Facade' bendstyle='STRAIGHT'/> 
  </Links>
 </Pattern>

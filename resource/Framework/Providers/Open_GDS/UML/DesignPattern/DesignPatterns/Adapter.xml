@@ -2,7 +2,7 @@
 <Pattern version='1.0' id='Adapter' name='Adapter' category='Structural' help='http://en.wikipedia.org/wiki/Adapter_pattern'>
  <Desc>Convert the interface of a class into another interface clients expect.</Desc>
  <Nodes>
-<Node id='Adaptee' type='Class' name='Adaptee' stereotype='' x='300' y='0'>
+<Node id='Adaptee' type='Class' name='Adaptee' stereotype='' x='310' y='0'>
    <Desc>Defines an existing interface that needs adapting.</Desc>
    <Attributes>
 
@@ -11,7 +11,7 @@
 	<Method id='M1' name='SpecificRequest()'/>
   </Methods>
   </Node>
-  <Node id='Target' type='Class' name='Target' stereotype='' x='150' y='0'>
+  <Node id='Target' type='Interface' name='Target' stereotype='' x='140' y='0'>
    <Desc>Defines the domain-specific interface that Client uses.</Desc>
    <Attributes>
 
@@ -20,7 +20,7 @@
 	<Method id='M2' name='Request()'/>
   </Methods>
   </Node>
-  <Node id='Adapter' type='Class' name='Adapter' stereotype='' x='150' y='150'>
+  <Node id='Adapter' type='Class' name='Adapter' stereotype='' x='160' y='150'>
    <Desc>Adapts the interface of Adaptee to the Target interface.</Desc>
    <Attributes>
 
@@ -46,7 +46,7 @@
 	</Node>
  </Nodes>
  <Links>
-   <Link id='L1'  name='' starttext='' endtext='' type='Inheritance' from='Adapter' to='Target'/>
+   <Link id='L1'  name='' starttext='' endtext='' type='Interface' from='Adapter' to='Target'/>
    <Link id='L2'  name='' starttext='' endtext='' type='Association' from='Adapter' to='Adaptee'/>
    <Link id='L3'  name='' starttext='' endtext='' type='Association' from='Client' to='Target'/>
 

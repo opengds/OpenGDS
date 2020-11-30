@@ -2,7 +2,7 @@
 <Pattern version='1.0' id='AbstractFactory' name='Abstract Factory' category='Creational' help='http://en.wikipedia.org/wiki/Abstract_Factory_pattern'>
  <Desc>Provide an interface for creating families of related or dependent objects without specifying their concrete classes.</Desc>
  <Nodes>
-<Node id='AbstractFactory' type='Class' name='AbstractFactory' stereotype='' x='0' y='0'>
+<Node id='AbstractFactory' type='Interface' name='AbstractFactory' stereotype='' x='0' y='0'>
    <Desc>Declares an interface for operations that create abstract product objects.</Desc>
    <Attributes>
    </Attributes>
@@ -11,7 +11,7 @@
     <Method id='M2' name='CreateProductB()'/>  
   </Methods>
   </Node>
-  <Node id='AbstractProductA' type='Class' name='AbstractProductA' stereotype='' x='250' y='100'>
+  <Node id='AbstractProductA' type='Interface' name='AbstractProductA' stereotype='' x='250' y='100'>
    <Desc>Declares an interface for a type of product object.</Desc>
    <Attributes>
    </Attributes>
@@ -44,10 +44,10 @@
   </Node>
  </Nodes>
  <Links>
-  <Link id='I1' name='' starttext='' endtext='' type='Inheritance' from='ConcreteFactory1' to='AbstractFactory'/>
-  <Link id='I2' name='' starttext='' endtext='' type='Inheritance' from='ConcreteProductA1' to='AbstractProductA'/>
+  <Link id='I1' name='' starttext='' endtext='' type='Interface' from='ConcreteFactory1' to='AbstractFactory'/>
+  <Link id='I2' name='' starttext='' endtext='' type='Interface' from='ConcreteProductA1' to='AbstractProductA'/>
   <Link id='I3' name='' starttext='' endtext='' type='Association' from='Client' to='AbstractFactory'/>
-  <Link id='I4' name='' starttext='' endtext='' type='Association' from='Client' to='AbstractProductA'/>
+  <Link id='I4' name='' starttext='' endtext='' type='Association' from='Client' to='AbstractProductA' startoffset='0' endoffset='0' bendstyle='VH'/>
   <Link id='D1' name='' starttext='' endtext='' type='Dependency'  from='ConcreteFactory1' to='ConcreteProductA1'/>
  </Links>
 </Pattern>

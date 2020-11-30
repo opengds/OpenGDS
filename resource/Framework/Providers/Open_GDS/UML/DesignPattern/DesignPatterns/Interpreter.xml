@@ -8,7 +8,7 @@
 
    </Attributes>
    <Methods>
- 
+ 	<Method id='M1' name='Interpret(Context)'/>
   </Methods>
   </Node>
   <Node id='TerminalExpression' type='Class' name='TerminalExpression' stereotype='' x='80' y='300'>
@@ -17,7 +17,7 @@
 
    </Attributes>
    <Methods>
- 
+ 	<Method id='M2' name='Interpret(Context)'/>
   </Methods>
   </Node>
   <Node id='NonterminalExpression' type='Class' name='NonterminalExpression' stereotype='' x='300' y='300'>
@@ -26,7 +26,7 @@
 
    </Attributes>
    <Methods>
- 
+	<Method id='M3' name='Interpret(Context)'/>
   </Methods>
   </Node>
   <Node id='Context' type='Class' name='Context' stereotype='' x='200' y='00'>
@@ -53,6 +53,6 @@
 	<Link id='L2' name='' starttext='' endtext='' type='Inheritance' from='TerminalExpression' to='AbstractExpression'/>
 	<Link id='L3' name='' starttext='' endtext='' type='Association' from='Client' to='AbstractExpression'/>
 	<Link id='L4' name='' starttext='' endtext='' type='Association' from='Client' to='Context'/>
-	<Link id='L5' name='' starttext='' endtext='' type='Aggregation' from='NonterminalExpression' to='AbstractExpression'/>
+	<Link id='L5' name='' starttext='' endtext='' type='Aggregation' from='NonterminalExpression' to='AbstractExpression' bendstyle='VH' startoffset='20'/>
  </Links>
 </Pattern>

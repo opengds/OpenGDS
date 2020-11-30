@@ -2,7 +2,7 @@
 <Pattern version='1.0' id='Bridge' name='Bridge' category='Structural' help='http://en.wikipedia.org/wiki/Bridge_pattern'>
  <Desc>Decouple an abstraction from its implementation so that the two can vary independently.</Desc>
  <Nodes>
-<Node id='Abstraction' type='Class' name='Abstraction' stereotype='' x='30' y='0'>
+<Node id='Abstraction' type='Class' name='Abstraction' stereotype='' x='30' y='10'>
    <Desc>Defines the abstraction&apos;s interface, and maintains a reference to an object of type Implementor.</Desc>
    <Attributes>
 				<Attribute id='A1' name='impl' type='Implementor' dimension='0'/>
@@ -20,7 +20,7 @@
  				<Method id='M2' name='RefinedFunction()'/>
   </Methods>
   </Node>
-  <Node id='Implementor' type='Class' name='Implementor' stereotype='' x='230' y='0'>
+  <Node id='Implementor' type='Interface' name='Implementor' stereotype='' x='230' y='0'>
    <Desc>Defines the interface for implementation classes.</Desc>
    <Attributes>
 
@@ -47,7 +47,7 @@
  </Nodes>
  <Links>
 		<Link id='L1'  name='' starttext='' endtext='' type='Inheritance' from='RefinedAbstraction' to='Abstraction'/>
-		<Link id='L2'  name='' starttext='' endtext='' type='Inheritance' from='ConcreteImplementor' to='Implementor'/>
+		<Link id='L2'  name='' starttext='' endtext='' type='Interface' from='ConcreteImplementor' to='Implementor'/>
 		<Link id='L3'  name='' starttext='imp' endtext='' type='Aggregation' from='Abstraction' to='Implementor'/>
  </Links>
 </Pattern>

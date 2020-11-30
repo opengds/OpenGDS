@@ -2,7 +2,7 @@
 <Pattern version='1.0' id='Observer' name='Observer' category='Behavioral' help='http://en.wikipedia.org/wiki/Observer_pattern'>
 	<Desc>Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.</Desc>
 	<Nodes>
-		<Node id='Observer' type='Class' name='Observer' stereotype='ABSTRACT' x='300' y='0'>
+		<Node id='Observer' type='Interface' name='Observer' stereotype='' x='320' y='0'>
 			<Desc>Defines an updating interface for objects that should be notified of changes in a subject.</Desc>
 			<Methods>
 				<Method id='Update' name='Update()'/>
@@ -56,7 +56,7 @@
 	</Nodes>
 	<Links>
 		<Link id='SubjectInheritance'  name='' starttext='' endtext='' type='Inheritance' from='ConcreteSubject' to='Subject'/>
-		<Link id='ObserverInheritance' name='' starttext='' endtext='' type='Inheritance' from='ConcreteObserver' to='Observer'/>
+		<Link id='ObserverInheritance' name='' starttext='' endtext='' type='Interface' from='ConcreteObserver' to='Observer'/>
 		<Link id='ObserverAssociation' name='' starttext='' endtext='observers' type='Association' from='Subject' to='Observer'/>
 	</Links>
 </Pattern>

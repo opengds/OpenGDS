@@ -2,7 +2,7 @@
 <Pattern version='1.0' id='Prototype' name='Prototype' category='Creational' help='http://en.wikipedia.org/wiki/Prototype_pattern'>
  <Desc>Specify the kinds of objects to create using a prototypical instance, and create new objects by copying this prototype.</Desc>
  <Nodes>
-<Node id='Prototype' type='Class' name='Prototype' stereotype='' x='230' y='0'>
+<Node id='Prototype' type='Interface' name='Prototype' stereotype='' x='230' y='0'>
    <Desc>Declares an interface for cloning itself.</Desc>
    <Attributes>
 
@@ -53,8 +53,8 @@
 	</Node>
  </Nodes>
  <Links>
-   <Link id='L1'  name='' starttext='' endtext='' type='Inheritance' from='ConcretePrototype1' to='Prototype'/>
+   <Link id='L1'  name='' starttext='' endtext='' type='Interface' from='ConcretePrototype1' to='Prototype'/>
    <Link id='L2'  name='' starttext='' endtext='' type='Association' from='Client' to='Prototype'/>
-   <Link id='L3'  name='' starttext='' endtext='' type='Inheritance' from='ConcretePrototype2' to='Prototype'/>
+   <Link id='L3'  name='' starttext='' endtext='' type='Interface' from='ConcretePrototype2' to='Prototype'/>
  </Links>
 </Pattern>

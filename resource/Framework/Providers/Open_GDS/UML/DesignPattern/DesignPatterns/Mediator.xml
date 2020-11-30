@@ -2,17 +2,26 @@
 <Pattern version='1.0' id='Mediator' name='Mediator' category='Behavioral' help='http://en.wikipedia.org/wiki/Mediator_pattern'>
  <Desc>Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently.</Desc>
  <Nodes>
-<Node id='Mediator' type='Class' name='Mediator' stereotype='' x='20' y='0'>
+<Node id='Mediator' type='Class' name='Mediator' stereotype='' x='30' y='0'>
    <Desc>Defines an interface for communicating with Colleague objects.</Desc>
    <Attributes>
 
    </Attributes>
    <Methods>
- 
+	<Method id='M1' name='Mediate()'/>
   </Methods>
   </Node>
-  <Node id='ConcreteMediator' type='Class' name='ConcreteMediator' stereotype='' x='0' y='100'>
+  <Node id='ConcreteMediator' type='Class' name='ConcreteMediator' stereotype='' x='0' y='150'>
    <Desc>Implements cooperative behavior by coordinating Colleague objects, and knows and maintains its colleagues.</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+ 	<Method id='M2' name='Mediate()'/>
+  </Methods>
+  </Node>
+  <Node id='Colleague' type='Interface' name='Colleague' stereotype='' x='230' y='0'>
+   <Desc>Each Colleague class knows its Mediator object. Each colleague communicates with its mediator whenever it would have otherwise communicated with another colleague. </Desc>
    <Attributes>
 
    </Attributes>
@@ -20,8 +29,17 @@
  
   </Methods>
   </Node>
-  <Node id='Colleague' type='Class' name='Colleague' stereotype='' x='250' y='0'>
-   <Desc>Each Colleague class knows its Mediator object. Each colleague communicates with its mediator whenever it would have otherwise communicated with another colleague. </Desc>
+    <Node id='Colleague1' type='Class' name='Colleague1' stereotype='' x='175' y='100'>
+   <Desc>Implements the Colleague interface and communicates with other Colleagues through its Mediator</Desc>
+   <Attributes>
+
+   </Attributes>
+   <Methods>
+ 
+  </Methods>
+  </Node>
+    <Node id='Colleague2' type='Class' name='Colleague2' stereotype='' x='300' y='100'>
+   <Desc>Implements the Colleague interface and communicates with other Colleagues through its Mediator</Desc>
    <Attributes>
 
    </Attributes>
@@ -33,5 +51,9 @@
  <Links>
 	<Link id='ObserverInheritance' name='' starttext='' endtext='' type='Inheritance' from='ConcreteMediator' to='Mediator'/>
 	<Link id='ObserverAssociation' name='' starttext='Mediator' endtext='' type='Association' from='Colleague' to='Mediator'/>
+	<Link id='L1' name='' starttext='' endtext='' type='Interface' from='Colleague1' to='Colleague'/>
+	<Link id='L2' name='' starttext='' endtext='' type='Interface' from='Colleague2' to='Colleague'/>
+	<Link id='L3' name='' starttext='' endtext='' type='Association' from='ConcreteMediator' to='Colleague1' bendstyle='HV'/>
+	<Link id='L4' name='' starttext='' endtext='' type='Association' from='ConcreteMediator' to='Colleague2' bendstyle='HV' startoffset='10'/>
  </Links>
 </Pattern>
