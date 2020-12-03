@@ -381,7 +381,7 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
 	</Item>
 	<Item Name="GetClassTemplateMethods.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/ClassWriterNative_class/GetClassTemplateMethods.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)J!!!!%A!=1$,`````%EVF&gt;'BP:&amp;2F&lt;8"M982F5'&amp;U;!!!"!!!!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!":!5!!$!!)!!Q!%#'6S=G^S)'FO!!!11$$`````"F.U=GFO:Q!!(E"!!!(`````!!924G^S&lt;7&amp;M476U;'^E4G&amp;N:8-!&amp;E!S`````QVB=("F&lt;G2F:#"Q982I!#2!1!!"`````Q!)&amp;V"S&lt;X"F=H2Z4G^E:5VF&gt;'BP:&amp;"B&gt;'BT!"Z!1!!"`````Q!)%5ZP=GVB&lt;%VF&gt;'BP:&amp;"B&gt;'BT!#2!1!!"`````Q!'&amp;V"S&lt;X"F=H2Z4G^E:5VF&gt;'BP:%ZB&lt;76T!#"!1!!"`````Q!'%U^W:8*S;72F476U;'^E4G&amp;N:8-!)%"!!!(`````!!A44X:F=H*J:'6.:82I&lt;W21982I=Q!A1%!!!@````]!"B.1=G^Q:8*U?5VF&gt;'BP:%ZB&lt;76T!#"!1!!"`````Q!)%V"S&lt;X"F=H2Z476U;'^E5'&amp;U;(-!&amp;E"1!!-!!A!$!!1*:8*S&lt;X)A&lt;X6U!)1!]!!5!!!!!1!"!!%!!1!&amp;!!%!!1!"!!%!"Q!*!!I!#Q!"!!Q!$1!/!!]!%!-!!2!!!!A!!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!!!!!!*!!!!#1!!!!E!!!!*!!!!!!!!!!E!!!!*!!!!#1!!!!E!!!!."1!!!!%!%1!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!*N!!!!&amp;!!=1$,`````%EVF&gt;'BP:&amp;2F&lt;8"M982F5'&amp;U;!!!"!!!!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!":!5!!$!!)!!Q!%#'6S=G^S)'FO!!!11$$`````"F.U=GFO:Q!!)E"!!!(`````!!9537ZU:8*G97.F476U;'^E4G&amp;N:8-!!":!-P````].98"Q:7ZE:71A='&amp;U;!!C1%!!!@````]!#"2*&lt;H2F=G:B9W6.:82I&lt;W21982I=Q!!(E"!!!(`````!!924G^S&lt;7&amp;M476U;'^E4G&amp;N:8-!*%"!!!(`````!!A85(*P='6S&gt;(F/&lt;W2F476U;'^E5'&amp;U;(-!(E"!!!(`````!!A24G^S&lt;7&amp;M476U;'^E5'&amp;U;(-!*%"!!!(`````!!985(*P='6S&gt;(F/&lt;W2F476U;'^E4G&amp;N:8-!)%"!!!(`````!!944X:F=H*J:'6.:82I&lt;W2/97VF=Q!A1%!!!@````]!#".0&gt;G6S=GFE:5VF&gt;'BP:&amp;"B&gt;'BT!#"!1!!"`````Q!'%V"S&lt;X"F=H2Z476U;'^E4G&amp;N:8-!)%"!!!(`````!!A45(*P='6S&gt;(F.:82I&lt;W21982I=Q!71&amp;!!!Q!#!!-!"!FF=H*P=C"P&gt;81!B!$Q!"1!!!!"!!%!!1!"!!5!"Q!"!!E!!1!+!!M!$!!.!!%!$A!0!"!!%1!3!Q!"%!!!#!!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!#1!!!!!!!!!*!!!!!!!!!!E!!!!*!!!!#1!!!!E!!!!!!!!!#1!!!!E!!!!*!!!!#1!!!!U&amp;!!!!!1!4!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
@@ -424,6 +424,15 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1117782544</Property>
+	</Item>
+	<Item Name="GOOP_ProviderName_Translator.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_ProviderName_Translator.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#_!!!!"1!%!!!!%%!Q`````Q:4&gt;(*J&lt;G=!!#Z!1!!"`````Q!")%.M98.T5(*P&gt;GFE:8*T6(*B&lt;H.M982F:%ZB&lt;76T4X6U!!!A1%!!!@````]!!2."&lt;'R$&lt;'&amp;T=V"S&lt;X:J:'6S=UFO!&amp;1!]!!-!!!!!!!!!!)!!!!!!!!!!!!!!!!!!!!$!A!!?!!!!!!!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%3!!!!!!%!"!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 	</Item>
 	<Item Name="IconDetails.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/ClassWriterNative_class/IconDetails.ctl">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%/!!!!"1"Y!0%!!!!!!!!!!BF$&lt;'&amp;T=V&gt;S;82F=EZB&gt;'FW:3ZM&gt;G.M98.T$%FD&lt;WZ4;8JF,G.U&lt;!"*1"9!"12'&gt;7RM$4%A9SVU:8*N)'BJ:WA.-C"D,82F=GUA;'FH;!UT)'-N&gt;'6S&lt;3"I;7&gt;I!U^G:A!!#%FD&lt;WZ4;8JF!!!41!-!$5FN97&gt;F5G^X=SAT-CE!$5!$!!&gt;/&gt;7VF=GFD!#"!1!!"`````Q!#%U.P&lt;GZF9X2P=F"B&lt;G6):7FH;(1!4A$R!!!!!!!!!!):1WRB=X.8=GFU:8*/982J&gt;G5O&lt;(:D&lt;'&amp;T=Q^*9W^O2'6U97FM=SZD&gt;'Q!(%"1!!-!!!!"!!-,37.P&lt;E2F&gt;'&amp;J&lt;(-!!1!%!!!!!!</Property>

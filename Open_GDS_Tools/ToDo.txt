@@ -1,3 +1,19 @@
-Method.vi folder gets created in project's top folder in some cases
-RiIght click on Interface and select Create derived class, "Save Class To..." start in incorrect folder
-Class did not add the methods of the 2 inherited interfaces?!?
+--Method.vi folder gets created in project's top folder in some cases
+-RiIght click on Interface and select Create derived class, "Save Class To..." start in incorrect folder
+-Class did not add the methods of the 2 inherited interfaces?!?
+--And added it into the wrong folder under a interface class
+
+-Scroll Parents to the first selected 
+-Resize FP still not working.
+-Window Sizing not correct
+-Change names of Class Providers
+-LVClass by value
+-By Reference (GOOP3)
+-By Reference DVR (GOOP4)
+
+-Class/INterface Icon Apperance Start with the Correct icon (if found)
+-Set tihs default for all future Classes/interfaces
+-Changing INterface ICon is not applied
+-Changing INterface ICon Default button Text
+
+-GOOP4 Apperance different from the other
