@@ -425,15 +425,6 @@
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1117782544</Property>
 	</Item>
-	<Item Name="GOOP_ProviderName_Translator.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_ProviderName_Translator.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#_!!!!"1!%!!!!%%!Q`````Q:4&gt;(*J&lt;G=!!#Z!1!!"`````Q!")%.M98.T5(*P&gt;GFE:8*T6(*B&lt;H.M982F:%ZB&lt;76T4X6U!!!A1%!!!@````]!!2."&lt;'R$&lt;'&amp;T=V"S&lt;X:J:'6S=UFO!&amp;1!]!!-!!!!!!!!!!)!!!!!!!!!!!!!!!!!!!!$!A!!?!!!!!!!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%3!!!!!!%!"!!!!!!</Property>
-		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
-		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
-		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-		<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
-	</Item>
 	<Item Name="IconDetails.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/ClassWriterNative_class/IconDetails.ctl">
 		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%/!!!!"1"Y!0%!!!!!!!!!!BF$&lt;'&amp;T=V&gt;S;82F=EZB&gt;'FW:3ZM&gt;G.M98.T$%FD&lt;WZ4;8JF,G.U&lt;!"*1"9!"12'&gt;7RM$4%A9SVU:8*N)'BJ:WA.-C"D,82F=GUA;'FH;!UT)'-N&gt;'6S&lt;3"I;7&gt;I!U^G:A!!#%FD&lt;WZ4;8JF!!!41!-!$5FN97&gt;F5G^X=SAT-CE!$5!$!!&gt;/&gt;7VF=GFD!#"!1!!"`````Q!#%U.P&lt;GZF9X2P=F"B&lt;G6):7FH;(1!4A$R!!!!!!!!!!):1WRB=X.8=GFU:8*/982J&gt;G5O&lt;(:D&lt;'&amp;T=Q^*9W^O2'6U97FM=SZD&gt;'Q!(%"1!!-!!!!"!!-,37.P&lt;E2F&gt;'&amp;J&lt;(-!!1!%!!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
