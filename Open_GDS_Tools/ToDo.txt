@@ -3,3 +3,9 @@ Creating Interfaces classes
 Class Provideer DropDown menu
 Modify Pro button insdie event structure
 
+Undo, makes INterface Methods visisble
+AUto Create Packages Support INterfaces
+Locate Class in project not working
+
+
+
