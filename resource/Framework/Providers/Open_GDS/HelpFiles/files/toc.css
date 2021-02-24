@@ -2,12 +2,12 @@ html, body {height:100%; margin: 0; padding: 0; }
 
 html>body {
 	font-size: 16px; 
-	font-size: 68.75%;
+	font-size: 80%;
 } /* Reset Base Font Size */
 
 body {
 	font-family: Verdana, helvetica, arial, sans-serif;
-	font-size: 68.75%;
+	font-size: 80%;
 	background: #fff;
 	color: #333;
 }

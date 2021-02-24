@@ -7,5 +7,5 @@ Undo, makes INterface Methods visisble
 AUto Create Packages Support INterfaces
 Locate Class in project not working
 
-
+Hide All methods (Interface is not affected)
 
