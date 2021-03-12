@@ -9,3 +9,17 @@ Locate Class in project not working
 
 Hide All methods (Interface is not affected)
 
+Add Method
+  Title Menu should show new provide name
+  No Property Node support for INterface
+  Method Template should show an image of what it means
+  Nobody is using Method Signature
+
+Handle Interface
+  Should only show Dynmic Dispatch VIs
+  Method VI was not created
+  
+
+Add support to convert class to flat structure (By value and GOOP4)
+
+
