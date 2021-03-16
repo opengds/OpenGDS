@@ -22,4 +22,12 @@ Handle Interface
 
 Add support to convert class to flat structure (By value and GOOP4)
 
+No Property Node Methods for Interface
+Why do we create classes in LV2020 Sub folders
+Add default wire colors
+Center Method Image
+Handle INterface, still MEthod that already exists is selected and counted as "will be created"
+Filter out Methods that are not DD
+
+
 
