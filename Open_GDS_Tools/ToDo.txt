@@ -1,36 +1,3 @@
-#UML Modeller
-Creating Interfaces classes
-Class Provideer DropDown menu
-Modify Pro button insdie event structure
-
-Undo, makes INterface Methods visisble
-AUto Create Packages Support INterfaces
-Locate Class in project not working
-
-Hide All methods (Interface is not affected)
-
-Add Method
-  Title Menu should show new provide name
-  No Property Node support for INterface
-  Method Template should show an image of what it means
-  Nobody is using Method Signature
-
-Handle Interface
-  Should only show Dynmic Dispatch VIs
-  Method VI was not created
-  
-
-Add support to convert class to flat structure (By value and GOOP4)
-
-No Property Node Methods for Interface
-Why do we create classes in LV2020 Sub folders
-Add default wire colors
-Center Method Image
-Handle INterface, still MEthod that already exists is selected and counted as "will be created"
-Filter out Methods that are not DD  (B:Do.vi  is the same as A:Do.vi)
--Skip OCR
-
-Image GOOP4 insetad of native
-
-
-
+Create Class Cancel don't work
+INterface Add MEthod is nt working
+Base Class Creation template No renaming
