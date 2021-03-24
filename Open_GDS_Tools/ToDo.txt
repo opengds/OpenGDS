@@ -1,3 +1,5 @@
-Create Class Cancel don't work
-INterface Add MEthod is nt working
-Base Class Creation template No renaming
+-Create Class Cancel don't work
+-INterface Add MEthod is nt working
+-Base Class Creation template No renaming
+
+Removing Parent INterfaec isn't working
