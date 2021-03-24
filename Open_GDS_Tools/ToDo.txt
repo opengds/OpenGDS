@@ -2,4 +2,10 @@
 -INterface Add MEthod is nt working
 -Base Class Creation template No renaming
 
-Removing Parent INterfaec isn't working
+Removing Parent INterfaec isn't working Array Empty
+Adding INterface Use Full Qualifing Names in S1d
+
+Handle INterfaces< starts with 1 Removed?!?
+
+ClassCreation Remeber Values when changing Class Provider
+When selecting a new Wire Deisgn and pressing Done, we don't need to updtae the curertn name, but we should upadte the WireStyle for the class, what should the name be? "Custom"
