@@ -9,3 +9,8 @@ Handle INterfaces< starts with 1 Removed?!?
 
 ClassCreation Remeber Values when changing Class Provider
 When selecting a new Wire Deisgn and pressing Done, we don't need to updtae the curertn name, but we should upadte the WireStyle for the class, what should the name be? "Custom"
+
+Bug:
+Set classAttribute1  => Set%s
+Cancel still creates method
+Method exists, move indicator
