@@ -15,6 +15,7 @@
 	<Item Name="CreateInterface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/InterfaceLibrary/CreateInterface.vi"/>
 	<Item Name="CreateMethodTree.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/InterfaceLibrary/CreateMethodTree.vi"/>
 	<Item Name="GetInterfaceDetails.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/InterfaceLibrary/GetInterfaceDetails.vi"/>
+	<Item Name="GetInterfaceParents.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/InterfaceLibrary/GetInterfaceParents.vi"/>
 	<Item Name="GetInterfacesInProject.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/InterfaceLibrary/GetInterfacesInProject.vi"/>
 	<Item Name="GetInterfacesOfClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/InterfaceLibrary/GetInterfacesOfClass.vi"/>
 	<Item Name="ImplementInterface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/InterfaceLibrary/ImplementInterface.vi"/>

@@ -14,3 +14,14 @@ Bug:
 Set classAttribute1  => Set%s
 Cancel still creates method
 Method exists, move indicator
+
+Clone Interface, Error when interafec has parent interfaces
+
+Clone Method, not showing Interface Methods
+-The Wire in Class Dialog don't matches the right look, but the name is correct
+Create Class, grey out MEthod selection if no INterfaces are selected
+If Base Class inherits INterface, Sub class is also, so it should be Pre-selected
+Handle INterfaces, if Base class inherit Interface, Sub class does as well, so it should be preticked.
+When creating INterface, selection if the Method muct be overwritten
+When creating an Interface, when selecting a Parent interfaec it's not setting that correct
+Create Override method, show INterfaces as well
