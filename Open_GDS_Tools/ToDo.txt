@@ -17,11 +17,24 @@ Method exists, move indicator
 
 Clone Interface, Error when interafec has parent interfaces
 
-Clone Method, not showing Interface Methods
+-Clone Method, not alowed in interfaces
+-Clone Method, not showing Interface Methods
+-Clone Methos, layout of Mulitple classes, This VI Exists location
+-Clone VI, the Header is not canged for an interface method
+
+-Clone INterface method to otehr interface generates error
+
 -The Wire in Class Dialog don't matches the right look, but the name is correct
 Create Class, grey out MEthod selection if no INterfaces are selected
 If Base Class inherits INterface, Sub class is also, so it should be Pre-selected
 Handle INterfaces, if Base class inherit Interface, Sub class does as well, so it should be preticked.
 When creating INterface, selection if the Method muct be overwritten
 When creating an Interface, when selecting a Parent interfaec it's not setting that correct
-Create Override method, show INterfaces as well
+When creating INterface, Start Folder not correct, Class Name description
+
+-Create Override method, show INterfaces as well
+
+
+
+-Cloning Interface , the folder suffix is _class, the Captions is class not interface?!?
+-Clone Class, changing suffix changes Project Folder name
