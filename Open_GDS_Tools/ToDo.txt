@@ -38,3 +38,11 @@ When creating INterface, Start Folder not correct, Class Name description
 
 -Cloning Interface , the folder suffix is _class, the Captions is class not interface?!?
 -Clone Class, changing suffix changes Project Folder name
+
+When creating an INterface and inheit pperent interfaces, Whoe option to create all those methods
+UML Modeller:
+ -Interface Class Object in Attribute don't become a Class ref
+ Auto Generate Pckages is not using lvlib, just folder structures, should we add Parent Packages to the Class?!?
+ -Update the Strategy Pattern design XML
+ Clone Interface Method to other interfaces, repalces the Class Controls and Indicators?!?
+ Remove support for dragging in class onto the class diagram!
