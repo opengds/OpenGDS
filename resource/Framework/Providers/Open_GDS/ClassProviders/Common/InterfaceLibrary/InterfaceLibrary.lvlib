@@ -23,4 +23,5 @@
 	<Item Name="RemoveInterface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/InterfaceLibrary/RemoveInterface.vi"/>
 	<Item Name="SelectMethodsOfInterfaces.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/InterfaceLibrary/SelectMethodsOfInterfaces.vi"/>
 	<Item Name="SetMethodTreeCaption.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/InterfaceLibrary/SetMethodTreeCaption.vi"/>
+	<Item Name="SetParentInterfaces.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/InterfaceLibrary/SetParentInterfaces.vi"/>
 </Library>
