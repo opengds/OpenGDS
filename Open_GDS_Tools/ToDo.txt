@@ -2,20 +2,20 @@
 -INterface Add MEthod is nt working
 -Base Class Creation template No renaming
 
-Removing Parent INterfaec isn't working Array Empty
-Adding INterface Use Full Qualifing Names in S1d
+-Removing Parent INterfaec isn't working Array Empty
+-Adding INterface Use Full Qualifing Names in S1d
 
-Handle INterfaces< starts with 1 Removed?!?
+-Handle INterfaces< starts with 1 Removed?!?
 
-ClassCreation Remeber Values when changing Class Provider
+-ClassCreation Remeber Values when changing Class Provider
 When selecting a new Wire Deisgn and pressing Done, we don't need to updtae the curertn name, but we should upadte the WireStyle for the class, what should the name be? "Custom"
 
 Bug:
 Set classAttribute1  => Set%s
-Cancel still creates method
+-Cancel still creates method
 Method exists, move indicator
 
-Clone Interface, Error when interafec has parent interfaces
+-Clone Interface, Error when interafec has parent interfaces
 
 -Clone Method, not alowed in interfaces
 -Clone Method, not showing Interface Methods
@@ -25,7 +25,7 @@ Clone Interface, Error when interafec has parent interfaces
 -Clone INterface method to otehr interface generates error
 
 -The Wire in Class Dialog don't matches the right look, but the name is correct
-Create Class, grey out MEthod selection if no INterfaces are selected
+-Create Class, grey out MEthod selection if no INterfaces are selected
 -If Base Class inherits INterface, Sub class is also, so it should be Pre-selected
 -Handle INterfaces, if Base class inherit Interface, Sub class does as well, so it should be preticked.
 -Hanlde INterface, 2 methods was not created
@@ -36,7 +36,7 @@ Create Class, grey out MEthod selection if no INterfaces are selected
 
 -Create Override method, show INterfaces as well
 
-Update all Method templattes
+-Update all Method templattes
 -Creating class and selecting parent Interface don't set it.
 
 
@@ -50,3 +50,4 @@ UML Modeller:
  -Update the Strategy Pattern design XML
  Clone Interface Method to other interfaces, repalces the Class Controls and Indicators?!?
  Remove support for dragging in class onto the class diagram!
+ State Machine analysis isn' alwasy working
