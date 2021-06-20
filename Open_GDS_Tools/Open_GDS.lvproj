@@ -425,6 +425,7 @@
 			<Item Name="CreateNewWizard_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/CreateNewWizard_Interface.ctl"/>
 			<Item Name="Event Type--enum.ctl" Type="VI" URL="../../project/Delacor/DQMH/_DQMH New Event/Event Type--enum.ctl"/>
 			<Item Name="Fix Round Trip Broadcast Event VI.vi" Type="VI" URL="../../project/Delacor/DQMH/_DQMH New Event/Fix Round Trip Broadcast Event VI.vi"/>
+			<Item Name="GDSAPI_AddDeisgnPattern.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/GDSAPI_AddDeisgnPattern.vi"/>
 			<Item Name="Get All Events in Module.vi" Type="VI" URL="../../project/Delacor/DQMH/_DQMH New Unit Test/Get All Events in Module.vi"/>
 			<Item Name="Get Module Type Info.vi" Type="VI" URL="../../project/Delacor/DQMH/_DQMH New Module/Get Module Type Info.vi"/>
 			<Item Name="Global_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Global_Interface.ctl"/>
