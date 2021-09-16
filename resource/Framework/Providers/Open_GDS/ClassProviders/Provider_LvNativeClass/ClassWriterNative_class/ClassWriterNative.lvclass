@@ -26,13 +26,13 @@
 	<Item Name="private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Item Name="CreateMethodNames.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/ClassWriterNative_class/private/CreateMethodNames.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$B!!!!#A!&amp;!!-!!"2!1!!"`````Q!!"V^.:82I&lt;W1!"!!!!!A!-0````]!&amp;E"!!!(`````!!-*8V"S&lt;X"F=H2Z!"B!1!!"`````Q!$#EFU:7UA4G&amp;N:8-!!"2!)1Z6=W5A5G6B:#^8=GFU:1!!'%"!!!(`````!!-,476U;'^E4G&amp;N:8-!*%"!!!(`````!!-8182U=GFC&gt;82F,V"S&lt;X"F=H2Z4G&amp;N:8-!.A$Q!!=!!1!#!!1!"1!'!!=!#!)!!-!!!B!!!!!!!!!#%!!!!B!!!!!1!!!!#1!!!!E!!!!!!1!*!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;!!!!!#A!&amp;!!-!!"2!1!!"`````Q!!"V^.:82I&lt;W1!9Q$R!!!!!!!!!!%B1G&amp;T:6"S&lt;X:J:'6S8U:J&lt;'6/97VJ&lt;G&gt;0=(2J&lt;WYO9X2M!$F!&amp;A!$#5.B&lt;76M1W&amp;T:164='&amp;D:1J6&lt;G2F=H.D&lt;X*F!!!12GFM:5ZB&lt;7FO:U^Q&gt;'FP&lt;A!!#!!Q`````Q!71%!!!@````]!!QF@5(*P='6S&gt;(E!'%"!!!(`````!!-+382F&lt;3"/97VF=Q!!&amp;%!B$F6T:3"3:7&amp;E,V&gt;S;82F!!!91%!!!@````]!!QN.:82I&lt;W2/97VF=Q!E1%!!!@````]!!R&gt;"&gt;(2S;7*V&gt;'5P5(*P='6S&gt;(F/97VF=Q!W!0!!"Q!"!!)!"!!&amp;!!9!"Q!)!A!!Q!!#%!!!!"!!!!)1!!!#%!!!!"!!!!!*!!!!#1!!!!!"!!E!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1352671744</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 		</Item>
 		<Item Name="DialogCreateClass_HandleTemplatesDialog.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/ClassWriterNative_class/private/DialogCreateClass_HandleTemplatesDialog.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)2!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!'%!Q`````QZ5:7VQ&lt;'&amp;U:5FE4G&amp;N:1!!)%!Q`````R:5:7VQ&lt;'&amp;U:66T:8*%;7&amp;M&lt;W&gt;/97VF!!!;1#%54WZM?6.V9E.M98.T6'6N='RB&gt;'5!!#J!1!!"`````Q!'(5.B&lt;E2F=GFW:5:S&lt;WV5;'6T:62F&lt;8"M982F352T!"2!-0````],1WRB=X.4&gt;7:G;8A!&amp;%!Q`````QN%:8.D=GFQ&gt;'FP&lt;A!31#%.4(:-;7*5:7VQ&lt;'&amp;U:1"=!0%!!!!!!!!!!B.$&lt;'&amp;T=V&gt;S;82F=CZM&gt;G.M98.T&amp;5.M98.T6'6N='RB&gt;'65?8"F,G.U&lt;!!K1&amp;!!"Q!'!!=!#!!*!!I!#Q!-%5.M98.T6'6N='RB&gt;'65?8"F!%*!1!!"`````Q!..5&amp;M&lt;&amp;2F&lt;8"M982F=U:P=F2I;8.1=G^W;72F=C^*&lt;GBF=GFU97ZD:62Z='5I1G&amp;T:3^4&gt;7)J!&amp;1!]!!-!!-!"!!%!!1!"!!%!!1!"!!&amp;!!1!"!!/!Q!!?!!!$1A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!!!!!!)1!!!!!!%!$Q!!!!!</Property>

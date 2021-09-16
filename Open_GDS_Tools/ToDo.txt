@@ -51,3 +51,6 @@ UML Modeller:
  Clone Interface Method to other interfaces, repalces the Class Controls and Indicators?!?
  Remove support for dragging in class onto the class diagram!
  State Machine analysis isn' alwasy working
+ 
+ Example
+ https://www.geeksforgeeks.org/composite-design-pattern/
