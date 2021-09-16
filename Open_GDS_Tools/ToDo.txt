@@ -51,3 +51,8 @@ UML Modeller:
  Clone Interface Method to other interfaces, repalces the Class Controls and Indicators?!?
  Remove support for dragging in class onto the class diagram!
  State Machine analysis isn' alwasy working
+ 
+ Text Conversion:
+  Asks to save classes in the end
+
+Clone Method overwrite with Class Ctr/Ind with same name
