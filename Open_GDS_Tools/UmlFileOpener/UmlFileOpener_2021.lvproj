@@ -43,22 +43,21 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">resource/Framework/Providers/Open_GDS/UmlMessage</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2020/resource/Framework/Providers/Open_GDS/UmlMessage</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{78CA9EC8-0A3F-4D0D-88D6-63FD710B1074}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">UmlMessager_2021.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">resource/Framework/Providers/Open_GDS/UmlMessage/UmlMessager_2021.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">relativeToAppDir</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2020/resource/Framework/Providers/Open_GDS/UmlMessage/UmlMessager_2021.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">resource/Framework/Providers/Open_GDS/UmlMessage/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">relativeToAppDir</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Program Files (x86)/National Instruments/LabVIEW 2020/resource/Framework/Providers/Open_GDS/UmlMessage/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/UML_Icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{64E8BC53-2030-4590-94F4-22CFCFC8486B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{BE2FA9D4-8616-4284-A04C-60CDE25561B8}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/UmlFileOpener_20XX.vi</Property>
