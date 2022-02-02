@@ -99,6 +99,7 @@
 				<Item Name="3GOOPStates.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPStates.ctl"/>
 				<Item Name="3GOOPVersion.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPVersion.vi"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="_DQMH Documentation Pages--enum.ctl" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH Project Template/_support/_DQMH Documentation Pages--enum.ctl"/>
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 				<Item Name="Add File to Zip.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Add File to Zip.vi"/>
 				<Item Name="Alignment.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Alignment.ctl"/>
@@ -112,6 +113,7 @@
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
 				<Item Name="BodyText.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/BodyText.ctl"/>
 				<Item Name="BodyTextPosition.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/BodyTextPosition.ctl"/>
+				<Item Name="Bold Particular String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Bold Particular String.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Calc Long Word Padded Width.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Calc Long Word Padded Width.vi"/>
 				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
@@ -120,6 +122,7 @@
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
+				<Item Name="Check VIs for Dynamic Call Compatibility.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/VariantDataType/Check VIs for Dynamic Call Compatibility.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Close Registry Key.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Close Registry Key.vi"/>
 				<Item Name="Close Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Close Zip File.vi"/>
@@ -245,10 +248,12 @@
 				<Item Name="Interface_RunVI.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/Interface_RunVI.vi"/>
 				<Item Name="Interface_ViServerCall.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/Interface_ViServerCall.vi"/>
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
+				<Item Name="Is Class Not Interface Without Loading.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Is Class Not Interface Without Loading.vi"/>
 				<Item Name="Is Name Multiplatform.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Is Name Multiplatform.vi"/>
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="Is Value Changed.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Is Value Changed.vim"/>
 				<Item Name="LabVIEW Icon API.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Icon API/LabVIEW Icon API.lvlib"/>
+				<Item Name="LabVIEW Icon Stored Information.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/LabVIEW Icon Stored Information.ctl"/>
 				<Item Name="LabVIEWHTTPClient.lvlib" Type="Library" URL="/&lt;vilib&gt;/httpClient/LabVIEWHTTPClient.lvlib"/>
 				<Item Name="Layer.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Layer.ctl"/>
 				<Item Name="Layer.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Classes/Layer/Layer.lvclass"/>
@@ -267,9 +272,11 @@
 				<Item Name="Librarian Set Info.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian Set Info.vi"/>
 				<Item Name="Librarian.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="Load &amp; Unload.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Classes/Load_Unload/Load &amp; Unload.lvclass"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="lv_icon.lvlib" Type="Library" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/lv_icon.lvlib"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="LVDeltaXY32Cluster.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDeltaXY32Cluster.ctl"/>
 				<Item Name="lveventtype.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/lveventtype.ctl"/>
 				<Item Name="LVFontTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVFontTypeDef.ctl"/>
 				<Item Name="LVMenuShortCut.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVMenuShortCut.ctl"/>
@@ -282,11 +289,15 @@
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
 				<Item Name="LVSelectionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVSelectionTypeDef.ctl"/>
+				<Item Name="Match 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Match 1D String Array.vi"/>
+				<Item Name="Match Regular Expression_Execute.vi" Type="VI" URL="/&lt;vilib&gt;/regexp/Match Regular Expression_Execute.vi"/>
+				<Item Name="Match Regular Expression_ExecuteOffsets.vi" Type="VI" URL="/&lt;vilib&gt;/regexp/Match Regular Expression_ExecuteOffsets.vi"/>
 				<Item Name="MD5Checksum core.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum core.vi"/>
 				<Item Name="MD5Checksum File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum File.vi"/>
 				<Item Name="MD5Checksum format message-digest.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum format message-digest.vi"/>
 				<Item Name="MD5Checksum pad.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/MD5Checksum.llb/MD5Checksum pad.vi"/>
 				<Item Name="Member VI Info.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/Data Type/Member VI Info.ctl"/>
+				<Item Name="Menu Launch VI Information.vi" Type="VI" URL="/&lt;vilib&gt;/VIServer/Menu Launch VI Information.vi"/>
 				<Item Name="Nearest Freq in Int Cycles.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalConfig.llb/Nearest Freq in Int Cycles.vi"/>
 				<Item Name="Nearest Frequency for Block.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalConfig.llb/Nearest Frequency for Block.vi"/>
 				<Item Name="New VI Library.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/New VI Library.vi"/>
@@ -306,9 +317,11 @@
 				<Item Name="Open URL in Default Browser (string).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (string).vi"/>
 				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi"/>
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
+				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
 				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
 				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
+				<Item Name="Pathes.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Icon API/lv_icon/Controls/Pathes.ctl"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
 				<Item Name="Picture to Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Picture to Pixmap.vi"/>
@@ -325,6 +338,7 @@
 				<Item Name="Read BMP File Data.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP File Data.vi"/>
 				<Item Name="Read BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP File.vi"/>
 				<Item Name="Read BMP Header Info.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP Header Info.vi"/>
+				<Item Name="Read Class Ancestry Without Loading.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Read Class Ancestry Without Loading.vi"/>
 				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
 				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
 				<Item Name="Read Registry Value DWORD.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Read Registry Value DWORD.vi"/>
@@ -342,8 +356,10 @@
 				<Item Name="Registry View.ctl" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry View.ctl"/>
 				<Item Name="Registry WinErr-LVErr.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Registry WinErr-LVErr.vi"/>
 				<Item Name="Relative Path To Platform Independent String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Relative Path To Platform Independent String.vi"/>
+				<Item Name="Remove and Rewire Objects_core.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/QuickDropSupport/Remove and Rewire Objects_core.vi"/>
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
+				<Item Name="Scripting DQMH Help.vi" Type="VI" URL="/&lt;vilib&gt;/Delacor/Delacor QMH Project Template/_support/Scripting DQMH Help.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Search Unsorted 1D Array Core.vim"/>
 				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Unsorted 1D Array.vim"/>
@@ -360,7 +376,6 @@
 				<Item Name="Single String To Qualified Name Array.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Single String To Qualified Name Array.vi"/>
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="Stall Data Flow.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/Stall Data Flow.vim"/>
-				<Item Name="Stans Library 1.lvlib" Type="Library" URL="/&lt;vilib&gt;/Stans Stuff/Stans Library 1.lvlib"/>
 				<Item Name="STR_ASCII-Unicode.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/STR_ASCII-Unicode.vi"/>
 				<Item Name="sub2ShouldUseDefSigName.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/sub2ShouldUseDefSigName.vi"/>
 				<Item Name="sub_Random U32.vi" Type="VI" URL="/&lt;vilib&gt;/numeric/sub_Random U32.vi"/>
@@ -391,12 +406,15 @@
 				<Item Name="UnescapeChar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/UnescapeChar.vi"/>
 				<Item Name="Unflatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Unflatten Pixmap.vi"/>
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
+				<Item Name="UserTags.lvlib" Type="Library" URL="/&lt;vilib&gt;/UserTags/UserTags.lvlib"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="VI Scripting - Traverse.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/traverseref.llb/VI Scripting - Traverse.lvlib"/>
 				<Item Name="VIAnUtil Check If ErrClust.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Check If ErrClust.vi"/>
 				<Item Name="VIAnUtil Check Type If ErrClust.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Check Type If ErrClust.vi"/>
 				<Item Name="VIAnUtil Clear Specific Error.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Clear Specific Error.vi"/>
+				<Item Name="VIAnUtil Get Terminal Data Type.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Get Terminal Data Type.vi"/>
 				<Item Name="VIAnUtil Has Diagram.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Has Diagram.vi"/>
+				<Item Name="VIAnUtil Has Panel.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Has Panel.vi"/>
 				<Item Name="VIMemory Computing Node.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/allVIsInMemory.llb/VIMemory Computing Node.ctl"/>
 				<Item Name="VIMemory Get All Computing Nodes.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/allVIsInMemory.llb/VIMemory Get All Computing Nodes.vi"/>
 				<Item Name="VIMemory Get Computing Nodes.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/allVIsInMemory.llb/VIMemory Get Computing Nodes.vi"/>
@@ -419,12 +437,13 @@
 				<Item Name="Write Registry Value STR.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Write Registry Value STR.vi"/>
 				<Item Name="Write Registry Value.vi" Type="VI" URL="/&lt;vilib&gt;/registry/registry.llb/Write Registry Value.vi"/>
 			</Item>
+			<Item Name="_DQMH Scripting Support.lvlib" Type="Library" URL="../../project/Delacor/DQMH/_support/_DQMH Scripting Support.lvlib"/>
+			<Item Name="Add Request and Wait for Reply Timeout Error VI.vi" Type="VI" URL="../../project/Delacor/DQMH/_DQMH Validate Module/fixers/Add Request and Wait for Reply Timeout Error VI.vi"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
 			<Item Name="Class Provider Support.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/_ClassSupport/Class Provider Support.lvlib"/>
-			<Item Name="Close Scripting References.vi" Type="VI" URL="../../project/Delacor/DQMH/_DQMH New Event/Close Scripting References.vi"/>
 			<Item Name="CLSUIP_GetAllClassesInProject.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVClassLibrary/CLSUIP_GetAllClassesInProject.vi"/>
 			<Item Name="CLSUIP_GetAllClassesInThisClassesAppByName.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVClassLibrary/CLSUIP_GetAllClassesInThisClassesAppByName.vi"/>
 			<Item Name="CLSUIP_GetFlowObjectName.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVClassLibrary/CLSUIP_GetFlowObjectName.vi"/>
@@ -432,10 +451,48 @@
 			<Item Name="CLSUIP_Set Class Tree Glyph.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVClassLibrary/CLSUIP_Set Class Tree Glyph.vi"/>
 			<Item Name="CLSUIP_TidyAllClassesList.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVClassLibrary/CLSUIP_TidyAllClassesList.vi"/>
 			<Item Name="CreateNewWizard_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/CreateNewWizard_Interface.ctl"/>
-			<Item Name="Event Type--enum.ctl" Type="VI" URL="../../project/Delacor/DQMH/_DQMH New Event/Event Type--enum.ctl"/>
-			<Item Name="Fix Round Trip Broadcast Event VI.vi" Type="VI" URL="../../project/Delacor/DQMH/_DQMH New Event/Fix Round Trip Broadcast Event VI.vi"/>
-			<Item Name="Get All Events in Module.vi" Type="VI" URL="../../project/Delacor/DQMH/_DQMH New Unit Test/Get All Events in Module.vi"/>
-			<Item Name="Get Module Type Info.vi" Type="VI" URL="../../project/Delacor/DQMH/_DQMH New Module/Get Module Type Info.vi"/>
+			<Item Name="Delacor - Align 1 Row of FP Controls.vi" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Align 1 Row of FP Controls.vi"/>
+			<Item Name="Delacor - Arrange BD.vi" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Arrange BD.vi"/>
+			<Item Name="Delacor - Arrange FP Controls Columns.vi" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Arrange FP Controls Columns.vi"/>
+			<Item Name="Delacor - Arrange FP Controls Rows.vi" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Arrange FP Controls Rows.vi"/>
+			<Item Name="Delacor - Arrange FP Controls.vi" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Arrange FP Controls.vi"/>
+			<Item Name="Delacor - Arrange FP.vi" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Arrange FP.vi"/>
+			<Item Name="Delacor - Arrange Other FP Objects.vi" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Arrange Other FP Objects.vi"/>
+			<Item Name="Delacor - Compute Bound on Grid.vi" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Compute Bound on Grid.vi"/>
+			<Item Name="Delacor - Compute Top Row Vertical Delta.vi" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Compute Top Row Vertical Delta.vi"/>
+			<Item Name="Delacor - Compute Window Bounds.vi" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Compute Window Bounds.vi"/>
+			<Item Name="Delacor - Ensure Leftmost BD Object Is Visible.vi" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Ensure Leftmost BD Object Is Visible.vi"/>
+			<Item Name="Delacor - Establish Window Bounds.vi" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Establish Window Bounds.vi"/>
+			<Item Name="Delacor - Filter FP Conn Pane Controls.vi" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Filter FP Conn Pane Controls.vi"/>
+			<Item Name="Delacor - FP Control Info.ctl" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - FP Control Info.ctl"/>
+			<Item Name="Delacor - FP Objects Arrangement Info.ctl" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - FP Objects Arrangement Info.ctl"/>
+			<Item Name="Delacor - Get BD Canvas Margin.vi" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Get BD Canvas Margin.vi"/>
+			<Item Name="Delacor - Get Display Workspace Bounds.vi" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Get Display Workspace Bounds.vi"/>
+			<Item Name="Delacor - Get FP Controls Max Bottom.vi" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Get FP Controls Max Bottom.vi"/>
+			<Item Name="Delacor - Get FP Controls Rows.vi" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Get FP Controls Rows.vi"/>
+			<Item Name="Delacor - Get FP Objects Arrangement Info.vi" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Get FP Objects Arrangement Info.vi"/>
+			<Item Name="Delacor - Get Min Window Dimensions.vi" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Get Min Window Dimensions.vi"/>
+			<Item Name="Delacor - Get Window Gaps.vi" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Get Window Gaps.vi"/>
+			<Item Name="Delacor - Get Window INI tokens.vi" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Get Window INI tokens.vi"/>
+			<Item Name="Delacor - Get Window Margins.vi" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Get Window Margins.vi"/>
+			<Item Name="Delacor - Min Window Dimensions.ctl" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Min Window Dimensions.ctl"/>
+			<Item Name="Delacor - Move All BD Objects.vi" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Move All BD Objects.vi"/>
+			<Item Name="Delacor - Order FP Conn Pane Controls.vi" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Order FP Conn Pane Controls.vi"/>
+			<Item Name="Delacor - Rectangle Dimensions.ctl" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Rectangle Dimensions.ctl"/>
+			<Item Name="Delacor - Resize BD.vi" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Resize BD.vi"/>
+			<Item Name="Delacor - Resize FP.vi" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Resize FP.vi"/>
+			<Item Name="Delacor - Space FP Controls.vi" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Space FP Controls.vi"/>
+			<Item Name="Delacor - Window Gaps.ctl" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Window Gaps.ctl"/>
+			<Item Name="Delacor - Window Margins.ctl" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Window Margins.ctl"/>
+			<Item Name="Delacor - Window Type.ctl" Type="VI" URL="../../project/Delacor/DQMH/_Delacor Arrange Window/Delacor - Window Type.ctl"/>
+			<Item Name="DQMH Create RT Tester.lvlib" Type="Library" URL="../../project/Delacor/DQMH/_DQMH Create RT Tester/DQMH Create RT Tester.lvlib"/>
+			<Item Name="DQMH New Event.lvlib" Type="Library" URL="../../project/Delacor/DQMH/_DQMH New Event/DQMH New Event.lvlib"/>
+			<Item Name="DQMH New Module.lvlib" Type="Library" URL="../../project/Delacor/DQMH/_DQMH New Module/DQMH New Module.lvlib"/>
+			<Item Name="DQMH New Unit Test.lvlib" Type="Library" URL="../../project/Delacor/DQMH/_DQMH New Unit Test/DQMH New Unit Test.lvlib"/>
+			<Item Name="DQMH Remove Do Something.lvlib" Type="Library" URL="../../project/Delacor/DQMH/_DQMH Remove Do Something/DQMH Remove Do Something.lvlib"/>
+			<Item Name="DQMH Remove Event.lvlib" Type="Library" URL="../../project/Delacor/DQMH/_DQMH Remove Event/DQMH Remove Event.lvlib"/>
+			<Item Name="DQMH Validate Module.lvlib" Type="Library" URL="../../project/Delacor/DQMH/_DQMH Validate Module/DQMH Validate Module.lvlib"/>
+			<Item Name="Get Module Main Private Virtual Folder.vi" Type="VI" URL="../../project/Delacor/DQMH/_DQMH Validate Module/fixers/support/Get Module Main Private Virtual Folder.vi"/>
 			<Item Name="Global_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Global_Interface.ctl"/>
 			<Item Name="Item_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Item_Interface.ctl"/>
 			<Item Name="ItemRef.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/ItemRef.ctl"/>
@@ -455,8 +512,6 @@
 			<Item Name="LV Config Write String.vi" Type="VI" URL="/&lt;resource&gt;/Dialog/lvconfig.llb/LV Config Write String.vi"/>
 			<Item Name="LV Config Write.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Write.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="Module Info--cluster.ctl" Type="VI" URL="../../project/Delacor/DQMH/_DQMH New Event/Module Info--cluster.ctl"/>
-			<Item Name="Module Type--enum.ctl" Type="VI" URL="../../project/Delacor/DQMH/_DQMH New Event/Module Type--enum.ctl"/>
 			<Item Name="mxLvAddIconOverlays.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvAddIconOverlays.vi"/>
 			<Item Name="mxLvChangeType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvChangeType.ctl"/>
 			<Item Name="mxLvDebugDisplayCaller.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvDebugDisplayCaller.vi"/>
@@ -478,23 +533,11 @@
 			<Item Name="mxLvSetPopupMenu.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetPopupMenu.vi"/>
 			<Item Name="mxLvSetPopupMenuBatch.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetPopupMenuBatch.vi"/>
 			<Item Name="mxLvSetToolbar.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvSetToolbar.vi"/>
-			<Item Name="Parse Project for DQMH Modules.vi" Type="VI" URL="../../project/Delacor/DQMH/_DQMH New Event/Parse Project for DQMH Modules.vi"/>
 			<Item Name="Provider_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Provider_Interface.ctl"/>
-			<Item Name="Query Library for Module Info.vi" Type="VI" URL="../../project/Delacor/DQMH/_DQMH New Event/Query Library for Module Info.vi"/>
-			<Item Name="Save VI and Add to Library.vi" Type="VI" URL="../../project/Delacor/DQMH/_DQMH New Event/Save VI and Add to Library.vi"/>
-			<Item Name="Script Arguments Cluster.vi" Type="VI" URL="../../project/Delacor/DQMH/_DQMH New Event/Script Arguments Cluster.vi"/>
-			<Item Name="Script Destroy Events.vi" Type="VI" URL="../../project/Delacor/DQMH/_DQMH New Event/Script Destroy Events.vi"/>
-			<Item Name="Script Event Refnum.vi" Type="VI" URL="../../project/Delacor/DQMH/_DQMH New Event/Script Event Refnum.vi"/>
-			<Item Name="Script Fire Event Diagram.vi" Type="VI" URL="../../project/Delacor/DQMH/_DQMH New Event/Script Fire Event Diagram.vi"/>
-			<Item Name="Script Main and Tester Changes.vi" Type="VI" URL="../../project/Delacor/DQMH/_DQMH New Event/Script Main and Tester Changes.vi"/>
-			<Item Name="Script New Module.vi" Type="VI" URL="../../project/Delacor/DQMH/_DQMH New Module/Script New Module.vi"/>
-			<Item Name="Script Obtain Events.vi" Type="VI" URL="../../project/Delacor/DQMH/_DQMH New Event/Script Obtain Events.vi"/>
-			<Item Name="Scripting Identifiers--global.vi" Type="VI" URL="../../project/Delacor/DQMH/_support/Scripting Identifiers--global.vi"/>
+			<Item Name="Remove and Rewire.vi" Type="VI" URL="/&lt;resource&gt;/dialog/QuickDrop/plugins/Remove and Rewire.vi"/>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Update Icon (New Broadcast).vi" Type="VI" URL="../../project/Delacor/DQMH/_DQMH New Event/Update Icon (New Broadcast).vi"/>
-			<Item Name="Update Icon.vi" Type="VI" URL="../../project/Delacor/DQMH/_DQMH New Event/Update Icon.vi"/>
 			<Item Name="user32.dll" Type="Document" URL="user32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
