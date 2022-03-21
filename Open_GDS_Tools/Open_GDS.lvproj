@@ -86,6 +86,8 @@
 				<Item Name="_goop4.llb" Type="Document" URL="/&lt;vilib&gt;/addons/_goop4.llb"/>
 			</Item>
 		</Item>
+		<Item Name="JKI_Copy_Add State(s) to Queue.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/JKI_Copy_Add State(s) to Queue.vi"/>
+		<Item Name="JKI_Copy_Parse State Queue.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/JKI_Copy_Parse State Queue.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="3GOOPCallChain.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPCallChain.vi"/>
