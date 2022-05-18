@@ -71,11 +71,11 @@
 		<Item Name="G4BaseTemplate_Singleton_6x8x6_GetAttributes.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_6x8x6/utils/G4BaseTemplate_Singleton_6x8x6_GetAttributes.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)=!!!!$1"!1(!!(A!!+#:(.%*B=W65:7VQ&lt;'&amp;U:6^4;7ZH&lt;'6U&lt;WZ@.HAY?$9O&lt;(:D&lt;'&amp;T=Q!!$(*F:G6S:7ZD:3"J&lt;A!!)%!B'E^O&lt;(F(:82%&gt;H*3:7:F=G6O9W5I2G&amp;M=W5J!!!%!!!!$%!B"H.U982V=Q!!#U!$!!2D&lt;W2F!!!11$$`````"H.P&gt;8*D:1!!)%"1!!-!!Q!%!!54:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1"!1(!!(A!!+#:(.%*B=W65:7VQ&lt;'&amp;U:6^4;7ZH&lt;'6U&lt;WZ@.HAY?$9O&lt;(:D&lt;'&amp;T=Q!!$8*F:G6S:7ZD:3"P&gt;81!%5!+!!J"&gt;(2S;7*V&gt;'5R!!"7!0%!!!!!!!!!!C:(.%*B=W65:7VQ&lt;'&amp;U:6^4;7ZH&lt;'6U&lt;WZ@.HAY?$9O&lt;(:D&lt;'&amp;T=R209GJF9X2"&gt;(2S;7*V&gt;'6T,G.U&lt;!!31&amp;!!!1!)"%2B&gt;'%!!".!=!!A!!%!#1!(2'&amp;U96*F:A!71&amp;!!!Q!$!!1!"1FF=H*P=C"P&gt;81!G1$Q!"1!!!!"!!)!!A!#!!9!!A!#!!)!!A!#!!)!!A!#!!=!#1!#!!I!!A!,!Q!"%!!!%!!!!!A!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!.!!!!#1!!!!!!!!!*!!!!!!!!!!U&amp;!"5!!!!!!!!!!!!!!!!!!!%!!!!!!!!!!1!-!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1082138640</Property>
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 	</Item>

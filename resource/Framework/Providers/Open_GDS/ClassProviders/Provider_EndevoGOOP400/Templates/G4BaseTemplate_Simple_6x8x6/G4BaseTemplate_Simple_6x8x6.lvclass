@@ -61,11 +61,11 @@
 		<Item Name="G4BaseTemplate_Simple_6x8x6_GetAttributes.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_6x8x6/utils/G4BaseTemplate_Simple_6x8x6_GetAttributes.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!)2!!!!$1!]1(!!(A!!*3.(.%*B=W65:7VQ&lt;'&amp;U:6^4;7VQ&lt;'6@.HAY?$9O&lt;(:D&lt;'&amp;T=Q!-=G6G:8*F&lt;G.F)'FO!!!A1#%;4WZM?5&gt;F&gt;%2W=F*F:G6S:7ZD:3B'97RT:3E!!!1!!!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!A1&amp;!!!Q!$!!1!"2.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!$R!=!!?!!!F)U=U1G&amp;T:62F&lt;8"M982F8V.J&lt;8"M:6]W?$BY.CZM&gt;G.M98.T!!VS:7:F=G6O9W5A&lt;X6U!"&amp;!#A!+182U=GFC&gt;82F-1!!5Q$R!!!!!!!!!!)D2T2#98.F6'6N='RB&gt;'6@5WFN='RF8T:Y/(AW,GRW9WRB=X-54W*K:7.U182U=GFC&gt;82F=SZD&gt;'Q!%E"1!!%!#!2%982B!!!41(!!)!!"!!E!"U2B&gt;'&amp;3:79!&amp;E"1!!-!!Q!%!!5*:8*S&lt;X)A&lt;X6U!*E!]!!5!!!!!1!#!!)!!A!'!!)!!A!#!!)!!A!#!!)!!A!(!!E!!A!+!!)!#Q-!!2!!!"!!!!!)!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!$1!!!!E!!!!!!!!!#1!!!!!!!!!."1!6!!!!!!!!!!!!!!!!!!!"!!!!!!!!!!%!$!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1353458192</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">8396816</Property>
 			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 	</Item>
