@@ -1,35 +1,58 @@
+-Create Class Cancel don't work
+-INterface Add MEthod is nt working
+-Base Class Creation template No renaming
+
+-Removing Parent INterfaec isn't working Array Empty
+-Adding INterface Use Full Qualifing Names in S1d
+
+-Handle INterfaces< starts with 1 Removed?!?
+
+-ClassCreation Remeber Values when changing Class Provider
+When selecting a new Wire Deisgn and pressing Done, we don't need to updtae the curertn name, but we should upadte the WireStyle for the class, what should the name be? "Custom"
+
 Bug:
--Interface Method under virtual folder
-UML:
--Open New Project: APP_PROJECT_NEW Missing
--Get/Set<Property> needs fix
-Struct/Enum Icon should be auto created.
+Set classAttribute1  => Set%s
+-Cancel still creates method
+Method exists, move indicator
 
-Design Desc Scroll Bar
--Implement interface By Aggregation
+-Clone Interface, Error when interafec has parent interfaces
 
-Abstract Method Only Must Call
+-Clone Method, not alowed in interfaces
+-Clone Method, not showing Interface Methods
+-Clone Methos, layout of Mulitple classes, This VI Exists location
+-Clone VI, the Header is not canged for an interface method
 
-Support Interface creation and analyse from UML
-Better Auto Layout
+-Clone INterface method to otehr interface generates error
 
-Create a new project automatically when creating class with no project active. (or ask to open one)
-Singleton GOOP4, don’t become singleton?!?! 5x6x5
-Fix Unbundle by name don’t work when creating classes from the UML modeller. (If no attribute exists remove, and remove dead wires.)
-Get Property Method is putting the label on the wrong side.
-Maybe make you own set default class and lvlib configs based on INI file settings.
-After removing some class methods in the code, and when selecting Generate Classes no classes are visible but it still generates the methods, but it fails if VI name already exists and dies. (Destroy VI can’t re recreated.
+-The Wire in Class Dialog don't matches the right look, but the name is correct
+-Create Class, grey out MEthod selection if no INterfaces are selected
+-If Base Class inherits INterface, Sub class is also, so it should be Pre-selected
+-Handle INterfaces, if Base class inherit Interface, Sub class does as well, so it should be preticked.
+-Hanlde INterface, 2 methods was not created
+
+-When creating INterface, selection if the Method muct be overwritten
+-When creating an Interface, when selecting a Parent interfaec it's not setting that correct
+-When creating INterface, Start Folder not correct, Class Name description
+
+-Create Override method, show INterfaces as well
+
+-Update all Method templattes
+-Creating class and selecting parent Interface don't set it.
 
 
-In Create Class API, wire up ClassIcon 
-API Add Design Pattern ==> Implement Interface Design Pattern
+-Cloning Interface , the folder suffix is _class, the Captions is class not interface?!?
+-Clone Class, changing suffix changes Project Folder name
 
-Atfer craeted alsses from UML, lots of VI's classes needs to be resaved, due to connector pane changes 
+When creating an INterface and inheit pperent interfaces, Whoe option to create all those methods
+UML Modeller:
+ -Interface Class Object in Attribute don't become a Class ref
+ Auto Generate Pckages is not using lvlib, just folder structures, should we add Parent Packages to the Class?!?
+ -Update the Strategy Pattern design XML
+ Clone Interface Method to other interfaces, repalces the Class Controls and Indicators?!?
+ Remove support for dragging in class onto the class diagram!
+ State Machine analysis isn' alwasy working
+ 
+ Text Conversion:
+  Asks to save classes in the end
 
--Fixed PropertyNode Method Control/Indicator location
-
-Sync classes:
-Don't use Class.ctl
-Support Actors (inside lvlibs)
-
-From UML, when creating a sub class and you select diffrent connectorpane settings?!?!
+Clone Method overwrite with Class Ctr/Ind with same name

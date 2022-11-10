@@ -2,7 +2,7 @@
 <Pattern version='1.0' id='State' name='State' category='Behavioral' help='http://en.wikipedia.org/wiki/State_pattern'>
 	<Desc>Allow an object to alter its behavior when its internal state changes. The object will appear to change its class.</Desc>
 	<Nodes>
-		<Node id='Context' type='Class' name='Context' stereotype='' x='0' y='0'>
+		<Node id='Context' type='Class' name='Context' stereotype='' x='0' y='10'>
 			<Desc>Defines the interface of interest to clients.\nMaintains an instance of a ConcreateState subclass that defines the current state.</Desc>
 			<Attributes>
 				<Attribute id='StateRef' name='CurrentState' type='State' dimension='0'/>
@@ -11,7 +11,7 @@
 				<Method id='Request' name='Request()'/>
 			</Methods>
 		</Node>
-		<Node id='State' type='Class' name='State' stereotype='ABSTRACT' x='220' y='0'>
+		<Node id='State' type='Interface' name='State' stereotype='' x='220' y='0'>
 			<Desc>Defines an interface for encapsulating the behavior associated with a particular state of the Context.</Desc>
 			<Methods>
 				<Method id='Handle' name='Handle()'/>
@@ -39,7 +39,7 @@
 	</Nodes>
 	<Links>
 		<Link id='L1' name='' starttext='' endtext='' type='Aggregation' from='Context' to='State'/>
-		<Link id='L2' name='' starttext='' endtext='' type='Inheritance' from='ConcreteStateA' to='State'/>
-		<Link id='L3' name='' starttext='' endtext='' type='Inheritance' from='ConcreteStateB' to='State'/>
+		<Link id='L2' name='' starttext='' endtext='' type='Interface' from='ConcreteStateA' to='State'/>
+		<Link id='L3' name='' starttext='' endtext='' type='Interface' from='ConcreteStateB' to='State'/>
 	</Links>
 </Pattern>

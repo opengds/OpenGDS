@@ -12,7 +12,7 @@
  
   </Methods>
   </Node>
-  <Node id='Subject' type='Class' name='Subject' stereotype='' x='100' y='0'>
+  <Node id='Subject' type='Interface' name='Subject' stereotype='' x='100' y='0'>
    <Desc>Defines the common interface for RealSubject and Proxy so that a Proxy can be used anywhere a RealSubject is expected.</Desc>
    <Attributes>
 
@@ -41,8 +41,8 @@
 
  </Nodes>
  <Links>
-   <Link id='L1'  name='' starttext='' endtext='' type='Inheritance' from='Proxy' to='Subject'/>
-   <Link id='L2'  name='' starttext='' endtext='' type='Inheritance' from='RealSubject' to='Subject'/>
+   <Link id='L1'  name='' starttext='' endtext='' type='Interface' from='Proxy' to='Subject'/>
+   <Link id='L2'  name='' starttext='' endtext='' type='Interface' from='RealSubject' to='Subject'/>
    <Link id='L3'  name='realSubject' starttext='' endtext='' type='Association' from='Proxy' to='RealSubject'/>
  
  </Links>

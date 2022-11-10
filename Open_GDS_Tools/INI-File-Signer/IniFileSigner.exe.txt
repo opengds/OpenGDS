@@ -4,3 +4,6 @@ LabVIEW 20XX\resource\Framework\Providers\GProviders
 Most often you don't need to resign the ini files, 
 The file can be requested from NI, use the user group:
 https://decibel.ni.com/content/groups/labview-project-providers
+E.g.
+
+C:\Program Files (x86)\National Instruments\LabVIEW 2020\Open_GDS_Tools\INIFileSigner.exe -in "C:\Program Files (x86)\National Instruments\LabVIEW 2020\resource\Framework\Providers\GProviders\GOOP_MyComputer_Interface.ini" -out "C:\Program Files (x86)\National Instruments\LabVIEW 2020\resource\Framework\Providers\GProviders\GOOP_MyComputer_Interface_signed.ini" -v

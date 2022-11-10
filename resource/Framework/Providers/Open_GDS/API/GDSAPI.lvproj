@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="14008000">
+<Project Type="Project" LVVersion="20008000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -301,16 +301,6 @@
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="3GOOPCallChain.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPCallChain.vi"/>
-				<Item Name="3GOOPClassInfoTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPClassInfoTypeDef.ctl"/>
-				<Item Name="3GOOPClassStatistics.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPClassStatistics.ctl"/>
-				<Item Name="3GOOPFindClassPath.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPFindClassPath.vi"/>
-				<Item Name="3GOOPKernelSlave.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPKernelSlave.vi"/>
-				<Item Name="3GOOPObjectInfoType.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPObjectInfoType.ctl"/>
-				<Item Name="3GOOPSetError.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPSetError.vi"/>
-				<Item Name="3GOOPSharedInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPSharedInfo.ctl"/>
-				<Item Name="3GOOPStates.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPStates.ctl"/>
-				<Item Name="3GOOPVersion.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPVersion.vi"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Apply Configuration For Source Separation (Library).vi" Type="VI" URL="/&lt;vilib&gt;/SourceOnly/Apply Configuration For Source Separation (Library).vi"/>
 				<Item Name="Apply Configuration For Source Separation.vi" Type="VI" URL="/&lt;vilib&gt;/SourceOnly/Apply Configuration For Source Separation.vi"/>
@@ -320,6 +310,7 @@
 				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
 				<Item Name="Bit-array To Byte-array.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Bit-array To Byte-array.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
+				<Item Name="Calc Long Word Padded Width.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Calc Long Word Padded Width.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Path.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Path.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
@@ -329,6 +320,7 @@
 				<Item Name="Compare Src And Dst Simple.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Src And Dst Simple.vi"/>
 				<Item Name="Compare Src And Dst.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Src And Dst.vi"/>
 				<Item Name="Compare Two Paths.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Compare Two Paths.vi"/>
+				<Item Name="compatOverwrite.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOverwrite.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
 				<Item Name="Copy From And To VI Library.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Copy From And To VI Library.vi"/>
 				<Item Name="Copy From Folder To Folder.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Copy From Folder To Folder.vi"/>
@@ -342,11 +334,16 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="Directory of Top Level VI.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Directory of Top Level VI.vi"/>
+				<Item Name="Draw Arc.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Arc.vi"/>
+				<Item Name="Draw Circle by Radius.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Draw Circle by Radius.vi"/>
 				<Item Name="Draw Flattened Pixmap(6_1).vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap(6_1).vi"/>
 				<Item Name="Draw Flattened Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Flattened Pixmap.vi"/>
+				<Item Name="Draw Line.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Line.vi"/>
 				<Item Name="Draw Multiple Lines.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Multiple Lines.vi"/>
-				<Item Name="Draw Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rect.vi"/>
-				<Item Name="Draw Text at Point.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text at Point.vi"/>
+				<Item Name="Draw Oval.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Oval.vi"/>
+				<Item Name="Draw Point.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Point.vi"/>
+				<Item Name="Draw Rectangle.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rectangle.vi"/>
+				<Item Name="Draw Round Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Round Rect.vi"/>
 				<Item Name="Draw Text in Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Text in Rect.vi"/>
 				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
@@ -365,13 +362,12 @@
 				<Item Name="FindMatchingCloseTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindMatchingCloseTag.vi"/>
 				<Item Name="FixBadRect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/FixBadRect.vi"/>
 				<Item Name="Flatten Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pixmap.llb/Flatten Pixmap.vi"/>
+				<Item Name="Flip and Pad for Picture Control.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Flip and Pad for Picture Control.vi"/>
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
-				<Item Name="Get File System Separator.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysinfo.llb/Get File System Separator.vi"/>
-				<Item Name="Get File System.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysinfo.llb/Get File System.vi"/>
 				<Item Name="Get Image Subset.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Get Image Subset.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Get String Text Bounds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Get String Text Bounds.vi"/>
@@ -380,8 +376,20 @@
 				<Item Name="Get VI Library List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get VI Library List.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="GOOP4_CreateObjectDvrReference.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/GOOP4_CreateObjectDvrReference.vi"/>
+				<Item Name="GOOP4_DataClusterFor_CreateObject.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/GOOP4_DataClusterFor_CreateObject.ctl"/>
+				<Item Name="GOOP4_DataClusterFor_GetClassObjects.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/GOOP4_DataClusterFor_GetClassObjects.ctl"/>
+				<Item Name="GOOP4_DataClusterToProcessVI.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/GOOP4_DataClusterToProcessVI.ctl"/>
+				<Item Name="GOOP4_DebuggingStateMemory.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/GOOP4_DebuggingStateMemory.vi"/>
+				<Item Name="GOOP4_DebugProcess.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/GOOP4_DebugProcess.vi"/>
+				<Item Name="GOOP4_GetClassObjects.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/GOOP4_GetClassObjects.vi"/>
+				<Item Name="GOOP4_GetObjectInfo.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/GOOP4_GetObjectInfo.vi"/>
+				<Item Name="GOOP4_ReturnClusterFromProcess_CreateObject.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/GOOP4_ReturnClusterFromProcess_CreateObject.ctl"/>
+				<Item Name="GOOP4_ReturnClusterFromProcess_GetClassObjects.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/GOOP4_ReturnClusterFromProcess_GetClassObjects.ctl"/>
+				<Item Name="GOOPUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/GOOPUtility/GOOPUtility.lvlib"/>
 				<Item Name="Has LLB Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Has LLB Extension.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
+				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="Librarian Copy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian Copy.vi"/>
 				<Item Name="Librarian Delete Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian Delete Dialog.vi"/>
 				<Item Name="Librarian Delete.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Librarian Delete.vi"/>
@@ -399,12 +407,15 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="lveventtype.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/lveventtype.ctl"/>
 				<Item Name="LVFontTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVFontTypeDef.ctl"/>
+				<Item Name="LVNodeAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVNodeAndColumnTypeDef.ctl"/>
 				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
 				<Item Name="LVPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPointTypeDef.ctl"/>
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="LVSelectionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVSelectionTypeDef.ctl"/>
 				<Item Name="New VI Library.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/New VI Library.vi"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_Data Type.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/Data Type/NI_Data Type.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
@@ -413,9 +424,15 @@
 				<Item Name="Open URL in Default Browser (string).vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser (string).vi"/>
 				<Item Name="Open URL in Default Browser core.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser core.vi"/>
 				<Item Name="Open URL in Default Browser.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/browser.llb/Open URL in Default Browser.vi"/>
+				<Item Name="Path to URL inner.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL inner.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
 				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
+				<Item Name="Picture to Pixmap.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Picture to Pixmap.vi"/>
 				<Item Name="Prepare VI Library for Copy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Prepare VI Library for Copy.vi"/>
+				<Item Name="Read BMP File Data.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP File Data.vi"/>
+				<Item Name="Read BMP File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP File.vi"/>
+				<Item Name="Read BMP Header Info.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Read BMP Header Info.vi"/>
+				<Item Name="Read JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Read JPEG File.vi"/>
 				<Item Name="Read PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Read PNG File.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
@@ -453,23 +470,46 @@
 				<Item Name="VIAnUtil Has Diagram.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Has Diagram.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="AbstractEdge.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/AbstractEdge_class/AbstractEdge.lvclass"/>
+			<Item Name="AbstractNode.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/AbstractNode_class/AbstractNode.lvclass"/>
+			<Item Name="ArrowHead.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ArrowHead_class/ArrowHead.lvclass"/>
+			<Item Name="BentStyle.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/BentStyle_class/BentStyle.lvclass"/>
 			<Item Name="ByViServerInterfaceTemplate_CreateClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/CommonClasses/ByViServerInterfaceTemplate_CreateClass.vi"/>
 			<Item Name="CheckIfClassMemberExists.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/CheckIfClassMemberExists.vi"/>
+			<Item Name="ClassNode.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ClassNode_class/ClassNode.lvclass"/>
 			<Item Name="ClassReaderGOOP300.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/ClassReaderGOOP300_class/ClassReaderGOOP300.lvclass"/>
 			<Item Name="ClassReaderGOOP400.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/ClassReaderGOOP400_class/ClassReaderGOOP400.lvclass"/>
+			<Item Name="ClassRelationshipEdge.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ClassRelationshipEdge_class/ClassRelationshipEdge.lvclass"/>
+			<Item Name="Common_DoesClassExist.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/Common_DoesClassExist.vi"/>
+			<Item Name="CommonVIs ClassItemStringParser.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs ClassItemStringParser.vi"/>
+			<Item Name="CommonVIs RemoveWhiteSpace.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs RemoveWhiteSpace.vi"/>
+			<Item Name="CommonVIs SterotypeStringParser.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs SterotypeStringParser.vi"/>
 			<Item Name="CommonVIs_AlignToConnectorPane.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_AlignToConnectorPane.vi"/>
 			<Item Name="CommonVIs_ClassNamePathType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_ClassNamePathType.ctl"/>
+			<Item Name="CommonVIs_ColorMemory.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_ColorMemory.vi"/>
+			<Item Name="CommonVIs_ColorMemoryAction.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_ColorMemoryAction.ctl"/>
 			<Item Name="CommonVIs_CreateBD-StringConstantDocumentation.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_CreateBD-StringConstantDocumentation.vi"/>
+			<Item Name="CommonVIs_ListFilesRecursive.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_ListFilesRecursive.vi"/>
 			<Item Name="CommonVIs_PropertyType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_PropertyType.ctl"/>
+			<Item Name="CommonVIs_StereoType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_StereoType.ctl"/>
 			<Item Name="CommonVIs_UpdateAttributeCtrlPath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_UpdateAttributeCtrlPath.vi"/>
 			<Item Name="CommonVIs_UpdateMethodArguments.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_UpdateMethodArguments.vi"/>
+			<Item Name="DesignPatterns_LinkType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/DesignPattern/SubVIs/DesignPatterns_LinkType.ctl"/>
+			<Item Name="Direction.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/Direction_class/Direction.lvclass"/>
+			<Item Name="File_ApplicationPaths.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_ApplicationPaths.vi"/>
+			<Item Name="File_StoredPathesActions.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_StoredPathesActions.ctl"/>
 			<Item Name="GDSLvClass_GetClassInfo.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_GetClassInfo.vi"/>
 			<Item Name="GDSString_FindCodeBlock.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_FindCodeBlock.vi"/>
 			<Item Name="GDSString_FindTextBasedCodeDocumenation.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_FindTextBasedCodeDocumenation.vi"/>
 			<Item Name="GDSString_FormatStringConstantText.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_FormatStringConstantText.vi"/>
+			<Item Name="GDSString_FormatText.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_FormatText.vi"/>
+			<Item Name="GDSString_FromatedTextToHTML.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_FromatedTextToHTML.vi"/>
 			<Item Name="GDSString_MethodDescriptionType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_MethodDescriptionType.ctl"/>
 			<Item Name="GDSString_ModifierType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ModifierType.ctl"/>
 			<Item Name="GDSString_PatternMatching.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_PatternMatching.vi"/>
+			<Item Name="GDSString_ResetTextStyle.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ResetTextStyle.vi"/>
+			<Item Name="GDSString_SetTextStyle.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_SetTextStyle.vi"/>
+			<Item Name="GeneralPathEdge.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/GeneralPathEdge_class/GeneralPathEdge.lvclass"/>
 			<Item Name="GOOP_AnalyseAttributeCache.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_AnalyseAttributeCache.vi"/>
 			<Item Name="GOOP_AnalyseMethodCache.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_AnalyseMethodCache.vi"/>
 			<Item Name="GOOP_CreateControlsAndIndicatorsOnVI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_CreateControlsAndIndicatorsOnVI.vi"/>
@@ -477,27 +517,68 @@
 			<Item Name="GOOP_GetApplicationBasedOnLvClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_GetApplicationBasedOnLvClass.vi"/>
 			<Item Name="GOOP_MethodArgumentConnectionType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_MethodArgumentConnectionType.ctl"/>
 			<Item Name="GOOP_MethodArgumentType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_MethodArgumentType.ctl"/>
+			<Item Name="Graph.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/Graph_class/Graph.lvclass"/>
+			<Item Name="Graphics.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/Graphics_class/Graphics.lvclass"/>
+			<Item Name="Grid.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/Grid_class/Grid.lvclass"/>
 			<Item Name="Interface_AddImplementVI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/Interface/Interface_SubVIs/Interface_AddImplementVI.vi"/>
 			<Item Name="Interface_ImplementInterface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/Interface/Interface_ImplementInterface.vi"/>
 			<Item Name="InterfaceType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/Interface/Interface_SubVIs/InterfaceType.ctl"/>
+			<Item Name="LineStyle.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/LineStyle_class/LineStyle.lvclass"/>
 			<Item Name="LV Config Read Boolean.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Boolean.vi"/>
 			<Item Name="LV Config Read Color.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Color.vi"/>
 			<Item Name="LV Config Read Numeric (I32).vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Numeric (I32).vi"/>
 			<Item Name="LV Config Read Pathlist.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read Pathlist.vi"/>
 			<Item Name="LV Config Read String.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read String.vi"/>
 			<Item Name="LV Config Read.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Read.vi"/>
+			<Item Name="MultiLineString.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/MultiLineString_class/MultiLineString.lvclass"/>
+			<Item Name="NoteEdge.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/NoteEdge_class/NoteEdge.lvclass"/>
+			<Item Name="NoteNode.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/NoteNode_class/NoteNode.lvclass"/>
+			<Item Name="PackageNode.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/PackageNode_class/PackageNode.lvclass"/>
+			<Item Name="Point getBounds.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/General/Point/Point getBounds.vi"/>
+			<Item Name="Point getDistance.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/General/Point/Point getDistance.vi"/>
+			<Item Name="Point getDistanceToLine.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/General/Point/Point getDistanceToLine.vi"/>
+			<Item Name="Point Point2D.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/General/Point/Point Point2D.ctl"/>
+			<Item Name="PointNode.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/PointNode_class/PointNode.lvclass"/>
+			<Item Name="Rectangel Add.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/General/Rectangle/Rectangel Add.vi"/>
+			<Item Name="Rectangel ContainsInBound.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/General/Rectangle/Rectangel ContainsInBound.vi"/>
+			<Item Name="Rectangel GetRectCornerPoints.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/General/Rectangle/private/Rectangel GetRectCornerPoints.vi"/>
+			<Item Name="Rectangel GetRectInfo.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/General/Rectangle/Rectangel GetRectInfo.vi"/>
+			<Item Name="Rectangel LineIntersect.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/General/Rectangle/Rectangel LineIntersect.vi"/>
+			<Item Name="Rectangel LineIntersectLine.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/General/Rectangle/Rectangel LineIntersectLine.vi"/>
+			<Item Name="Rectangel MoveRectToFreeSpace.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/General/Rectangle/private/Rectangel MoveRectToFreeSpace.vi"/>
+			<Item Name="Rectangel RectangleOverlap.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/General/Rectangle/private/Rectangel RectangleOverlap.vi"/>
+			<Item Name="Rectangel StraightenLineBetweenRectangles.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/General/Rectangle/private/Rectangel StraightenLineBetweenRectangles.vi"/>
+			<Item Name="Rectangle DirectionToTest.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/General/Rectangle/Rectangle DirectionToTest.ctl"/>
+			<Item Name="Rectangle Rectangle2D.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/General/Rectangle/Rectangle Rectangle2D.ctl"/>
+			<Item Name="RectangularNode.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/RectangularNode_class/RectangularNode.lvclass"/>
 			<Item Name="ReversedEngineering AttributeDataType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering AttributeDataType.ctl"/>
 			<Item Name="ReversedEngineering UpdateClassMethods.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/private/ReversedEngineering UpdateClassMethods.vi"/>
 			<Item Name="ReversedEngineering_EvaluateMethodText.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering_EvaluateMethodText.vi"/>
+			<Item Name="ReversedEngineering_ViDependencyDetailsType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/ReversedEngineering/ReversedEngineering_ViDependencyDetailsType.ctl"/>
 			<Item Name="Scripting_AddFP-PanelRef.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_AddFP-PanelRef.vi"/>
 			<Item Name="Scripting_CleanUpControls.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_CleanUpControls.vi"/>
 			<Item Name="Scripting_CopyControlsFromTemplate.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_CopyControlsFromTemplate.vi"/>
+			<Item Name="Scripting_FitToLargestDec.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_FitToLargestDec.vi"/>
 			<Item Name="Scripting_FixControlTerminalLabel.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_FixControlTerminalLabel.vi"/>
 			<Item Name="Scripting_GetLibraryOfVI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_GetLibraryOfVI.vi"/>
 			<Item Name="Scripting_LibraryInfoMemory.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_LibraryInfoMemory.vi"/>
 			<Item Name="Scripting_PlaceControlsInClassAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_PlaceControlsInClassAttribute.vi"/>
 			<Item Name="Scripting_SaveUpdateSubVIs.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_SaveUpdateSubVIs.vi"/>
 			<Item Name="Scripting_UpdateBundle.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_UpdateBundle.vi"/>
+			<Item Name="SegmentedLineEdge.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/SegmentedLineEdge_class/SegmentedLineEdge.lvclass"/>
+			<Item Name="UMLEditor EditorActionType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/UMLEditor/UMLEditor EditorActionType.ctl"/>
+			<Item Name="UMLEditor ExecuteCommandType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/UMLEditor/UMLEditor ExecuteCommandType.ctl"/>
+			<Item Name="UMLEditor FlattenCommandType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/UMLEditor/UMLEditor FlattenCommandType.ctl"/>
+			<Item Name="UMLEditor tooltype.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/UMLEditor/UMLEditor tooltype.ctl"/>
+			<Item Name="UMLEditor_DiagramType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/UMLEditor/UMLEditor_DiagramType.ctl"/>
+			<Item Name="UMLEditor_FixXmlData.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/UMLEditor/UMLEditor_FixXmlData.vi"/>
+			<Item Name="UMLEditor_GraphMemory.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/UMLEditor/UMLEditor_GraphMemory.vi"/>
+			<Item Name="UMLEditor_HotSpotData.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/UMLEditor/UMLEditor_HotSpotData.ctl"/>
+			<Item Name="UMLEditor_HotSpotType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/UMLEditor/UMLEditor_HotSpotType.ctl"/>
+			<Item Name="UMLEditor_RelativePath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/UMLEditor/UMLEditor_RelativePath.vi"/>
+			<Item Name="UMLEditor_RemoveClassSuffix.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/UMLEditor/UMLEditor_RemoveClassSuffix.vi"/>
+			<Item Name="UMLEditor_StoredColors.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/UMLEditor/UMLEditor_StoredColors.ctl"/>
+			<Item Name="UMLEditor_StoredPathes.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML/UMLEditor/UMLEditor_StoredPathes.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

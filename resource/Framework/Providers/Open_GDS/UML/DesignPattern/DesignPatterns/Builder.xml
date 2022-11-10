@@ -2,7 +2,7 @@
 <Pattern version='1.0' id='Builder' name='Builder' category='Creational' help='http://en.wikipedia.org/wiki/Builder_pattern'>
  <Desc>Separate the construction of a complex object from its representation so that the same construction process can create different representations.</Desc>
  <Nodes>
-<Node id='Builder' type='Class' name='Builder' stereotype='' x='210' y='0'>
+<Node id='Builder' type='Interface' name='Builder' stereotype='' x='180' y='0'>
    <Desc>Specifies an abstract interface for creating parts of a Product object.</Desc>
    <Attributes>
 
@@ -11,7 +11,7 @@
  				<Method id='M2' name='BuildPart()'/>
   </Methods>
   </Node>
-  <Node id='Director' type='Class' name='Director' stereotype='' x='0' y='0'>
+  <Node id='Director' type='Class' name='Director' stereotype='' x='0' y='10'>
    <Desc>Constructs an object using the Builder interface.</Desc>
    <Attributes>
 				<Attribute id='A1' name='BuilderRefs' type='Builder' dimension='1'/>
@@ -48,7 +48,7 @@
  </Nodes>
  <Links>
 		<Link id='L1' name='' starttext='' endtext='0..n' type='Aggregation' from='Director' to='Builder'/>
-		<Link id='L2' name='' starttext='' endtext='' type='Inheritance' from='ConcreteBuilder' to='Builder'/>
+		<Link id='L2' name='' starttext='' endtext='' type='Interface' from='ConcreteBuilder' to='Builder'/>
 		<Link id='L3' name='' starttext='' endtext='' type='Dependency' from='ConcreteBuilder' to='Product'/>
  </Links>
 </Pattern>

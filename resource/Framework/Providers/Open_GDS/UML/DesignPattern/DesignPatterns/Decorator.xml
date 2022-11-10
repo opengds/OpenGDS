@@ -2,16 +2,16 @@
 <Pattern version='1.0' id='Decorator' name='Decorator' category='Structural' help='http://en.wikipedia.org/wiki/Decorator_pattern'>
  <Desc>Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.</Desc>
  <Nodes>
-<Node id='Decorator' type='Class' name='Decorator' stereotype='' x='200' y='120'>
+<Node id='Decorator' type='Class' name='Decorator' stereotype='' x='200' y='140'>
    <Desc>Maintains a reference to a Component object and defines an interface that conforms to Component&apos;s interface.</Desc>
    <Attributes>
-
+		<Attribute id='ComponentAtribute' name='DecorationComponent' type='Component' dimension='1'/>
    </Attributes>
    <Methods>
 	<Method id='M1' name='Operation()'/>
    </Methods>
   </Node>
-  <Node id='ConcreteDecorator' type='Class' name='ConcreteDecorator' stereotype='' x='180' y='250'>
+  <Node id='ConcreteDecorator' type='Class' name='ConcreteDecorator' stereotype='' x='220' y='250'>
    <Desc>Adds responsibilities to the component.</Desc>
    <Attributes>
 
@@ -20,7 +20,7 @@
 	<Method id='M2' name='Operation()'/>
   </Methods>
   </Node>
-  <Node id='Component' type='Class' name='Component' stereotype='' x='150' y='0'>
+  <Node id='Component' type='Interface' name='Component' stereotype='' x='150' y='0'>
    <Desc>Defines the interface for objects that can have responsibilities added to them dynamically.</Desc>
    <Attributes>
 
@@ -29,7 +29,7 @@
 	<Method id='M3' name='Operation()'/>
   </Methods>
   </Node>
-  <Node id='ConcreateComponent' type='Class' name='ConcreateComponent' stereotype='' x='0' y='120'>
+  <Node id='ConcreateComponent' type='Class' name='ConcreateComponent' stereotype='' x='0' y='140'>
    <Desc>Defines an object to which additional responsibilities can be attached.</Desc>
    <Attributes>
 
@@ -40,10 +40,10 @@
   </Node>
  </Nodes>
  <Links>
-   <Link id='L1'  name='' starttext='' endtext='' type='Inheritance' from='ConcreateComponent' to='Component'/>
-   <Link id='L2'  name='' starttext='' endtext='' type='Inheritance' from='Decorator' to='Component'/>
+   <Link id='L1'  name='' starttext='' endtext='' type='Interface' from='ConcreateComponent' to='Component'/>
+   <Link id='L2'  name='' starttext='' endtext='' type='Interface' from='Decorator' to='Component'/>
    <Link id='L3'  name='' starttext='' endtext='' type='Inheritance' from='ConcreteDecorator' to='Decorator'/>
-   <Link id='L4'  name='' starttext='' endtext='' type='Aggregation' from='Decorator' to='Component'/>
+   <Link id='L4'  name='' starttext='' endtext='' type='Aggregation' from='Decorator' to='Component' startoffset='40' endoffset='0' bendstyle='VH'/>
 
  </Links>
 </Pattern>

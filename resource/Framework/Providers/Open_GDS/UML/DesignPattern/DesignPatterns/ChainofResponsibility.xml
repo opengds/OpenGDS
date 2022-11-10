@@ -37,7 +37,7 @@
  <Links>
 		<Link id='L1' name='' starttext='' endtext='' type='Inheritance' from='ConcreteHandler1' to='Handler'/>
 		<Link id='L2' name='' starttext='' endtext='' type='Inheritance' from='ConcreteHandler2' to='Handler'/>
-		<Link id='L3' name='' starttext='' endtext='' type='Aggregation' from='ConcreteHandler2' to='Handler'/>
+		<Link id='L3' name='' starttext='successor' endtext='' type='Aggregation' from='ConcreteHandler2' to='Handler' startoffset='20' bendstyle='VH'/>
 		<Link id='L4' name='' starttext='' endtext='' type='Association' from='Client' to='Handler'/>
  </Links>
 </Pattern>

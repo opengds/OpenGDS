@@ -2,7 +2,7 @@
 <Pattern version='1.0' id='Command' name='Command' category='Behavioral' help='http://en.wikipedia.org/wiki/Command_pattern'>
  <Desc>Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations.</Desc>
  <Nodes>
-<Node id='Command' type='Class' name='Command' stereotype='Interface' x='350' y='30'>
+<Node id='Command' type='Interface' name='Command' stereotype='' x='350' y='30'>
    <Desc>Declares an interface for executing an operation.</Desc>
    <Attributes>
    </Attributes>
@@ -68,9 +68,9 @@
  </Nodes>
  <Links>
 		<Link id='L1' name='' starttext='' endtext='0..n' type='Aggregation' from='Invoker' to='Command'/>
-		<Link id='L2' name='' starttext='' endtext='' type='Inheritance' from='ConcreteCommand' to='Command'/>
+		<Link id='L2' name='' starttext='' endtext='' type='Interface' from='ConcreteCommand' to='Command'/>
 		<Link id='L3' name='' starttext='' endtext='' type='Dependency' from='Client' to='ConcreteCommand'/>
 		<Link id='L4' name='' starttext='' endtext='' type='Association' from='Client' to='Receiver'/>
-		<Link id='L5' name='' starttext='' endtext='' type='Association' from='ConcreteCommand' to='Receiver'/>
+		<Link id='L5' name='' starttext='' endtext='' type='Association' from='ConcreteCommand' to='Receiver'  startoffset='20'/>
  </Links>
 </Pattern>

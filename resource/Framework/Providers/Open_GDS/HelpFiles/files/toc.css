@@ -2,12 +2,12 @@ html, body {height:100%; margin: 0; padding: 0; }
 
 html>body {
 	font-size: 16px; 
-	font-size: 68.75%;
+	font-size: 80%;
 } /* Reset Base Font Size */
 
 body {
 	font-family: Verdana, helvetica, arial, sans-serif;
-	font-size: 68.75%;
+	font-size: 80%;
 	background: #fff;
 	color: #333;
 }
@@ -87,7 +87,11 @@ a img { border: none; }
 
 
 .filetree li { padding: 3px 0 2px 16px; }
-.filetree span.folder, .filetree span.file, .filetree a.folder, .filetree a.file { padding: 1px 0 1px 16px; display: block; }
-.filetree span.folder, .filetree a.folder { background: url(folder.gif) 0 0 no-repeat; }
-.filetree li.expandable span.folder, .filetree li.expandable a.folder { background: url(folder-closed.gif) 0 0 no-repeat; }
-.filetree span.file, .filetree a.file { background: url(file.gif) 0 0 no-repeat; }
+.filetree span.folder, .filetree span.file, .filetree a.folder, .filetree a.file, .filetree a.video {
+	padding: 1px 0 1px 16px;
+	display: block;
+}
+.filetree span.folder, .filetree a.folder { background: url(1.png) 0 0 no-repeat; }
+.filetree li.expandable span.folder, .filetree li.expandable a.folder { background: url(0.png) 0 0 no-repeat; }
+.filetree span.file, .filetree a.file { background: url(8.png) 0 0 no-repeat; }
+.filetree span.video, .filetree a.video {background: url(32.png) 0 0 no-repeat;}

@@ -39,6 +39,6 @@
 	<Links>
 		<Link id='LeafInheritance'  	name='' starttext='' endtext='' type='Inheritance' from='Leaf' to='Component'/>
 		<Link id='CompositeInheritance' name='' starttext='' endtext='' type='Inheritance' from='Composite' to='Component'/>
-		<Link id='Aggregation' name='' starttext='children' endtext='' type='Aggregation' from='Composite' to='Component'/>
+		<Link id='Aggregation' name='' starttext='children' endtext='' type='Aggregation' from='Composite' to='Component' startoffset='40' endoffset='0' bendstyle='VH'/>
 	</Links>
 </Pattern>

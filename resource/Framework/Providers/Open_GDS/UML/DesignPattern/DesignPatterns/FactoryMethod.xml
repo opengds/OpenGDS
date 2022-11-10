@@ -2,7 +2,7 @@
 <Pattern version='1.0' id='FactoryMethod' name='Factory Method' category='Creational' help='http://en.wikipedia.org/wiki/Factory_method_pattern'>
  <Desc>Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.</Desc>
  <Nodes>
-<Node id='Product' type='Class' name='Product' stereotype='' x='20' y='0'>
+<Node id='Product' type='Interface' name='Product' stereotype='' x='10' y='0'>
    <Desc>Defines the interface of objects the factory method creates.</Desc>
    <Attributes>
 
@@ -54,7 +54,7 @@
  </Nodes>
  <Links>
    <Link id='L1'  name='' starttext='' endtext='' type='Inheritance' from='ConcreteCreator' to='Creator'/>
-   <Link id='L2'  name='' starttext='' endtext='' type='Inheritance' from='ConcreteProduct' to='Product'/>
+   <Link id='L2'  name='' starttext='' endtext='' type='Interface' from='ConcreteProduct' to='Product'/>
    <Link id='L3'  name='' starttext='' endtext='' type='Dependency' from='ConcreteCreator' to='ConcreteProduct'/>
  </Links>
 </Pattern>
