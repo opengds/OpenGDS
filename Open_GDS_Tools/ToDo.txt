@@ -56,3 +56,12 @@ UML Modeller:
   Asks to save classes in the end
 
 Clone Method overwrite with Class Ctr/Ind with same name
+Add Interface to Singleton
+Create interface method on a singleton class issue
+
+Reverse of Directory, INterfaec link didn;'t get created, maybe normal Reverse Eng don't add Interface links, but Sync UML from code did.
+
+Add an easy way of adding an class in the project to the class diamgram, righg lcick "Add class form project..."
+When creating a new/empty class, maybe a dropdown list from foudn classes in the project, and when you press Enter, do an auto Reverse Analysais of class.
+
+Also it would be great to use the Linking info in the VIs instead of searcjing the BD, this will not be able to count the number of Create of Agregated classes that is used...
