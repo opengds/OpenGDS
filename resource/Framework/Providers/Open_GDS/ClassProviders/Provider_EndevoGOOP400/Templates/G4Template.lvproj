@@ -197,7 +197,7 @@
 			</Item>
 			<Item Name="G4SubTemplate_Singleton_6x8x6.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_6x8x6/G4SubTemplate_Singleton_6x8x6.lvclass"/>
 		</Item>
-		<Item Name="GetSetTemplateVersions.vi" Type="VI" URL="../../../../../../../../../../../Projects/OpenGDS/Open_GDS_Tools/GetSetTemplateVersions.vi"/>
+		<Item Name="OpenGetAttirbutes.vi" Type="VI" URL="../../../../../../../../Open_GDS_Tools/Temp/OpenGetAttirbutes.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>

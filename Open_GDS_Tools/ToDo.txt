@@ -65,3 +65,11 @@ Add an easy way of adding an class in the project to the class diamgram, righg l
 When creating a new/empty class, maybe a dropdown list from foudn classes in the project, and when you press Enter, do an auto Reverse Analysais of class.
 
 Also it would be great to use the Linking info in the VIs instead of searcjing the BD, this will not be able to count the number of Create of Agregated classes that is used...
+
+Clone Method, Body Text not White is class uses it.
+
+VI icon editor
+When VI/CTl found to probablky beloing to a class, then ask what accessibility to use.
+Guess private, protected.
+But if Flat strcuture, we need to ask.
+Use a new UI
