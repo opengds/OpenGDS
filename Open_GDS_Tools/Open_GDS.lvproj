@@ -38,78 +38,53 @@
 		<Item Name="resource" Type="Folder">
 			<Item Name="Framework" Type="Folder">
 				<Item Name="Providers" Type="Folder">
-					<Item Name="GProviders" Type="Folder">
-						<Item Name="GOOP_Library.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/GProviders/GOOP_Library.ini"/>
-						<Item Name="GOOP_LVClass.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/GProviders/GOOP_LVClass.ini"/>
-						<Item Name="GOOP_MyComputer.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/GProviders/GOOP_MyComputer.ini"/>
-						<Item Name="GOOP_MyComputer_Interface.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/GProviders/GOOP_MyComputer_Interface.ini"/>
-						<Item Name="GOOP_VI.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/GProviders/GOOP_VI.ini"/>
-						<Item Name="GOOP_VirtualFolder.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/GProviders/GOOP_VirtualFolder.ini"/>
-						<Item Name="GOOP_XControl.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/GProviders/GOOP_XControl.ini"/>
+					<Item Name="GProviders" Type="Folder" URL="../../resource/Framework/Providers/GProviders">
+						<Property Name="NI.DISK" Type="Bool">true</Property>
 					</Item>
 					<Item Name="Open_GDS" Type="Folder">
+						<Property Name="NI.SortType" Type="Int">3</Property>
 						<Item Name="API" Type="Folder">
 							<Item Name="Examples" Type="Folder">
 								<Item Name="SubVIs" Type="Folder">
-									<Item Name="GDSAPI_Example_CreateNewProject.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/Examples/SubVIs/GDSAPI_Example_CreateNewProject.vi"/>
+									<Item Name="GDSAPI_Example_CreateNewProject.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/API/Examples/SubVIs/GDSAPI_Example_CreateNewProject.vi"/>
 								</Item>
-								<Item Name="GDSAPI_Example_AddDesignPattern.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/Examples/GDSAPI_Example_AddDesignPattern.vi"/>
-								<Item Name="GDSAPI_Example_CloneMethods.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/Examples/GDSAPI_Example_CloneMethods.vi"/>
-								<Item Name="GDSAPI_Example_CreateClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/Examples/GDSAPI_Example_CreateClass.vi"/>
-								<Item Name="GDSAPI_Example_CreateMethods.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/Examples/GDSAPI_Example_CreateMethods.vi"/>
-								<Item Name="GDSAPI_Example_CreateMethods2.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/Examples/GDSAPI_Example_CreateMethods2.vi"/>
+								<Item Name="GDSAPI_Example_AddDesignPattern.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/API/Examples/GDSAPI_Example_AddDesignPattern.vi"/>
+								<Item Name="GDSAPI_Example_CloneMethods.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/API/Examples/GDSAPI_Example_CloneMethods.vi"/>
+								<Item Name="GDSAPI_Example_CreateClass.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/API/Examples/GDSAPI_Example_CreateClass.vi"/>
+								<Item Name="GDSAPI_Example_CreateMethods.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/API/Examples/GDSAPI_Example_CreateMethods.vi"/>
+								<Item Name="GDSAPI_Example_CreateMethods2.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/API/Examples/GDSAPI_Example_CreateMethods2.vi"/>
 							</Item>
 							<Item Name="GDSAPI_SubVIs" Type="Folder">
-								<Item Name="GDSAPI_AddMethodType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/GDSAPI_SubVIs/GDSAPI_AddMethodType.ctl"/>
-								<Item Name="GDSAPI_ClassIcon.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/GDSAPI_SubVIs/GDSAPI_ClassIcon.ctl"/>
-								<Item Name="GDSAPI_ClassIconType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/GDSAPI_SubVIs/GDSAPI_ClassIconType.ctl"/>
-								<Item Name="GDSAPI_ClassProviderType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/GDSAPI_SubVIs/GDSAPI_ClassProviderType.ctl"/>
-								<Item Name="GDSAPI_ClassTemplateType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/GDSAPI_SubVIs/GDSAPI_ClassTemplateType.ctl"/>
-								<Item Name="GDSAPI_MethodType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/GDSAPI_SubVIs/GDSAPI_MethodType.ctl"/>
-								<Item Name="GDSAPI_ProjectIconType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/GDSAPI_SubVIs/GDSAPI_ProjectIconType.ctl"/>
-								<Item Name="GDSAPI_PropertyMethodType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/GDSAPI_SubVIs/GDSAPI_PropertyMethodType.ctl"/>
-								<Item Name="GDSAPI_SetClassOptionsAction.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/GDSAPI_SubVIs/GDSAPI_SetClassOptionsAction.ctl"/>
+								<Item Name="GDSAPI_AddMethodType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/API/GDSAPI_SubVIs/GDSAPI_AddMethodType.ctl"/>
+								<Item Name="GDSAPI_ClassIcon.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/API/GDSAPI_SubVIs/GDSAPI_ClassIcon.ctl"/>
+								<Item Name="GDSAPI_ClassIconType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/API/GDSAPI_SubVIs/GDSAPI_ClassIconType.ctl"/>
+								<Item Name="GDSAPI_ClassProviderType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/API/GDSAPI_SubVIs/GDSAPI_ClassProviderType.ctl"/>
+								<Item Name="GDSAPI_ClassTemplateType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/API/GDSAPI_SubVIs/GDSAPI_ClassTemplateType.ctl"/>
+								<Item Name="GDSAPI_MethodType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/API/GDSAPI_SubVIs/GDSAPI_MethodType.ctl"/>
+								<Item Name="GDSAPI_ProjectIconType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/API/GDSAPI_SubVIs/GDSAPI_ProjectIconType.ctl"/>
+								<Item Name="GDSAPI_PropertyMethodType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/API/GDSAPI_SubVIs/GDSAPI_PropertyMethodType.ctl"/>
+								<Item Name="GDSAPI_SetClassOptionsAction.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/API/GDSAPI_SubVIs/GDSAPI_SetClassOptionsAction.ctl"/>
 							</Item>
 							<Item Name="API_Description.txt" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/API_Description.txt"/>
 							<Item Name="GDS_API.mht" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/GDS_API.mht"/>
 							<Item Name="GDSAPI.lvproj" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/GDSAPI.lvproj"/>
-							<Item Name="GDSAPI_AddDesignPattern.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/GDSAPI_AddDesignPattern.vi"/>
-							<Item Name="GDSAPI_ChangeInheritance.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/GDSAPI_ChangeInheritance.vi"/>
-							<Item Name="GDSAPI_CloneClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/GDSAPI_CloneClass.vi"/>
-							<Item Name="GDSAPI_CloneMethod.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/GDSAPI_CloneMethod.vi"/>
-							<Item Name="GDSAPI_CreateAttributes.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/GDSAPI_CreateAttributes.vi"/>
-							<Item Name="GDSAPI_CreateClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/GDSAPI_CreateClass.vi"/>
-							<Item Name="GDSAPI_CreateClassType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/GDSAPI_CreateClassType.ctl"/>
-							<Item Name="GDSAPI_CreateInterface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/GDSAPI_CreateInterface.vi"/>
-							<Item Name="GDSAPI_CreateInterfaceType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/GDSAPI_CreateInterfaceType.ctl"/>
-							<Item Name="GDSAPI_CreateMethods.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/GDSAPI_CreateMethods.vi"/>
-							<Item Name="GDSAPI_CreateMethods2.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/GDSAPI_CreateMethods2.vi"/>
-							<Item Name="GDSAPI_GetMethodOptions.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/GDSAPI_GetMethodOptions.vi"/>
-							<Item Name="GDSAPI_SetClassOptions.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/GDSAPI_SetClassOptions.vi"/>
-							<Item Name="GDSAPI_UpdateAttributes.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/API/GDSAPI_UpdateAttributes.vi"/>
+							<Item Name="GDSAPI_AddDesignPattern.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/API/GDSAPI_AddDesignPattern.vi"/>
+							<Item Name="GDSAPI_ChangeInheritance.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/API/GDSAPI_ChangeInheritance.vi"/>
+							<Item Name="GDSAPI_CloneClass.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/API/GDSAPI_CloneClass.vi"/>
+							<Item Name="GDSAPI_CloneMethod.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/API/GDSAPI_CloneMethod.vi"/>
+							<Item Name="GDSAPI_CreateAttributes.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/API/GDSAPI_CreateAttributes.vi"/>
+							<Item Name="GDSAPI_CreateClass.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/API/GDSAPI_CreateClass.vi"/>
+							<Item Name="GDSAPI_CreateClassType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/API/GDSAPI_CreateClassType.ctl"/>
+							<Item Name="GDSAPI_CreateInterface.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/API/GDSAPI_CreateInterface.vi"/>
+							<Item Name="GDSAPI_CreateInterfaceType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/API/GDSAPI_CreateInterfaceType.ctl"/>
+							<Item Name="GDSAPI_CreateMethods.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/API/GDSAPI_CreateMethods.vi"/>
+							<Item Name="GDSAPI_CreateMethods2.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/API/GDSAPI_CreateMethods2.vi"/>
+							<Item Name="GDSAPI_GetMethodOptions.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/API/GDSAPI_GetMethodOptions.vi"/>
+							<Item Name="GDSAPI_SetClassOptions.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/API/GDSAPI_SetClassOptions.vi"/>
+							<Item Name="GDSAPI_UpdateAttributes.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/API/GDSAPI_UpdateAttributes.vi"/>
 						</Item>
-						<Item Name="ClassBodyIcons" Type="Folder">
-							<Item Name="Actor.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassBodyIcons/Actor.png"/>
-							<Item Name="Biosignal.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassBodyIcons/Biosignal.png"/>
-							<Item Name="camera.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassBodyIcons/camera.png"/>
-							<Item Name="compression.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassBodyIcons/compression.png"/>
-							<Item Name="control dial.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassBodyIcons/control dial.png"/>
-							<Item Name="database2.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassBodyIcons/database2.png"/>
-							<Item Name="GlobalVariable_48.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassBodyIcons/GlobalVariable_48.png"/>
-							<Item Name="Interface.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassBodyIcons/Interface.png"/>
-							<Item Name="lc_testmode.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassBodyIcons/lc_testmode.png"/>
-							<Item Name="Lock-Lock-icon.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassBodyIcons/Lock-Lock-icon.png"/>
-							<Item Name="Message.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassBodyIcons/Message.png"/>
-							<Item Name="meter2.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassBodyIcons/meter2.png"/>
-							<Item Name="motor_DC.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassBodyIcons/motor_DC.png"/>
-							<Item Name="reset2.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassBodyIcons/reset2.png"/>
-							<Item Name="signalProcessing.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassBodyIcons/signalProcessing.png"/>
-							<Item Name="SolidWorksModel.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassBodyIcons/SolidWorksModel.png"/>
-							<Item Name="sonar.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassBodyIcons/sonar.png"/>
-							<Item Name="System.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassBodyIcons/System.png"/>
-							<Item Name="Volts.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassBodyIcons/Volts.png"/>
-							<Item Name="Warning2_32.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassBodyIcons/Warning2_32.png"/>
-							<Item Name="WarningOverlay.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassBodyIcons/WarningOverlay.png"/>
+						<Item Name="ClassBodyIcons" Type="Folder" URL="../../resource/Framework/Providers/Open_GDS/ClassBodyIcons">
+							<Property Name="NI.DISK" Type="Bool">true</Property>
 						</Item>
 						<Item Name="ClassProviders" Type="Folder">
 							<Item Name="ActorFramework" Type="Folder">
@@ -119,28 +94,28 @@
 											<Item Name="protected" Type="Folder"/>
 											<Item Name="utils" Type="Folder"/>
 										</Item>
-										<Item Name="Actor1_Basic_G4_4.0.0.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/ActorFramework/4.0.0/Actor1_Basic_G4_4.0.0/Actor1_Basic_G4_4.0.0.lvlib"/>
+										<Item Name="Actor1_Basic_G4_4.0.0.lvlib" Type="Library" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/ActorFramework/4.0.0/Actor1_Basic_G4_4.0.0/Actor1_Basic_G4_4.0.0.lvlib"/>
 										<Item Name="ActorInfo.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/ActorFramework/4.0.0/Actor1_Basic_G4_4.0.0/ActorInfo.ini"/>
 									</Item>
 									<Item Name="Actor1_Basic_N_4.0.0" Type="Folder">
 										<Item Name="Actor1_GUI_N_4.0.0_class" Type="Folder">
 											<Item Name="protected" Type="Folder"/>
 										</Item>
-										<Item Name="Actor1_Basic_N_4.0.0.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/ActorFramework/4.0.0/Actor1_Basic_N_4.0.0/Actor1_Basic_N_4.0.0.lvlib"/>
+										<Item Name="Actor1_Basic_N_4.0.0.lvlib" Type="Library" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/ActorFramework/4.0.0/Actor1_Basic_N_4.0.0/Actor1_Basic_N_4.0.0.lvlib"/>
 										<Item Name="ActorInfo.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/ActorFramework/4.0.0/Actor1_Basic_N_4.0.0/ActorInfo.ini"/>
 									</Item>
 									<Item Name="Actor1_BasicNoLib_G4_4.0.0" Type="Folder">
 										<Item Name="Actor1_BasicNoLib_G4_4.0.0_class" Type="Folder">
 											<Item Name="protected" Type="Folder"/>
 											<Item Name="utils" Type="Folder"/>
-											<Item Name="Actor1_BasicNoLib_G4_4.0.0.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/ActorFramework/4.0.0/Actor1_BasicNoLib_G4_4.0.0/Actor1_BasicNoLib_G4_4.0.0_class/Actor1_BasicNoLib_G4_4.0.0.lvclass"/>
+											<Item Name="Actor1_BasicNoLib_G4_4.0.0.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/ActorFramework/4.0.0/Actor1_BasicNoLib_G4_4.0.0/Actor1_BasicNoLib_G4_4.0.0_class/Actor1_BasicNoLib_G4_4.0.0.lvclass"/>
 										</Item>
 										<Item Name="ActorInfo.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/ActorFramework/4.0.0/Actor1_BasicNoLib_G4_4.0.0/ActorInfo.ini"/>
 									</Item>
 									<Item Name="Actor1_BasicNoLib_N_4.0.0" Type="Folder">
 										<Item Name="Actor1_BasicNoLib_N_4.0.0_class" Type="Folder">
 											<Item Name="protected" Type="Folder"/>
-											<Item Name="Actor1_BasicNoLib_N_4.0.0.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/ActorFramework/4.0.0/Actor1_BasicNoLib_N_4.0.0/Actor1_BasicNoLib_N_4.0.0_class/Actor1_BasicNoLib_N_4.0.0.lvclass"/>
+											<Item Name="Actor1_BasicNoLib_N_4.0.0.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/ActorFramework/4.0.0/Actor1_BasicNoLib_N_4.0.0/Actor1_BasicNoLib_N_4.0.0_class/Actor1_BasicNoLib_N_4.0.0.lvclass"/>
 										</Item>
 										<Item Name="ActorInfo.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/ActorFramework/4.0.0/Actor1_BasicNoLib_N_4.0.0/ActorInfo.ini"/>
 									</Item>
@@ -152,7 +127,7 @@
 										<Item Name="Messages" Type="Folder">
 											<Item Name="StartMeasurement_Msg" Type="Folder"/>
 										</Item>
-										<Item Name="Actor1_GUI_G4_4.0.0.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/ActorFramework/4.0.0/Actor1_GUI_G4_4.0.0/Actor1_GUI_G4_4.0.0.lvlib"/>
+										<Item Name="Actor1_GUI_G4_4.0.0.lvlib" Type="Library" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/ActorFramework/4.0.0/Actor1_GUI_G4_4.0.0/Actor1_GUI_G4_4.0.0.lvlib"/>
 										<Item Name="ActorInfo.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/ActorFramework/4.0.0/Actor1_GUI_G4_4.0.0/ActorInfo.ini"/>
 									</Item>
 									<Item Name="Actor1_GUI_N_4.0.0" Type="Folder">
@@ -162,12 +137,12 @@
 										<Item Name="Messages" Type="Folder">
 											<Item Name="StartMeasurement_Msg" Type="Folder"/>
 										</Item>
-										<Item Name="Actor1_GUI_N_4.0.0.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/ActorFramework/4.0.0/Actor1_GUI_N_4.0.0/Actor1_GUI_N_4.0.0.lvlib"/>
+										<Item Name="Actor1_GUI_N_4.0.0.lvlib" Type="Library" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/ActorFramework/4.0.0/Actor1_GUI_N_4.0.0/Actor1_GUI_N_4.0.0.lvlib"/>
 										<Item Name="ActorInfo.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/ActorFramework/4.0.0/Actor1_GUI_N_4.0.0/ActorInfo.ini"/>
 									</Item>
 									<Item Name="Message" Type="Folder">
-										<Item Name="Dummy Actor Method.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/ActorFramework/4.0.0/Message/Dummy Actor Method.vi"/>
-										<Item Name="Message_4.0.0.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/ActorFramework/4.0.0/Message/Message_4.0.0.lvclass"/>
+										<Item Name="Dummy Actor Method.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/ActorFramework/4.0.0/Message/Dummy Actor Method.vi"/>
+										<Item Name="Message_4.0.0.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/ActorFramework/4.0.0/Message/Message_4.0.0.lvclass"/>
 									</Item>
 									<Item Name="MethodTemplates" Type="Folder">
 										<Item Name="AF_4.0.0_Actor Core1.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/ActorFramework/4.0.0/MethodTemplates/AF_4.0.0_Actor Core1.vi"/>
@@ -180,467 +155,473 @@
 							</Item>
 							<Item Name="Common" Type="Folder">
 								<Item Name="AF" Type="Folder">
-									<Item Name="AF_ClassType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/AF/AF_ClassType.ctl"/>
-									<Item Name="AF_Configuration.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/AF/AF_Configuration.vi"/>
-									<Item Name="AF_ConfigurationMemory.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/AF/AF_ConfigurationMemory.vi"/>
-									<Item Name="AF_GetClassAfInfo.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/AF/AF_GetClassAfInfo.vi"/>
-									<Item Name="AF_SettingsType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/AF/AF_SettingsType.ctl"/>
-									<Item Name="MM.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/AF/MM.vi"/>
-									<Item Name="MM_CleanUpPanel.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/AF/MM_CleanUpPanel.vi"/>
-									<Item Name="MM_ConnectControlsToCP.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/AF/MM_ConnectControlsToCP.vi"/>
-									<Item Name="MM_PasteControls.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/AF/MM_PasteControls.vi"/>
-									<Item Name="MM_RemoveControls.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/AF/MM_RemoveControls.vi"/>
-									<Item Name="MM_RewireDo.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/AF/MM_RewireDo.vi"/>
-									<Item Name="MM_SortControlRefs.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/AF/MM_SortControlRefs.vi"/>
+									<Item Name="AF_ClassType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/AF/AF_ClassType.ctl"/>
+									<Item Name="AF_Configuration.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/AF/AF_Configuration.vi"/>
+									<Item Name="AF_ConfigurationMemory.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/AF/AF_ConfigurationMemory.vi"/>
+									<Item Name="AF_GetClassAfInfo.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/AF/AF_GetClassAfInfo.vi"/>
+									<Item Name="AF_SettingsType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/AF/AF_SettingsType.ctl"/>
+									<Item Name="MM.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/AF/MM.vi"/>
+									<Item Name="MM_CleanUpPanel.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/AF/MM_CleanUpPanel.vi"/>
+									<Item Name="MM_ConnectControlsToCP.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/AF/MM_ConnectControlsToCP.vi"/>
+									<Item Name="MM_PasteControls.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/AF/MM_PasteControls.vi"/>
+									<Item Name="MM_RemoveControls.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/AF/MM_RemoveControls.vi"/>
+									<Item Name="MM_RewireDo.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/AF/MM_RewireDo.vi"/>
+									<Item Name="MM_SortControlRefs.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/AF/MM_SortControlRefs.vi"/>
 									<Item Name="MM_WireClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/AF/MM_WireClass.vi"/>
-									<Item Name="MM_WireControlsToBundler.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/AF/MM_WireControlsToBundler.vi"/>
-									<Item Name="MM_WireFPControlsToUnBundler.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/AF/MM_WireFPControlsToUnBundler.vi"/>
+									<Item Name="MM_WireControlsToBundler.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/AF/MM_WireControlsToBundler.vi"/>
+									<Item Name="MM_WireFPControlsToUnBundler.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/AF/MM_WireFPControlsToUnBundler.vi"/>
 								</Item>
 								<Item Name="Array" Type="Folder">
 									<Item Name="GDSArray_AddStringsToStringArrayWithoutDuplicates.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Array/GDSArray_AddStringsToStringArrayWithoutDuplicates.vi"/>
-									<Item Name="GDSArray_FindCommonElement.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Array/GDSArray_FindCommonElement.vi"/>
-									<Item Name="GDSArray_RemoveDublicatesInArray.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Array/GDSArray_RemoveDublicatesInArray.vi"/>
+									<Item Name="GDSArray_FindCommonElement.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Array/GDSArray_FindCommonElement.vi"/>
+									<Item Name="GDSArray_RemoveDublicatesInArray.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Array/GDSArray_RemoveDublicatesInArray.vi"/>
 									<Item Name="GDSArray_RemoveDuplicatesInVariantArray.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Array/GDSArray_RemoveDuplicatesInVariantArray.vi"/>
-									<Item Name="GDSArray_RemoveEmptyStringElements.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Array/GDSArray_RemoveEmptyStringElements.vi"/>
+									<Item Name="GDSArray_RemoveEmptyStringElements.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Array/GDSArray_RemoveEmptyStringElements.vi"/>
 								</Item>
 								<Item Name="CommonVIs" Type="Folder">
-									<Item Name="Common_DoesClassExist.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/Common_DoesClassExist.vi"/>
-									<Item Name="CommonVIs ClassItemStringParser.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs ClassItemStringParser.vi"/>
-									<Item Name="CommonVIs RemoveWhiteSpace.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs RemoveWhiteSpace.vi"/>
-									<Item Name="CommonVIs SterotypeStringParser.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs SterotypeStringParser.vi"/>
-									<Item Name="CommonVIs_AlignToConnectorPane.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_AlignToConnectorPane.vi"/>
-									<Item Name="CommonVIs_AttributeDataType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_AttributeDataType.ctl"/>
-									<Item Name="CommonVIs_AttributeType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_AttributeType.ctl"/>
-									<Item Name="CommonVIs_ClassIconSelection.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_ClassIconSelection.vi"/>
-									<Item Name="CommonVIs_ClassIconSelection_Action.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_ClassIconSelection_Action.ctl"/>
-									<Item Name="CommonVIs_ClassNamePathType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_ClassNamePathType.ctl"/>
-									<Item Name="CommonVIs_ClassWireSelection.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_ClassWireSelection.vi"/>
-									<Item Name="CommonVIs_CloseControlRefs.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_CloseControlRefs.vi"/>
-									<Item Name="CommonVIs_ColorMemory.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_ColorMemory.vi"/>
-									<Item Name="CommonVIs_ColorMemoryAction.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_ColorMemoryAction.ctl"/>
-									<Item Name="CommonVIs_ConvertStringToHex.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_ConvertStringToHex.vi"/>
-									<Item Name="CommonVIs_CreateBD-StringConstantDocumentation.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_CreateBD-StringConstantDocumentation.vi"/>
-									<Item Name="CommonVIs_EnumsToStrings.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_EnumsToStrings.vi"/>
-									<Item Name="CommonVIs_EnumType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_EnumType.ctl"/>
-									<Item Name="CommonVIs_FindBooleansInArray.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_FindBooleansInArray.vi"/>
-									<Item Name="CommonVIs_GetFrontPanelControls.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_GetFrontPanelControls.vi"/>
-									<Item Name="CommonVIs_GetModifierNames.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_GetModifierNames.vi"/>
-									<Item Name="CommonVIs_IsStringRepeatingItSelf.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_IsStringRepeatingItSelf.vi"/>
-									<Item Name="CommonVIs_ListFilesRecursive.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_ListFilesRecursive.vi"/>
-									<Item Name="CommonVIs_ListHirearchaRecursive.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_ListHirearchaRecursive.vi"/>
-									<Item Name="CommonVIs_OneButtonDialog.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_OneButtonDialog.vi"/>
-									<Item Name="CommonVIs_PropertyType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_PropertyType.ctl"/>
-									<Item Name="CommonVIs_SetError.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_SetError.vi"/>
-									<Item Name="CommonVIs_SetVimProperties.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_SetVimProperties.vi"/>
-									<Item Name="CommonVIs_SpltStringIntoArguments.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_SpltStringIntoArguments.vi"/>
-									<Item Name="CommonVIs_StereoType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_StereoType.ctl"/>
-									<Item Name="CommonVIs_StringToConfigData.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_StringToConfigData.vi"/>
-									<Item Name="CommonVIs_StructType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_StructType.ctl"/>
-									<Item Name="CommonVIs_TimingLogger.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_TimingLogger.vi"/>
-									<Item Name="CommonVIs_TimingLogger2.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_TimingLogger2.vi"/>
-									<Item Name="CommonVIs_TwoButtonDialog.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_TwoButtonDialog.vi"/>
-									<Item Name="CommonVIs_UmlOpenVIRef.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_UmlOpenVIRef.vi"/>
-									<Item Name="CommonVIs_UpdateAttributeCtrlPath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_UpdateAttributeCtrlPath.vi"/>
-									<Item Name="CommonVIs_UpdateAttributesFromPropertyMethods.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_UpdateAttributesFromPropertyMethods.vi"/>
-									<Item Name="CommonVIs_UpdateMethodArguments.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_UpdateMethodArguments.vi"/>
-									<Item Name="CommonVIs_Wait.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_Wait.vi"/>
+									<Property Name="NI.SortType" Type="Int">0</Property>
+									<Item Name="Common_ ViCacheMemory.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/Common_ ViCacheMemory.vi"/>
+									<Item Name="Common_DoesClassExist.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/Common_DoesClassExist.vi"/>
+									<Item Name="Common_GetClassAttrubutes.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/Common_GetClassAttrubutes.vi"/>
+									<Item Name="Common_TempCangeLabelName.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/Common_TempCangeLabelName.vi"/>
+									<Item Name="Common_UpdateAttributes.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/Common_UpdateAttributes.vi"/>
+									<Item Name="Common_UpdateAttributes_DataTypeStringToEnum.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/Common_UpdateAttributes_DataTypeStringToEnum.vi"/>
+									<Item Name="Common_UpdateAttributes_FindAttributeToCopy.vi.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/Common_UpdateAttributes_FindAttributeToCopy.vi.vi"/>
+									<Item Name="CommonVIs ClassItemStringParser.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs ClassItemStringParser.vi"/>
+									<Item Name="CommonVIs RemoveWhiteSpace.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs RemoveWhiteSpace.vi"/>
+									<Item Name="CommonVIs SterotypeStringParser.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs SterotypeStringParser.vi"/>
+									<Item Name="CommonVIs_AlignToConnectorPane.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_AlignToConnectorPane.vi"/>
+									<Item Name="CommonVIs_AttributeDataType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_AttributeDataType.ctl"/>
+									<Item Name="CommonVIs_AttributeInfoType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_AttributeInfoType.ctl"/>
+									<Item Name="CommonVIs_AttributeToDataType.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_AttributeToDataType.vi"/>
+									<Item Name="CommonVIs_AttributeType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_AttributeType.ctl"/>
+									<Item Name="CommonVIs_ClassIconSelection.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_ClassIconSelection.vi"/>
+									<Item Name="CommonVIs_ClassIconSelection_Action.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_ClassIconSelection_Action.ctl"/>
+									<Item Name="CommonVIs_ClassNamePathType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_ClassNamePathType.ctl"/>
+									<Item Name="CommonVIs_ClassWireSelection.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_ClassWireSelection.vi"/>
+									<Item Name="CommonVIs_CloseControlRefs.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_CloseControlRefs.vi"/>
+									<Item Name="CommonVIs_ColorMemory.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_ColorMemory.vi"/>
+									<Item Name="CommonVIs_ColorMemoryAction.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_ColorMemoryAction.ctl"/>
+									<Item Name="CommonVIs_ConvertStringToHex.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_ConvertStringToHex.vi"/>
+									<Item Name="CommonVIs_CreateBD-StringConstantDocumentation.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_CreateBD-StringConstantDocumentation.vi"/>
+									<Item Name="CommonVIs_EnumsToStrings.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_EnumsToStrings.vi"/>
+									<Item Name="CommonVIs_EnumType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_EnumType.ctl"/>
+									<Item Name="CommonVIs_EvaluateMethodText.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_EvaluateMethodText.vi"/>
+									<Item Name="CommonVIs_FindBooleansInArray.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_FindBooleansInArray.vi"/>
+									<Item Name="CommonVIs_GetClassObjectRefPath.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_GetClassObjectRefPath.vi"/>
+									<Item Name="CommonVIs_GetControlInfo.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_GetControlInfo.vi"/>
+									<Item Name="CommonVIs_GetDatatypeFromString.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_GetDatatypeFromString.vi"/>
+									<Item Name="CommonVIs_GetFrontPanelControls.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_GetFrontPanelControls.vi"/>
+									<Item Name="CommonVIs_GetModifierNames.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_GetModifierNames.vi"/>
+									<Item Name="CommonVIs_HideClassMethods.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_HideClassMethods.vi"/>
+									<Item Name="CommonVIs_IsStringRepeatingItSelf.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_IsStringRepeatingItSelf.vi"/>
+									<Item Name="CommonVIs_ListFilesRecursive.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_ListFilesRecursive.vi"/>
+									<Item Name="CommonVIs_ListHirearchaRecursive.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_ListHirearchaRecursive.vi"/>
+									<Item Name="CommonVIs_OneButtonDialog.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_OneButtonDialog.vi"/>
+									<Item Name="CommonVIs_PropertyType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_PropertyType.ctl"/>
+									<Item Name="CommonVIs_SetError.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_SetError.vi"/>
+									<Item Name="CommonVIs_SetVimProperties.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_SetVimProperties.vi"/>
+									<Item Name="CommonVIs_SpltStringIntoArguments.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_SpltStringIntoArguments.vi"/>
+									<Item Name="CommonVIs_StereoType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_StereoType.ctl"/>
+									<Item Name="CommonVIs_StringToConfigData.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_StringToConfigData.vi"/>
+									<Item Name="CommonVIs_StructType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_StructType.ctl"/>
+									<Item Name="CommonVIs_TimingLogger.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_TimingLogger.vi"/>
+									<Item Name="CommonVIs_TimingLogger2.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_TimingLogger2.vi"/>
+									<Item Name="CommonVIs_TwoButtonDialog.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_TwoButtonDialog.vi"/>
+									<Item Name="CommonVIs_TypeDefType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_TypeDefType.ctl"/>
+									<Item Name="CommonVIs_TypeDescNonNameDepentent.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_TypeDescNonNameDepentent.vi"/>
+									<Item Name="CommonVIs_UmlOpenVIRef.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_UmlOpenVIRef.vi"/>
+									<Item Name="CommonVIs_UpdateAttributeCtrlPath.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_UpdateAttributeCtrlPath.vi"/>
+									<Item Name="CommonVIs_UpdateAttributesFromPropertyMethods.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_UpdateAttributesFromPropertyMethods.vi"/>
+									<Item Name="CommonVIs_UpdateClassMethods.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_UpdateClassMethods.vi"/>
+									<Item Name="CommonVIs_UpdateMethodArguments.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_UpdateMethodArguments.vi"/>
+									<Item Name="CommonVIs_VisibilityType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_VisibilityType.ctl"/>
+									<Item Name="CommonVIs_Wait.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_Wait.vi"/>
 								</Item>
 								<Item Name="ConvertGoop2ToGoop3_SubVIs" Type="Folder">
-									<Item Name="ConvertGoop1ToGoop3_KeepViPrefix.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop2ToGoop3_SubVIs/ConvertGoop1ToGoop3_KeepViPrefix.vi"/>
-									<Item Name="ConvertGoop2ToGoop3_ClassInfo.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop2ToGoop3_SubVIs/ConvertGoop2ToGoop3_ClassInfo.ctl"/>
-									<Item Name="ConvertGoop2ToGoop3_CreateLvClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop2ToGoop3_SubVIs/ConvertGoop2ToGoop3_CreateLvClass.vi"/>
-									<Item Name="ConvertGoop2ToGoop3_GetGoop2ClassInheritance.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop2ToGoop3_SubVIs/ConvertGoop2ToGoop3_GetGoop2ClassInheritance.vi"/>
-									<Item Name="ConvertGoop2ToGoop3_KeepViPrefix.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop2ToGoop3_SubVIs/ConvertGoop2ToGoop3_KeepViPrefix.vi"/>
-									<Item Name="ConvertGoop2ToGoop3_RecompileAll.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop2ToGoop3_SubVIs/ConvertGoop2ToGoop3_RecompileAll.vi"/>
+									<Item Name="ConvertGoop1ToGoop3_KeepViPrefix.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop2ToGoop3_SubVIs/ConvertGoop1ToGoop3_KeepViPrefix.vi"/>
+									<Item Name="ConvertGoop2ToGoop3_ClassInfo.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop2ToGoop3_SubVIs/ConvertGoop2ToGoop3_ClassInfo.ctl"/>
+									<Item Name="ConvertGoop2ToGoop3_CreateLvClass.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop2ToGoop3_SubVIs/ConvertGoop2ToGoop3_CreateLvClass.vi"/>
+									<Item Name="ConvertGoop2ToGoop3_GetGoop2ClassInheritance.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop2ToGoop3_SubVIs/ConvertGoop2ToGoop3_GetGoop2ClassInheritance.vi"/>
+									<Item Name="ConvertGoop2ToGoop3_KeepViPrefix.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop2ToGoop3_SubVIs/ConvertGoop2ToGoop3_KeepViPrefix.vi"/>
+									<Item Name="ConvertGoop2ToGoop3_RecompileAll.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop2ToGoop3_SubVIs/ConvertGoop2ToGoop3_RecompileAll.vi"/>
 									<Item Name="ConvertGoop2ToGoop3_SaveAll.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop2ToGoop3_SubVIs/ConvertGoop2ToGoop3_SaveAll.vi"/>
-									<Item Name="GOOP300_GetClassTemplatePath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop2ToGoop3_SubVIs/GOOP300_GetClassTemplatePath.vi"/>
+									<Item Name="GOOP300_GetClassTemplatePath.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop2ToGoop3_SubVIs/GOOP300_GetClassTemplatePath.vi"/>
 								</Item>
 								<Item Name="ConvertGoop3ToGoop4_SubVIs" Type="Folder">
-									<Item Name="ConvertGoop3ToGoop4_CheckIfNodeIfLinkedToGetAttributeDrains.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_CheckIfNodeIfLinkedToGetAttributeDrains.vi"/>
-									<Item Name="ConvertGoop3ToGoop4_ClassType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_ClassType.ctl"/>
-									<Item Name="ConvertGoop3ToGoop4_ClearErrors.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_ClearErrors.vi"/>
-									<Item Name="ConvertGoop3ToGoop4_CreateInPlacementNode.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_CreateInPlacementNode.vi"/>
-									<Item Name="ConvertGoop3ToGoop4_InsertNodeAfterGetAttributes.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_InsertNodeAfterGetAttributes.vi"/>
-									<Item Name="ConvertGoop3ToGoop4_Log.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_Log.vi"/>
-									<Item Name="ConvertGoop3ToGoop4_LogType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_LogType.ctl"/>
-									<Item Name="ConvertGoop3ToGoop4_RemoveAlwaysCopy.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_RemoveAlwaysCopy.vi"/>
-									<Item Name="ConvertGoop3ToGoop4_RemoveGetObjectStatus.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_RemoveGetObjectStatus.vi"/>
-									<Item Name="ConvertGoop3ToGoop4_ReplaceGetAttToModify.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_ReplaceGetAttToModify.vi"/>
-									<Item Name="ConvertGoop3ToGoop4_RewireGetAttributes.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_RewireGetAttributes.vi"/>
-									<Item Name="ConvertGoop3ToGoop4_SelectNodesToBeInsideIP.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_SelectNodesToBeInsideIP.vi"/>
-									<Item Name="ConvertGoop3ToGoop4_ShowBrokenVIs.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_ShowBrokenVIs.vi"/>
-									<Item Name="ConvertGoop3ToGoop4_SplitAndRewireBundler.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_SplitAndRewireBundler.vi"/>
-									<Item Name="ConvertGoop3ToGoop4_UpDateDestroy.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_UpDateDestroy.vi"/>
-									<Item Name="ConvertGoop3ToGoop4_UpdateGetAttributes.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_UpdateGetAttributes.vi"/>
-									<Item Name="ConvertGoop3ToGoop4_UpdateGetObjectStatusCallers.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_UpdateGetObjectStatusCallers.vi"/>
-									<Item Name="ConvertGoop3ToGoop4_UpdateNewVICallers.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_UpdateNewVICallers.vi"/>
-									<Item Name="ConvertGoop3ToGoop4_UpdateProgressList.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_UpdateProgressList.vi"/>
+									<Item Name="ConvertGoop3ToGoop4_CheckIfNodeIfLinkedToGetAttributeDrains.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_CheckIfNodeIfLinkedToGetAttributeDrains.vi"/>
+									<Item Name="ConvertGoop3ToGoop4_ClassType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_ClassType.ctl"/>
+									<Item Name="ConvertGoop3ToGoop4_ClearErrors.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_ClearErrors.vi"/>
+									<Item Name="ConvertGoop3ToGoop4_CreateInPlacementNode.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_CreateInPlacementNode.vi"/>
+									<Item Name="ConvertGoop3ToGoop4_InsertNodeAfterGetAttributes.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_InsertNodeAfterGetAttributes.vi"/>
+									<Item Name="ConvertGoop3ToGoop4_Log.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_Log.vi"/>
+									<Item Name="ConvertGoop3ToGoop4_LogType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_LogType.ctl"/>
+									<Item Name="ConvertGoop3ToGoop4_RemoveAlwaysCopy.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_RemoveAlwaysCopy.vi"/>
+									<Item Name="ConvertGoop3ToGoop4_RemoveGetObjectStatus.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_RemoveGetObjectStatus.vi"/>
+									<Item Name="ConvertGoop3ToGoop4_ReplaceGetAttToModify.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_ReplaceGetAttToModify.vi"/>
+									<Item Name="ConvertGoop3ToGoop4_RewireGetAttributes.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_RewireGetAttributes.vi"/>
+									<Item Name="ConvertGoop3ToGoop4_SelectNodesToBeInsideIP.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_SelectNodesToBeInsideIP.vi"/>
+									<Item Name="ConvertGoop3ToGoop4_ShowBrokenVIs.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_ShowBrokenVIs.vi"/>
+									<Item Name="ConvertGoop3ToGoop4_SplitAndRewireBundler.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_SplitAndRewireBundler.vi"/>
+									<Item Name="ConvertGoop3ToGoop4_UpDateDestroy.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_UpDateDestroy.vi"/>
+									<Item Name="ConvertGoop3ToGoop4_UpdateGetAttributes.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_UpdateGetAttributes.vi"/>
+									<Item Name="ConvertGoop3ToGoop4_UpdateGetObjectStatusCallers.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_UpdateGetObjectStatusCallers.vi"/>
+									<Item Name="ConvertGoop3ToGoop4_UpdateNewVICallers.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_UpdateNewVICallers.vi"/>
+									<Item Name="ConvertGoop3ToGoop4_UpdateProgressList.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs/ConvertGoop3ToGoop4_UpdateProgressList.vi"/>
 								</Item>
 								<Item Name="ConvertTextToLv_SubVIs" Type="Folder">
 									<Item Name="Console_class.zip" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/Console_class.zip"/>
-									<Item Name="ConvertTextBasedCodeToLabVIEW_AddMethodContentToBdOfClassMethod.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_AddMethodContentToBdOfClassMethod.vi"/>
-									<Item Name="ConvertTextBasedCodeToLabVIEW_AttToHtml.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_AttToHtml.vi"/>
+									<Item Name="ConvertTextBasedCodeToLabVIEW_AddMethodContentToBdOfClassMethod.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_AddMethodContentToBdOfClassMethod.vi"/>
+									<Item Name="ConvertTextBasedCodeToLabVIEW_AttToHtml.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_AttToHtml.vi"/>
 									<Item Name="ConvertTextBasedCodeToLabVIEW_ChangeInterfaceToInheritace.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_ChangeInterfaceToInheritace.vi"/>
-									<Item Name="ConvertTextBasedCodeToLabVIEW_CreateClasses.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_CreateClasses.vi"/>
-									<Item Name="ConvertTextBasedCodeToLabVIEW_CreateClassesOption.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_CreateClassesOption.ctl"/>
-									<Item Name="ConvertTextBasedCodeToLabVIEW_CreateCommonItems.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_CreateCommonItems.vi"/>
-									<Item Name="ConvertTextBasedCodeToLabVIEW_CreateInterfaceList.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_CreateInterfaceList.vi"/>
-									<Item Name="ConvertTextBasedCodeToLabVIEW_CreateMissingClassesDefinition.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_CreateMissingClassesDefinition.vi"/>
-									<Item Name="ConvertTextBasedCodeToLabVIEW_CreateMissingTypeList.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_CreateMissingTypeList.vi"/>
-									<Item Name="ConvertTextBasedCodeToLabVIEW_CreateOverviewHtmlFile.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_CreateOverviewHtmlFile.vi"/>
-									<Item Name="ConvertTextBasedCodeToLabVIEW_FindGenerics.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_FindGenerics.vi"/>
-									<Item Name="ConvertTextBasedCodeToLabVIEW_FixAbstractMethods.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_FixAbstractMethods.vi"/>
-									<Item Name="ConvertTextBasedCodeToLabVIEW_FixExpressionBodied.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_FixExpressionBodied.vi"/>
-									<Item Name="ConvertTextBasedCodeToLabVIEW_FixIndexer.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_FixIndexer.vi"/>
-									<Item Name="ConvertTextBasedCodeToLabVIEW_GetDataTypeNames.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_GetDataTypeNames.vi"/>
-									<Item Name="ConvertTextBasedCodeToLabVIEW_MakenamesBetter.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_MakenamesBetter.vi"/>
-									<Item Name="ConvertTextBasedCodeToLabVIEW_MissingType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_MissingType.ctl"/>
-									<Item Name="ConvertTextBasedCodeToLabVIEW_MissingTypeIconType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_MissingTypeIconType.ctl"/>
-									<Item Name="ConvertTextBasedCodeToLabVIEW_MissingTypeOptions.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_MissingTypeOptions.ctl"/>
-									<Item Name="ConvertTextBasedCodeToLabVIEW_RemoveUnitTestTags.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_RemoveUnitTestTags.vi"/>
+									<Item Name="ConvertTextBasedCodeToLabVIEW_CreateClasses.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_CreateClasses.vi"/>
+									<Item Name="ConvertTextBasedCodeToLabVIEW_CreateClassesOption.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_CreateClassesOption.ctl"/>
+									<Item Name="ConvertTextBasedCodeToLabVIEW_CreateCommonItems.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_CreateCommonItems.vi"/>
+									<Item Name="ConvertTextBasedCodeToLabVIEW_CreateInterfaceList.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_CreateInterfaceList.vi"/>
+									<Item Name="ConvertTextBasedCodeToLabVIEW_CreateMissingClassesDefinition.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_CreateMissingClassesDefinition.vi"/>
+									<Item Name="ConvertTextBasedCodeToLabVIEW_CreateMissingTypeList.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_CreateMissingTypeList.vi"/>
+									<Item Name="ConvertTextBasedCodeToLabVIEW_CreateOverviewHtmlFile.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_CreateOverviewHtmlFile.vi"/>
+									<Item Name="ConvertTextBasedCodeToLabVIEW_FindGenerics.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_FindGenerics.vi"/>
+									<Item Name="ConvertTextBasedCodeToLabVIEW_FixAbstractMethods.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_FixAbstractMethods.vi"/>
+									<Item Name="ConvertTextBasedCodeToLabVIEW_FixExpressionBodied.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_FixExpressionBodied.vi"/>
+									<Item Name="ConvertTextBasedCodeToLabVIEW_FixIndexer.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_FixIndexer.vi"/>
+									<Item Name="ConvertTextBasedCodeToLabVIEW_GetDataTypeNames.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_GetDataTypeNames.vi"/>
+									<Item Name="ConvertTextBasedCodeToLabVIEW_MakenamesBetter.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_MakenamesBetter.vi"/>
+									<Item Name="ConvertTextBasedCodeToLabVIEW_MissingType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_MissingType.ctl"/>
+									<Item Name="ConvertTextBasedCodeToLabVIEW_MissingTypeIconType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_MissingTypeIconType.ctl"/>
+									<Item Name="ConvertTextBasedCodeToLabVIEW_MissingTypeOptions.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_MissingTypeOptions.ctl"/>
+									<Item Name="ConvertTextBasedCodeToLabVIEW_RemoveUnitTestTags.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs/ConvertTextBasedCodeToLabVIEW_RemoveUnitTestTags.vi"/>
 								</Item>
 								<Item Name="Dialog" Type="Folder">
-									<Item Name="GDSControl_Disable.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Dialog/GDSControl_Disable.vi"/>
-									<Item Name="GDSControl_Enable.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Dialog/GDSControl_Enable.vi"/>
-									<Item Name="GDSDialog_OneButtonWindowsDialog.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Dialog/GDSDialog_OneButtonWindowsDialog.vi"/>
-									<Item Name="GDSDialog_TwoButtonWindowsDialogLarge.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Dialog/GDSDialog_TwoButtonWindowsDialogLarge.vi"/>
+									<Item Name="GDSControl_Disable.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Dialog/GDSControl_Disable.vi"/>
+									<Item Name="GDSControl_Enable.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Dialog/GDSControl_Enable.vi"/>
+									<Item Name="GDSDialog_OneButtonWindowsDialog.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Dialog/GDSDialog_OneButtonWindowsDialog.vi"/>
+									<Item Name="GDSDialog_TwoButtonWindowsDialogLarge.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Dialog/GDSDialog_TwoButtonWindowsDialogLarge.vi"/>
 								</Item>
 								<Item Name="Error" Type="Folder">
 									<Item Name="private" Type="Folder">
-										<Item Name="GDSError_Log.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Error/private/GDSError_Log.vi"/>
-										<Item Name="GDSError_LogCases.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Error/private/GDSError_LogCases.ctl"/>
-										<Item Name="GDSError_VariantLog.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Error/private/GDSError_VariantLog.vi"/>
+										<Item Name="GDSError_Log.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Error/private/GDSError_Log.vi"/>
+										<Item Name="GDSError_LogCases.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Error/private/GDSError_LogCases.ctl"/>
+										<Item Name="GDSError_VariantLog.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Error/private/GDSError_VariantLog.vi"/>
 									</Item>
-									<Item Name="Error_AddCallChain.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Error/Error_AddCallChain.vi"/>
-									<Item Name="Error_ClearError.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Error/Error_ClearError.vi"/>
-									<Item Name="Error_MergeError.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Error/Error_MergeError.vi"/>
-									<Item Name="Error_SetError.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Error/Error_SetError.vi"/>
-									<Item Name="GDSError_AddCallChain.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Error/GDSError_AddCallChain.vi"/>
-									<Item Name="GDSError_ClearCustomError.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Error/GDSError_ClearCustomError.vi"/>
-									<Item Name="GDSError_ClearError.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Error/GDSError_ClearError.vi"/>
-									<Item Name="GDSError_LogCluster.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Error/GDSError_LogCluster.ctl"/>
-									<Item Name="GDSError_LogErrorInformation.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Error/GDSError_LogErrorInformation.vi"/>
-									<Item Name="GDSError_MergeError.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Error/GDSError_MergeError.vi"/>
-									<Item Name="GDSError_ReportError.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Error/GDSError_ReportError.vi"/>
-									<Item Name="GDSError_SetError.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Error/GDSError_SetError.vi"/>
-									<Item Name="GDSError_SetErrorCustom.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Error/GDSError_SetErrorCustom.vi"/>
+									<Item Name="Error_AddCallChain.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Error/Error_AddCallChain.vi"/>
+									<Item Name="Error_ClearError.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Error/Error_ClearError.vi"/>
+									<Item Name="Error_MergeError.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Error/Error_MergeError.vi"/>
+									<Item Name="Error_SetError.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Error/Error_SetError.vi"/>
+									<Item Name="GDSError_AddCallChain.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Error/GDSError_AddCallChain.vi"/>
+									<Item Name="GDSError_ClearCustomError.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Error/GDSError_ClearCustomError.vi"/>
+									<Item Name="GDSError_ClearError.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Error/GDSError_ClearError.vi"/>
+									<Item Name="GDSError_LogCluster.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Error/GDSError_LogCluster.ctl"/>
+									<Item Name="GDSError_LogErrorInformation.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Error/GDSError_LogErrorInformation.vi"/>
+									<Item Name="GDSError_MergeError.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Error/GDSError_MergeError.vi"/>
+									<Item Name="GDSError_ReportError.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Error/GDSError_ReportError.vi"/>
+									<Item Name="GDSError_SetError.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Error/GDSError_SetError.vi"/>
+									<Item Name="GDSError_SetErrorCustom.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Error/GDSError_SetErrorCustom.vi"/>
 								</Item>
 								<Item Name="File" Type="Folder">
 									<Item Name="private" Type="Folder">
-										<Item Name="File_SetLLBAsDir.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/private/File_SetLLBAsDir.vi"/>
+										<Item Name="File_SetLLBAsDir.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/private/File_SetLLBAsDir.vi"/>
 									</Item>
-									<Item Name="File_AddOrUpdatePrefix.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_AddOrUpdatePrefix.vi"/>
-									<Item Name="File_AddPathsToArrayWithoutDuplicates.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_AddPathsToArrayWithoutDuplicates.vi"/>
-									<Item Name="File_ApplicationPaths.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_ApplicationPaths.vi"/>
-									<Item Name="File_BrowseDirectory.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_BrowseDirectory.vi"/>
-									<Item Name="File_BrowseDirectoryRecursivly.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_BrowseDirectoryRecursivly.vi"/>
-									<Item Name="File_BuildNewPath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_BuildNewPath.vi"/>
-									<Item Name="File_CreateFolders.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_CreateFolders.vi"/>
-									<Item Name="File_DeleteElement.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_DeleteElement.vi"/>
-									<Item Name="File_ExcludePaths.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_ExcludePaths.vi"/>
-									<Item Name="File_FileInfo.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_FileInfo.ctl"/>
-									<Item Name="File_FilterFiles.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_FilterFiles.vi"/>
-									<Item Name="File_FindCommonRootPath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_FindCommonRootPath.vi"/>
-									<Item Name="File_GetConfigFilePath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_GetConfigFilePath.vi"/>
-									<Item Name="File_Info.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_Info.vi"/>
-									<Item Name="File_ListDirectory.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_ListDirectory.vi"/>
-									<Item Name="File_ListDirectoryRecursivly.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_ListDirectoryRecursivly.vi"/>
-									<Item Name="File_ListMenues.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_ListMenues.vi"/>
-									<Item Name="File_MakeTopLevel.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_MakeTopLevel.vi"/>
-									<Item Name="File_MoveFilesAndFolders.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_MoveFilesAndFolders.vi"/>
-									<Item Name="File_NewPathGeneartor.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_NewPathGeneartor.vi"/>
-									<Item Name="File_SaveVIUniqueName.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_SaveVIUniqueName.vi"/>
-									<Item Name="File_SortByDepth.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_SortByDepth.vi"/>
-									<Item Name="File_StingToPath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_StingToPath.vi"/>
-									<Item Name="File_StoredPathesActions.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_StoredPathesActions.ctl"/>
-									<Item Name="File_UMLStoredPathes.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_UMLStoredPathes.ctl"/>
-									<Item Name="GDSFIle_ConvertLLBs.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/GDSFIle_ConvertLLBs.vi"/>
-									<Item Name="GDSFile_CopyFolder.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/GDSFile_CopyFolder.vi"/>
-									<Item Name="GDSFile_CreateFolders.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/GDSFile_CreateFolders.vi"/>
-									<Item Name="GDSFile_FindPrefix.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/GDSFile_FindPrefix.vi"/>
-									<Item Name="GDSFile_RecursiveFileList.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/GDSFile_RecursiveFileList.vi"/>
+									<Item Name="File_AddOrUpdatePrefix.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_AddOrUpdatePrefix.vi"/>
+									<Item Name="File_AddPathsToArrayWithoutDuplicates.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_AddPathsToArrayWithoutDuplicates.vi"/>
+									<Item Name="File_ApplicationPaths.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_ApplicationPaths.vi"/>
+									<Item Name="File_BrowseDirectory.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_BrowseDirectory.vi"/>
+									<Item Name="File_BrowseDirectoryRecursivly.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_BrowseDirectoryRecursivly.vi"/>
+									<Item Name="File_BuildNewPath.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_BuildNewPath.vi"/>
+									<Item Name="File_CreateFolders.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_CreateFolders.vi"/>
+									<Item Name="File_DeleteElement.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_DeleteElement.vi"/>
+									<Item Name="File_ExcludePaths.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_ExcludePaths.vi"/>
+									<Item Name="File_FileInfo.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_FileInfo.ctl"/>
+									<Item Name="File_FilterFiles.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_FilterFiles.vi"/>
+									<Item Name="File_FindCommonRootPath.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_FindCommonRootPath.vi"/>
+									<Item Name="File_GetConfigFilePath.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_GetConfigFilePath.vi"/>
+									<Item Name="File_Info.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_Info.vi"/>
+									<Item Name="File_ListDirectory.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_ListDirectory.vi"/>
+									<Item Name="File_ListDirectoryRecursivly.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_ListDirectoryRecursivly.vi"/>
+									<Item Name="File_ListMenues.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_ListMenues.vi"/>
+									<Item Name="File_MakeTopLevel.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_MakeTopLevel.vi"/>
+									<Item Name="File_MoveFilesAndFolders.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_MoveFilesAndFolders.vi"/>
+									<Item Name="File_NewPathGeneartor.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_NewPathGeneartor.vi"/>
+									<Item Name="File_SaveVIUniqueName.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_SaveVIUniqueName.vi"/>
+									<Item Name="File_SortByDepth.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_SortByDepth.vi"/>
+									<Item Name="File_StingToPath.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_StingToPath.vi"/>
+									<Item Name="File_StoredPathesActions.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_StoredPathesActions.ctl"/>
+									<Item Name="File_UMLStoredPathes.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_UMLStoredPathes.ctl"/>
+									<Item Name="GDSFIle_ConvertLLBs.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/GDSFIle_ConvertLLBs.vi"/>
+									<Item Name="GDSFile_CopyFolder.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/GDSFile_CopyFolder.vi"/>
+									<Item Name="GDSFile_CreateFolders.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/GDSFile_CreateFolders.vi"/>
+									<Item Name="GDSFile_FindPrefix.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/GDSFile_FindPrefix.vi"/>
+									<Item Name="GDSFile_RecursiveFileList.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/GDSFile_RecursiveFileList.vi"/>
+									<Item Name="File_IsALLBFile.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_IsALLBFile.vi"/>
 								</Item>
 								<Item Name="GdsLanguage" Type="Folder">
 									<Item Name="private" Type="Folder">
-										<Item Name="GdsLanguage_ChecksumCheckType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/private/GdsLanguage_ChecksumCheckType.ctl"/>
-										<Item Name="GdsLanguage_ChecksumControl.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/private/GdsLanguage_ChecksumControl.vi"/>
-										<Item Name="GdsLanguage_FindAllControls.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/private/GdsLanguage_FindAllControls.vi"/>
-										<Item Name="GdsLanguage_GetAttributes.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/private/GdsLanguage_GetAttributes.vi"/>
-										<Item Name="GdsLanguage_GetLanguageData.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/private/GdsLanguage_GetLanguageData.vi"/>
-										<Item Name="GdsLanguage_GOOPKernel.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/private/GdsLanguage_GOOPKernel.vi"/>
-										<Item Name="GdsLanguage_LoadLanguages.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/private/GdsLanguage_LoadLanguages.vi"/>
-										<Item Name="GdsLanguage_ObjectAttributes.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/private/GdsLanguage_ObjectAttributes.ctl"/>
-										<Item Name="GdsLanguage_RemoveNullCharsInString.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/private/GdsLanguage_RemoveNullCharsInString.vi"/>
-										<Item Name="GdsLanguage_SetAttributes.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/private/GdsLanguage_SetAttributes.vi"/>
+										<Item Name="GdsLanguage_ChecksumCheckType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/private/GdsLanguage_ChecksumCheckType.ctl"/>
+										<Item Name="GdsLanguage_ChecksumControl.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/private/GdsLanguage_ChecksumControl.vi"/>
+										<Item Name="GdsLanguage_FindAllControls.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/private/GdsLanguage_FindAllControls.vi"/>
+										<Item Name="GdsLanguage_GetAttributes.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/private/GdsLanguage_GetAttributes.vi"/>
+										<Item Name="GdsLanguage_GetLanguageData.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/private/GdsLanguage_GetLanguageData.vi"/>
+										<Item Name="GdsLanguage_GOOPKernel.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/private/GdsLanguage_GOOPKernel.vi"/>
+										<Item Name="GdsLanguage_LoadLanguages.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/private/GdsLanguage_LoadLanguages.vi"/>
+										<Item Name="GdsLanguage_ObjectAttributes.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/private/GdsLanguage_ObjectAttributes.ctl"/>
+										<Item Name="GdsLanguage_RemoveNullCharsInString.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/private/GdsLanguage_RemoveNullCharsInString.vi"/>
+										<Item Name="GdsLanguage_SetAttributes.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/private/GdsLanguage_SetAttributes.vi"/>
 									</Item>
-									<Item Name="GdsLanguage_FindStrings.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/GdsLanguage_FindStrings.vi"/>
-									<Item Name="GdsLanguage_GetLanguagesStatus.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/GdsLanguage_GetLanguagesStatus.vi"/>
-									<Item Name="GdsLanguage_GetTranslatedString.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/GdsLanguage_GetTranslatedString.vi"/>
-									<Item Name="GdsLanguage_Init.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/GdsLanguage_Init.vi"/>
-									<Item Name="GdsLanguage_LanguageID.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/GdsLanguage_LanguageID.ctl"/>
-									<Item Name="GdsLanguage_SelectLangaugeDialog.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/GdsLanguage_SelectLangaugeDialog.vi"/>
-									<Item Name="GdsLanguage_UpdateAllControlsOnVI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/GdsLanguage_UpdateAllControlsOnVI.vi"/>
+									<Item Name="GdsLanguage_FindStrings.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/GdsLanguage_FindStrings.vi"/>
+									<Item Name="GdsLanguage_GetLanguagesStatus.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/GdsLanguage_GetLanguagesStatus.vi"/>
+									<Item Name="GdsLanguage_GetTranslatedString.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/GdsLanguage_GetTranslatedString.vi"/>
+									<Item Name="GdsLanguage_Init.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/GdsLanguage_Init.vi"/>
+									<Item Name="GdsLanguage_LanguageID.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/GdsLanguage_LanguageID.ctl"/>
+									<Item Name="GdsLanguage_SelectLangaugeDialog.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/GdsLanguage_SelectLangaugeDialog.vi"/>
+									<Item Name="GdsLanguage_UpdateAllControlsOnVI.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage/GdsLanguage_UpdateAllControlsOnVI.vi"/>
 								</Item>
 								<Item Name="IconEditor" Type="Folder">
 									<Item Name="private" Type="Folder">
-										<Item Name="GDSIconEditor_CreateImageMask.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/private/GDSIconEditor_CreateImageMask.vi"/>
-										<Item Name="GDSIconEditor_FileNameFilter.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/private/GDSIconEditor_FileNameFilter.ctl"/>
-										<Item Name="GDSIconEditor_FileNameFilter_Dialog.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/private/GDSIconEditor_FileNameFilter_Dialog.vi"/>
-										<Item Name="GDSIconEditor_FindPrefixInfo.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/private/GDSIconEditor_FindPrefixInfo.vi"/>
-										<Item Name="GDSIconEditor_IconDialog.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/private/GDSIconEditor_IconDialog.vi"/>
-										<Item Name="GDSIconEditor_IconDialog_Input.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/private/GDSIconEditor_IconDialog_Input.vi"/>
-										<Item Name="GDSIconEditor_IconEditorTool.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/private/GDSIconEditor_IconEditorTool.ctl"/>
-										<Item Name="GDSIconEditor_IconSizeAdjustment.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/private/GDSIconEditor_IconSizeAdjustment.vi"/>
-										<Item Name="GDSIconEditor_ImageDataTo8Bit.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/private/GDSIconEditor_ImageDataTo8Bit.vi"/>
-										<Item Name="GDSIconEditor_MaskIcon.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/private/GDSIconEditor_MaskIcon.vi"/>
-										<Item Name="GDSIconEditor_ScopeType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/private/GDSIconEditor_ScopeType.ctl"/>
-										<Item Name="GDSIconEditor_ShrinkImage.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/private/GDSIconEditor_ShrinkImage.vi"/>
-										<Item Name="GDSIconEditor_SplitNameInRows.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/private/GDSIconEditor_SplitNameInRows.vi"/>
-										<Item Name="GDSIconEditor_TerminaLayoutWindow.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/private/GDSIconEditor_TerminaLayoutWindow.vi"/>
+										<Item Name="GDSIconEditor_CreateImageMask.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/private/GDSIconEditor_CreateImageMask.vi"/>
+										<Item Name="GDSIconEditor_FileNameFilter.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/private/GDSIconEditor_FileNameFilter.ctl"/>
+										<Item Name="GDSIconEditor_FileNameFilter_Dialog.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/private/GDSIconEditor_FileNameFilter_Dialog.vi"/>
+										<Item Name="GDSIconEditor_FindPrefixInfo.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/private/GDSIconEditor_FindPrefixInfo.vi"/>
+										<Item Name="GDSIconEditor_IconDialog.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/private/GDSIconEditor_IconDialog.vi"/>
+										<Item Name="GDSIconEditor_IconDialog_Input.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/private/GDSIconEditor_IconDialog_Input.vi"/>
+										<Item Name="GDSIconEditor_IconEditorTool.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/private/GDSIconEditor_IconEditorTool.ctl"/>
+										<Item Name="GDSIconEditor_IconSizeAdjustment.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/private/GDSIconEditor_IconSizeAdjustment.vi"/>
+										<Item Name="GDSIconEditor_ImageDataTo8Bit.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/private/GDSIconEditor_ImageDataTo8Bit.vi"/>
+										<Item Name="GDSIconEditor_MaskIcon.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/private/GDSIconEditor_MaskIcon.vi"/>
+										<Item Name="GDSIconEditor_ScopeType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/private/GDSIconEditor_ScopeType.ctl"/>
+										<Item Name="GDSIconEditor_ShrinkImage.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/private/GDSIconEditor_ShrinkImage.vi"/>
+										<Item Name="GDSIconEditor_SplitNameInRows.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/private/GDSIconEditor_SplitNameInRows.vi"/>
+										<Item Name="GDSIconEditor_TerminaLayoutWindow.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/private/GDSIconEditor_TerminaLayoutWindow.vi"/>
 									</Item>
-									<Item Name="GDSIconEditor_CreateVIIcon.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/GDSIconEditor_CreateVIIcon.vi"/>
-									<Item Name="GDSIconEditor_HeaderEditorDialog.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/GDSIconEditor_HeaderEditorDialog.vi"/>
+									<Item Name="GDSIconEditor_CreateVIIcon.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/GDSIconEditor_CreateVIIcon.vi"/>
+									<Item Name="GDSIconEditor_HeaderEditorDialog.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor/GDSIconEditor_HeaderEditorDialog.vi"/>
 								</Item>
 								<Item Name="InterfaceLibrary" Type="Folder">
-									<Item Name="InterfaceLibrary.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/InterfaceLibrary/InterfaceLibrary.lvlib"/>
+									<Item Name="InterfaceLibrary.lvlib" Type="Library" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/InterfaceLibrary/InterfaceLibrary.lvlib"/>
 								</Item>
-								<Item Name="LanguageFiles" Type="Folder">
-									<Item Name="en.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LanguageFiles/en.png"/>
-									<Item Name="gm.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LanguageFiles/gm.png"/>
-									<Item Name="lang_ActorFramework.txt" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LanguageFiles/lang_ActorFramework.txt"/>
-									<Item Name="lang_Common.txt" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LanguageFiles/lang_Common.txt"/>
-									<Item Name="lang_Errors.txt" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LanguageFiles/lang_Errors.txt"/>
-									<Item Name="lang_IconEditors.txt" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LanguageFiles/lang_IconEditors.txt"/>
-									<Item Name="lang_Installer.txt" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LanguageFiles/lang_Installer.txt"/>
-									<Item Name="lang_Licence.txt" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LanguageFiles/lang_Licence.txt"/>
-									<Item Name="lang_MainDialogs.txt" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LanguageFiles/lang_MainDialogs.txt"/>
-									<Item Name="lang_Menus.txt" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LanguageFiles/lang_Menus.txt"/>
-									<Item Name="lang_SignatureDialog.txt" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LanguageFiles/lang_SignatureDialog.txt"/>
-									<Item Name="lang_StatusMessages.txt" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LanguageFiles/lang_StatusMessages.txt"/>
-									<Item Name="lang_UMLTips.txt" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LanguageFiles/lang_UMLTips.txt"/>
-									<Item Name="none.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LanguageFiles/none.png"/>
-									<Item Name="sv.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LanguageFiles/sv.png"/>
+								<Item Name="LanguageFiles" Type="Folder" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LanguageFiles">
+									<Property Name="NI.DISK" Type="Bool">true</Property>
 								</Item>
 								<Item Name="LvClass_class" Type="Folder">
-									<Item Name="CheckIfClassMemberExists.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/CheckIfClassMemberExists.vi"/>
-									<Item Name="GDSLvClass_AddMethod.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_AddMethod.vi"/>
-									<Item Name="GDSLvClass_ChangeConnectorPane.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_ChangeConnectorPane.vi"/>
-									<Item Name="GDSLvClass_ClassInfo.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_ClassInfo.ctl"/>
-									<Item Name="GDSLvClass_ClassMemberInfo.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_ClassMemberInfo.ctl"/>
-									<Item Name="GDSLvClass_ClassMethodInfo.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_ClassMethodInfo.ctl"/>
-									<Item Name="GDSLvCLass_ClassSettingsType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvCLass_ClassSettingsType.ctl"/>
-									<Item Name="GDSLvClass_ClassTypeSettingNames.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_ClassTypeSettingNames.ctl"/>
-									<Item Name="GDSLvClass_FlattenClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_FlattenClass.vi"/>
-									<Item Name="GDSLvClass_GetClassInfo.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_GetClassInfo.vi"/>
-									<Item Name="GDSLvClass_GetClassMembers.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_GetClassMembers.vi"/>
-									<Item Name="GDSLvClass_GetClassMethod.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_GetClassMethod.vi"/>
-									<Item Name="GDSLvClass_GetClassName.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_GetClassName.vi"/>
-									<Item Name="GDSLvClass_GetClassProviderInformation.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_GetClassProviderInformation.vi"/>
-									<Item Name="GDSLvClass_GetLibraryItemFromPath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_GetLibraryItemFromPath.vi"/>
-									<Item Name="GDSLvClass_GetRootBaseClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_GetRootBaseClass.vi"/>
-									<Item Name="GDSLvClass_IconSettingsNames.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_IconSettingsNames.ctl"/>
-									<Item Name="GDSLvClass_IconSettingsType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_IconSettingsType.ctl"/>
-									<Item Name="GDSLvClass_OpenClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_OpenClass.vi"/>
-									<Item Name="GDSLvClass_PlugIn.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_PlugIn.ctl"/>
-									<Item Name="GDSLvClass_PlugInTypes.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_PlugInTypes.ctl"/>
-									<Item Name="GDSLvClass_ProviderTypes.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_ProviderTypes.ctl"/>
-									<Item Name="GDSLvClass_ReadClassColors.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_ReadClassColors.vi"/>
-									<Item Name="GDSLvCLass_ReadClassPropertiesFromFile.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvCLass_ReadClassPropertiesFromFile.vi"/>
-									<Item Name="GDSLvClass_ReadClassType.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_ReadClassType.vi"/>
-									<Item Name="GDSLvClass_SaveEverythingInClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_SaveEverythingInClass.vi"/>
-									<Item Name="GDSLvClass_StoreClassColors.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_StoreClassColors.vi"/>
-									<Item Name="GDSLvClass_StoreClassItemIcon.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_StoreClassItemIcon.vi"/>
-									<Item Name="GDSLvClass_StoreClassType.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_StoreClassType.vi"/>
+									<Item Name="CheckIfClassMemberExists.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/CheckIfClassMemberExists.vi"/>
+									<Item Name="GDSLvClass_AddMethod.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_AddMethod.vi"/>
+									<Item Name="GDSLvClass_ChangeConnectorPane.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_ChangeConnectorPane.vi"/>
+									<Item Name="GDSLvClass_ClassInfo.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_ClassInfo.ctl"/>
+									<Item Name="GDSLvClass_ClassMemberInfo.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_ClassMemberInfo.ctl"/>
+									<Item Name="GDSLvClass_ClassMethodInfo.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_ClassMethodInfo.ctl"/>
+									<Item Name="GDSLvCLass_ClassSettingsType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvCLass_ClassSettingsType.ctl"/>
+									<Item Name="GDSLvClass_ClassTypeSettingNames.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_ClassTypeSettingNames.ctl"/>
+									<Item Name="GDSLvClass_FlattenClass.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_FlattenClass.vi"/>
+									<Item Name="GDSLvClass_GetClassInfo.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_GetClassInfo.vi"/>
+									<Item Name="GDSLvClass_GetClassMembers.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_GetClassMembers.vi"/>
+									<Item Name="GDSLvClass_GetClassMethod.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_GetClassMethod.vi"/>
+									<Item Name="GDSLvClass_GetClassName.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_GetClassName.vi"/>
+									<Item Name="GDSLvClass_GetClassProviderInformation.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_GetClassProviderInformation.vi"/>
+									<Item Name="GDSLvClass_GetLibraryItemFromPath.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_GetLibraryItemFromPath.vi"/>
+									<Item Name="GDSLvClass_GetRootBaseClass.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_GetRootBaseClass.vi"/>
+									<Item Name="GDSLvClass_IconSettingsNames.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_IconSettingsNames.ctl"/>
+									<Item Name="GDSLvClass_IconSettingsType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_IconSettingsType.ctl"/>
+									<Item Name="GDSLvClass_OpenClass.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_OpenClass.vi"/>
+									<Item Name="GDSLvClass_PlugIn.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_PlugIn.ctl"/>
+									<Item Name="GDSLvClass_PlugInTypes.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_PlugInTypes.ctl"/>
+									<Item Name="GDSLvClass_ProviderTypes.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_ProviderTypes.ctl"/>
+									<Item Name="GDSLvClass_ReadClassColors.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_ReadClassColors.vi"/>
+									<Item Name="GDSLvCLass_ReadClassPropertiesFromFile.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvCLass_ReadClassPropertiesFromFile.vi"/>
+									<Item Name="GDSLvClass_ReadClassType.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_ReadClassType.vi"/>
+									<Item Name="GDSLvClass_SaveEverythingInClass.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_SaveEverythingInClass.vi"/>
+									<Item Name="GDSLvClass_StoreClassColors.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_StoreClassColors.vi"/>
+									<Item Name="GDSLvClass_StoreClassItemIcon.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_StoreClassItemIcon.vi"/>
+									<Item Name="GDSLvClass_StoreClassType.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_StoreClassType.vi"/>
 								</Item>
 								<Item Name="LvIcon_class" Type="Folder">
 									<Item Name="subvis" Type="Folder">
-										<Item Name="AnalyseViIcon.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/AnalyseViIcon.vi"/>
-										<Item Name="GDSLvIcon_BuildPictureRows.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_BuildPictureRows.vi"/>
-										<Item Name="GDSLvIcon_CalcWordsPerRow.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_CalcWordsPerRow.vi"/>
-										<Item Name="GDSLvIcon_CalcWordsPerRowSubVI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_CalcWordsPerRowSubVI.vi"/>
-										<Item Name="GDSLvIcon_CharDataType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_CharDataType.ctl"/>
-										<Item Name="GDSLvIcon_Convert8bitTo24bitColor.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_Convert8bitTo24bitColor.vi"/>
-										<Item Name="GDSLvIcon_Convert24bitTo8bitColor.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_Convert24bitTo8bitColor.vi"/>
-										<Item Name="GDSLvIcon_ConvertBoolToColorPicture.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_ConvertBoolToColorPicture.vi"/>
-										<Item Name="GDSLvIcon_CreateIconPicture.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_CreateIconPicture.vi"/>
-										<Item Name="GDSLvIcon_CreatePictureText.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_CreatePictureText.vi"/>
-										<Item Name="GDSLvIcon_CreatePictureWord.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_CreatePictureWord.vi"/>
-										<Item Name="GDSLvIcon_FloodFill.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_FloodFill.vi"/>
-										<Item Name="GDSLvIcon_GenerateIconText.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_GenerateIconText.vi"/>
-										<Item Name="GDSLvIcon_GenerateObjectIcon.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_GenerateObjectIcon.vi"/>
-										<Item Name="GDSLvIcon_GenerateShortClassIconName.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_GenerateShortClassIconName.vi"/>
-										<Item Name="GDSLvIcon_GetChar.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_GetChar.vi"/>
-										<Item Name="GDSLvIcon_ManageIconFolderDialog.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_ManageIconFolderDialog.vi"/>
-										<Item Name="GDSLvIcon_ReplaceIconColor.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_ReplaceIconColor.vi"/>
-										<Item Name="GDSLvIcon_ResizeTextIcon.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_ResizeTextIcon.vi"/>
-										<Item Name="GDSLvIcon_SaveLayerInfo.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_SaveLayerInfo.vi"/>
-										<Item Name="GDSLvIcon_SplitString.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_SplitString.vi"/>
-										<Item Name="GDSLvIcon_TextDataType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_TextDataType.ctl"/>
-										<Item Name="GDSLvIcon_WordDataType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_WordDataType.ctl"/>
+										<Item Name="AnalyseViIcon.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/AnalyseViIcon.vi"/>
+										<Item Name="GDSLvIcon_BuildPictureRows.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_BuildPictureRows.vi"/>
+										<Item Name="GDSLvIcon_CalcWordsPerRow.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_CalcWordsPerRow.vi"/>
+										<Item Name="GDSLvIcon_CalcWordsPerRowSubVI.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_CalcWordsPerRowSubVI.vi"/>
+										<Item Name="GDSLvIcon_CharDataType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_CharDataType.ctl"/>
+										<Item Name="GDSLvIcon_Convert8bitTo24bitColor.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_Convert8bitTo24bitColor.vi"/>
+										<Item Name="GDSLvIcon_Convert24bitTo8bitColor.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_Convert24bitTo8bitColor.vi"/>
+										<Item Name="GDSLvIcon_ConvertBoolToColorPicture.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_ConvertBoolToColorPicture.vi"/>
+										<Item Name="GDSLvIcon_CreateIconPicture.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_CreateIconPicture.vi"/>
+										<Item Name="GDSLvIcon_CreatePictureText.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_CreatePictureText.vi"/>
+										<Item Name="GDSLvIcon_CreatePictureWord.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_CreatePictureWord.vi"/>
+										<Item Name="GDSLvIcon_FloodFill.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_FloodFill.vi"/>
+										<Item Name="GDSLvIcon_GenerateIconText.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_GenerateIconText.vi"/>
+										<Item Name="GDSLvIcon_GenerateObjectIcon.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_GenerateObjectIcon.vi"/>
+										<Item Name="GDSLvIcon_GenerateShortClassIconName.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_GenerateShortClassIconName.vi"/>
+										<Item Name="GDSLvIcon_GetChar.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_GetChar.vi"/>
+										<Item Name="GDSLvIcon_ManageIconFolderDialog.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_ManageIconFolderDialog.vi"/>
+										<Item Name="GDSLvIcon_ReplaceIconColor.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_ReplaceIconColor.vi"/>
+										<Item Name="GDSLvIcon_ResizeTextIcon.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_ResizeTextIcon.vi"/>
+										<Item Name="GDSLvIcon_SaveLayerInfo.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_SaveLayerInfo.vi"/>
+										<Item Name="GDSLvIcon_SplitString.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_SplitString.vi"/>
+										<Item Name="GDSLvIcon_TextDataType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_TextDataType.ctl"/>
+										<Item Name="GDSLvIcon_WordDataType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_WordDataType.ctl"/>
 									</Item>
-									<Item Name="GDSLvIcon_AnalyseViIcon.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/GDSLvIcon_AnalyseViIcon.vi"/>
-									<Item Name="GDSLvIcon_ClassColorTypes.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/GDSLvIcon_ClassColorTypes.ctl"/>
-									<Item Name="GDSLvIcon_ColorControl.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/GDSLvIcon_ColorControl.ctl"/>
-									<Item Name="GDSLvIcon_DialogUpdateClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/GDSLvIcon_DialogUpdateClass.vi"/>
-									<Item Name="GDSLvIcon_TextAlignment.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/GDSLvIcon_TextAlignment.ctl"/>
-									<Item Name="GDSLvIcon_Type.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/GDSLvIcon_Type.ctl"/>
-									<Item Name="GDSLvIcon_WordCompressionType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/GDSLvIcon_WordCompressionType.ctl"/>
+									<Item Name="GDSLvIcon_AnalyseViIcon.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/GDSLvIcon_AnalyseViIcon.vi"/>
+									<Item Name="GDSLvIcon_ClassColorTypes.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/GDSLvIcon_ClassColorTypes.ctl"/>
+									<Item Name="GDSLvIcon_ColorControl.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/GDSLvIcon_ColorControl.ctl"/>
+									<Item Name="GDSLvIcon_DialogUpdateClass.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/GDSLvIcon_DialogUpdateClass.vi"/>
+									<Item Name="GDSLvIcon_TextAlignment.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/GDSLvIcon_TextAlignment.ctl"/>
+									<Item Name="GDSLvIcon_Type.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/GDSLvIcon_Type.ctl"/>
+									<Item Name="GDSLvIcon_WordCompressionType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/GDSLvIcon_WordCompressionType.ctl"/>
 								</Item>
 								<Item Name="PictureControl" Type="Folder"/>
 								<Item Name="Project_class" Type="Folder">
-									<Item Name="GDSProject_Create.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_Create.vi"/>
-									<Item Name="GDSProject_CreateClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_CreateClass.vi"/>
-									<Item Name="GDSProject_CreateFolder.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_CreateFolder.vi"/>
-									<Item Name="GDSProject_GetAllClasses.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_GetAllClasses.vi"/>
-									<Item Name="GDSProject_GetChidrenItemFromName.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_GetChidrenItemFromName.vi"/>
-									<Item Name="GDSProject_GetFullFolderPath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_GetFullFolderPath.vi"/>
-									<Item Name="GDSProject_GetFullItemName.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_GetFullItemName.vi"/>
-									<Item Name="GDSProject_GetItemClassPath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_GetItemClassPath.vi"/>
-									<Item Name="GDSProject_GetLibraryMemberRealAndVirtualPath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_GetLibraryMemberRealAndVirtualPath.vi"/>
-									<Item Name="GDSProject_GetProjectItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_GetProjectItem.vi"/>
-									<Item Name="GDSProject_GetProjects.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_GetProjects.vi"/>
-									<Item Name="GDSProject_GetTargetClasses.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_GetTargetClasses.vi"/>
-									<Item Name="GDSProject_GetTargetFromProjectItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_GetTargetFromProjectItem.vi"/>
-									<Item Name="GDSProject_GuessFolderPath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_GuessFolderPath.vi"/>
-									<Item Name="GDSProject_OpenClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_OpenClass.vi"/>
-									<Item Name="GDSProject_RemoveFullyQualifiedNamesIfPossible.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_RemoveFullyQualifiedNamesIfPossible.vi"/>
-									<Item Name="GDSProject_SaveProject.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_SaveProject.vi"/>
+									<Item Name="GDSProject_Create.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_Create.vi"/>
+									<Item Name="GDSProject_CreateClass.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_CreateClass.vi"/>
+									<Item Name="GDSProject_CreateFolder.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_CreateFolder.vi"/>
+									<Item Name="GDSProject_GetAllClasses.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_GetAllClasses.vi"/>
+									<Item Name="GDSProject_GetChidrenItemFromName.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_GetChidrenItemFromName.vi"/>
+									<Item Name="GDSProject_GetFullFolderPath.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_GetFullFolderPath.vi"/>
+									<Item Name="GDSProject_GetFullItemName.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_GetFullItemName.vi"/>
+									<Item Name="GDSProject_GetItemClassPath.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_GetItemClassPath.vi"/>
+									<Item Name="GDSProject_GetLibraryMemberRealAndVirtualPath.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_GetLibraryMemberRealAndVirtualPath.vi"/>
+									<Item Name="GDSProject_GetProjectItem.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_GetProjectItem.vi"/>
+									<Item Name="GDSProject_GetProjects.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_GetProjects.vi"/>
+									<Item Name="GDSProject_GetTargetClasses.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_GetTargetClasses.vi"/>
+									<Item Name="GDSProject_GetTargetFromProjectItem.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_GetTargetFromProjectItem.vi"/>
+									<Item Name="GDSProject_GuessFolderPath.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_GuessFolderPath.vi"/>
+									<Item Name="GDSProject_OpenClass.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_OpenClass.vi"/>
+									<Item Name="GDSProject_RemoveFullyQualifiedNamesIfPossible.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_RemoveFullyQualifiedNamesIfPossible.vi"/>
+									<Item Name="GDSProject_SaveProject.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class/GDSProject_SaveProject.vi"/>
 								</Item>
 								<Item Name="ScriptingFunctions" Type="Folder">
 									<Item Name="SubVIs" Type="Folder">
-										<Item Name="Scripting_ConvertBaseClassToSubClass_UpdateCreate.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/SubVIs/Scripting_ConvertBaseClassToSubClass_UpdateCreate.vi"/>
-										<Item Name="Scripting_ConvertBaseClassToSubClass_UpdateDestroy.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/SubVIs/Scripting_ConvertBaseClassToSubClass_UpdateDestroy.vi"/>
-										<Item Name="Scripting_ConvertBaseClassToSubClass_UpdateNativeCreate.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/SubVIs/Scripting_ConvertBaseClassToSubClass_UpdateNativeCreate.vi"/>
-										<Item Name="Scripting_ConvertBaseClassToSubClass_UpdateNativeDestroy.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/SubVIs/Scripting_ConvertBaseClassToSubClass_UpdateNativeDestroy.vi"/>
-										<Item Name="Scripting_G4ConvertBaseClassToSubClass_UpdateDestroy.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/SubVIs/Scripting_G4ConvertBaseClassToSubClass_UpdateDestroy.vi"/>
+										<Item Name="Scripting_ConvertBaseClassToSubClass_UpdateCreate.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/SubVIs/Scripting_ConvertBaseClassToSubClass_UpdateCreate.vi"/>
+										<Item Name="Scripting_ConvertBaseClassToSubClass_UpdateDestroy.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/SubVIs/Scripting_ConvertBaseClassToSubClass_UpdateDestroy.vi"/>
+										<Item Name="Scripting_ConvertBaseClassToSubClass_UpdateNativeCreate.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/SubVIs/Scripting_ConvertBaseClassToSubClass_UpdateNativeCreate.vi"/>
+										<Item Name="Scripting_ConvertBaseClassToSubClass_UpdateNativeDestroy.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/SubVIs/Scripting_ConvertBaseClassToSubClass_UpdateNativeDestroy.vi"/>
+										<Item Name="Scripting_G4ConvertBaseClassToSubClass_UpdateDestroy.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/SubVIs/Scripting_G4ConvertBaseClassToSubClass_UpdateDestroy.vi"/>
 										<Item Name="Scripting_GetStateMachineReferences_BaseReference.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/SubVIs/Scripting_GetStateMachineReferences_BaseReference.vi"/>
-										<Item Name="Scripting_GetSubVISourcesDrains.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/SubVIs/Scripting_GetSubVISourcesDrains.vi"/>
-										<Item Name="Scripting_LvClassConstantToClassType.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/SubVIs/Scripting_LvClassConstantToClassType.vi"/>
-										<Item Name="Scripting_OpenViRef.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/SubVIs/Scripting_OpenViRef.vi"/>
-										<Item Name="Scripting_RewireSubVISourcesDrains.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/SubVIs/Scripting_RewireSubVISourcesDrains.vi"/>
-										<Item Name="Scripting_SaveVi.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/SubVIs/Scripting_SaveVi.vi"/>
-										<Item Name="Scripting_UpdateDerivedClasses.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/SubVIs/Scripting_UpdateDerivedClasses.vi"/>
-										<Item Name="Scripting_ViDependencyType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/SubVIs/Scripting_ViDependencyType.ctl"/>
+										<Item Name="Scripting_GetSubVISourcesDrains.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/SubVIs/Scripting_GetSubVISourcesDrains.vi"/>
+										<Item Name="Scripting_LvClassConstantToClassType.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/SubVIs/Scripting_LvClassConstantToClassType.vi"/>
+										<Item Name="Scripting_OpenViRef.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/SubVIs/Scripting_OpenViRef.vi"/>
+										<Item Name="Scripting_RewireSubVISourcesDrains.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/SubVIs/Scripting_RewireSubVISourcesDrains.vi"/>
+										<Item Name="Scripting_SaveVi.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/SubVIs/Scripting_SaveVi.vi"/>
+										<Item Name="Scripting_UpdateDerivedClasses.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/SubVIs/Scripting_UpdateDerivedClasses.vi"/>
+										<Item Name="Scripting_ViDependencyType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/SubVIs/Scripting_ViDependencyType.ctl"/>
 									</Item>
-									<Item Name="Scripting.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting.lvclass"/>
-									<Item Name="Scripting_AddFP-PanelRef.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_AddFP-PanelRef.vi"/>
-									<Item Name="Scripting_AddVIBetweenVIs.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_AddVIBetweenVIs.vi"/>
-									<Item Name="Scripting_AddVIInsideNoErrorCase.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_AddVIInsideNoErrorCase.vi"/>
-									<Item Name="Scripting_Apply New VI Tools-Options Settings.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_Apply New VI Tools-Options Settings.vi"/>
-									<Item Name="Scripting_AssignControlToConnectorPane.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_AssignControlToConnectorPane.vi"/>
-									<Item Name="Scripting_BundleByName.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_BundleByName.vi"/>
-									<Item Name="Scripting_ChangeBaseClassInSubClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ChangeBaseClassInSubClass.vi"/>
-									<Item Name="Scripting_ChangeNativeBaseClassInSubClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ChangeNativeBaseClassInSubClass.vi"/>
-									<Item Name="Scripting_CheckIfErrorCluster.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_CheckIfErrorCluster.vi"/>
-									<Item Name="Scripting_CleanUpControls.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_CleanUpControls.vi"/>
-									<Item Name="Scripting_CleanUpTermWire.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_CleanUpTermWire.vi"/>
-									<Item Name="Scripting_ConnecorPaneCreateConstant.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ConnecorPaneCreateConstant.vi"/>
-									<Item Name="Scripting_ConnecorPaneRewiring.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ConnecorPaneRewiring.vi"/>
-									<Item Name="Scripting_ConnectorPanePatternType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ConnectorPanePatternType.ctl"/>
-									<Item Name="Scripting_ConvertBaseClassToSubClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ConvertBaseClassToSubClass.vi"/>
-									<Item Name="Scripting_ConvertNativeBaseClassToSubClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ConvertNativeBaseClassToSubClass.vi"/>
-									<Item Name="Scripting_ConvertNativeSubClassToBaseClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ConvertNativeSubClassToBaseClass.vi"/>
-									<Item Name="Scripting_ConvertSubClassToBaseClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ConvertSubClassToBaseClass.vi"/>
-									<Item Name="Scripting_CopyControlsFromTemplate.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_CopyControlsFromTemplate.vi"/>
-									<Item Name="Scripting_DeleteBaseDataFromProtectedClassData.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_DeleteBaseDataFromProtectedClassData.vi"/>
-									<Item Name="Scripting_ExchangeNodeAndRewire.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ExchangeNodeAndRewire.vi"/>
-									<Item Name="Scripting_FindControlsOnDiagram.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_FindControlsOnDiagram.vi"/>
-									<Item Name="Scripting_FindCorrespondingSubVITerminal.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_FindCorrespondingSubVITerminal.vi"/>
-									<Item Name="Scripting_FindNodeOnDiagram.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_FindNodeOnDiagram.vi"/>
-									<Item Name="Scripting_FindNodeOnDiagram_1.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_FindNodeOnDiagram_1.vi"/>
-									<Item Name="Scripting_FindObjectsOnDiagram.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_FindObjectsOnDiagram.vi"/>
-									<Item Name="Scripting_FindTypeDefsOnDiagram.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_FindTypeDefsOnDiagram.vi"/>
-									<Item Name="Scripting_FindVisOnDiagram.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_FindVisOnDiagram.vi"/>
-									<Item Name="Scripting_FitToLargestDec.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_FitToLargestDec.vi"/>
-									<Item Name="Scripting_FixControlTerminalLabel.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_FixControlTerminalLabel.vi"/>
-									<Item Name="Scripting_FollowWireDownStreams.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_FollowWireDownStreams.vi"/>
-									<Item Name="Scripting_FollowWireDownStreams_StopCriteria.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_FollowWireDownStreams_StopCriteria.ctl"/>
-									<Item Name="Scripting_FollowWireLeft.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_FollowWireLeft.vi"/>
-									<Item Name="Scripting_FollowWireToInnerTerm.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_FollowWireToInnerTerm.vi"/>
-									<Item Name="Scripting_G1DeleteToG3Delete.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_G1DeleteToG3Delete.vi"/>
-									<Item Name="Scripting_G1NewToG3New.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_G1NewToG3New.vi"/>
-									<Item Name="Scripting_GetAllNodesConnectedToTerminal.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_GetAllNodesConnectedToTerminal.vi"/>
-									<Item Name="Scripting_GetControlFromTypeDef.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_GetControlFromTypeDef.vi"/>
-									<Item Name="Scripting_GetLibraryOfVI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_GetLibraryOfVI.vi"/>
-									<Item Name="Scripting_GetNodeInfo.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_GetNodeInfo.vi"/>
-									<Item Name="Scripting_GetNoErrorInsideTerminals.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_GetNoErrorInsideTerminals.vi"/>
-									<Item Name="Scripting_GetStateMachineReferences.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_GetStateMachineReferences.vi"/>
-									<Item Name="Scripting_GetTerminalWireConnectionPoints.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_GetTerminalWireConnectionPoints.vi"/>
-									<Item Name="Scripting_GetVIClassDependency.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_GetVIClassDependency.vi"/>
-									<Item Name="Scripting_IndicateConnectorPaneCorners.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_IndicateConnectorPaneCorners.vi"/>
-									<Item Name="Scripting_LibraryInfoMemory.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_LibraryInfoMemory.vi"/>
-									<Item Name="Scripting_LVClassScriptingProps.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_LVClassScriptingProps.vi"/>
-									<Item Name="Scripting_NodeInfo.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_NodeInfo.ctl"/>
-									<Item Name="Scripting_ObjectType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ObjectType.ctl"/>
-									<Item Name="Scripting_PlaceControlsInClassAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_PlaceControlsInClassAttribute.vi"/>
-									<Item Name="Scripting_PlaceDVRRefInClassAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_PlaceDVRRefInClassAttribute.vi"/>
-									<Item Name="Scripting_PlaceDVRRefInObjectAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_PlaceDVRRefInObjectAttribute.vi"/>
-									<Item Name="Scripting_PlaceGoopRefInClassAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_PlaceGoopRefInClassAttribute.vi"/>
-									<Item Name="Scripting_PlaceVariableInControl.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_PlaceVariableInControl.vi"/>
-									<Item Name="Scripting_RelinkSubVI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_RelinkSubVI.vi"/>
-									<Item Name="Scripting_RemoveDynamicDispatchInGoop2VIs.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_RemoveDynamicDispatchInGoop2VIs.vi"/>
-									<Item Name="Scripting_RemoveSubViAndFixWires.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_RemoveSubViAndFixWires.vi"/>
-									<Item Name="Scripting_ReplaceGoop2OORef.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ReplaceGoop2OORef.vi"/>
-									<Item Name="Scripting_ReplaceOORef.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ReplaceOORef.vi"/>
-									<Item Name="Scripting_ReplaceSubVI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ReplaceSubVI.vi"/>
-									<Item Name="Scripting_ReplaceVisAndControls.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ReplaceVisAndControls.vi"/>
-									<Item Name="Scripting_SaveUpdateSubVIs.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_SaveUpdateSubVIs.vi"/>
-									<Item Name="Scripting_SetConnectorPanePattern.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_SetConnectorPanePattern.vi"/>
-									<Item Name="Scripting_SortCpControls.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_SortCpControls.vi"/>
-									<Item Name="Scripting_SortTerminals.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_SortTerminals.vi"/>
-									<Item Name="Scripting_UnBundleByName.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_UnBundleByName.vi"/>
-									<Item Name="Scripting_UpdateBundle.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_UpdateBundle.vi"/>
-									<Item Name="Scripting_UpdateGoop2Create.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_UpdateGoop2Create.vi"/>
-									<Item Name="Scripting_UpdateGoop2Destroy.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_UpdateGoop2Destroy.vi"/>
-									<Item Name="Scripting_UpdateNewVI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_UpdateNewVI.vi"/>
-									<Item Name="Scripting_UpdateProtectedClassData.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_UpdateProtectedClassData.vi"/>
-									<Item Name="Scripting_UpdateViFromTemplate.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_UpdateViFromTemplate.vi"/>
-									<Item Name="Scripting_VIClassDependency.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_VIClassDependency.ctl"/>
-									<Item Name="Scripting_WireTerminals.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_WireTerminals.vi"/>
+									<Item Name="Scripting.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting.lvclass"/>
+									<Item Name="Scripting_AddFP-PanelRef.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_AddFP-PanelRef.vi"/>
+									<Item Name="Scripting_AddVIBetweenVIs.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_AddVIBetweenVIs.vi"/>
+									<Item Name="Scripting_AddVIInsideNoErrorCase.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_AddVIInsideNoErrorCase.vi"/>
+									<Item Name="Scripting_Apply New VI Tools-Options Settings.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_Apply New VI Tools-Options Settings.vi"/>
+									<Item Name="Scripting_AssignControlToConnectorPane.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_AssignControlToConnectorPane.vi"/>
+									<Item Name="Scripting_BundleByName.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_BundleByName.vi"/>
+									<Item Name="Scripting_ChangeBaseClassInSubClass.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ChangeBaseClassInSubClass.vi"/>
+									<Item Name="Scripting_ChangeNativeBaseClassInSubClass.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ChangeNativeBaseClassInSubClass.vi"/>
+									<Item Name="Scripting_CheckIfErrorCluster.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_CheckIfErrorCluster.vi"/>
+									<Item Name="Scripting_CleanUpControls.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_CleanUpControls.vi"/>
+									<Item Name="Scripting_CleanUpTermWire.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_CleanUpTermWire.vi"/>
+									<Item Name="Scripting_ConnecorPaneCreateConstant.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ConnecorPaneCreateConstant.vi"/>
+									<Item Name="Scripting_ConnecorPaneRewiring.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ConnecorPaneRewiring.vi"/>
+									<Item Name="Scripting_ConnectorPanePatternType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ConnectorPanePatternType.ctl"/>
+									<Item Name="Scripting_ConvertBaseClassToSubClass.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ConvertBaseClassToSubClass.vi"/>
+									<Item Name="Scripting_ConvertNativeBaseClassToSubClass.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ConvertNativeBaseClassToSubClass.vi"/>
+									<Item Name="Scripting_ConvertNativeSubClassToBaseClass.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ConvertNativeSubClassToBaseClass.vi"/>
+									<Item Name="Scripting_ConvertSubClassToBaseClass.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ConvertSubClassToBaseClass.vi"/>
+									<Item Name="Scripting_CopyControlsFromTemplate.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_CopyControlsFromTemplate.vi"/>
+									<Item Name="Scripting_DeleteBaseDataFromProtectedClassData.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_DeleteBaseDataFromProtectedClassData.vi"/>
+									<Item Name="Scripting_ExchangeNodeAndRewire.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ExchangeNodeAndRewire.vi"/>
+									<Item Name="Scripting_FindControlsOnDiagram.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_FindControlsOnDiagram.vi"/>
+									<Item Name="Scripting_FindCorrespondingSubVITerminal.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_FindCorrespondingSubVITerminal.vi"/>
+									<Item Name="Scripting_FindNodeOnDiagram.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_FindNodeOnDiagram.vi"/>
+									<Item Name="Scripting_FindNodeOnDiagram_1.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_FindNodeOnDiagram_1.vi"/>
+									<Item Name="Scripting_FindObjectsOnDiagram.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_FindObjectsOnDiagram.vi"/>
+									<Item Name="Scripting_FindTypeDefsOnDiagram.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_FindTypeDefsOnDiagram.vi"/>
+									<Item Name="Scripting_FindVisOnDiagram.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_FindVisOnDiagram.vi"/>
+									<Item Name="Scripting_FitToLargestDec.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_FitToLargestDec.vi"/>
+									<Item Name="Scripting_FixControlTerminalLabel.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_FixControlTerminalLabel.vi"/>
+									<Item Name="Scripting_FollowWireDownStreams.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_FollowWireDownStreams.vi"/>
+									<Item Name="Scripting_FollowWireDownStreams_StopCriteria.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_FollowWireDownStreams_StopCriteria.ctl"/>
+									<Item Name="Scripting_FollowWireLeft.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_FollowWireLeft.vi"/>
+									<Item Name="Scripting_FollowWireToInnerTerm.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_FollowWireToInnerTerm.vi"/>
+									<Item Name="Scripting_G1DeleteToG3Delete.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_G1DeleteToG3Delete.vi"/>
+									<Item Name="Scripting_G1NewToG3New.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_G1NewToG3New.vi"/>
+									<Item Name="Scripting_GetAllNodesConnectedToTerminal.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_GetAllNodesConnectedToTerminal.vi"/>
+									<Item Name="Scripting_GetControlFromTypeDef.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_GetControlFromTypeDef.vi"/>
+									<Item Name="Scripting_GetLibraryOfVI.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_GetLibraryOfVI.vi"/>
+									<Item Name="Scripting_GetNodeInfo.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_GetNodeInfo.vi"/>
+									<Item Name="Scripting_GetNoErrorInsideTerminals.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_GetNoErrorInsideTerminals.vi"/>
+									<Item Name="Scripting_GetStateMachineReferences.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_GetStateMachineReferences.vi"/>
+									<Item Name="Scripting_GetTerminalWireConnectionPoints.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_GetTerminalWireConnectionPoints.vi"/>
+									<Item Name="Scripting_GetVIClassDependency.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_GetVIClassDependency.vi"/>
+									<Item Name="Scripting_IndicateConnectorPaneCorners.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_IndicateConnectorPaneCorners.vi"/>
+									<Item Name="Scripting_LibraryInfoMemory.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_LibraryInfoMemory.vi"/>
+									<Item Name="Scripting_LVClassScriptingProps.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_LVClassScriptingProps.vi"/>
+									<Item Name="Scripting_NodeInfo.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_NodeInfo.ctl"/>
+									<Item Name="Scripting_ObjectType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ObjectType.ctl"/>
+									<Item Name="Scripting_PlaceControlsInClassAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_PlaceControlsInClassAttribute.vi"/>
+									<Item Name="Scripting_PlaceDVRRefInClassAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_PlaceDVRRefInClassAttribute.vi"/>
+									<Item Name="Scripting_PlaceDVRRefInObjectAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_PlaceDVRRefInObjectAttribute.vi"/>
+									<Item Name="Scripting_PlaceGoopRefInClassAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_PlaceGoopRefInClassAttribute.vi"/>
+									<Item Name="Scripting_PlaceVariableInControl.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_PlaceVariableInControl.vi"/>
+									<Item Name="Scripting_RelinkSubVI.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_RelinkSubVI.vi"/>
+									<Item Name="Scripting_RemoveDynamicDispatchInGoop2VIs.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_RemoveDynamicDispatchInGoop2VIs.vi"/>
+									<Item Name="Scripting_RemoveSubViAndFixWires.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_RemoveSubViAndFixWires.vi"/>
+									<Item Name="Scripting_ReplaceGoop2OORef.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ReplaceGoop2OORef.vi"/>
+									<Item Name="Scripting_ReplaceOORef.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ReplaceOORef.vi"/>
+									<Item Name="Scripting_ReplaceSubVI.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ReplaceSubVI.vi"/>
+									<Item Name="Scripting_ReplaceVisAndControls.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_ReplaceVisAndControls.vi"/>
+									<Item Name="Scripting_SaveUpdateSubVIs.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_SaveUpdateSubVIs.vi"/>
+									<Item Name="Scripting_SetConnectorPanePattern.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_SetConnectorPanePattern.vi"/>
+									<Item Name="Scripting_SortCpControls.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_SortCpControls.vi"/>
+									<Item Name="Scripting_SortTerminals.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_SortTerminals.vi"/>
+									<Item Name="Scripting_UnBundleByName.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_UnBundleByName.vi"/>
+									<Item Name="Scripting_UpdateBundle.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_UpdateBundle.vi"/>
+									<Item Name="Scripting_UpdateGoop2Create.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_UpdateGoop2Create.vi"/>
+									<Item Name="Scripting_UpdateGoop2Destroy.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_UpdateGoop2Destroy.vi"/>
+									<Item Name="Scripting_UpdateNewVI.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_UpdateNewVI.vi"/>
+									<Item Name="Scripting_UpdateProtectedClassData.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_UpdateProtectedClassData.vi"/>
+									<Item Name="Scripting_UpdateViFromTemplate.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_UpdateViFromTemplate.vi"/>
+									<Item Name="Scripting_VIClassDependency.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_VIClassDependency.ctl"/>
+									<Item Name="Scripting_WireTerminals.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_WireTerminals.vi"/>
 								</Item>
 								<Item Name="String" Type="Folder">
-									<Item Name="GDSString_AccessScopeModifierType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_AccessScopeModifierType.ctl"/>
-									<Item Name="GDSString_AddStatesToQueue.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_AddStatesToQueue.vi"/>
-									<Item Name="GDSString_AttributeTextToAttributeType.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_AttributeTextToAttributeType.vi"/>
-									<Item Name="GDSString_CapsAndRemoveSpaces.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_CapsAndRemoveSpaces.vi"/>
-									<Item Name="GDSString_ChangeToBetterNames.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ChangeToBetterNames.vi"/>
-									<Item Name="GDSString_ClassDescriptionType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ClassDescriptionType.ctl"/>
-									<Item Name="GDSString_ClassOwnerType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ClassOwnerType.ctl"/>
-									<Item Name="GDSString_ClassParentType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ClassParentType.ctl"/>
-									<Item Name="GDSString_ClassType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ClassType.ctl"/>
-									<Item Name="GDSString_EnumsToStringsValue.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_EnumsToStringsValue.vi"/>
-									<Item Name="GDSString_EvaluateMethodText.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_EvaluateMethodText.vi"/>
-									<Item Name="GDSString_ExtractEnumInfoFromText.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ExtractEnumInfoFromText.vi"/>
-									<Item Name="GDSString_FindCodeBlock.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_FindCodeBlock.vi"/>
-									<Item Name="GDSString_FindTextBasedCodeDocumenation.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_FindTextBasedCodeDocumenation.vi"/>
-									<Item Name="GDSString_FindWord.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_FindWord.vi"/>
-									<Item Name="GDSString_FormatStringConstantText.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_FormatStringConstantText.vi"/>
-									<Item Name="GDSString_FormatText.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_FormatText.vi"/>
-									<Item Name="GDSString_FromatedTextToHTML.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_FromatedTextToHTML.vi"/>
-									<Item Name="GDSString_GetModifiers.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_GetModifiers.vi"/>
-									<Item Name="GDSString_MethodDescriptionType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_MethodDescriptionType.ctl"/>
-									<Item Name="GDSString_ModifierType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ModifierType.ctl"/>
-									<Item Name="GDSString_ParseBaseMethodCall.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ParseBaseMethodCall.vi"/>
-									<Item Name="GDSString_ParseDataTypeString.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ParseDataTypeString.vi"/>
-									<Item Name="GDSString_ParsePropertyMethod.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ParsePropertyMethod.vi"/>
-									<Item Name="GDSString_ParseStateQueue.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ParseStateQueue.vi"/>
-									<Item Name="GDSString_ParseTextBasedCode.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ParseTextBasedCode.vi"/>
-									<Item Name="GDSString_PatternMatching.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_PatternMatching.vi"/>
-									<Item Name="GDSString_PlaceHolderText.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_PlaceHolderText.vi"/>
-									<Item Name="GDSString_RemoveBaseMethodCallString.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_RemoveBaseMethodCallString.vi"/>
-									<Item Name="GDSString_RemoveExtension.vim" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_RemoveExtension.vim"/>
-									<Item Name="GDSString_ResetTextStyle.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ResetTextStyle.vi"/>
-									<Item Name="GDSString_SetTextStyle.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_SetTextStyle.vi"/>
-									<Item Name="GDSString_SplitStrings.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_SplitStrings.vi"/>
-									<Item Name="GDSString_XML_GetTagBlock.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_XML_GetTagBlock.vi"/>
-									<Item Name="GDSString_XML_GetTags.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_XML_GetTags.vi"/>
-									<Item Name="GDSString_XmlEnumToStringValue.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_XmlEnumToStringValue.vi"/>
+									<Item Name="GDSString_AccessScopeModifierType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_AccessScopeModifierType.ctl"/>
+									<Item Name="GDSString_AddStatesToQueue.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_AddStatesToQueue.vi"/>
+									<Item Name="GDSString_AttributeTextToAttributeType.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_AttributeTextToAttributeType.vi"/>
+									<Item Name="GDSString_CapsAndRemoveSpaces.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_CapsAndRemoveSpaces.vi"/>
+									<Item Name="GDSString_ChangeToBetterNames.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ChangeToBetterNames.vi"/>
+									<Item Name="GDSString_ClassDescriptionType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ClassDescriptionType.ctl"/>
+									<Item Name="GDSString_ClassOwnerType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ClassOwnerType.ctl"/>
+									<Item Name="GDSString_ClassParentType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ClassParentType.ctl"/>
+									<Item Name="GDSString_ClassType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ClassType.ctl"/>
+									<Item Name="GDSString_EnumsToStringsValue.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_EnumsToStringsValue.vi"/>
+									<Item Name="GDSString_EvaluateMethodText.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_EvaluateMethodText.vi"/>
+									<Item Name="GDSString_ExtractEnumInfoFromText.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ExtractEnumInfoFromText.vi"/>
+									<Item Name="GDSString_FindCodeBlock.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_FindCodeBlock.vi"/>
+									<Item Name="GDSString_FindTextBasedCodeDocumenation.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_FindTextBasedCodeDocumenation.vi"/>
+									<Item Name="GDSString_FindWord.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_FindWord.vi"/>
+									<Item Name="GDSString_FormatStringConstantText.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_FormatStringConstantText.vi"/>
+									<Item Name="GDSString_FormatText.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_FormatText.vi"/>
+									<Item Name="GDSString_FromatedTextToHTML.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_FromatedTextToHTML.vi"/>
+									<Item Name="GDSString_GetModifiers.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_GetModifiers.vi"/>
+									<Item Name="GDSString_MethodDescriptionType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_MethodDescriptionType.ctl"/>
+									<Item Name="GDSString_ModifierType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ModifierType.ctl"/>
+									<Item Name="GDSString_ParseBaseMethodCall.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ParseBaseMethodCall.vi"/>
+									<Item Name="GDSString_ParseDataTypeString.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ParseDataTypeString.vi"/>
+									<Item Name="GDSString_ParsePropertyMethod.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ParsePropertyMethod.vi"/>
+									<Item Name="GDSString_ParseStateQueue.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ParseStateQueue.vi"/>
+									<Item Name="GDSString_ParseTextBasedCode.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ParseTextBasedCode.vi"/>
+									<Item Name="GDSString_PatternMatching.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_PatternMatching.vi"/>
+									<Item Name="GDSString_PlaceHolderText.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_PlaceHolderText.vi"/>
+									<Item Name="GDSString_RemoveBaseMethodCallString.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_RemoveBaseMethodCallString.vi"/>
+									<Item Name="GDSString_RemoveExtension.vim" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_RemoveExtension.vim"/>
+									<Item Name="GDSString_ResetTextStyle.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ResetTextStyle.vi"/>
+									<Item Name="GDSString_SetTextStyle.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_SetTextStyle.vi"/>
+									<Item Name="GDSString_SplitStrings.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_SplitStrings.vi"/>
+									<Item Name="GDSString_SplitStrings_Array.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_SplitStrings_Array.vi"/>
+									<Item Name="GDSString_XML_GetTagBlock.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_XML_GetTagBlock.vi"/>
+									<Item Name="GDSString_XML_GetTags.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_XML_GetTags.vi"/>
+									<Item Name="GDSString_XmlEnumToStringValue.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_XmlEnumToStringValue.vi"/>
 								</Item>
-								<Item Name="ClassesOverview.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ClassesOverview.vi"/>
-								<Item Name="ConvertGoop1ToGoop3.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop1ToGoop3.vi"/>
-								<Item Name="ConvertGoop2ToGoop3.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop2ToGoop3.vi"/>
-								<Item Name="ConvertGoop3ToGoop4.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4.vi"/>
-								<Item Name="ConvertTextBasedCodeToLabVIEW.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextBasedCodeToLabVIEW.vi"/>
+								<Item Name="ClassesOverview.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ClassesOverview.vi"/>
+								<Item Name="ConvertGoop1ToGoop3.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop1ToGoop3.vi"/>
+								<Item Name="ConvertGoop2ToGoop3.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop2ToGoop3.vi"/>
+								<Item Name="ConvertGoop3ToGoop4.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4.vi"/>
+								<Item Name="ConvertTextBasedCodeToLabVIEW.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextBasedCodeToLabVIEW.vi"/>
 							</Item>
 							<Item Name="CommonClasses" Type="Folder">
 								<Item Name="ByViServerInterfaceTemplate_4x4x4" Type="Folder">
@@ -649,7 +630,7 @@
 										<Item Name="methods.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/CommonClasses/ByViServerInterfaceTemplate_4x4x4/methods/methods.ini"/>
 									</Item>
 									<Item Name="ByViServerInterfaceTemplate_4x4x4.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/CommonClasses/ByViServerInterfaceTemplate_4x4x4/ByViServerInterfaceTemplate_4x4x4.ini"/>
-									<Item Name="ByViServerInterfaceTemplate_4x4x4.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/CommonClasses/ByViServerInterfaceTemplate_4x4x4/ByViServerInterfaceTemplate_4x4x4.lvclass"/>
+									<Item Name="ByViServerInterfaceTemplate_4x4x4.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/CommonClasses/ByViServerInterfaceTemplate_4x4x4/ByViServerInterfaceTemplate_4x4x4.lvclass"/>
 								</Item>
 								<Item Name="ByViServerInterfaceTemplate_6x8x6" Type="Folder">
 									<Item Name="methods" Type="Folder">
@@ -657,9 +638,9 @@
 										<Item Name="methods.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/CommonClasses/ByViServerInterfaceTemplate_6x8x6/methods/methods.ini"/>
 									</Item>
 									<Item Name="ByViServerInterfaceTemplate_6x8x6.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/CommonClasses/ByViServerInterfaceTemplate_6x8x6/ByViServerInterfaceTemplate_6x8x6.ini"/>
-									<Item Name="ByViServerInterfaceTemplate_6x8x6.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/CommonClasses/ByViServerInterfaceTemplate_6x8x6/ByViServerInterfaceTemplate_6x8x6.lvclass"/>
+									<Item Name="ByViServerInterfaceTemplate_6x8x6.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/CommonClasses/ByViServerInterfaceTemplate_6x8x6/ByViServerInterfaceTemplate_6x8x6.lvclass"/>
 								</Item>
-								<Item Name="ByViServerInterfaceTemplate_CreateClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/CommonClasses/ByViServerInterfaceTemplate_CreateClass.vi"/>
+								<Item Name="ByViServerInterfaceTemplate_CreateClass.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/CommonClasses/ByViServerInterfaceTemplate_CreateClass.vi"/>
 							</Item>
 							<Item Name="DesignPatterns" Type="Folder">
 								<Item Name="ActiveObjects" Type="Folder">
@@ -717,7 +698,7 @@
 										<Item Name="ClassAttributes_ReadWriteClassAttributes_6x8x6_Singleton.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/ClassAttributes/ClassAttributes_SubVIs/ClassAttributes_ReadWriteClassAttributes_6x8x6_Singleton.vi"/>
 									</Item>
 									<Item Name="ClassAttributes_AddClassAttributes.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/ClassAttributes/ClassAttributes_AddClassAttributes.ini"/>
-									<Item Name="ClassAttributes_AddClassAttributes.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/ClassAttributes/ClassAttributes_AddClassAttributes.vi"/>
+									<Item Name="ClassAttributes_AddClassAttributes.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/ClassAttributes/ClassAttributes_AddClassAttributes.vi"/>
 								</Item>
 								<Item Name="GOOPDebugger" Type="Folder">
 									<Item Name="GOOPDebugger_SubVIs" Type="Folder">
@@ -729,14 +710,14 @@
 								</Item>
 								<Item Name="Interface" Type="Folder">
 									<Item Name="Interface_SubVIs" Type="Folder">
-										<Item Name="Interface_AddImplementVI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/Interface/Interface_SubVIs/Interface_AddImplementVI.vi"/>
+										<Item Name="Interface_AddImplementVI.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/Interface/Interface_SubVIs/Interface_AddImplementVI.vi"/>
 										<Item Name="Interface_GetReference_4x4x4.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/Interface/Interface_SubVIs/Interface_GetReference_4x4x4.vi"/>
 										<Item Name="Interface_GetReference_6x8x6.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/Interface/Interface_SubVIs/Interface_GetReference_6x8x6.vi"/>
 										<Item Name="Interface_Implement.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/Interface/Interface_SubVIs/Interface_Implement.vi"/>
-										<Item Name="InterfaceType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/Interface/Interface_SubVIs/InterfaceType.ctl"/>
+										<Item Name="InterfaceType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/Interface/Interface_SubVIs/InterfaceType.ctl"/>
 									</Item>
 									<Item Name="Interface_ImplementInterface.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/Interface/Interface_ImplementInterface.ini"/>
-									<Item Name="Interface_ImplementInterface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/Interface/Interface_ImplementInterface.vi"/>
+									<Item Name="Interface_ImplementInterface.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/Interface/Interface_ImplementInterface.vi"/>
 								</Item>
 								<Item Name="Persistent" Type="Folder">
 									<Item Name="Persistent_SubVIs" Type="Folder">
@@ -800,53 +781,37 @@
 							</Item>
 							<Item Name="Provider_BaseClassInterface" Type="Folder">
 								<Item Name="BaseProvider_SubVIs" Type="Folder">
-									<Item Name="BaseProvider_ActorFramework_FindTemplates.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_ActorFramework_FindTemplates.vi"/>
-									<Item Name="BaseProvider_ConfigurationMemory.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_ConfigurationMemory.vi"/>
-									<Item Name="BaseProvider_DesignPattern_GetPatterns.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_DesignPattern_GetPatterns.vi"/>
-									<Item Name="BaseProvider_DesignPatternsActions.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_DesignPatternsActions.ctl"/>
-									<Item Name="BaseProvider_FileNamingOption.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_FileNamingOption.ctl"/>
-									<Item Name="BaseProvider_GetDesignPatternMethods.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_GetDesignPatternMethods.vi"/>
+									<Item Name="BaseProvider_ActorFramework_FindTemplates.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_ActorFramework_FindTemplates.vi"/>
+									<Item Name="BaseProvider_ConfigurationMemory.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_ConfigurationMemory.vi"/>
+									<Item Name="BaseProvider_DesignPattern_GetPatterns.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_DesignPattern_GetPatterns.vi"/>
+									<Item Name="BaseProvider_DesignPatternsActions.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_DesignPatternsActions.ctl"/>
+									<Item Name="BaseProvider_FileNamingOption.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_FileNamingOption.ctl"/>
+									<Item Name="BaseProvider_GetDesignPatternMethods.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_GetDesignPatternMethods.vi"/>
 									<Item Name="BaseProvider_GetStaticMethods.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_GetStaticMethods.vi"/>
-									<Item Name="BaseProvider_IniFileSettings.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_IniFileSettings.ctl"/>
-									<Item Name="BaseProvider_IniFileSettings.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_IniFileSettings.vi"/>
-									<Item Name="BaseProvider_PlugInManager.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_PlugInManager.vi"/>
-									<Item Name="BaseProvider_PlugInManagerActions.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_PlugInManagerActions.ctl"/>
-									<Item Name="BaseProvider_RandomWireConfig.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_RandomWireConfig.vi"/>
-									<Item Name="BaseProvider_WireList.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_WireList.ctl"/>
-									<Item Name="BaseProvider_WireStylesManager.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_WireStylesManager.vi"/>
-									<Item Name="BaseProvider_WireStyleType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_WireStyleType.ctl"/>
-								</Item>
-								<Item Name="ClassReader_class" Type="Folder">
-									<Item Name="Protected" Type="Folder"/>
-									<Item Name="CheckIfGoop2VI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/ClassReader_class/CheckIfGoop2VI.vi"/>
-									<Item Name="ClassReader.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/ClassReader_class/ClassReader.lvclass"/>
-									<Item Name="MethodDependencyType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/ClassReader_class/MethodDependencyType.ctl"/>
-								</Item>
-								<Item Name="ClassWriter_class" Type="Folder">
-									<Item Name="protected" Type="Folder"/>
-									<Item Name="ClassWriter.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/ClassWriter_class/ClassWriter.lvclass"/>
+									<Item Name="BaseProvider_IniFileSettings.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_IniFileSettings.ctl"/>
+									<Item Name="BaseProvider_IniFileSettings.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_IniFileSettings.vi"/>
+									<Item Name="BaseProvider_PlugInManager.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_PlugInManager.vi"/>
+									<Item Name="BaseProvider_PlugInManagerActions.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_PlugInManagerActions.ctl"/>
+									<Item Name="BaseProvider_RandomWireConfig.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_RandomWireConfig.vi"/>
+									<Item Name="BaseProvider_WireList.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_WireList.ctl"/>
+									<Item Name="BaseProvider_WireStylesManager.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_WireStylesManager.vi"/>
+									<Item Name="BaseProvider_WireStyleType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_SubVIs/BaseProvider_WireStyleType.ctl"/>
 								</Item>
 								<Item Name="Types" Type="Folder">
-									<Item Name="ClassTypes_MethodType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/Types/ClassTypes_MethodType.ctl"/>
+									<Item Name="ClassTypes_MethodType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/Types/ClassTypes_MethodType.ctl"/>
 								</Item>
-								<Item Name="AddDesignPatternData.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/AddDesignPatternData.ctl"/>
-								<Item Name="BaseProvider_Configuration.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_Configuration.vi"/>
-								<Item Name="ClassApperanceType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/ClassApperanceType.ctl"/>
-								<Item Name="DesignPatternsData.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/DesignPatternsData.ctl"/>
+								<Item Name="AddDesignPatternData.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/AddDesignPatternData.ctl"/>
+								<Item Name="BaseProvider_Configuration.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/BaseProvider_Configuration.vi"/>
+								<Item Name="ClassApperanceType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/ClassApperanceType.ctl"/>
+								<Item Name="ClassReader.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/ClassReader_class/ClassReader.lvclass"/>
+								<Item Name="ClassWriter.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/ClassWriter_class/ClassWriter.lvclass"/>
+								<Item Name="DesignPatternsData.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface/DesignPatternsData.ctl"/>
 							</Item>
 							<Item Name="Provider_EndevoGOOP300" Type="Folder">
-								<Item Name="ClassReaderGOOP300_class" Type="Folder">
-									<Item Name="ClassReaderGOOP300.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/ClassReaderGOOP300_class/ClassReaderGOOP300.lvclass"/>
-								</Item>
-								<Item Name="ClassWriterGOOP300_class" Type="Folder">
-									<Item Name="private" Type="Folder"/>
-									<Item Name="protected" Type="Folder"/>
-									<Item Name="ClassWriterGOOP300.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/ClassWriterGOOP300_class/ClassWriterGOOP300.lvclass"/>
-								</Item>
 								<Item Name="GOOP300_SubVIs" Type="Folder">
-									<Item Name="GOOP300_FindFilesToExchange.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/GOOP300_SubVIs/GOOP300_FindFilesToExchange.vi"/>
-									<Item Name="GOOP300_MethodScopeType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/GOOP300_SubVIs/GOOP300_MethodScopeType.ctl"/>
-									<Item Name="GOOP300_RemoveUnwantedChars.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/GOOP300_SubVIs/GOOP300_RemoveUnwantedChars.vi"/>
+									<Item Name="GOOP300_FindFilesToExchange.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/GOOP300_SubVIs/GOOP300_FindFilesToExchange.vi"/>
+									<Item Name="GOOP300_MethodScopeType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/GOOP300_SubVIs/GOOP300_MethodScopeType.ctl"/>
+									<Item Name="GOOP300_RemoveUnwantedChars.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/GOOP300_SubVIs/GOOP300_RemoveUnwantedChars.vi"/>
 								</Item>
 								<Item Name="Templates" Type="Folder">
 									<Item Name="_PlugIns" Type="Folder">
@@ -871,7 +836,7 @@
 										<Item Name="utils" Type="Folder">
 											<Item Name="vssver.scc" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/Templates/BaseTemplate/utils/vssver.scc"/>
 										</Item>
-										<Item Name="BaseTemplate.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/Templates/BaseTemplate/BaseTemplate.lvclass"/>
+										<Item Name="BaseTemplate.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/Templates/BaseTemplate/BaseTemplate.lvclass"/>
 									</Item>
 									<Item Name="BaseTemplate_4x4x4" Type="Folder">
 										<Item Name="methods" Type="Folder">
@@ -890,7 +855,7 @@
 										</Item>
 										<Item Name="protected" Type="Folder"/>
 										<Item Name="utils" Type="Folder"/>
-										<Item Name="BaseTemplate_4x4x4.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/Templates/BaseTemplate_4x4x4/BaseTemplate_4x4x4.lvclass"/>
+										<Item Name="BaseTemplate_4x4x4.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/Templates/BaseTemplate_4x4x4/BaseTemplate_4x4x4.lvclass"/>
 									</Item>
 									<Item Name="SingletonTemplate" Type="Folder">
 										<Item Name="methods" Type="Folder">
@@ -905,7 +870,7 @@
 										<Item Name="private" Type="Folder"/>
 										<Item Name="protected" Type="Folder"/>
 										<Item Name="utils" Type="Folder"/>
-										<Item Name="SingletonTemplate.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/Templates/SingletonTemplate/SingletonTemplate.lvclass"/>
+										<Item Name="SingletonTemplate.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/Templates/SingletonTemplate/SingletonTemplate.lvclass"/>
 									</Item>
 									<Item Name="SubTemplate" Type="Folder">
 										<Item Name="methods" Type="Folder">
@@ -924,7 +889,7 @@
 										</Item>
 										<Item Name="protected" Type="Folder"/>
 										<Item Name="utils" Type="Folder"/>
-										<Item Name="SubTemplate.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/Templates/SubTemplate/SubTemplate.lvclass"/>
+										<Item Name="SubTemplate.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/Templates/SubTemplate/SubTemplate.lvclass"/>
 									</Item>
 									<Item Name="SubTemplate_4x4x4" Type="Folder">
 										<Item Name="methods" Type="Folder">
@@ -943,30 +908,24 @@
 										</Item>
 										<Item Name="protected" Type="Folder"/>
 										<Item Name="utils" Type="Folder"/>
-										<Item Name="SubTemplate_4x4x4.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/Templates/SubTemplate_4x4x4/SubTemplate_4x4x4.lvclass"/>
+										<Item Name="SubTemplate_4x4x4.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/Templates/SubTemplate_4x4x4/SubTemplate_4x4x4.lvclass"/>
 									</Item>
-									<Item Name="EndevoTemplateNames.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/Templates/EndevoTemplateNames.ctl"/>
+									<Item Name="EndevoTemplateNames.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/Templates/EndevoTemplateNames.ctl"/>
 									<Item Name="TemplateProjects.aliases" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/Templates/TemplateProjects.aliases"/>
 									<Item Name="TemplateProjects.lvlps" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/Templates/TemplateProjects.lvlps"/>
 									<Item Name="TemplateProjects.lvproj" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/Templates/TemplateProjects.lvproj"/>
 								</Item>
-								<Item Name="EndevoProviderName.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/EndevoProviderName.ctl"/>
-								<Item Name="GoopDebugger.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/GoopDebugger.vi"/>
+								<Item Name="ClassReaderGOOP300.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/ClassReaderGOOP300_class/ClassReaderGOOP300.lvclass"/>
+								<Item Name="ClassWriterGOOP300.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/ClassWriterGOOP300_class/ClassWriterGOOP300.lvclass"/>
+								<Item Name="EndevoProviderName.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/EndevoProviderName.ctl"/>
+								<Item Name="GoopDebugger.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/GoopDebugger.vi"/>
 							</Item>
 							<Item Name="Provider_EndevoGOOP400" Type="Folder">
-								<Item Name="ClassReaderGOOP400_class" Type="Folder">
-									<Item Name="ClassReaderGOOP400.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/ClassReaderGOOP400_class/ClassReaderGOOP400.lvclass"/>
-								</Item>
-								<Item Name="ClassWriterGOOP400_class" Type="Folder">
-									<Item Name="private" Type="Folder"/>
-									<Item Name="protected" Type="Folder"/>
-									<Item Name="ClassWriterGOOP400.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/ClassWriterGOOP400_class/ClassWriterGOOP400.lvclass"/>
-								</Item>
 								<Item Name="GOOP400_SubVIs" Type="Folder">
-									<Item Name="GOOP400_ConfigurationMemory.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/GOOP400_SubVIs/GOOP400_ConfigurationMemory.vi"/>
+									<Item Name="GOOP400_ConfigurationMemory.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/GOOP400_SubVIs/GOOP400_ConfigurationMemory.vi"/>
 									<Item Name="GOOP400_FindFilesToExchange.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/GOOP400_SubVIs/GOOP400_FindFilesToExchange.vi"/>
 									<Item Name="GOOP400_MethodScopeType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/GOOP400_SubVIs/GOOP400_MethodScopeType.ctl"/>
-									<Item Name="GOOP400_Options.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/GOOP400_SubVIs/GOOP400_Options.ctl"/>
+									<Item Name="GOOP400_Options.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/GOOP400_SubVIs/GOOP400_Options.ctl"/>
 									<Item Name="GOOP400_RemoveUnwantedChars.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/GOOP400_SubVIs/GOOP400_RemoveUnwantedChars.vi"/>
 								</Item>
 								<Item Name="Templates" Type="Folder">
@@ -984,7 +943,7 @@
 										</Item>
 										<Item Name="protected" Type="Folder"/>
 										<Item Name="utils" Type="Folder"/>
-										<Item Name="G4BaseTemplate_Simple_4x4x4.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_4x4x4/G4BaseTemplate_Simple_4x4x4.lvclass"/>
+										<Item Name="G4BaseTemplate_Simple_4x4x4.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_4x4x4/G4BaseTemplate_Simple_4x4x4.lvclass"/>
 									</Item>
 									<Item Name="G4BaseTemplate_Simple_5x6x5" Type="Folder">
 										<Item Name="methods" Type="Folder">
@@ -1000,7 +959,7 @@
 										</Item>
 										<Item Name="protected" Type="Folder"/>
 										<Item Name="utils" Type="Folder"/>
-										<Item Name="G4BaseTemplate_Simple_5x6x5.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_5x6x5/G4BaseTemplate_Simple_5x6x5.lvclass"/>
+										<Item Name="G4BaseTemplate_Simple_5x6x5.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_5x6x5/G4BaseTemplate_Simple_5x6x5.lvclass"/>
 									</Item>
 									<Item Name="G4BaseTemplate_Simple_6x8x6" Type="Folder">
 										<Item Name="methods" Type="Folder">
@@ -1016,7 +975,7 @@
 										</Item>
 										<Item Name="protected" Type="Folder"/>
 										<Item Name="utils" Type="Folder"/>
-										<Item Name="G4BaseTemplate_Simple_6x8x6.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_6x8x6/G4BaseTemplate_Simple_6x8x6.lvclass"/>
+										<Item Name="G4BaseTemplate_Simple_6x8x6.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_6x8x6/G4BaseTemplate_Simple_6x8x6.lvclass"/>
 									</Item>
 									<Item Name="G4BaseTemplate_Singleton_4x4x4" Type="Folder">
 										<Item Name="methods" Type="Folder">
@@ -1031,7 +990,7 @@
 										</Item>
 										<Item Name="protected" Type="Folder"/>
 										<Item Name="utils" Type="Folder"/>
-										<Item Name="G4BaseTemplate_Singleton_4x4x4.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_4x4x4/G4BaseTemplate_Singleton_4x4x4.lvclass"/>
+										<Item Name="G4BaseTemplate_Singleton_4x4x4.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_4x4x4/G4BaseTemplate_Singleton_4x4x4.lvclass"/>
 									</Item>
 									<Item Name="G4BaseTemplate_Singleton_5x6x5" Type="Folder">
 										<Item Name="methods" Type="Folder">
@@ -1046,7 +1005,7 @@
 										</Item>
 										<Item Name="protected" Type="Folder"/>
 										<Item Name="utils" Type="Folder"/>
-										<Item Name="G4BaseTemplate_Singleton_5x6x5.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_5x6x5/G4BaseTemplate_Singleton_5x6x5.lvclass"/>
+										<Item Name="G4BaseTemplate_Singleton_5x6x5.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_5x6x5/G4BaseTemplate_Singleton_5x6x5.lvclass"/>
 									</Item>
 									<Item Name="G4BaseTemplate_Singleton_6x8x6" Type="Folder">
 										<Item Name="methods" Type="Folder">
@@ -1060,7 +1019,7 @@
 										</Item>
 										<Item Name="protected" Type="Folder"/>
 										<Item Name="utils" Type="Folder"/>
-										<Item Name="G4BaseTemplate_Singleton_6x8x6.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_6x8x6/G4BaseTemplate_Singleton_6x8x6.lvclass"/>
+										<Item Name="G4BaseTemplate_Singleton_6x8x6.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_6x8x6/G4BaseTemplate_Singleton_6x8x6.lvclass"/>
 									</Item>
 									<Item Name="G4InterfaceTemplate_4x4x4" Type="Folder">
 										<Item Name="methods" Type="Folder">
@@ -1068,7 +1027,7 @@
 											<Item Name="methods.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4InterfaceTemplate_4x4x4/methods/methods.ini"/>
 										</Item>
 										<Item Name="G4InterfaceTemplate_4x4x4.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4InterfaceTemplate_4x4x4/G4InterfaceTemplate_4x4x4.ini"/>
-										<Item Name="G4InterfaceTemplate_4x4x4.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4InterfaceTemplate_4x4x4/G4InterfaceTemplate_4x4x4.lvclass"/>
+										<Item Name="G4InterfaceTemplate_4x4x4.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4InterfaceTemplate_4x4x4/G4InterfaceTemplate_4x4x4.lvclass"/>
 									</Item>
 									<Item Name="G4InterfaceTemplate_5x6x5" Type="Folder">
 										<Item Name="methods" Type="Folder">
@@ -1076,7 +1035,7 @@
 											<Item Name="methods.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4InterfaceTemplate_5x6x5/methods/methods.ini"/>
 										</Item>
 										<Item Name="G4InterfaceTemplate_5x6x5.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4InterfaceTemplate_5x6x5/G4InterfaceTemplate_5x6x5.ini"/>
-										<Item Name="G4InterfaceTemplate_5x6x5.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4InterfaceTemplate_5x6x5/G4InterfaceTemplate_5x6x5.lvclass"/>
+										<Item Name="G4InterfaceTemplate_5x6x5.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4InterfaceTemplate_5x6x5/G4InterfaceTemplate_5x6x5.lvclass"/>
 									</Item>
 									<Item Name="G4InterfaceTemplate_6x8x6" Type="Folder">
 										<Item Name="methods" Type="Folder">
@@ -1084,7 +1043,7 @@
 											<Item Name="methods.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4InterfaceTemplate_6x8x6/methods/methods.ini"/>
 										</Item>
 										<Item Name="G4InterfaceTemplate_6x8x6.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4InterfaceTemplate_6x8x6/G4InterfaceTemplate_6x8x6.ini"/>
-										<Item Name="G4InterfaceTemplate_6x8x6.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4InterfaceTemplate_6x8x6/G4InterfaceTemplate_6x8x6.lvclass"/>
+										<Item Name="G4InterfaceTemplate_6x8x6.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4InterfaceTemplate_6x8x6/G4InterfaceTemplate_6x8x6.lvclass"/>
 									</Item>
 									<Item Name="G4SubTemplate_Simple_4x4x4" Type="Folder">
 										<Item Name="methods" Type="Folder">
@@ -1100,7 +1059,7 @@
 										</Item>
 										<Item Name="protected" Type="Folder"/>
 										<Item Name="utils" Type="Folder"/>
-										<Item Name="G4SubTemplate_Simple_4x4x4.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_4x4x4/G4SubTemplate_Simple_4x4x4.lvclass"/>
+										<Item Name="G4SubTemplate_Simple_4x4x4.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_4x4x4/G4SubTemplate_Simple_4x4x4.lvclass"/>
 									</Item>
 									<Item Name="G4SubTemplate_Simple_5x6x5" Type="Folder">
 										<Item Name="methods" Type="Folder">
@@ -1116,7 +1075,7 @@
 										</Item>
 										<Item Name="protected" Type="Folder"/>
 										<Item Name="utils" Type="Folder"/>
-										<Item Name="G4SubTemplate_Simple_5x6x5.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_5x6x5/G4SubTemplate_Simple_5x6x5.lvclass"/>
+										<Item Name="G4SubTemplate_Simple_5x6x5.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_5x6x5/G4SubTemplate_Simple_5x6x5.lvclass"/>
 									</Item>
 									<Item Name="G4SubTemplate_Simple_6x8x6" Type="Folder">
 										<Item Name="methods" Type="Folder">
@@ -1132,7 +1091,7 @@
 										</Item>
 										<Item Name="protected" Type="Folder"/>
 										<Item Name="utils" Type="Folder"/>
-										<Item Name="G4SubTemplate_Simple_6x8x6.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_6x8x6/G4SubTemplate_Simple_6x8x6.lvclass"/>
+										<Item Name="G4SubTemplate_Simple_6x8x6.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_6x8x6/G4SubTemplate_Simple_6x8x6.lvclass"/>
 									</Item>
 									<Item Name="G4SubTemplate_Singleton_4x4x4" Type="Folder">
 										<Item Name="methods" Type="Folder">
@@ -1146,7 +1105,7 @@
 										</Item>
 										<Item Name="protected" Type="Folder"/>
 										<Item Name="utils" Type="Folder"/>
-										<Item Name="G4SubTemplate_Singleton_4x4x4.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_4x4x4/G4SubTemplate_Singleton_4x4x4.lvclass"/>
+										<Item Name="G4SubTemplate_Singleton_4x4x4.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_4x4x4/G4SubTemplate_Singleton_4x4x4.lvclass"/>
 									</Item>
 									<Item Name="G4SubTemplate_Singleton_5x6x5" Type="Folder">
 										<Item Name="methods" Type="Folder">
@@ -1160,7 +1119,7 @@
 										</Item>
 										<Item Name="protected" Type="Folder"/>
 										<Item Name="utils" Type="Folder"/>
-										<Item Name="G4SubTemplate_Singleton_5x6x5.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_5x6x5/G4SubTemplate_Singleton_5x6x5.lvclass"/>
+										<Item Name="G4SubTemplate_Singleton_5x6x5.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_5x6x5/G4SubTemplate_Singleton_5x6x5.lvclass"/>
 									</Item>
 									<Item Name="G4SubTemplate_Singleton_6x8x6" Type="Folder">
 										<Item Name="methods" Type="Folder">
@@ -1174,49 +1133,51 @@
 										</Item>
 										<Item Name="protected" Type="Folder"/>
 										<Item Name="utils" Type="Folder"/>
-										<Item Name="G4SubTemplate_Singleton_6x8x6.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_6x8x6/G4SubTemplate_Singleton_6x8x6.lvclass"/>
+										<Item Name="G4SubTemplate_Singleton_6x8x6.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_6x8x6/G4SubTemplate_Singleton_6x8x6.lvclass"/>
 									</Item>
-									<Item Name="EndevoG4TemplateNames.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/EndevoG4TemplateNames.ctl"/>
+									<Item Name="EndevoG4TemplateNames.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/EndevoG4TemplateNames.ctl"/>
 									<Item Name="G4Template.lvproj" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4Template.lvproj"/>
 								</Item>
-								<Item Name="EndevoG4ProviderName.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/EndevoG4ProviderName.ctl"/>
-								<Item Name="EndevoGOOP400Provider_Configuration.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/EndevoGOOP400Provider_Configuration.vi"/>
+								<Item Name="ClassReaderGOOP400.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/ClassReaderGOOP400_class/ClassReaderGOOP400.lvclass"/>
+								<Item Name="ClassWriterGOOP400.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/ClassWriterGOOP400_class/ClassWriterGOOP400.lvclass"/>
+								<Item Name="EndevoG4ProviderName.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/EndevoG4ProviderName.ctl"/>
+								<Item Name="EndevoGOOP400Provider_Configuration.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/EndevoGOOP400Provider_Configuration.vi"/>
 							</Item>
 							<Item Name="Provider_LvNativeClass" Type="Folder">
 								<Item Name="ClassReaderNative_class" Type="Folder">
-									<Item Name="ClassReaderNative.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/ClassReaderNative_class/ClassReaderNative.lvclass"/>
+									<Item Name="ClassReaderNative.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/ClassReaderNative_class/ClassReaderNative.lvclass"/>
 								</Item>
 								<Item Name="ClassWriterNative_class" Type="Folder">
 									<Item Name="private" Type="Folder"/>
 									<Item Name="protected" Type="Folder"/>
-									<Item Name="ClassWriterNative.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/ClassWriterNative_class/ClassWriterNative.lvclass"/>
+									<Item Name="ClassWriterNative.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/ClassWriterNative_class/ClassWriterNative.lvclass"/>
 								</Item>
 								<Item Name="Templates" Type="Folder">
 									<Item Name="NativeBaseTemplate" Type="Folder">
 										<Item Name="methods" Type="Folder">
 											<Item Name="methods.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/Templates/NativeBaseTemplate/methods/methods.ini"/>
 										</Item>
-										<Item Name="NativeBaseTemplate.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/Templates/NativeBaseTemplate/NativeBaseTemplate.lvclass"/>
+										<Item Name="NativeBaseTemplate.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/Templates/NativeBaseTemplate/NativeBaseTemplate.lvclass"/>
 									</Item>
 									<Item Name="NativeBaseTemplate_4x4x4" Type="Folder">
 										<Item Name="methods" Type="Folder">
 											<Item Name="methods.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/Templates/NativeBaseTemplate_4x4x4/methods/methods.ini"/>
 										</Item>
-										<Item Name="NativeBaseTemplate_4x4x4.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/Templates/NativeBaseTemplate_4x4x4/NativeBaseTemplate_4x4x4.lvclass"/>
+										<Item Name="NativeBaseTemplate_4x4x4.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/Templates/NativeBaseTemplate_4x4x4/NativeBaseTemplate_4x4x4.lvclass"/>
 									</Item>
 									<Item Name="NativeSubTemplate" Type="Folder">
 										<Item Name="methods" Type="Folder">
 											<Item Name="methods.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/Templates/NativeSubTemplate/methods/methods.ini"/>
 										</Item>
-										<Item Name="NativeSubTemplate.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/Templates/NativeSubTemplate/NativeSubTemplate.lvclass"/>
+										<Item Name="NativeSubTemplate.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/Templates/NativeSubTemplate/NativeSubTemplate.lvclass"/>
 									</Item>
 									<Item Name="NativeSubTemplate_4x4x4" Type="Folder">
 										<Item Name="methods" Type="Folder"/>
-										<Item Name="NativeSubTemplate_4x4x4.lvclass" Type="LVClass" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/Templates/NativeSubTemplate_4x4x4/NativeSubTemplate_4x4x4.lvclass"/>
+										<Item Name="NativeSubTemplate_4x4x4.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/Templates/NativeSubTemplate_4x4x4/NativeSubTemplate_4x4x4.lvclass"/>
 									</Item>
-									<Item Name="LvNativeTemplateNames.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/Templates/LvNativeTemplateNames.ctl"/>
+									<Item Name="LvNativeTemplateNames.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/Templates/LvNativeTemplateNames.ctl"/>
 								</Item>
-								<Item Name="LvNativeProviderName.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/LvNativeProviderName.ctl"/>
+								<Item Name="LvNativeProviderName.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/LvNativeProviderName.ctl"/>
 							</Item>
 							<Item Name="StaticMethods" Type="Folder">
 								<Item Name="methods.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/StaticMethods/methods.ini"/>
@@ -1227,367 +1188,164 @@
 							<Item Name="StaticMethodTemplates" Type="Folder">
 								<Item Name="methods.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/StaticMethodTemplates/methods.ini"/>
 							</Item>
-							<Item Name="ClassProvidor_GoopOptionsDialog.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/ClassProvidor_GoopOptionsDialog.vi"/>
-							<Item Name="CmErrorCodes.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/CmErrorCodes.ctl"/>
-							<Item Name="MethodTemplatesImages.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/MethodTemplatesImages.ini"/>
+							<Item Name="ClassProvidor_GoopOptionsDialog.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/ClassProvidor_GoopOptionsDialog.vi"/>
+							<Item Name="CmErrorCodes.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/CmErrorCodes.ctl"/>
 						</Item>
-						<Item Name="Glyphs" Type="Folder">
-							<Item Name="Actor.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Glyphs/Actor.png"/>
-							<Item Name="ActorCore.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Glyphs/ActorCore.png"/>
-							<Item Name="Application.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Glyphs/Application.png"/>
-							<Item Name="Do.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Glyphs/Do.png"/>
-							<Item Name="Emergency.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Glyphs/Emergency.png"/>
-							<Item Name="Interface.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Glyphs/Interface.png"/>
-							<Item Name="LaunchActor.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Glyphs/LaunchActor.png"/>
-							<Item Name="Load.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Glyphs/Load.png"/>
-							<Item Name="Lock2.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Glyphs/Lock2.png"/>
-							<Item Name="Log.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Glyphs/Log.png"/>
-							<Item Name="Mail.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Glyphs/Mail.png"/>
-							<Item Name="MessageClass.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Glyphs/MessageClass.png"/>
-							<Item Name="SendTask.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Glyphs/SendTask.png"/>
-							<Item Name="Stop.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Glyphs/Stop.png"/>
-							<Item Name="Unlock2.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Glyphs/Unlock2.png"/>
+						<Item Name="Glyphs" Type="Folder" URL="../../resource/Framework/Providers/Open_GDS/Glyphs">
+							<Property Name="NI.DISK" Type="Bool">true</Property>
 						</Item>
-						<Item Name="HelpFiles" Type="Folder">
-							<Item Name=".vs" Type="Folder">
-								<Item Name="HelpFiles" Type="Folder">
-									<Item Name="v16" Type="Folder">
-										<Item Name=".suo" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/.vs/HelpFiles/v16/.suo"/>
-									</Item>
-								</Item>
-							</Item>
-							<Item Name="files" Type="Folder">
-								<Item Name="0.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/0.png"/>
-								<Item Name="1.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/1.png"/>
-								<Item Name="8.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/8.png"/>
-								<Item Name="32.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/32.png"/>
-								<Item Name="ChangeorAddMethodsinaClassTemp5.html" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/ChangeorAddMethodsinaClassTemp5.html"/>
-								<Item Name="ClassDiagram5.html" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/ClassDiagram5.html"/>
-								<Item Name="CreateClassTemplate5.html" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/CreateClassTemplate5.html"/>
-								<Item Name="CreateDesignPattern5.html" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/CreateDesignPattern5.html"/>
-								<Item Name="CreateNewClass5.html" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/CreateNewClass5.html"/>
-								<Item Name="CreateNewMethod5.html" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/CreateNewMethod5.html"/>
-								<Item Name="CreateVIIcon5.html" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/CreateVIIcon5.html"/>
-								<Item Name="Demos5.html" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/Demos5.html"/>
-								<Item Name="EndevoGOOP3ClassTemplate5.html" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/EndevoGOOP3ClassTemplate5.html"/>
-								<Item Name="EndevoGOOP4ClassTemplate5.html" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/EndevoGOOP4ClassTemplate5.html"/>
-								<Item Name="file.gif" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/file.gif"/>
-								<Item Name="Findingthefeatures5.html" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/Findingthefeatures5.html"/>
-								<Item Name="folder-closed.gif" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/folder-closed.gif"/>
-								<Item Name="folder.gif" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/folder.gif"/>
-								<Item Name="GettingStartedwithGOOPDevelopm5.html" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/GettingStartedwithGOOPDevelopm5.html"/>
-								<Item Name="GOOP4vsGOOP35.html" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/GOOP4vsGOOP35.html"/>
-								<Item Name="GOOPDebugger5.html" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/GOOPDebugger5.html"/>
-								<Item Name="GOOPOptionsDialog5.html" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/GOOPOptionsDialog5.html"/>
-								<Item Name="hnd.css" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/hnd.css"/>
-								<Item Name="hnd.js" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/hnd.js"/>
-								<Item Name="HowGOOP3comparestoGOOP25.html" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/HowGOOP3comparestoGOOP25.html"/>
-								<Item Name="img_1.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_1.jpg"/>
-								<Item Name="img_1.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_1.png"/>
-								<Item Name="img_2.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_2.png"/>
-								<Item Name="img_3.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_3.jpg"/>
-								<Item Name="img_3.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_3.png"/>
-								<Item Name="img_4.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_4.png"/>
-								<Item Name="img_5.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_5.png"/>
-								<Item Name="img_6.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_6.jpg"/>
-								<Item Name="img_6.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_6.png"/>
-								<Item Name="img_7.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_7.png"/>
-								<Item Name="img_8.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_8.jpg"/>
-								<Item Name="img_8.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_8.png"/>
-								<Item Name="img_9.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_9.png"/>
-								<Item Name="img_10.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_10.jpg"/>
-								<Item Name="img_10.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_10.png"/>
-								<Item Name="img_11.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_11.png"/>
-								<Item Name="img_12.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_12.png"/>
-								<Item Name="img_13.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_13.png"/>
-								<Item Name="img_14.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_14.png"/>
-								<Item Name="img_15.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_15.png"/>
-								<Item Name="img_16.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_16.png"/>
-								<Item Name="img_17.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_17.jpg"/>
-								<Item Name="img_17.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_17.png"/>
-								<Item Name="img_18.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_18.png"/>
-								<Item Name="img_19.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_19.png"/>
-								<Item Name="img_20.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_20.png"/>
-								<Item Name="img_21.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_21.png"/>
-								<Item Name="img_22.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_22.png"/>
-								<Item Name="img_23.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_23.png"/>
-								<Item Name="img_24.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_24.png"/>
-								<Item Name="img_25.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_25.png"/>
-								<Item Name="img_26.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_26.png"/>
-								<Item Name="img_27.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_27.png"/>
-								<Item Name="img_28.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_28.png"/>
-								<Item Name="img_29.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_29.png"/>
-								<Item Name="img_30.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_30.jpg"/>
-								<Item Name="img_30.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_30.png"/>
-								<Item Name="img_33.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_33.jpg"/>
-								<Item Name="img_35.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_35.jpg"/>
-								<Item Name="img_37.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_37.jpg"/>
-								<Item Name="img_44.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_44.jpg"/>
-								<Item Name="img_57.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_57.jpg"/>
-								<Item Name="img_60.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_60.jpg"/>
-								<Item Name="img_62.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_62.jpg"/>
-								<Item Name="img_64.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_64.jpg"/>
-								<Item Name="img_71.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_71.jpg"/>
-								<Item Name="img_84.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_84.jpg"/>
-								<Item Name="img_87.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_87.jpg"/>
-								<Item Name="img_89.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_89.jpg"/>
-								<Item Name="img_91.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_91.jpg"/>
-								<Item Name="img_98.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_98.jpg"/>
-								<Item Name="img_111.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_111.jpg"/>
-								<Item Name="img_114.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_114.jpg"/>
-								<Item Name="img_116.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_116.jpg"/>
-								<Item Name="img_118.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_118.jpg"/>
-								<Item Name="img_125.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_125.jpg"/>
-								<Item Name="img_138.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_138.jpg"/>
-								<Item Name="img_141.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_141.jpg"/>
-								<Item Name="img_143.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_143.jpg"/>
-								<Item Name="img_145.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_145.jpg"/>
-								<Item Name="img_152.jpg" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/img_152.jpg"/>
-								<Item Name="jquery.cookie.js" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/jquery.cookie.js"/>
-								<Item Name="jquery.min.js" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/jquery.min.js"/>
-								<Item Name="jquery.rich-array-hnd.js" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/jquery.rich-array-hnd.js"/>
-								<Item Name="jquery.treeview.min.js" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/jquery.treeview.min.js"/>
-								<Item Name="jsrelative.js" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/jsrelative.js"/>
-								<Item Name="minus.gif" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/minus.gif"/>
-								<Item Name="PackageDiagram5.html" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/PackageDiagram5.html"/>
-								<Item Name="PlatformCompatibility.html" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/PlatformCompatibility.html"/>
-								<Item Name="plus.gif" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/plus.gif"/>
-								<Item Name="searchdata.js" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/searchdata.js"/>
-								<Item Name="SequenceDiagram5.html" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/SequenceDiagram5.html"/>
-								<Item Name="StateDiagram5.html" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/StateDiagram5.html"/>
-								<Item Name="toc.css" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/toc.css"/>
-								<Item Name="toc.htm" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/toc.htm"/>
-								<Item Name="treeview-black-line.gif" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/treeview-black-line.gif"/>
-								<Item Name="treeview-black.gif" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/treeview-black.gif"/>
-								<Item Name="treeview-default-line.gif" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/treeview-default-line.gif"/>
-								<Item Name="treeview-default.gif" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/treeview-default.gif"/>
-								<Item Name="treeview-famfamfam-line.gif" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/treeview-famfamfam-line.gif"/>
-								<Item Name="treeview-famfamfam.gif" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/treeview-famfamfam.gif"/>
-								<Item Name="treeview-gray-line.gif" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/treeview-gray-line.gif"/>
-								<Item Name="treeview-gray.gif" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/treeview-gray.gif"/>
-								<Item Name="treeview-red-line.gif" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/treeview-red-line.gif"/>
-								<Item Name="treeview-red.gif" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/treeview-red.gif"/>
-								<Item Name="UMLModeller5.html" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/UMLModeller5.html"/>
-								<Item Name="UseCaseDiagram5.html" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/files/UseCaseDiagram5.html"/>
-							</Item>
-							<Item Name="OpenGDS_GOOPHelp.htm" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/HelpFiles/OpenGDS_GOOPHelp.htm"/>
+						<Item Name="HelpFiles" Type="Folder" URL="../../resource/Framework/Providers/Open_GDS/HelpFiles">
+							<Property Name="NI.DISK" Type="Bool">true</Property>
 						</Item>
-						<Item Name="Icons" Type="Folder">
-							<Item Name="_VirtualFolder_Messages.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/_VirtualFolder_Messages.png"/>
-							<Item Name="BlueCircle.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/BlueCircle.png"/>
-							<Item Name="BlueFrame.PNG" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/BlueFrame.PNG"/>
-							<Item Name="BlueFull.PNG" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/BlueFull.PNG"/>
-							<Item Name="BlueMessage.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/BlueMessage.png"/>
-							<Item Name="BrownCircle.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/BrownCircle.png"/>
-							<Item Name="BrownFrame.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/BrownFrame.png"/>
-							<Item Name="BrownFull.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/BrownFull.png"/>
-							<Item Name="BurgundyCircle.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/BurgundyCircle.png"/>
-							<Item Name="BurgundyFrame.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/BurgundyFrame.png"/>
-							<Item Name="BurgundyFull.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/BurgundyFull.png"/>
-							<Item Name="CyanCircle.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/CyanCircle.png"/>
-							<Item Name="CyanFrame.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/CyanFrame.png"/>
-							<Item Name="CyanFull.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/CyanFull.png"/>
-							<Item Name="DarkBlueCircle.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/DarkBlueCircle.png"/>
-							<Item Name="DarkBlueFrame.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/DarkBlueFrame.png"/>
-							<Item Name="DarkBlueFull.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/DarkBlueFull.png"/>
-							<Item Name="ForestGreenCircle.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/ForestGreenCircle.png"/>
-							<Item Name="ForestGreenFrame.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/ForestGreenFrame.png"/>
-							<Item Name="ForestGreenFull.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/ForestGreenFull.png"/>
-							<Item Name="GrayCircle.PNG" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/GrayCircle.PNG"/>
-							<Item Name="GrayFrame.PNG" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/GrayFrame.PNG"/>
-							<Item Name="GrayFull.PNG" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/GrayFull.PNG"/>
-							<Item Name="GreenCircle.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/GreenCircle.png"/>
-							<Item Name="GreenFrame.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/GreenFrame.png"/>
-							<Item Name="GreenFull.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/GreenFull.png"/>
-							<Item Name="Interface.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/Interface.png"/>
-							<Item Name="InterfaceBlue.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/InterfaceBlue.png"/>
-							<Item Name="InterfaceBrown.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/InterfaceBrown.png"/>
-							<Item Name="InterfaceBurgundy.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/InterfaceBurgundy.png"/>
-							<Item Name="InterfaceCyan.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/InterfaceCyan.png"/>
-							<Item Name="InterfaceDarkBlue.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/InterfaceDarkBlue.png"/>
-							<Item Name="InterfaceForestGreen.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/InterfaceForestGreen.png"/>
-							<Item Name="InterfaceGray.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/InterfaceGray.png"/>
-							<Item Name="InterfaceGreen.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/InterfaceGreen.png"/>
-							<Item Name="InterfaceLightGreen.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/InterfaceLightGreen.png"/>
-							<Item Name="InterfaceLightRed.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/InterfaceLightRed.png"/>
-							<Item Name="InterfacePink.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/InterfacePink.png"/>
-							<Item Name="InterfacePurple.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/InterfacePurple.png"/>
-							<Item Name="InterfaceRed.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/InterfaceRed.png"/>
-							<Item Name="InterfaceYellow.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/InterfaceYellow.png"/>
-							<Item Name="LightGreenCircle.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/LightGreenCircle.png"/>
-							<Item Name="LightGreenFrame.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/LightGreenFrame.png"/>
-							<Item Name="LightGreenFull.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/LightGreenFull.png"/>
-							<Item Name="LightRedCircle.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/LightRedCircle.png"/>
-							<Item Name="LightRedFrame.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/LightRedFrame.png"/>
-							<Item Name="LightRedFull.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/LightRedFull.png"/>
-							<Item Name="PinkCircle.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/PinkCircle.png"/>
-							<Item Name="PinkFrame.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/PinkFrame.png"/>
-							<Item Name="PinkFull.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/PinkFull.png"/>
-							<Item Name="PurpleCircle.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/PurpleCircle.png"/>
-							<Item Name="PurpleFrame.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/PurpleFrame.png"/>
-							<Item Name="PurpleFull.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/PurpleFull.png"/>
-							<Item Name="RedCircle.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/RedCircle.png"/>
-							<Item Name="RedFrame.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/RedFrame.png"/>
-							<Item Name="RedFull.PNG" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/RedFull.PNG"/>
-							<Item Name="Thumbs.db" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/Thumbs.db"/>
-							<Item Name="YellowCircle.PNG" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/YellowCircle.PNG"/>
-							<Item Name="YellowFrame.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/YellowFrame.png"/>
-							<Item Name="YellowFull.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Icons/YellowFull.png"/>
+						<Item Name="Icons" Type="Folder" URL="../../resource/Framework/Providers/Open_GDS/Icons">
+							<Property Name="NI.DISK" Type="Bool">true</Property>
 						</Item>
 						<Item Name="SubVIs" Type="Folder">
-							<Item Name="CloneManyMethods.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/CloneManyMethods.vi"/>
-							<Item Name="GOOP_AddCtrlToVIIfNeeded.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_AddCtrlToVIIfNeeded.vi"/>
-							<Item Name="GOOP_AddCustomClassTemplates.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_AddCustomClassTemplates.vi"/>
-							<Item Name="GOOP_AnalyseAttributeCache.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_AnalyseAttributeCache.vi"/>
-							<Item Name="GOOP_AnalyseMethodCache.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_AnalyseMethodCache.vi"/>
-							<Item Name="GOOP_ApplyOverlayIcon.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_ApplyOverlayIcon.vi"/>
-							<Item Name="GOOP_ApplyOverlayIconFromClassRef.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_ApplyOverlayIconFromClassRef.vi"/>
-							<Item Name="GOOP_ArrayInsert.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_ArrayInsert.vi"/>
-							<Item Name="GOOP_CheckClassState.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_CheckClassState.vi"/>
-							<Item Name="GOOP_CheckForNewRelease.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_CheckForNewRelease.vi"/>
-							<Item Name="GOOP_ClassProviderClassType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_ClassProviderClassType.ctl"/>
-							<Item Name="GOOP_ClassSettingsMemory.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_ClassSettingsMemory.vi"/>
-							<Item Name="GOOP_ClassSettingsMemory_Action.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_ClassSettingsMemory_Action.ctl"/>
-							<Item Name="GOOP_ClassTemplateLookup.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_ClassTemplateLookup.vi"/>
-							<Item Name="GOOP_ClassTool.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_ClassTool.vi"/>
-							<Item Name="GOOP_CopyLibraryClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_CopyLibraryClass.vi"/>
-							<Item Name="GOOP_CreateClassFromTemplate.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_CreateClassFromTemplate.vi"/>
-							<Item Name="GOOP_CreateControlsAndIndicatorsOnVI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_CreateControlsAndIndicatorsOnVI.vi"/>
-							<Item Name="GOOP_CreateDefaultIniFile.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_CreateDefaultIniFile.vi"/>
-							<Item Name="GOOP_CropImage.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_CropImage.vi"/>
-							<Item Name="GOOP_CurrentProviderClass_Memory.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_CurrentProviderClass_Memory.vi"/>
-							<Item Name="GOOP_CurrentProviderClass_ReadDefault.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_CurrentProviderClass_ReadDefault.vi"/>
-							<Item Name="GOOP_DebugLogger.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_DebugLogger.vi"/>
-							<Item Name="GOOP_DesignPatternPathFix.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_DesignPatternPathFix.vi"/>
-							<Item Name="GOOP_DrawProductPicture.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_DrawProductPicture.vi"/>
-							<Item Name="GOOP_DrawWirePreview.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_DrawWirePreview.vi"/>
-							<Item Name="GOOP_DrawWirePreview_DrawWire.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_DrawWirePreview_DrawWire.vi"/>
-							<Item Name="GOOP_DrawWirePreview_Simple.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_DrawWirePreview_Simple.vi"/>
-							<Item Name="GOOP_DrawWirePreview_ZoomImage.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_DrawWirePreview_ZoomImage.vi"/>
-							<Item Name="GOOP_ErrorCodes.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_ErrorCodes.ctl"/>
-							<Item Name="GOOP_FirstCall.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_FirstCall.vi"/>
-							<Item Name="GOOP_GetApplicationBasedOnLvClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_GetApplicationBasedOnLvClass.vi"/>
-							<Item Name="GOOP_GetClassDynamicVIs.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_GetClassDynamicVIs.vi"/>
-							<Item Name="GOOP_GetClassFolderFiles.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_GetClassFolderFiles.vi"/>
-							<Item Name="GOOP_GetClassOverlayIcon.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_GetClassOverlayIcon.vi"/>
-							<Item Name="GOOP_GetClassProvider.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_GetClassProvider.vi"/>
-							<Item Name="GOOP_GetClassReaderByClassRef.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_GetClassReaderByClassRef.vi"/>
-							<Item Name="GOOP_GetClassWriterByClassRef.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_GetClassWriterByClassRef.vi"/>
-							<Item Name="GOOP_GetControlRearrangement.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_GetControlRearrangement.vi"/>
-							<Item Name="GOOP_GetDefaultInstance.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_GetDefaultInstance.vi"/>
-							<Item Name="GOOP_GetGDSConfigFolder.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_GetGDSConfigFolder.vi"/>
-							<Item Name="GOOP_GetMenuPlugins.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_GetMenuPlugins.vi"/>
-							<Item Name="GOOP_GetOverlayIconPath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_GetOverlayIconPath.vi"/>
-							<Item Name="GOOP_GetOverrideMethods.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_GetOverrideMethods.vi"/>
-							<Item Name="GOOP_GetProviderIniFilePath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_GetProviderIniFilePath.vi"/>
-							<Item Name="GOOP_HelpButton.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_HelpButton.ctl"/>
-							<Item Name="GOOP_HelpMain.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_HelpMain.vi"/>
-							<Item Name="GOOP_IconOCR.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_IconOCR.vi"/>
-							<Item Name="GOOP_MethodArgumentConnectionType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_MethodArgumentConnectionType.ctl"/>
-							<Item Name="GOOP_MethodArgumentType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_MethodArgumentType.ctl"/>
-							<Item Name="GOOP_MouseFunctions.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_MouseFunctions.vi"/>
-							<Item Name="GOOP_OCREvaluation.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_OCREvaluation.vi"/>
-							<Item Name="GOOP_ProductType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_ProductType.ctl"/>
-							<Item Name="GOOP_Provider_GetTranslatedName.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_Provider_GetTranslatedName.vi"/>
-							<Item Name="GOOP_ProviderClasses_Sorting.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_ProviderClasses_Sorting.vi"/>
-							<Item Name="GOOP_ProviderClasses_SortingDialog.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_ProviderClasses_SortingDialog.vi"/>
-							<Item Name="GOOP_ProviderName_Translator.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_ProviderName_Translator.vi"/>
-							<Item Name="GOOP_ReadClassSettingsFromFile.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_ReadClassSettingsFromFile.vi"/>
-							<Item Name="GOOP_ReadDesignPatternIniFile.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_ReadDesignPatternIniFile.vi"/>
-							<Item Name="GOOP_RecompileDialog.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_RecompileDialog.vi"/>
-							<Item Name="GOOP_RenameClassControlLabel.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_RenameClassControlLabel.vi"/>
-							<Item Name="GOOP_SetWindowsRegistry.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_SetWindowsRegistry.vi"/>
-							<Item Name="GOOP_ShowHelp.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_ShowHelp.vi"/>
-							<Item Name="GOOP_StartDebuggerController.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_StartDebuggerController.vi"/>
-							<Item Name="GOOP_StartObjectDebugger.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_StartObjectDebugger.vi"/>
-							<Item Name="GOOP_TcpIpListener.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_TcpIpListener.vi"/>
-							<Item Name="GOOP_TemplateRename.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_TemplateRename.vi"/>
-							<Item Name="GOOP_TimeDebug.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_TimeDebug.vi"/>
-							<Item Name="GOOP_ToolVersion.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_ToolVersion.vi"/>
-							<Item Name="GOOP_UMLEditor_CallMain.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_UMLEditor_CallMain.vi"/>
-							<Item Name="GOOP_UMLEditor_CallMainAction.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_UMLEditor_CallMainAction.ctl"/>
-							<Item Name="GOOP_UnInstallGDS.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_UnInstallGDS.vi"/>
-							<Item Name="GOOP_Utility_IsClassVI.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_Utility_IsClassVI.vi"/>
-							<Item Name="GOOP_WireConfigurationType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_WireConfigurationType.ctl"/>
-							<Item Name="GOOP_WirePattern.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_WirePattern.ctl"/>
-							<Item Name="GOOP_WirePenTranslator.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_WirePenTranslator.vi"/>
-							<Item Name="OpenGDSLicense_ProductInfo.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/OpenGDSLicense_ProductInfo.vi"/>
-							<Item Name="OpenGDSLicense_ShowAgreement.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/OpenGDSLicense_ShowAgreement.vi"/>
+							<Item Name="CloneManyMethods.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/CloneManyMethods.vi"/>
+							<Item Name="GOOP_AddCtrlToVIIfNeeded.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_AddCtrlToVIIfNeeded.vi"/>
+							<Item Name="GOOP_AddCustomClassTemplates.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_AddCustomClassTemplates.vi"/>
+							<Item Name="GOOP_AnalyseAttributeCache.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_AnalyseAttributeCache.vi"/>
+							<Item Name="GOOP_AnalyseMethodCache.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_AnalyseMethodCache.vi"/>
+							<Item Name="GOOP_ApplyOverlayIcon.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_ApplyOverlayIcon.vi"/>
+							<Item Name="GOOP_ApplyOverlayIconFromClassRef.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_ApplyOverlayIconFromClassRef.vi"/>
+							<Item Name="GOOP_ArrayInsert.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_ArrayInsert.vi"/>
+							<Item Name="GOOP_CheckClassState.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_CheckClassState.vi"/>
+							<Item Name="GOOP_CheckForNewRelease.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_CheckForNewRelease.vi"/>
+							<Item Name="GOOP_ClassProviderClassType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_ClassProviderClassType.ctl"/>
+							<Item Name="GOOP_ClassSettingsMemory.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_ClassSettingsMemory.vi"/>
+							<Item Name="GOOP_ClassSettingsMemory_Action.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_ClassSettingsMemory_Action.ctl"/>
+							<Item Name="GOOP_ClassTemplateLookup.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_ClassTemplateLookup.vi"/>
+							<Item Name="GOOP_ClassTool.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_ClassTool.vi"/>
+							<Item Name="GOOP_CopyLibraryClass.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_CopyLibraryClass.vi"/>
+							<Item Name="GOOP_CreateClassFromTemplate.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_CreateClassFromTemplate.vi"/>
+							<Item Name="GOOP_CreateControlsAndIndicatorsOnVI.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_CreateControlsAndIndicatorsOnVI.vi"/>
+							<Item Name="GOOP_CreateDefaultIniFile.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_CreateDefaultIniFile.vi"/>
+							<Item Name="GOOP_CropImage.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_CropImage.vi"/>
+							<Item Name="GOOP_CurrentProviderClass_Memory.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_CurrentProviderClass_Memory.vi"/>
+							<Item Name="GOOP_CurrentProviderClass_ReadDefault.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_CurrentProviderClass_ReadDefault.vi"/>
+							<Item Name="GOOP_DebugLogger.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_DebugLogger.vi"/>
+							<Item Name="GOOP_DesignPatternPathFix.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_DesignPatternPathFix.vi"/>
+							<Item Name="GOOP_DrawProductPicture.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_DrawProductPicture.vi"/>
+							<Item Name="GOOP_DrawWirePreview.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_DrawWirePreview.vi"/>
+							<Item Name="GOOP_DrawWirePreview_DrawWire.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_DrawWirePreview_DrawWire.vi"/>
+							<Item Name="GOOP_DrawWirePreview_Simple.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_DrawWirePreview_Simple.vi"/>
+							<Item Name="GOOP_DrawWirePreview_ZoomImage.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_DrawWirePreview_ZoomImage.vi"/>
+							<Item Name="GOOP_ErrorCodes.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_ErrorCodes.ctl"/>
+							<Item Name="GOOP_FirstCall.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_FirstCall.vi"/>
+							<Item Name="GOOP_GetApplicationBasedOnLvClass.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_GetApplicationBasedOnLvClass.vi"/>
+							<Item Name="GOOP_GetClassDynamicVIs.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_GetClassDynamicVIs.vi"/>
+							<Item Name="GOOP_GetClassFolderFiles.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_GetClassFolderFiles.vi"/>
+							<Item Name="GOOP_GetClassOverlayIcon.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_GetClassOverlayIcon.vi"/>
+							<Item Name="GOOP_GetClassProvider.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_GetClassProvider.vi"/>
+							<Item Name="GOOP_GetClassReaderByClassRef.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_GetClassReaderByClassRef.vi"/>
+							<Item Name="GOOP_GetClassWriterByClassRef.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_GetClassWriterByClassRef.vi"/>
+							<Item Name="GOOP_GetControlRearrangement.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_GetControlRearrangement.vi"/>
+							<Item Name="GOOP_GetDefaultInstance.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_GetDefaultInstance.vi"/>
+							<Item Name="GOOP_GetGDSConfigFolder.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_GetGDSConfigFolder.vi"/>
+							<Item Name="GOOP_GetMenuPlugins.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_GetMenuPlugins.vi"/>
+							<Item Name="GOOP_GetOverlayIconPath.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_GetOverlayIconPath.vi"/>
+							<Item Name="GOOP_GetOverrideMethods.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_GetOverrideMethods.vi"/>
+							<Item Name="GOOP_GetProviderIniFilePath.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_GetProviderIniFilePath.vi"/>
+							<Item Name="GOOP_HelpButton.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_HelpButton.ctl"/>
+							<Item Name="GOOP_HelpMain.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_HelpMain.vi"/>
+							<Item Name="GOOP_IconOCR.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_IconOCR.vi"/>
+							<Item Name="GOOP_MethodArgumentConnectionType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_MethodArgumentConnectionType.ctl"/>
+							<Item Name="GOOP_MethodArgumentType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_MethodArgumentType.ctl"/>
+							<Item Name="GOOP_MouseFunctions.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_MouseFunctions.vi"/>
+							<Item Name="GOOP_OCREvaluation.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_OCREvaluation.vi"/>
+							<Item Name="GOOP_ProductType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_ProductType.ctl"/>
+							<Item Name="GOOP_Provider_GetTranslatedName.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_Provider_GetTranslatedName.vi"/>
+							<Item Name="GOOP_ProviderClasses_Sorting.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_ProviderClasses_Sorting.vi"/>
+							<Item Name="GOOP_ProviderClasses_SortingDialog.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_ProviderClasses_SortingDialog.vi"/>
+							<Item Name="GOOP_ProviderName_Translator.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_ProviderName_Translator.vi"/>
+							<Item Name="GOOP_ReadClassSettingsFromFile.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_ReadClassSettingsFromFile.vi"/>
+							<Item Name="GOOP_ReadDesignPatternIniFile.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_ReadDesignPatternIniFile.vi"/>
+							<Item Name="GOOP_RecompileDialog.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_RecompileDialog.vi"/>
+							<Item Name="GOOP_RenameClassControlLabel.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_RenameClassControlLabel.vi"/>
+							<Item Name="GOOP_SetWindowsRegistry.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_SetWindowsRegistry.vi"/>
+							<Item Name="GOOP_ShowHelp.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_ShowHelp.vi"/>
+							<Item Name="GOOP_StartDebuggerController.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_StartDebuggerController.vi"/>
+							<Item Name="GOOP_StartObjectDebugger.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_StartObjectDebugger.vi"/>
+							<Item Name="GOOP_TcpIpListener.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_TcpIpListener.vi"/>
+							<Item Name="GOOP_TemplateRename.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_TemplateRename.vi"/>
+							<Item Name="GOOP_TimeDebug.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_TimeDebug.vi"/>
+							<Item Name="GOOP_ToolVersion.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_ToolVersion.vi"/>
+							<Item Name="GOOP_UMLEditor_CallMain.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_UMLEditor_CallMain.vi"/>
+							<Item Name="GOOP_UMLEditor_CallMainAction.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_UMLEditor_CallMainAction.ctl"/>
+							<Item Name="GOOP_UnInstallGDS.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_UnInstallGDS.vi"/>
+							<Item Name="GOOP_Utility_IsClassVI.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_Utility_IsClassVI.vi"/>
+							<Item Name="GOOP_WireConfigurationType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_WireConfigurationType.ctl"/>
+							<Item Name="GOOP_WirePattern.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_WirePattern.ctl"/>
+							<Item Name="GOOP_WirePenTranslator.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_WirePenTranslator.vi"/>
+							<Item Name="OpenGDSLicense_ProductInfo.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/OpenGDSLicense_ProductInfo.vi"/>
+							<Item Name="OpenGDSLicense_ShowAgreement.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/OpenGDSLicense_ShowAgreement.vi"/>
+							<Item Name="GOOP_CheckForUMLModeller.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/SubVIs/GOOP_CheckForUMLModeller.vi"/>
 						</Item>
-						<Item Name="Debugger.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Debugger.png"/>
-						<Item Name="GOOP.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP.png"/>
-						<Item Name="GOOP_AllVIs.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_AllVIs.vi"/>
-						<Item Name="GOOP_Library_Item_Init.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_Library_Item_Init.vi"/>
-						<Item Name="GOOP_Library_Item_Interface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_Library_Item_Interface.vi"/>
-						<Item Name="GOOP_Library_Item_OnCommand.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_Library_Item_OnCommand.vi"/>
-						<Item Name="GOOP_Library_Item_OnPopUpMenu.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_Library_Item_OnPopUpMenu.vi"/>
-						<Item Name="GOOP_LVClass_CreateNewWizard_GetCreateNewWeight.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_LVClass_CreateNewWizard_GetCreateNewWeight.vi"/>
-						<Item Name="GOOP_LVClass_CreateNewWizard_IncludeItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_LVClass_CreateNewWizard_IncludeItem.vi"/>
-						<Item Name="GOOP_LVClass_CreateNewWizard_Init.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_LVClass_CreateNewWizard_Init.vi"/>
-						<Item Name="GOOP_LVClass_CreateNewWizard_Interface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_LVClass_CreateNewWizard_Interface.vi"/>
-						<Item Name="GOOP_LVClass_CreateNewWizard_Invoke.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_LVClass_CreateNewWizard_Invoke.vi"/>
-						<Item Name="GOOP_LVClass_Global_Exit.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_LVClass_Global_Exit.vi"/>
-						<Item Name="GOOP_LVClass_Global_Init.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_LVClass_Global_Init.vi"/>
-						<Item Name="GOOP_LVClass_Global_Interface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_LVClass_Global_Interface.vi"/>
-						<Item Name="GOOP_LVClass_Global_OnCommand.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_LVClass_Global_OnCommand.vi"/>
-						<Item Name="GOOP_LVClass_Item_Init.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_LVClass_Item_Init.vi"/>
-						<Item Name="GOOP_LVClass_Item_Interface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_LVClass_Item_Interface.vi"/>
-						<Item Name="GOOP_LVClass_Item_NotifyChanged.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_LVClass_Item_NotifyChanged.vi"/>
-						<Item Name="GOOP_LVClass_Item_OnCommand.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_LVClass_Item_OnCommand.vi"/>
-						<Item Name="GOOP_LVClass_Item_OnPopUpMenu.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_LVClass_Item_OnPopUpMenu.vi"/>
-						<Item Name="GOOP_LVClass_Item_OnRename.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_LVClass_Item_OnRename.vi"/>
-						<Item Name="GOOP_LVClass_Provider_Interface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_LVClass_Provider_Interface.vi"/>
-						<Item Name="GOOP_LVClass_Provider_NotifyChanged.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_LVClass_Provider_NotifyChanged.vi"/>
-						<Item Name="GOOP_LVClass_Provider_OnCommand.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_LVClass_Provider_OnCommand.vi"/>
-						<Item Name="GOOP_LVClass_Provider_OnPopupMenu.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_LVClass_Provider_OnPopupMenu.vi"/>
-						<Item Name="GOOP_MyComputer_CreateNewWizard_GetCreateNewWeight.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_MyComputer_CreateNewWizard_GetCreateNewWeight.vi"/>
-						<Item Name="GOOP_MyComputer_CreateNewWizard_IncludeItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_MyComputer_CreateNewWizard_IncludeItem.vi"/>
-						<Item Name="GOOP_MyComputer_CreateNewWizard_Init.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_MyComputer_CreateNewWizard_Init.vi"/>
-						<Item Name="GOOP_MyComputer_CreateNewWizard_Interface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_MyComputer_CreateNewWizard_Interface.vi"/>
-						<Item Name="GOOP_MyComputer_CreateNewWizard_Invoke.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_MyComputer_CreateNewWizard_Invoke.vi"/>
-						<Item Name="GOOP_MyComputer_Interface_CreateNewWizard_GetCreateNewWeight.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_MyComputer_Interface_CreateNewWizard_GetCreateNewWeight.vi"/>
-						<Item Name="GOOP_MyComputer_Interface_CreateNewWizard_IncludeItem.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_MyComputer_Interface_CreateNewWizard_IncludeItem.vi"/>
-						<Item Name="GOOP_MyComputer_Interface_CreateNewWizard_Init.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_MyComputer_Interface_CreateNewWizard_Init.vi"/>
-						<Item Name="GOOP_MyComputer_Interface_CreateNewWizard_Interface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_MyComputer_Interface_CreateNewWizard_Interface.vi"/>
-						<Item Name="GOOP_MyComputer_Interface_CreateNewWizard_Invoke.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_MyComputer_Interface_CreateNewWizard_Invoke.vi"/>
-						<Item Name="GOOP_MyComputer_Interface_Item_Interface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_MyComputer_Interface_Item_Interface.vi"/>
-						<Item Name="GOOP_MyComputer_Item_Exit.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_MyComputer_Item_Exit.vi"/>
-						<Item Name="GOOP_MyComputer_Item_Init.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_MyComputer_Item_Init.vi"/>
-						<Item Name="GOOP_MyComputer_Item_Interface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_MyComputer_Item_Interface.vi"/>
-						<Item Name="GOOP_MyComputer_Item_NotifyChanged.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_MyComputer_Item_NotifyChanged.vi"/>
-						<Item Name="GOOP_MyComputer_Item_OnCommand.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_MyComputer_Item_OnCommand.vi"/>
-						<Item Name="GOOP_MyComputer_Item_OnPopUpMenu.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_MyComputer_Item_OnPopUpMenu.vi"/>
-						<Item Name="GOOP_VI_Item_Init.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_VI_Item_Init.vi"/>
-						<Item Name="GOOP_VI_Item_Interface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_VI_Item_Interface.vi"/>
-						<Item Name="GOOP_VI_Item_OnCommand.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_VI_Item_OnCommand.vi"/>
-						<Item Name="GOOP_VI_Item_OnPopupMenu.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_VI_Item_OnPopupMenu.vi"/>
-						<Item Name="GOOP_VI_Provider_Interface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_VI_Provider_Interface.vi"/>
-						<Item Name="GOOP_VI_Provider_OnCommand.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_VI_Provider_OnCommand.vi"/>
-						<Item Name="GOOP_VI_Provider_OnPopupMenu.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_VI_Provider_OnPopupMenu.vi"/>
-						<Item Name="GOOP_VirtualFolder_Item_Init.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_VirtualFolder_Item_Init.vi"/>
-						<Item Name="GOOP_VirtualFolder_Item_Interface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_VirtualFolder_Item_Interface.vi"/>
-						<Item Name="GOOP_VirtualFolder_Item_OnCommand.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_VirtualFolder_Item_OnCommand.vi"/>
-						<Item Name="GOOP_VirtualFolder_Item_OnPopUpMenu.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_VirtualFolder_Item_OnPopUpMenu.vi"/>
-						<Item Name="GOOP_XControl_Item_Init.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_XControl_Item_Init.vi"/>
-						<Item Name="GOOP_XControl_Item_Interface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_XControl_Item_Interface.vi"/>
-						<Item Name="GOOP_XControl_Item_OnCommand.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_XControl_Item_OnCommand.vi"/>
-						<Item Name="GOOP_XControl_Item_OnPopUpMenu.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_XControl_Item_OnPopUpMenu.vi"/>
-						<Item Name="OpenGDS.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/OpenGDS.png"/>
-						<Item Name="OpenGDS1.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/OpenGDS1.png"/>
-						<Item Name="PictureControl_Draw Text at Point.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/PictureControl/PictureControl_Draw Text at Point.vi"/>
-						<Item Name="PictureControl_GetTextRect.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/PictureControl/PictureControl_GetTextRect.vi"/>
-						<Item Name="Thumbs.db" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/Thumbs.db"/>
-						<Item Name="UML.png" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML.png"/>
-						<Item Name="UML_Icon.ico" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/UML_Icon.ico"/>
+						<Item Name="GOOP_AllVIs.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_AllVIs.vi"/>
+						<Item Name="GOOP_Library_Item_Init.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_Library_Item_Init.vi"/>
+						<Item Name="GOOP_Library_Item_Interface.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_Library_Item_Interface.vi"/>
+						<Item Name="GOOP_Library_Item_OnCommand.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_Library_Item_OnCommand.vi"/>
+						<Item Name="GOOP_Library_Item_OnPopUpMenu.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_Library_Item_OnPopUpMenu.vi"/>
+						<Item Name="GOOP_LVClass_CreateNewWizard_GetCreateNewWeight.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_LVClass_CreateNewWizard_GetCreateNewWeight.vi"/>
+						<Item Name="GOOP_LVClass_CreateNewWizard_IncludeItem.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_LVClass_CreateNewWizard_IncludeItem.vi"/>
+						<Item Name="GOOP_LVClass_CreateNewWizard_Init.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_LVClass_CreateNewWizard_Init.vi"/>
+						<Item Name="GOOP_LVClass_CreateNewWizard_Interface.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_LVClass_CreateNewWizard_Interface.vi"/>
+						<Item Name="GOOP_LVClass_CreateNewWizard_Invoke.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_LVClass_CreateNewWizard_Invoke.vi"/>
+						<Item Name="GOOP_LVClass_Global_Exit.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_LVClass_Global_Exit.vi"/>
+						<Item Name="GOOP_LVClass_Global_Init.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_LVClass_Global_Init.vi"/>
+						<Item Name="GOOP_LVClass_Global_Interface.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_LVClass_Global_Interface.vi"/>
+						<Item Name="GOOP_LVClass_Global_OnCommand.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_LVClass_Global_OnCommand.vi"/>
+						<Item Name="GOOP_LVClass_Item_Init.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_LVClass_Item_Init.vi"/>
+						<Item Name="GOOP_LVClass_Item_Interface.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_LVClass_Item_Interface.vi"/>
+						<Item Name="GOOP_LVClass_Item_NotifyChanged.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_LVClass_Item_NotifyChanged.vi"/>
+						<Item Name="GOOP_LVClass_Item_OnCommand.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_LVClass_Item_OnCommand.vi"/>
+						<Item Name="GOOP_LVClass_Item_OnPopUpMenu.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_LVClass_Item_OnPopUpMenu.vi"/>
+						<Item Name="GOOP_LVClass_Item_OnRename.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_LVClass_Item_OnRename.vi"/>
+						<Item Name="GOOP_LVClass_Provider_Interface.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_LVClass_Provider_Interface.vi"/>
+						<Item Name="GOOP_LVClass_Provider_NotifyChanged.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_LVClass_Provider_NotifyChanged.vi"/>
+						<Item Name="GOOP_LVClass_Provider_OnCommand.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_LVClass_Provider_OnCommand.vi"/>
+						<Item Name="GOOP_LVClass_Provider_OnPopupMenu.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_LVClass_Provider_OnPopupMenu.vi"/>
+						<Item Name="GOOP_MyComputer_CreateNewWizard_GetCreateNewWeight.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_MyComputer_CreateNewWizard_GetCreateNewWeight.vi"/>
+						<Item Name="GOOP_MyComputer_CreateNewWizard_IncludeItem.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_MyComputer_CreateNewWizard_IncludeItem.vi"/>
+						<Item Name="GOOP_MyComputer_CreateNewWizard_Init.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_MyComputer_CreateNewWizard_Init.vi"/>
+						<Item Name="GOOP_MyComputer_CreateNewWizard_Interface.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_MyComputer_CreateNewWizard_Interface.vi"/>
+						<Item Name="GOOP_MyComputer_CreateNewWizard_Invoke.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_MyComputer_CreateNewWizard_Invoke.vi"/>
+						<Item Name="GOOP_MyComputer_Interface_CreateNewWizard_GetCreateNewWeight.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_MyComputer_Interface_CreateNewWizard_GetCreateNewWeight.vi"/>
+						<Item Name="GOOP_MyComputer_Interface_CreateNewWizard_IncludeItem.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_MyComputer_Interface_CreateNewWizard_IncludeItem.vi"/>
+						<Item Name="GOOP_MyComputer_Interface_CreateNewWizard_Init.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_MyComputer_Interface_CreateNewWizard_Init.vi"/>
+						<Item Name="GOOP_MyComputer_Interface_CreateNewWizard_Interface.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_MyComputer_Interface_CreateNewWizard_Interface.vi"/>
+						<Item Name="GOOP_MyComputer_Interface_CreateNewWizard_Invoke.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_MyComputer_Interface_CreateNewWizard_Invoke.vi"/>
+						<Item Name="GOOP_MyComputer_Interface_Item_Interface.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_MyComputer_Interface_Item_Interface.vi"/>
+						<Item Name="GOOP_MyComputer_Item_Exit.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_MyComputer_Item_Exit.vi"/>
+						<Item Name="GOOP_MyComputer_Item_Init.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_MyComputer_Item_Init.vi"/>
+						<Item Name="GOOP_MyComputer_Item_Interface.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_MyComputer_Item_Interface.vi"/>
+						<Item Name="GOOP_MyComputer_Item_NotifyChanged.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_MyComputer_Item_NotifyChanged.vi"/>
+						<Item Name="GOOP_MyComputer_Item_OnCommand.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_MyComputer_Item_OnCommand.vi"/>
+						<Item Name="GOOP_MyComputer_Item_OnPopUpMenu.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_MyComputer_Item_OnPopUpMenu.vi"/>
+						<Item Name="GOOP_VI_Item_Init.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_VI_Item_Init.vi"/>
+						<Item Name="GOOP_VI_Item_Interface.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_VI_Item_Interface.vi"/>
+						<Item Name="GOOP_VI_Item_OnCommand.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_VI_Item_OnCommand.vi"/>
+						<Item Name="GOOP_VI_Item_OnPopupMenu.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_VI_Item_OnPopupMenu.vi"/>
+						<Item Name="GOOP_VI_Provider_Interface.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_VI_Provider_Interface.vi"/>
+						<Item Name="GOOP_VI_Provider_OnCommand.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_VI_Provider_OnCommand.vi"/>
+						<Item Name="GOOP_VI_Provider_OnPopupMenu.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_VI_Provider_OnPopupMenu.vi"/>
+						<Item Name="GOOP_VirtualFolder_Item_Init.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_VirtualFolder_Item_Init.vi"/>
+						<Item Name="GOOP_VirtualFolder_Item_Interface.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_VirtualFolder_Item_Interface.vi"/>
+						<Item Name="GOOP_VirtualFolder_Item_OnCommand.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_VirtualFolder_Item_OnCommand.vi"/>
+						<Item Name="GOOP_VirtualFolder_Item_OnPopUpMenu.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_VirtualFolder_Item_OnPopUpMenu.vi"/>
+						<Item Name="GOOP_XControl_Item_Init.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_XControl_Item_Init.vi"/>
+						<Item Name="GOOP_XControl_Item_Interface.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_XControl_Item_Interface.vi"/>
+						<Item Name="GOOP_XControl_Item_OnCommand.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_XControl_Item_OnCommand.vi"/>
+						<Item Name="GOOP_XControl_Item_OnPopUpMenu.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/GOOP_XControl_Item_OnPopUpMenu.vi"/>
+						<Item Name="PictureControl_Draw Text at Point.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/PictureControl/PictureControl_Draw Text at Point.vi"/>
+						<Item Name="PictureControl_GetTextRect.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Common/PictureControl/PictureControl_GetTextRect.vi"/>
 					</Item>
 				</Item>
 			</Item>
 		</Item>
 		<Item Name="user.lib" Type="Folder">
 			<Item Name="_probes" Type="Folder">
-				<Item Name="GOOP" Type="Folder" URL="/&lt;userlib&gt;/_probes/GOOP">
-					<Property Name="NI.DISK" Type="Bool">true</Property>
-				</Item>
+				<Item Name="GOOP" Type="Folder"/>
 			</Item>
 		</Item>
 		<Item Name="vi.lib" Type="Folder">
@@ -1616,19 +1374,13 @@
 				<Item Name="_goop4.llb" Type="Document" URL="/&lt;vilib&gt;/addons/_goop4.llb"/>
 			</Item>
 		</Item>
-		<Item Name="JKI_Copy_Add State(s) to Queue.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/JKI_Copy_Add State(s) to Queue.vi"/>
-		<Item Name="JKI_Copy_Parse State Queue.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/JKI_Copy_Parse State Queue.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="3GOOPCallChain.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPCallChain.vi"/>
-				<Item Name="3GOOPClassInfoTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPClassInfoTypeDef.ctl"/>
 				<Item Name="3GOOPClassStatistics.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPClassStatistics.ctl"/>
 				<Item Name="3GOOPKernelSlave.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPKernelSlave.vi"/>
-				<Item Name="3GOOPObjectInfoType.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPObjectInfoType.ctl"/>
 				<Item Name="3GOOPSetError.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPSetError.vi"/>
-				<Item Name="3GOOPSharedInfo.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPSharedInfo.ctl"/>
 				<Item Name="3GOOPStates.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPStates.ctl"/>
-				<Item Name="3GOOPVersion.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop3.llb/3GOOPVersion.vi"/>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 				<Item Name="Add File to Zip.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Add File to Zip.vi"/>
@@ -1689,9 +1441,6 @@
 				<Item Name="Edit LVLibs.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/EditLVLibs/Edit LVLibs.lvlib"/>
 				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
 				<Item Name="Enum to Array of Enums.vim" Type="VI" URL="/&lt;vilib&gt;/numeric/Enum to Array of Enums.vim"/>
-				<Item Name="Equal Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Comparable/Equal Comparable.lvclass"/>
-				<Item Name="Equal Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Functor/Equal Functor.lvclass"/>
-				<Item Name="Equals.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Equals.vim"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
@@ -1731,22 +1480,10 @@
 				<Item Name="Get VI Library List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get VI Library List.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
-				<Item Name="GOOP4_CreateObjectDvrReference.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/GOOP4_CreateObjectDvrReference.vi"/>
-				<Item Name="GOOP4_DataClusterFor_CreateObject.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/GOOP4_DataClusterFor_CreateObject.ctl"/>
-				<Item Name="GOOP4_DataClusterFor_GetClassObjects.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/GOOP4_DataClusterFor_GetClassObjects.ctl"/>
-				<Item Name="GOOP4_DataClusterToProcessVI.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/GOOP4_DataClusterToProcessVI.ctl"/>
-				<Item Name="GOOP4_DebuggingStateMemory.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/GOOP4_DebuggingStateMemory.vi"/>
-				<Item Name="GOOP4_DebugProcess.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/GOOP4_DebugProcess.vi"/>
-				<Item Name="GOOP4_GetClassObjects.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/GOOP4_GetClassObjects.vi"/>
-				<Item Name="GOOP4_GetObjectInfo.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/GOOP4_GetObjectInfo.vi"/>
-				<Item Name="GOOP4_ReturnClusterFromProcess_CreateObject.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/GOOP4_ReturnClusterFromProcess_CreateObject.ctl"/>
-				<Item Name="GOOP4_ReturnClusterFromProcess_GetClassObjects.ctl" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/GOOP4_ReturnClusterFromProcess_GetClassObjects.ctl"/>
 				<Item Name="Has LLB Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Has LLB Extension.vi"/>
 				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
 				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
-				<Item Name="Interface_FindInterfaceImplementationVI.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/Interface_FindInterfaceImplementationVI.vi"/>
-				<Item Name="Interface_RunVI.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/Interface_RunVI.vi"/>
 				<Item Name="Interface_ViServerCall.vi" Type="VI" URL="/&lt;vilib&gt;/addons/_goop4.llb/Interface_ViServerCall.vi"/>
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 				<Item Name="Is Name Multiplatform.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Is Name Multiplatform.vi"/>
@@ -1837,8 +1574,6 @@
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Search Unsorted 1D Array Core.vim"/>
-				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Unsorted 1D Array.vim"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
 				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
@@ -1885,12 +1620,6 @@
 				<Item Name="VIAnUtil Check If ErrClust.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Check If ErrClust.vi"/>
 				<Item Name="VIAnUtil Check Type If ErrClust.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Check Type If ErrClust.vi"/>
 				<Item Name="VIAnUtil Clear Specific Error.vi" Type="VI" URL="/&lt;vilib&gt;/addons/analyzer/_analyzerutils.llb/VIAnUtil Clear Specific Error.vi"/>
-				<Item Name="VIMemory Computing Node.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/allVIsInMemory.llb/VIMemory Computing Node.ctl"/>
-				<Item Name="VIMemory Get All Computing Nodes.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/allVIsInMemory.llb/VIMemory Get All Computing Nodes.vi"/>
-				<Item Name="VIMemory Get Computing Nodes.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/allVIsInMemory.llb/VIMemory Get Computing Nodes.vi"/>
-				<Item Name="VIMemory Get VIs in Memory from Computing Node.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/allVIsInMemory.llb/VIMemory Get VIs in Memory from Computing Node.vi"/>
-				<Item Name="VIMemory Get VIs in Memory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/allVIsInMemory.llb/VIMemory Get VIs in Memory.vi"/>
-				<Item Name="VIMemory VI info.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/allVIsInMemory.llb/VIMemory VI info.ctl"/>
 				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
@@ -1912,28 +1641,8 @@
 			<Item Name="CLSUIP_GetUDClassParentRefFromIDAndVerifyChange.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVClassLibrary/CLSUIP_GetUDClassParentRefFromIDAndVerifyChange.vi"/>
 			<Item Name="CLSUIP_Set Class Tree Glyph.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVClassLibrary/CLSUIP_Set Class Tree Glyph.vi"/>
 			<Item Name="CLSUIP_TidyAllClassesList.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVClassLibrary/CLSUIP_TidyAllClassesList.vi"/>
-			<Item Name="Common_ ViCacheMemory.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/Common_ ViCacheMemory.vi"/>
-			<Item Name="Common_GetClassAttrubutes.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/Common_GetClassAttrubutes.vi"/>
-			<Item Name="Common_TempCangeLabelName.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/Common_TempCangeLabelName.vi"/>
-			<Item Name="Common_UpdateAttributes.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/Common_UpdateAttributes.vi"/>
-			<Item Name="Common_UpdateAttributes_DataTypeStringToEnum.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/Common_UpdateAttributes_DataTypeStringToEnum.vi"/>
-			<Item Name="Common_UpdateAttributes_FindAttributeToCopy.vi.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/Common_UpdateAttributes_FindAttributeToCopy.vi.vi"/>
-			<Item Name="CommonVIs_AttributeInfoType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_AttributeInfoType.ctl"/>
-			<Item Name="CommonVIs_AttributeToDataType.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_AttributeToDataType.vi"/>
-			<Item Name="CommonVIs_EvaluateMethodText.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_EvaluateMethodText.vi"/>
-			<Item Name="CommonVIs_GetClassObjectRefPath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_GetClassObjectRefPath.vi"/>
-			<Item Name="CommonVIs_GetControlInfo.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_GetControlInfo.vi"/>
-			<Item Name="CommonVIs_GetDatatypeFromString.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_GetDatatypeFromString.vi"/>
-			<Item Name="CommonVIs_HideClassMethods.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_HideClassMethods.vi"/>
-			<Item Name="CommonVIs_TypeDefType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_TypeDefType.ctl"/>
-			<Item Name="CommonVIs_TypeDescNonNameDepentent.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_TypeDescNonNameDepentent.vi"/>
-			<Item Name="CommonVIs_UpdateClassMethods.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_UpdateClassMethods.vi"/>
-			<Item Name="CommonVIs_VisibilityType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs/CommonVIs_VisibilityType.ctl"/>
 			<Item Name="CreateNewWizard_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/CreateNewWizard_Interface.ctl"/>
-			<Item Name="File_IsALLBFile.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/File/File_IsALLBFile.vi"/>
-			<Item Name="GDSString_SplitStrings_Array.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_SplitStrings_Array.vi"/>
 			<Item Name="Global_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Global_Interface.ctl"/>
-			<Item Name="GOOP_CheckForUMLModeller.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs/GOOP_CheckForUMLModeller.vi"/>
 			<Item Name="Item_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Item_Interface.ctl"/>
 			<Item Name="ItemRef.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/ItemRef.ctl"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
@@ -1950,7 +1659,7 @@
 			<Item Name="LV Config Write Numeric (I32).vi" Type="VI" URL="/&lt;resource&gt;/Dialog/lvconfig.llb/LV Config Write Numeric (I32).vi"/>
 			<Item Name="LV Config Write Pathlist.vi" Type="VI" URL="/&lt;resource&gt;/Dialog/lvconfig.llb/LV Config Write Pathlist.vi"/>
 			<Item Name="LV Config Write String.vi" Type="VI" URL="/&lt;resource&gt;/Dialog/lvconfig.llb/LV Config Write String.vi"/>
-			<Item Name="LV Config Write.vi" Type="VI" URL="/&lt;resource&gt;/dialog/lvconfig.llb/LV Config Write.vi"/>
+			<Item Name="LV Config Write.vi" Type="VI" URL="/&lt;resource&gt;/Dialog/lvconfig.llb/LV Config Write.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="mxLvAddIconOverlays.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvAddIconOverlays.vi"/>
 			<Item Name="mxLvChangeType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/mxLvChangeType.ctl"/>
