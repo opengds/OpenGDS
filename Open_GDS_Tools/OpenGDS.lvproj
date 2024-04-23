@@ -653,10 +653,10 @@
 										<Item Name="ActiveObjects_DynamicEvents_ControlWindow_5x6x5_Singleton.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/ActiveObjects/ActiveObjects_DynamicEvents_SubVIs/ActiveObjects_DynamicEvents_ControlWindow_5x6x5_Singleton.vi"/>
 										<Item Name="ActiveObjects_DynamicEvents_ControlWindow_6x8x6.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/ActiveObjects/ActiveObjects_DynamicEvents_SubVIs/ActiveObjects_DynamicEvents_ControlWindow_6x8x6.vi"/>
 										<Item Name="ActiveObjects_DynamicEvents_ControlWindow_6x8x6_Singleton.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/ActiveObjects/ActiveObjects_DynamicEvents_SubVIs/ActiveObjects_DynamicEvents_ControlWindow_6x8x6_Singleton.vi"/>
-										<Item Name="ActiveObjects_DynamicEvents_Process.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/ActiveObjects/ActiveObjects_DynamicEvents_SubVIs/ActiveObjects_DynamicEvents_Process.ctl"/>
-										<Item Name="ActiveObjects_DynamicEvents_Process.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/ActiveObjects/ActiveObjects_DynamicEvents_SubVIs/ActiveObjects_DynamicEvents_Process.vi"/>
+										<Item Name="ActiveObjects_DynamicEvents_Process.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/ActiveObjects/ActiveObjects_DynamicEvents_SubVIs/ActiveObjects_DynamicEvents_Process.ctl"/>
+										<Item Name="ActiveObjects_DynamicEvents_Process.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/ActiveObjects/ActiveObjects_DynamicEvents_SubVIs/ActiveObjects_DynamicEvents_Process.vi"/>
 										<Item Name="ActiveObjects_DynamicEvents_ProcessRepository_EndevoGoop3.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/ActiveObjects/ActiveObjects_DynamicEvents_SubVIs/ActiveObjects_DynamicEvents_ProcessRepository_EndevoGoop3.vi"/>
-										<Item Name="ActiveObjects_DynamicEvents_ProcessRepository_Native.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/ActiveObjects/ActiveObjects_DynamicEvents_SubVIs/ActiveObjects_DynamicEvents_ProcessRepository_Native.vi"/>
+										<Item Name="ActiveObjects_DynamicEvents_ProcessRepository_Native.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/ActiveObjects/ActiveObjects_DynamicEvents_SubVIs/ActiveObjects_DynamicEvents_ProcessRepository_Native.vi"/>
 										<Item Name="ActiveObjects_DynamicEvents_SendMsgToProcess_4x4x4.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/ActiveObjects/ActiveObjects_DynamicEvents_SubVIs/ActiveObjects_DynamicEvents_SendMsgToProcess_4x4x4.vi"/>
 										<Item Name="ActiveObjects_DynamicEvents_SendMsgToProcess_4x4x4_Singleton.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/ActiveObjects/ActiveObjects_DynamicEvents_SubVIs/ActiveObjects_DynamicEvents_SendMsgToProcess_4x4x4_Singleton.vi"/>
 										<Item Name="ActiveObjects_DynamicEvents_SendMsgToProcess_5x6x5.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/ActiveObjects/ActiveObjects_DynamicEvents_SubVIs/ActiveObjects_DynamicEvents_SendMsgToProcess_5x6x5.vi"/>
@@ -925,22 +925,22 @@
 							<Item Name="Provider_EndevoGOOP400" Type="Folder">
 								<Item Name="GOOP400_SubVIs" Type="Folder">
 									<Item Name="GOOP400_ConfigurationMemory.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/GOOP400_SubVIs/GOOP400_ConfigurationMemory.vi"/>
-									<Item Name="GOOP400_FindFilesToExchange.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/GOOP400_SubVIs/GOOP400_FindFilesToExchange.vi"/>
-									<Item Name="GOOP400_MethodScopeType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/GOOP400_SubVIs/GOOP400_MethodScopeType.ctl"/>
+									<Item Name="GOOP400_FindFilesToExchange.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/GOOP400_SubVIs/GOOP400_FindFilesToExchange.vi"/>
+									<Item Name="GOOP400_MethodScopeType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/GOOP400_SubVIs/GOOP400_MethodScopeType.ctl"/>
 									<Item Name="GOOP400_Options.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/GOOP400_SubVIs/GOOP400_Options.ctl"/>
-									<Item Name="GOOP400_RemoveUnwantedChars.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/GOOP400_SubVIs/GOOP400_RemoveUnwantedChars.vi"/>
+									<Item Name="GOOP400_RemoveUnwantedChars.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/GOOP400_SubVIs/GOOP400_RemoveUnwantedChars.vi"/>
 								</Item>
 								<Item Name="Templates" Type="Folder">
 									<Item Name="G4BaseTemplate_Simple_4x4x4" Type="Folder">
 										<Item Name="methods" Type="Folder">
-											<Item Name="G4BaseTemplate_Simple_4x4x4_GetProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_4x4x4/methods/G4BaseTemplate_Simple_4x4x4_GetProperty.vi"/>
-											<Item Name="G4BaseTemplate_Simple_4x4x4_NoneModifing.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_4x4x4/methods/G4BaseTemplate_Simple_4x4x4_NoneModifing.vi"/>
-											<Item Name="G4BaseTemplate_Simple_4x4x4_ReadAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_4x4x4/methods/G4BaseTemplate_Simple_4x4x4_ReadAttribute.vi"/>
-											<Item Name="G4BaseTemplate_Simple_4x4x4_ReadProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_4x4x4/methods/G4BaseTemplate_Simple_4x4x4_ReadProperty.vi"/>
-											<Item Name="G4BaseTemplate_Simple_4x4x4_ReadWriteAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_4x4x4/methods/G4BaseTemplate_Simple_4x4x4_ReadWriteAttribute.vi"/>
-											<Item Name="G4BaseTemplate_Simple_4x4x4_SetProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_4x4x4/methods/G4BaseTemplate_Simple_4x4x4_SetProperty.vi"/>
-											<Item Name="G4BaseTemplate_Simple_4x4x4_WriteAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_4x4x4/methods/G4BaseTemplate_Simple_4x4x4_WriteAttribute.vi"/>
-											<Item Name="G4BaseTemplate_Simple_4x4x4_WriteProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_4x4x4/methods/G4BaseTemplate_Simple_4x4x4_WriteProperty.vi"/>
+											<Item Name="G4BaseTemplate_Simple_4x4x4_GetProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_4x4x4/methods/G4BaseTemplate_Simple_4x4x4_GetProperty.vi"/>
+											<Item Name="G4BaseTemplate_Simple_4x4x4_NoneModifing.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_4x4x4/methods/G4BaseTemplate_Simple_4x4x4_NoneModifing.vi"/>
+											<Item Name="G4BaseTemplate_Simple_4x4x4_ReadAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_4x4x4/methods/G4BaseTemplate_Simple_4x4x4_ReadAttribute.vi"/>
+											<Item Name="G4BaseTemplate_Simple_4x4x4_ReadProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_4x4x4/methods/G4BaseTemplate_Simple_4x4x4_ReadProperty.vi"/>
+											<Item Name="G4BaseTemplate_Simple_4x4x4_ReadWriteAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_4x4x4/methods/G4BaseTemplate_Simple_4x4x4_ReadWriteAttribute.vi"/>
+											<Item Name="G4BaseTemplate_Simple_4x4x4_SetProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_4x4x4/methods/G4BaseTemplate_Simple_4x4x4_SetProperty.vi"/>
+											<Item Name="G4BaseTemplate_Simple_4x4x4_WriteAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_4x4x4/methods/G4BaseTemplate_Simple_4x4x4_WriteAttribute.vi"/>
+											<Item Name="G4BaseTemplate_Simple_4x4x4_WriteProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_4x4x4/methods/G4BaseTemplate_Simple_4x4x4_WriteProperty.vi"/>
 											<Item Name="methods.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_4x4x4/methods/methods.ini"/>
 										</Item>
 										<Item Name="protected" Type="Folder"/>
@@ -949,14 +949,14 @@
 									</Item>
 									<Item Name="G4BaseTemplate_Simple_5x6x5" Type="Folder">
 										<Item Name="methods" Type="Folder">
-											<Item Name="G4BaseTemplate_Simple_5x6x5_GetProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_5x6x5/methods/G4BaseTemplate_Simple_5x6x5_GetProperty.vi"/>
-											<Item Name="G4BaseTemplate_Simple_5x6x5_NoneModifing.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_5x6x5/methods/G4BaseTemplate_Simple_5x6x5_NoneModifing.vi"/>
-											<Item Name="G4BaseTemplate_Simple_5x6x5_ReadAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_5x6x5/methods/G4BaseTemplate_Simple_5x6x5_ReadAttribute.vi"/>
-											<Item Name="G4BaseTemplate_Simple_5x6x5_ReadProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_5x6x5/methods/G4BaseTemplate_Simple_5x6x5_ReadProperty.vi"/>
-											<Item Name="G4BaseTemplate_Simple_5x6x5_ReadWriteAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_5x6x5/methods/G4BaseTemplate_Simple_5x6x5_ReadWriteAttribute.vi"/>
-											<Item Name="G4BaseTemplate_Simple_5x6x5_SetProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_5x6x5/methods/G4BaseTemplate_Simple_5x6x5_SetProperty.vi"/>
-											<Item Name="G4BaseTemplate_Simple_5x6x5_WriteAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_5x6x5/methods/G4BaseTemplate_Simple_5x6x5_WriteAttribute.vi"/>
-											<Item Name="G4BaseTemplate_Simple_5x6x5_WriteProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_5x6x5/methods/G4BaseTemplate_Simple_5x6x5_WriteProperty.vi"/>
+											<Item Name="G4BaseTemplate_Simple_5x6x5_GetProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_5x6x5/methods/G4BaseTemplate_Simple_5x6x5_GetProperty.vi"/>
+											<Item Name="G4BaseTemplate_Simple_5x6x5_NoneModifing.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_5x6x5/methods/G4BaseTemplate_Simple_5x6x5_NoneModifing.vi"/>
+											<Item Name="G4BaseTemplate_Simple_5x6x5_ReadAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_5x6x5/methods/G4BaseTemplate_Simple_5x6x5_ReadAttribute.vi"/>
+											<Item Name="G4BaseTemplate_Simple_5x6x5_ReadProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_5x6x5/methods/G4BaseTemplate_Simple_5x6x5_ReadProperty.vi"/>
+											<Item Name="G4BaseTemplate_Simple_5x6x5_ReadWriteAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_5x6x5/methods/G4BaseTemplate_Simple_5x6x5_ReadWriteAttribute.vi"/>
+											<Item Name="G4BaseTemplate_Simple_5x6x5_SetProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_5x6x5/methods/G4BaseTemplate_Simple_5x6x5_SetProperty.vi"/>
+											<Item Name="G4BaseTemplate_Simple_5x6x5_WriteAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_5x6x5/methods/G4BaseTemplate_Simple_5x6x5_WriteAttribute.vi"/>
+											<Item Name="G4BaseTemplate_Simple_5x6x5_WriteProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_5x6x5/methods/G4BaseTemplate_Simple_5x6x5_WriteProperty.vi"/>
 											<Item Name="methods.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_5x6x5/methods/methods.ini"/>
 										</Item>
 										<Item Name="protected" Type="Folder"/>
@@ -965,14 +965,14 @@
 									</Item>
 									<Item Name="G4BaseTemplate_Simple_6x8x6" Type="Folder">
 										<Item Name="methods" Type="Folder">
-											<Item Name="G4BaseTemplate_Simple_6x8x6_GetProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_6x8x6/methods/G4BaseTemplate_Simple_6x8x6_GetProperty.vi"/>
-											<Item Name="G4BaseTemplate_Simple_6x8x6_NoneModifing.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_6x8x6/methods/G4BaseTemplate_Simple_6x8x6_NoneModifing.vi"/>
-											<Item Name="G4BaseTemplate_Simple_6x8x6_ReadAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_6x8x6/methods/G4BaseTemplate_Simple_6x8x6_ReadAttribute.vi"/>
-											<Item Name="G4BaseTemplate_Simple_6x8x6_ReadProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_6x8x6/methods/G4BaseTemplate_Simple_6x8x6_ReadProperty.vi"/>
-											<Item Name="G4BaseTemplate_Simple_6x8x6_ReadWriteAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_6x8x6/methods/G4BaseTemplate_Simple_6x8x6_ReadWriteAttribute.vi"/>
-											<Item Name="G4BaseTemplate_Simple_6x8x6_SetProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_6x8x6/methods/G4BaseTemplate_Simple_6x8x6_SetProperty.vi"/>
-											<Item Name="G4BaseTemplate_Simple_6x8x6_WriteAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_6x8x6/methods/G4BaseTemplate_Simple_6x8x6_WriteAttribute.vi"/>
-											<Item Name="G4BaseTemplate_Simple_6x8x6_WriteProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_6x8x6/methods/G4BaseTemplate_Simple_6x8x6_WriteProperty.vi"/>
+											<Item Name="G4BaseTemplate_Simple_6x8x6_GetProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_6x8x6/methods/G4BaseTemplate_Simple_6x8x6_GetProperty.vi"/>
+											<Item Name="G4BaseTemplate_Simple_6x8x6_NoneModifing.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_6x8x6/methods/G4BaseTemplate_Simple_6x8x6_NoneModifing.vi"/>
+											<Item Name="G4BaseTemplate_Simple_6x8x6_ReadAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_6x8x6/methods/G4BaseTemplate_Simple_6x8x6_ReadAttribute.vi"/>
+											<Item Name="G4BaseTemplate_Simple_6x8x6_ReadProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_6x8x6/methods/G4BaseTemplate_Simple_6x8x6_ReadProperty.vi"/>
+											<Item Name="G4BaseTemplate_Simple_6x8x6_ReadWriteAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_6x8x6/methods/G4BaseTemplate_Simple_6x8x6_ReadWriteAttribute.vi"/>
+											<Item Name="G4BaseTemplate_Simple_6x8x6_SetProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_6x8x6/methods/G4BaseTemplate_Simple_6x8x6_SetProperty.vi"/>
+											<Item Name="G4BaseTemplate_Simple_6x8x6_WriteAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_6x8x6/methods/G4BaseTemplate_Simple_6x8x6_WriteAttribute.vi"/>
+											<Item Name="G4BaseTemplate_Simple_6x8x6_WriteProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_6x8x6/methods/G4BaseTemplate_Simple_6x8x6_WriteProperty.vi"/>
 											<Item Name="methods.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_6x8x6/methods/methods.ini"/>
 										</Item>
 										<Item Name="protected" Type="Folder"/>
@@ -981,12 +981,12 @@
 									</Item>
 									<Item Name="G4BaseTemplate_Singleton_4x4x4" Type="Folder">
 										<Item Name="methods" Type="Folder">
-											<Item Name="G4BaseTemplate_Singleton_4x4x4_GetProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_4x4x4/methods/G4BaseTemplate_Singleton_4x4x4_GetProperty.vi"/>
-											<Item Name="G4BaseTemplate_Singleton_4x4x4_NoneModifing.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_4x4x4/methods/G4BaseTemplate_Singleton_4x4x4_NoneModifing.vi"/>
-											<Item Name="G4BaseTemplate_Singleton_4x4x4_ReadAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_4x4x4/methods/G4BaseTemplate_Singleton_4x4x4_ReadAttribute.vi"/>
-											<Item Name="G4BaseTemplate_Singleton_4x4x4_ReadWriteAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_4x4x4/methods/G4BaseTemplate_Singleton_4x4x4_ReadWriteAttribute.vi"/>
-											<Item Name="G4BaseTemplate_Singleton_4x4x4_SetProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_4x4x4/methods/G4BaseTemplate_Singleton_4x4x4_SetProperty.vi"/>
-											<Item Name="G4BaseTemplate_Singleton_4x4x4_WriteAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_4x4x4/methods/G4BaseTemplate_Singleton_4x4x4_WriteAttribute.vi"/>
+											<Item Name="G4BaseTemplate_Singleton_4x4x4_GetProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_4x4x4/methods/G4BaseTemplate_Singleton_4x4x4_GetProperty.vi"/>
+											<Item Name="G4BaseTemplate_Singleton_4x4x4_NoneModifing.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_4x4x4/methods/G4BaseTemplate_Singleton_4x4x4_NoneModifing.vi"/>
+											<Item Name="G4BaseTemplate_Singleton_4x4x4_ReadAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_4x4x4/methods/G4BaseTemplate_Singleton_4x4x4_ReadAttribute.vi"/>
+											<Item Name="G4BaseTemplate_Singleton_4x4x4_ReadWriteAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_4x4x4/methods/G4BaseTemplate_Singleton_4x4x4_ReadWriteAttribute.vi"/>
+											<Item Name="G4BaseTemplate_Singleton_4x4x4_SetProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_4x4x4/methods/G4BaseTemplate_Singleton_4x4x4_SetProperty.vi"/>
+											<Item Name="G4BaseTemplate_Singleton_4x4x4_WriteAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_4x4x4/methods/G4BaseTemplate_Singleton_4x4x4_WriteAttribute.vi"/>
 											<Item Name="methods.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_4x4x4/methods/methods.ini"/>
 											<Item Name="methods.txt" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_4x4x4/methods/methods.txt"/>
 										</Item>
@@ -996,12 +996,12 @@
 									</Item>
 									<Item Name="G4BaseTemplate_Singleton_5x6x5" Type="Folder">
 										<Item Name="methods" Type="Folder">
-											<Item Name="G4BaseTemplate_Singleton_5x6x5_GetProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_5x6x5/methods/G4BaseTemplate_Singleton_5x6x5_GetProperty.vi"/>
-											<Item Name="G4BaseTemplate_Singleton_5x6x5_NoneModifing.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_5x6x5/methods/G4BaseTemplate_Singleton_5x6x5_NoneModifing.vi"/>
-											<Item Name="G4BaseTemplate_Singleton_5x6x5_ReadAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_5x6x5/methods/G4BaseTemplate_Singleton_5x6x5_ReadAttribute.vi"/>
-											<Item Name="G4BaseTemplate_Singleton_5x6x5_ReadWriteAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_5x6x5/methods/G4BaseTemplate_Singleton_5x6x5_ReadWriteAttribute.vi"/>
-											<Item Name="G4BaseTemplate_Singleton_5x6x5_SetProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_5x6x5/methods/G4BaseTemplate_Singleton_5x6x5_SetProperty.vi"/>
-											<Item Name="G4BaseTemplate_Singleton_5x6x5_WriteAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_5x6x5/methods/G4BaseTemplate_Singleton_5x6x5_WriteAttribute.vi"/>
+											<Item Name="G4BaseTemplate_Singleton_5x6x5_GetProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_5x6x5/methods/G4BaseTemplate_Singleton_5x6x5_GetProperty.vi"/>
+											<Item Name="G4BaseTemplate_Singleton_5x6x5_NoneModifing.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_5x6x5/methods/G4BaseTemplate_Singleton_5x6x5_NoneModifing.vi"/>
+											<Item Name="G4BaseTemplate_Singleton_5x6x5_ReadAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_5x6x5/methods/G4BaseTemplate_Singleton_5x6x5_ReadAttribute.vi"/>
+											<Item Name="G4BaseTemplate_Singleton_5x6x5_ReadWriteAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_5x6x5/methods/G4BaseTemplate_Singleton_5x6x5_ReadWriteAttribute.vi"/>
+											<Item Name="G4BaseTemplate_Singleton_5x6x5_SetProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_5x6x5/methods/G4BaseTemplate_Singleton_5x6x5_SetProperty.vi"/>
+											<Item Name="G4BaseTemplate_Singleton_5x6x5_WriteAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_5x6x5/methods/G4BaseTemplate_Singleton_5x6x5_WriteAttribute.vi"/>
 											<Item Name="methods.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_5x6x5/methods/methods.ini"/>
 											<Item Name="methods.txt" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_5x6x5/methods/methods.txt"/>
 										</Item>
@@ -1011,12 +1011,12 @@
 									</Item>
 									<Item Name="G4BaseTemplate_Singleton_6x8x6" Type="Folder">
 										<Item Name="methods" Type="Folder">
-											<Item Name="G4BaseTemplate_Singleton_6x8x6_GetProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_6x8x6/methods/G4BaseTemplate_Singleton_6x8x6_GetProperty.vi"/>
-											<Item Name="G4BaseTemplate_Singleton_6x8x6_NoneModifing.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_6x8x6/methods/G4BaseTemplate_Singleton_6x8x6_NoneModifing.vi"/>
-											<Item Name="G4BaseTemplate_Singleton_6x8x6_ReadAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_6x8x6/methods/G4BaseTemplate_Singleton_6x8x6_ReadAttribute.vi"/>
-											<Item Name="G4BaseTemplate_Singleton_6x8x6_ReadWriteAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_6x8x6/methods/G4BaseTemplate_Singleton_6x8x6_ReadWriteAttribute.vi"/>
-											<Item Name="G4BaseTemplate_Singleton_6x8x6_SetProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_6x8x6/methods/G4BaseTemplate_Singleton_6x8x6_SetProperty.vi"/>
-											<Item Name="G4BaseTemplate_Singleton_6x8x6_WriteAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_6x8x6/methods/G4BaseTemplate_Singleton_6x8x6_WriteAttribute.vi"/>
+											<Item Name="G4BaseTemplate_Singleton_6x8x6_GetProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_6x8x6/methods/G4BaseTemplate_Singleton_6x8x6_GetProperty.vi"/>
+											<Item Name="G4BaseTemplate_Singleton_6x8x6_NoneModifing.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_6x8x6/methods/G4BaseTemplate_Singleton_6x8x6_NoneModifing.vi"/>
+											<Item Name="G4BaseTemplate_Singleton_6x8x6_ReadAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_6x8x6/methods/G4BaseTemplate_Singleton_6x8x6_ReadAttribute.vi"/>
+											<Item Name="G4BaseTemplate_Singleton_6x8x6_ReadWriteAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_6x8x6/methods/G4BaseTemplate_Singleton_6x8x6_ReadWriteAttribute.vi"/>
+											<Item Name="G4BaseTemplate_Singleton_6x8x6_SetProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_6x8x6/methods/G4BaseTemplate_Singleton_6x8x6_SetProperty.vi"/>
+											<Item Name="G4BaseTemplate_Singleton_6x8x6_WriteAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_6x8x6/methods/G4BaseTemplate_Singleton_6x8x6_WriteAttribute.vi"/>
 											<Item Name="methods.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_6x8x6/methods/methods.ini"/>
 										</Item>
 										<Item Name="protected" Type="Folder"/>
@@ -1025,7 +1025,7 @@
 									</Item>
 									<Item Name="G4InterfaceTemplate_4x4x4" Type="Folder">
 										<Item Name="methods" Type="Folder">
-											<Item Name="G4InterfaceTemplate_4x4x4_Method.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4InterfaceTemplate_4x4x4/methods/G4InterfaceTemplate_4x4x4_Method.vi"/>
+											<Item Name="G4InterfaceTemplate_4x4x4_Method.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4InterfaceTemplate_4x4x4/methods/G4InterfaceTemplate_4x4x4_Method.vi"/>
 											<Item Name="methods.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4InterfaceTemplate_4x4x4/methods/methods.ini"/>
 										</Item>
 										<Item Name="G4InterfaceTemplate_4x4x4.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4InterfaceTemplate_4x4x4/G4InterfaceTemplate_4x4x4.ini"/>
@@ -1033,7 +1033,7 @@
 									</Item>
 									<Item Name="G4InterfaceTemplate_5x6x5" Type="Folder">
 										<Item Name="methods" Type="Folder">
-											<Item Name="G4InterfaceTemplate_5x6x5_Method.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4InterfaceTemplate_5x6x5/methods/G4InterfaceTemplate_5x6x5_Method.vi"/>
+											<Item Name="G4InterfaceTemplate_5x6x5_Method.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4InterfaceTemplate_5x6x5/methods/G4InterfaceTemplate_5x6x5_Method.vi"/>
 											<Item Name="methods.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4InterfaceTemplate_5x6x5/methods/methods.ini"/>
 										</Item>
 										<Item Name="G4InterfaceTemplate_5x6x5.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4InterfaceTemplate_5x6x5/G4InterfaceTemplate_5x6x5.ini"/>
@@ -1041,7 +1041,7 @@
 									</Item>
 									<Item Name="G4InterfaceTemplate_6x8x6" Type="Folder">
 										<Item Name="methods" Type="Folder">
-											<Item Name="G4InterfaceTemplate_6x8x6_Method.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4InterfaceTemplate_6x8x6/methods/G4InterfaceTemplate_6x8x6_Method.vi"/>
+											<Item Name="G4InterfaceTemplate_6x8x6_Method.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4InterfaceTemplate_6x8x6/methods/G4InterfaceTemplate_6x8x6_Method.vi"/>
 											<Item Name="methods.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4InterfaceTemplate_6x8x6/methods/methods.ini"/>
 										</Item>
 										<Item Name="G4InterfaceTemplate_6x8x6.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4InterfaceTemplate_6x8x6/G4InterfaceTemplate_6x8x6.ini"/>
@@ -1049,14 +1049,14 @@
 									</Item>
 									<Item Name="G4SubTemplate_Simple_4x4x4" Type="Folder">
 										<Item Name="methods" Type="Folder">
-											<Item Name="G4SubTemplate_Simple_4x4x4_GetProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_4x4x4/methods/G4SubTemplate_Simple_4x4x4_GetProperty.vi"/>
-											<Item Name="G4SubTemplate_Simple_4x4x4_NoneModifing.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_4x4x4/methods/G4SubTemplate_Simple_4x4x4_NoneModifing.vi"/>
-											<Item Name="G4SubTemplate_Simple_4x4x4_ReadAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_4x4x4/methods/G4SubTemplate_Simple_4x4x4_ReadAttribute.vi"/>
-											<Item Name="G4SubTemplate_Simple_4x4x4_ReadProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_4x4x4/methods/G4SubTemplate_Simple_4x4x4_ReadProperty.vi"/>
-											<Item Name="G4SubTemplate_Simple_4x4x4_ReadWriteAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_4x4x4/methods/G4SubTemplate_Simple_4x4x4_ReadWriteAttribute.vi"/>
-											<Item Name="G4SubTemplate_Simple_4x4x4_SetProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_4x4x4/methods/G4SubTemplate_Simple_4x4x4_SetProperty.vi"/>
-											<Item Name="G4SubTemplate_Simple_4x4x4_WriteAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_4x4x4/methods/G4SubTemplate_Simple_4x4x4_WriteAttribute.vi"/>
-											<Item Name="G4SubTemplate_Simple_4x4x4_WriteProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_4x4x4/methods/G4SubTemplate_Simple_4x4x4_WriteProperty.vi"/>
+											<Item Name="G4SubTemplate_Simple_4x4x4_GetProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_4x4x4/methods/G4SubTemplate_Simple_4x4x4_GetProperty.vi"/>
+											<Item Name="G4SubTemplate_Simple_4x4x4_NoneModifing.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_4x4x4/methods/G4SubTemplate_Simple_4x4x4_NoneModifing.vi"/>
+											<Item Name="G4SubTemplate_Simple_4x4x4_ReadAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_4x4x4/methods/G4SubTemplate_Simple_4x4x4_ReadAttribute.vi"/>
+											<Item Name="G4SubTemplate_Simple_4x4x4_ReadProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_4x4x4/methods/G4SubTemplate_Simple_4x4x4_ReadProperty.vi"/>
+											<Item Name="G4SubTemplate_Simple_4x4x4_ReadWriteAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_4x4x4/methods/G4SubTemplate_Simple_4x4x4_ReadWriteAttribute.vi"/>
+											<Item Name="G4SubTemplate_Simple_4x4x4_SetProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_4x4x4/methods/G4SubTemplate_Simple_4x4x4_SetProperty.vi"/>
+											<Item Name="G4SubTemplate_Simple_4x4x4_WriteAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_4x4x4/methods/G4SubTemplate_Simple_4x4x4_WriteAttribute.vi"/>
+											<Item Name="G4SubTemplate_Simple_4x4x4_WriteProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_4x4x4/methods/G4SubTemplate_Simple_4x4x4_WriteProperty.vi"/>
 											<Item Name="methods.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_4x4x4/methods/methods.ini"/>
 										</Item>
 										<Item Name="protected" Type="Folder"/>
@@ -1065,14 +1065,14 @@
 									</Item>
 									<Item Name="G4SubTemplate_Simple_5x6x5" Type="Folder">
 										<Item Name="methods" Type="Folder">
-											<Item Name="G4SubTemplate_Simple_5x6x5_GetProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_5x6x5/methods/G4SubTemplate_Simple_5x6x5_GetProperty.vi"/>
-											<Item Name="G4SubTemplate_Simple_5x6x5_NoneModifing.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_5x6x5/methods/G4SubTemplate_Simple_5x6x5_NoneModifing.vi"/>
-											<Item Name="G4SubTemplate_Simple_5x6x5_ReadAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_5x6x5/methods/G4SubTemplate_Simple_5x6x5_ReadAttribute.vi"/>
-											<Item Name="G4SubTemplate_Simple_5x6x5_ReadProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_5x6x5/methods/G4SubTemplate_Simple_5x6x5_ReadProperty.vi"/>
-											<Item Name="G4SubTemplate_Simple_5x6x5_ReadWriteAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_5x6x5/methods/G4SubTemplate_Simple_5x6x5_ReadWriteAttribute.vi"/>
-											<Item Name="G4SubTemplate_Simple_5x6x5_SetProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_5x6x5/methods/G4SubTemplate_Simple_5x6x5_SetProperty.vi"/>
-											<Item Name="G4SubTemplate_Simple_5x6x5_WriteAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_5x6x5/methods/G4SubTemplate_Simple_5x6x5_WriteAttribute.vi"/>
-											<Item Name="G4SubTemplate_Simple_5x6x5_WriteProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_5x6x5/methods/G4SubTemplate_Simple_5x6x5_WriteProperty.vi"/>
+											<Item Name="G4SubTemplate_Simple_5x6x5_GetProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_5x6x5/methods/G4SubTemplate_Simple_5x6x5_GetProperty.vi"/>
+											<Item Name="G4SubTemplate_Simple_5x6x5_NoneModifing.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_5x6x5/methods/G4SubTemplate_Simple_5x6x5_NoneModifing.vi"/>
+											<Item Name="G4SubTemplate_Simple_5x6x5_ReadAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_5x6x5/methods/G4SubTemplate_Simple_5x6x5_ReadAttribute.vi"/>
+											<Item Name="G4SubTemplate_Simple_5x6x5_ReadProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_5x6x5/methods/G4SubTemplate_Simple_5x6x5_ReadProperty.vi"/>
+											<Item Name="G4SubTemplate_Simple_5x6x5_ReadWriteAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_5x6x5/methods/G4SubTemplate_Simple_5x6x5_ReadWriteAttribute.vi"/>
+											<Item Name="G4SubTemplate_Simple_5x6x5_SetProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_5x6x5/methods/G4SubTemplate_Simple_5x6x5_SetProperty.vi"/>
+											<Item Name="G4SubTemplate_Simple_5x6x5_WriteAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_5x6x5/methods/G4SubTemplate_Simple_5x6x5_WriteAttribute.vi"/>
+											<Item Name="G4SubTemplate_Simple_5x6x5_WriteProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_5x6x5/methods/G4SubTemplate_Simple_5x6x5_WriteProperty.vi"/>
 											<Item Name="methods.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_5x6x5/methods/methods.ini"/>
 										</Item>
 										<Item Name="protected" Type="Folder"/>
@@ -1081,14 +1081,14 @@
 									</Item>
 									<Item Name="G4SubTemplate_Simple_6x8x6" Type="Folder">
 										<Item Name="methods" Type="Folder">
-											<Item Name="G4SubTemplate_Simple_6x8x6_GetProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_6x8x6/methods/G4SubTemplate_Simple_6x8x6_GetProperty.vi"/>
-											<Item Name="G4SubTemplate_Simple_6x8x6_NoneModifing.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_6x8x6/methods/G4SubTemplate_Simple_6x8x6_NoneModifing.vi"/>
-											<Item Name="G4SubTemplate_Simple_6x8x6_ReadAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_6x8x6/methods/G4SubTemplate_Simple_6x8x6_ReadAttribute.vi"/>
-											<Item Name="G4SubTemplate_Simple_6x8x6_ReadProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_6x8x6/methods/G4SubTemplate_Simple_6x8x6_ReadProperty.vi"/>
-											<Item Name="G4SubTemplate_Simple_6x8x6_ReadWriteAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_6x8x6/methods/G4SubTemplate_Simple_6x8x6_ReadWriteAttribute.vi"/>
-											<Item Name="G4SubTemplate_Simple_6x8x6_SetProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_6x8x6/methods/G4SubTemplate_Simple_6x8x6_SetProperty.vi"/>
-											<Item Name="G4SubTemplate_Simple_6x8x6_WriteAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_6x8x6/methods/G4SubTemplate_Simple_6x8x6_WriteAttribute.vi"/>
-											<Item Name="G4SubTemplate_Simple_6x8x6_WriteProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_6x8x6/methods/G4SubTemplate_Simple_6x8x6_WriteProperty.vi"/>
+											<Item Name="G4SubTemplate_Simple_6x8x6_GetProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_6x8x6/methods/G4SubTemplate_Simple_6x8x6_GetProperty.vi"/>
+											<Item Name="G4SubTemplate_Simple_6x8x6_NoneModifing.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_6x8x6/methods/G4SubTemplate_Simple_6x8x6_NoneModifing.vi"/>
+											<Item Name="G4SubTemplate_Simple_6x8x6_ReadAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_6x8x6/methods/G4SubTemplate_Simple_6x8x6_ReadAttribute.vi"/>
+											<Item Name="G4SubTemplate_Simple_6x8x6_ReadProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_6x8x6/methods/G4SubTemplate_Simple_6x8x6_ReadProperty.vi"/>
+											<Item Name="G4SubTemplate_Simple_6x8x6_ReadWriteAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_6x8x6/methods/G4SubTemplate_Simple_6x8x6_ReadWriteAttribute.vi"/>
+											<Item Name="G4SubTemplate_Simple_6x8x6_SetProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_6x8x6/methods/G4SubTemplate_Simple_6x8x6_SetProperty.vi"/>
+											<Item Name="G4SubTemplate_Simple_6x8x6_WriteAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_6x8x6/methods/G4SubTemplate_Simple_6x8x6_WriteAttribute.vi"/>
+											<Item Name="G4SubTemplate_Simple_6x8x6_WriteProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_6x8x6/methods/G4SubTemplate_Simple_6x8x6_WriteProperty.vi"/>
 											<Item Name="methods.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_6x8x6/methods/methods.ini"/>
 										</Item>
 										<Item Name="protected" Type="Folder"/>
@@ -1097,12 +1097,12 @@
 									</Item>
 									<Item Name="G4SubTemplate_Singleton_4x4x4" Type="Folder">
 										<Item Name="methods" Type="Folder">
-											<Item Name="G4SubTemplate_Singleton_4x4x4_GetProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_4x4x4/methods/G4SubTemplate_Singleton_4x4x4_GetProperty.vi"/>
-											<Item Name="G4SubTemplate_Singleton_4x4x4_NoneModifing.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_4x4x4/methods/G4SubTemplate_Singleton_4x4x4_NoneModifing.vi"/>
-											<Item Name="G4SubTemplate_Singleton_4x4x4_ReadAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_4x4x4/methods/G4SubTemplate_Singleton_4x4x4_ReadAttribute.vi"/>
-											<Item Name="G4SubTemplate_Singleton_4x4x4_ReadWriteAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_4x4x4/methods/G4SubTemplate_Singleton_4x4x4_ReadWriteAttribute.vi"/>
-											<Item Name="G4SubTemplate_Singleton_4x4x4_SetProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_4x4x4/methods/G4SubTemplate_Singleton_4x4x4_SetProperty.vi"/>
-											<Item Name="G4SubTemplate_Singleton_4x4x4_WriteAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_4x4x4/methods/G4SubTemplate_Singleton_4x4x4_WriteAttribute.vi"/>
+											<Item Name="G4SubTemplate_Singleton_4x4x4_GetProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_4x4x4/methods/G4SubTemplate_Singleton_4x4x4_GetProperty.vi"/>
+											<Item Name="G4SubTemplate_Singleton_4x4x4_NoneModifing.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_4x4x4/methods/G4SubTemplate_Singleton_4x4x4_NoneModifing.vi"/>
+											<Item Name="G4SubTemplate_Singleton_4x4x4_ReadAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_4x4x4/methods/G4SubTemplate_Singleton_4x4x4_ReadAttribute.vi"/>
+											<Item Name="G4SubTemplate_Singleton_4x4x4_ReadWriteAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_4x4x4/methods/G4SubTemplate_Singleton_4x4x4_ReadWriteAttribute.vi"/>
+											<Item Name="G4SubTemplate_Singleton_4x4x4_SetProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_4x4x4/methods/G4SubTemplate_Singleton_4x4x4_SetProperty.vi"/>
+											<Item Name="G4SubTemplate_Singleton_4x4x4_WriteAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_4x4x4/methods/G4SubTemplate_Singleton_4x4x4_WriteAttribute.vi"/>
 											<Item Name="methods.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_4x4x4/methods/methods.ini"/>
 										</Item>
 										<Item Name="protected" Type="Folder"/>
@@ -1111,12 +1111,12 @@
 									</Item>
 									<Item Name="G4SubTemplate_Singleton_5x6x5" Type="Folder">
 										<Item Name="methods" Type="Folder">
-											<Item Name="G4SubTemplate_Singleton_5x6x5_GetProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_5x6x5/methods/G4SubTemplate_Singleton_5x6x5_GetProperty.vi"/>
-											<Item Name="G4SubTemplate_Singleton_5x6x5_NoneModifing.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_5x6x5/methods/G4SubTemplate_Singleton_5x6x5_NoneModifing.vi"/>
-											<Item Name="G4SubTemplate_Singleton_5x6x5_ReadAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_5x6x5/methods/G4SubTemplate_Singleton_5x6x5_ReadAttribute.vi"/>
-											<Item Name="G4SubTemplate_Singleton_5x6x5_ReadWriteAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_5x6x5/methods/G4SubTemplate_Singleton_5x6x5_ReadWriteAttribute.vi"/>
-											<Item Name="G4SubTemplate_Singleton_5x6x5_SetProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_5x6x5/methods/G4SubTemplate_Singleton_5x6x5_SetProperty.vi"/>
-											<Item Name="G4SubTemplate_Singleton_5x6x5_WriteAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_5x6x5/methods/G4SubTemplate_Singleton_5x6x5_WriteAttribute.vi"/>
+											<Item Name="G4SubTemplate_Singleton_5x6x5_GetProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_5x6x5/methods/G4SubTemplate_Singleton_5x6x5_GetProperty.vi"/>
+											<Item Name="G4SubTemplate_Singleton_5x6x5_NoneModifing.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_5x6x5/methods/G4SubTemplate_Singleton_5x6x5_NoneModifing.vi"/>
+											<Item Name="G4SubTemplate_Singleton_5x6x5_ReadAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_5x6x5/methods/G4SubTemplate_Singleton_5x6x5_ReadAttribute.vi"/>
+											<Item Name="G4SubTemplate_Singleton_5x6x5_ReadWriteAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_5x6x5/methods/G4SubTemplate_Singleton_5x6x5_ReadWriteAttribute.vi"/>
+											<Item Name="G4SubTemplate_Singleton_5x6x5_SetProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_5x6x5/methods/G4SubTemplate_Singleton_5x6x5_SetProperty.vi"/>
+											<Item Name="G4SubTemplate_Singleton_5x6x5_WriteAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_5x6x5/methods/G4SubTemplate_Singleton_5x6x5_WriteAttribute.vi"/>
 											<Item Name="methods.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_5x6x5/methods/methods.ini"/>
 										</Item>
 										<Item Name="protected" Type="Folder"/>
@@ -1125,12 +1125,12 @@
 									</Item>
 									<Item Name="G4SubTemplate_Singleton_6x8x6" Type="Folder">
 										<Item Name="methods" Type="Folder">
-											<Item Name="G4SubTemplate_Singleton_6x8x6_GetProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_6x8x6/methods/G4SubTemplate_Singleton_6x8x6_GetProperty.vi"/>
-											<Item Name="G4SubTemplate_Singleton_6x8x6_NoneModifing.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_6x8x6/methods/G4SubTemplate_Singleton_6x8x6_NoneModifing.vi"/>
-											<Item Name="G4SubTemplate_Singleton_6x8x6_ReadAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_6x8x6/methods/G4SubTemplate_Singleton_6x8x6_ReadAttribute.vi"/>
-											<Item Name="G4SubTemplate_Singleton_6x8x6_ReadWriteAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_6x8x6/methods/G4SubTemplate_Singleton_6x8x6_ReadWriteAttribute.vi"/>
-											<Item Name="G4SubTemplate_Singleton_6x8x6_SetProperty.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_6x8x6/methods/G4SubTemplate_Singleton_6x8x6_SetProperty.vi"/>
-											<Item Name="G4SubTemplate_Singleton_6x8x6_WriteAttribute.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_6x8x6/methods/G4SubTemplate_Singleton_6x8x6_WriteAttribute.vi"/>
+											<Item Name="G4SubTemplate_Singleton_6x8x6_GetProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_6x8x6/methods/G4SubTemplate_Singleton_6x8x6_GetProperty.vi"/>
+											<Item Name="G4SubTemplate_Singleton_6x8x6_NoneModifing.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_6x8x6/methods/G4SubTemplate_Singleton_6x8x6_NoneModifing.vi"/>
+											<Item Name="G4SubTemplate_Singleton_6x8x6_ReadAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_6x8x6/methods/G4SubTemplate_Singleton_6x8x6_ReadAttribute.vi"/>
+											<Item Name="G4SubTemplate_Singleton_6x8x6_ReadWriteAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_6x8x6/methods/G4SubTemplate_Singleton_6x8x6_ReadWriteAttribute.vi"/>
+											<Item Name="G4SubTemplate_Singleton_6x8x6_SetProperty.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_6x8x6/methods/G4SubTemplate_Singleton_6x8x6_SetProperty.vi"/>
+											<Item Name="G4SubTemplate_Singleton_6x8x6_WriteAttribute.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_6x8x6/methods/G4SubTemplate_Singleton_6x8x6_WriteAttribute.vi"/>
 											<Item Name="methods.ini" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_6x8x6/methods/methods.ini"/>
 										</Item>
 										<Item Name="protected" Type="Folder"/>
@@ -1138,7 +1138,6 @@
 										<Item Name="G4SubTemplate_Singleton_6x8x6.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_6x8x6/G4SubTemplate_Singleton_6x8x6.lvclass"/>
 									</Item>
 									<Item Name="EndevoG4TemplateNames.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/EndevoG4TemplateNames.ctl"/>
-									<Item Name="G4Template.lvproj" Type="Document" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4Template.lvproj"/>
 								</Item>
 								<Item Name="ClassReaderGOOP400.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/ClassReaderGOOP400_class/ClassReaderGOOP400.lvclass"/>
 								<Item Name="ClassWriterGOOP400.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/ClassWriterGOOP400_class/ClassWriterGOOP400.lvclass"/>
@@ -1485,9 +1484,6 @@
 				<Item Name="Edit LVLibs.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/EditLVLibs/Edit LVLibs.lvlib"/>
 				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
 				<Item Name="Enum to Array of Enums.vim" Type="VI" URL="/&lt;vilib&gt;/numeric/Enum to Array of Enums.vim"/>
-				<Item Name="Equal Comparable.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Comparable/Equal Comparable.lvclass"/>
-				<Item Name="Equal Functor.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Comparison/Equal/Equal Functor/Equal Functor.lvclass"/>
-				<Item Name="Equals.vim" Type="VI" URL="/&lt;vilib&gt;/Comparison/Equals.vim"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
@@ -1621,8 +1617,6 @@
 				<Item Name="Remove Duplicates From 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Remove Duplicates From 1D Array.vim"/>
 				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
-				<Item Name="Search Unsorted 1D Array Core.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Helpers/Search Unsorted 1D Array Core.vim"/>
-				<Item Name="Search Unsorted 1D Array.vim" Type="VI" URL="/&lt;vilib&gt;/Array/Search Unsorted 1D Array.vim"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
 				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>

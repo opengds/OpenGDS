@@ -31,5 +31,5 @@
 	<Item Name="GOOPUtil_MemberDefinition.ctl" Type="VI" URL="../GOOPUtil_MemberDefinition.ctl"/>
 	<Item Name="GOOPUtil_GetParentClassesHiererchy.vi" Type="VI" URL="../GOOPUtil_GetParentClassesHiererchy.vi"/>
 	<Item Name="GOOPUtil_EatError.vi" Type="VI" URL="../GOOPUtil_EatError.vi"/>
-	<Item Name="GOOPUtil_OfType.vim" Type="VI" URL="/&lt;vilib&gt;/addons/GOOPUtility/GOOPUtil_OfType.vim"/>
+	<Item Name="GOOPUtil_OfType.vim" Type="VI" URL="../GOOPUtil_OfType.vim"/>
 </Library>
