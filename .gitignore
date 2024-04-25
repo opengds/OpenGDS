@@ -10,6 +10,8 @@
 
 # Executables
 *.exe
+*.vip
+Builds/
 
 # Metadata
 *.aliases
