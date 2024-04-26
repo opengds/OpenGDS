@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-04-11 16:46:28" Modified_Date="2024-04-25 09:46:41" Creator="VI-Tech" Comments="" ID="739004ff3ab155e3fad1d9e4f6d30c44">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-04-11 16:46:28" Modified_Date="2024-04-26 13:07:34" Creator="VI-Tech" Comments="" ID="43e8877594c88dce0c7eab1a56d83a70">
   <Library_General_Settings>
     <Package_File_Name>OpenGDS_Utils</Package_File_Name>
-    <Library_Version>1.0.0.2</Library_Version>
+    <Library_Version>1.0.0.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\..</Library_Source_Folder>
     <Library_Output_Folder>..\..\Builds</Library_Output_Folder>
@@ -20,10 +20,10 @@
     <Custom_Action_VIs>
       <Pre-Build_VI/>
       <Post-Build_VI/>
-      <Pre-Install_VI>..\Build_Release\vipm-files\PreInstall.vi</Pre-Install_VI>
-      <Post-Install_VI>..\Build_Release\vipm-files\PostInstall.vi</Post-Install_VI>
-      <Pre-Uninstall_VI>..\Build_Release\vipm-files\PreUninstall.vi</Pre-Uninstall_VI>
-      <Post-Uninstall_VI>..\Build_Release\vipm-files\PostUninstall.vi</Post-Uninstall_VI>
+      <Pre-Install_VI/>
+      <Post-Install_VI/>
+      <Pre-Uninstall_VI/>
+      <Post-Uninstall_VI/>
     </Custom_Action_VIs>
     <VI_Package_Configuration_File>OpenGDS_Utils.vipc</VI_Package_Configuration_File>
     <Description>
@@ -140,9 +140,6 @@ This package contains the Utils vi's that can be used in combination with OpenGD
       </Exclusions>
       <Exclusions>
         <Path>help</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>menus</Path>
       </Exclusions>
       <Exclusions>
         <Path>user.lib</Path>
@@ -446,7 +443,7 @@ This package contains the Utils vi's that can be used in combination with OpenGD
       <LV_64-Bit>true</LV_64-Bit>
     </Install_Requirements>
     <LabVIEW>
-      <close_labview_before_install>true</close_labview_before_install>
+      <close_labview_before_install>false</close_labview_before_install>
       <restart_labview_after_install>true</restart_labview_after_install>
       <skip_mass_compile_after_install>false</skip_mass_compile_after_install>
       <install_into_global_environment>false</install_into_global_environment>
