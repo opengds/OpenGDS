@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-04-11 16:46:28" Modified_Date="2024-04-26 13:07:34" Creator="VI-Tech" Comments="" ID="43e8877594c88dce0c7eab1a56d83a70">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-04-11 16:46:28" Modified_Date="2024-05-14 16:34:22" Creator="VI-Tech" Comments="" ID="1ba5a3b4f3f1cc6bd4e58b79e329441a">
   <Library_General_Settings>
     <Package_File_Name>OpenGDS_Utils</Package_File_Name>
-    <Library_Version>1.0.0.3</Library_Version>
+    <Library_Version>1.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\..</Library_Source_Folder>
     <Library_Output_Folder>..\..\Builds</Library_Output_Folder>
@@ -152,9 +152,6 @@ This package contains the Utils vi's that can be used in combination with OpenGD
       </Exclusions>
       <Exclusions>
         <Path>resource/Framework/Providers/Open_GDS/ClassBodyIcons</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>resource/Framework/Providers/Open_GDS/ClassProviders</Path>
       </Exclusions>
       <Exclusions>
         <Path>resource/Framework/Providers/Open_GDS/Glyphs</Path>
@@ -352,9 +349,6 @@ This package contains the Utils vi's that can be used in combination with OpenGD
         <Path>resource/Framework/Providers/GProviders</Path>
       </Exclusions>
       <Exclusions>
-        <Path>resource</Path>
-      </Exclusions>
-      <Exclusions>
         <Path>vi.lib/addons/_goop2.llb</Path>
       </Exclusions>
       <Exclusions>
@@ -362,6 +356,225 @@ This package contains the Utils vi's that can be used in combination with OpenGD
       </Exclusions>
       <Exclusions>
         <Path>vi.lib/addons/_goop4.llb</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/ActorFramework</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/CommonClasses</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/MethodImages</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Provider_BaseClassInterface</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/StaticMethods</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/StaticMethodTemplates</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/ClassProvidor_GoopOptionsDialog.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/CmErrorCodes.ctl</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/MethodTemplatesImages.ini</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/UML</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/UmlMessage</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/AF</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/Array</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/CommonVIs</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop2ToGoop3_SubVIs</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4_SubVIs</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextToLv_SubVIs</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/Dialog</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/Error</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/File</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/GdsLanguage</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/IconEditor</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/InterfaceLibrary</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/LanguageFiles</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/PictureControl</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/Project_class</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/ClassesOverview.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop1ToGoop3.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop2ToGoop3.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertGoop3ToGoop4.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/ConvertTextBasedCodeToLabVIEW.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_AccessScopeModifierType.ctl</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_AttributeTextToAttributeType.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_CapsAndRemoveSpaces.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ChangeToBetterNames.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ClassDescriptionType.ctl</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ClassOwnerType.ctl</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ClassParentType.ctl</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ClassType.ctl</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_EnumsToStringsValue.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_EvaluateMethodText.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ExtractEnumInfoFromText.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_FindCodeBlock.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_FindTextBasedCodeDocumenation.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_FindWord.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_FormatStringConstantText.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_FormatText.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_FromatedTextToHTML.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_GetModifiers.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_MethodDescriptionType.ctl</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ModifierType.ctl</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ParseBaseMethodCall.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ParseDataTypeString.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ParsePropertyMethod.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ParseTextBasedCode.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_PatternMatching.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_PlaceHolderText.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_RemoveBaseMethodCallString.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_RemoveExtension.vim</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ResetTextStyle.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_SetTextStyle.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_SplitStrings.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_SplitStrings_Array.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_XML_GetTagBlock.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_XML_GetTags.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_XmlEnumToStringValue.vi</Path>
       </Exclusions>
       <Compile_Exclusions>
         <Path>resource/Framework/Providers/Open_GDS/ClassProviders</Path>
