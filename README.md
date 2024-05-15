@@ -21,6 +21,8 @@ This is the package that installs the tooling to create and edit GOOP Classes. T
 
 This is the package that installs the UML Editor.
 
+This package has a dependency to the OpenGDS Tooling Package
+
 ### OpenGDS Utils
 
 This is the package that installs the Util vi's that can be used in your program. This is a separate package to you don't need to install the whole opengds to install the vi dependencies.
