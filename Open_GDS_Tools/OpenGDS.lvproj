@@ -801,6 +801,24 @@
 									<Item Name="GOOP400_Options.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/GOOP400_SubVIs/GOOP400_Options.ctl"/>
 									<Item Name="GOOP400_RemoveUnwantedChars.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/GOOP400_SubVIs/GOOP400_RemoveUnwantedChars.vi"/>
 								</Item>
+								<Item Name="Templates" Type="Folder">
+									<Item Name="EndevoG4TemplateNames.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/EndevoG4TemplateNames.ctl"/>
+									<Item Name="G4BaseTemplate_Simple_4x4x4.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_4x4x4/G4BaseTemplate_Simple_4x4x4.lvclass"/>
+									<Item Name="G4BaseTemplate_Simple_5x6x5.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_5x6x5/G4BaseTemplate_Simple_5x6x5.lvclass"/>
+									<Item Name="G4BaseTemplate_Simple_6x8x6.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_6x8x6/G4BaseTemplate_Simple_6x8x6.lvclass"/>
+									<Item Name="G4BaseTemplate_Singleton_4x4x4.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_4x4x4/G4BaseTemplate_Singleton_4x4x4.lvclass"/>
+									<Item Name="G4BaseTemplate_Singleton_5x6x5.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_5x6x5/G4BaseTemplate_Singleton_5x6x5.lvclass"/>
+									<Item Name="G4BaseTemplate_Singleton_6x8x6.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Singleton_6x8x6/G4BaseTemplate_Singleton_6x8x6.lvclass"/>
+									<Item Name="G4InterfaceTemplate_4x4x4.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4InterfaceTemplate_4x4x4/G4InterfaceTemplate_4x4x4.lvclass"/>
+									<Item Name="G4InterfaceTemplate_5x6x5.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4InterfaceTemplate_5x6x5/G4InterfaceTemplate_5x6x5.lvclass"/>
+									<Item Name="G4InterfaceTemplate_6x8x6.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4InterfaceTemplate_6x8x6/G4InterfaceTemplate_6x8x6.lvclass"/>
+									<Item Name="G4SubTemplate_Simple_4x4x4.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_4x4x4/G4SubTemplate_Simple_4x4x4.lvclass"/>
+									<Item Name="G4SubTemplate_Simple_5x6x5.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_5x6x5/G4SubTemplate_Simple_5x6x5.lvclass"/>
+									<Item Name="G4SubTemplate_Simple_6x8x6.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Simple_6x8x6/G4SubTemplate_Simple_6x8x6.lvclass"/>
+									<Item Name="G4SubTemplate_Singleton_4x4x4.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_4x4x4/G4SubTemplate_Singleton_4x4x4.lvclass"/>
+									<Item Name="G4SubTemplate_Singleton_5x6x5.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_5x6x5/G4SubTemplate_Singleton_5x6x5.lvclass"/>
+									<Item Name="G4SubTemplate_Singleton_6x8x6.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4SubTemplate_Singleton_6x8x6/G4SubTemplate_Singleton_6x8x6.lvclass"/>
+								</Item>
 								<Item Name="ClassReaderGOOP400.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/ClassReaderGOOP400_class/ClassReaderGOOP400.lvclass"/>
 								<Item Name="ClassWriterGOOP400.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/ClassWriterGOOP400_class/ClassWriterGOOP400.lvclass"/>
 								<Item Name="EndevoG4ProviderName.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/EndevoG4ProviderName.ctl"/>
@@ -1353,9 +1371,7 @@
 			<Item Name="CLSUIP_Set Class Tree Glyph.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVClassLibrary/CLSUIP_Set Class Tree Glyph.vi"/>
 			<Item Name="CLSUIP_TidyAllClassesList.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVClassLibrary/CLSUIP_TidyAllClassesList.vi"/>
 			<Item Name="CreateNewWizard_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/CreateNewWizard_Interface.ctl"/>
-			<Item Name="EndevoG4TemplateNames.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/EndevoG4TemplateNames.ctl"/>
 			<Item Name="EndevoTemplateNames.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP300/Templates/EndevoTemplateNames.ctl"/>
-			<Item Name="G4BaseTemplate_Simple_4x4x4.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/G4BaseTemplate_Simple_4x4x4/G4BaseTemplate_Simple_4x4x4.lvclass"/>
 			<Item Name="Global_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Global_Interface.ctl"/>
 			<Item Name="Item_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/Item_Interface.ctl"/>
 			<Item Name="ItemRef.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/ItemRef.ctl"/>
