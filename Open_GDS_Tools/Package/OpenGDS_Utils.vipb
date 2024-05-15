@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-04-11 16:46:28" Modified_Date="2024-05-14 16:34:22" Creator="VI-Tech" Comments="" ID="1ba5a3b4f3f1cc6bd4e58b79e329441a">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-04-11 16:46:28" Modified_Date="2024-05-15 16:35:49" Creator="VI-Tech" Comments="" ID="225950b9753472fa94ec8c71e44b0b35">
   <Library_General_Settings>
     <Package_File_Name>OpenGDS_Utils</Package_File_Name>
-    <Library_Version>1.0.0.4</Library_Version>
+    <Library_Version>1.0.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\..</Library_Source_Folder>
     <Library_Output_Folder>..\..\Builds</Library_Output_Folder>
@@ -575,6 +575,9 @@ This package contains the Utils vi's that can be used in combination with OpenGD
       </Exclusions>
       <Exclusions>
         <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_XmlEnumToStringValue.vi</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>menus</Path>
       </Exclusions>
       <Compile_Exclusions>
         <Path>resource/Framework/Providers/Open_GDS/ClassProviders</Path>

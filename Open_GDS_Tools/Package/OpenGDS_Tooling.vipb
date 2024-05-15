@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-04-11 16:46:28" Modified_Date="2024-05-15 14:11:16" Creator="VI-Tech" Comments="" ID="2ba218274ac39b9295fe35fdc46997b6">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-04-11 16:46:28" Modified_Date="2024-05-15 16:07:39" Creator="VI-Tech" Comments="" ID="deccdec8bc49ba51bd0c1c6ed098ee2e">
   <Library_General_Settings>
     <Package_File_Name>OpenGDS_Tooling</Package_File_Name>
-    <Library_Version>1.0.0.10</Library_Version>
+    <Library_Version>1.0.0.11</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\..</Library_Source_Folder>
     <Library_Output_Folder>..\..\Builds</Library_Output_Folder>
@@ -146,9 +146,6 @@ This package contains tooling for creating and editing OpenGDS classes.
       </Exclusions>
       <Exclusions>
         <Path>.gitignore</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>menus</Path>
       </Exclusions>
       <Exclusions>
         <Path>help</Path>
