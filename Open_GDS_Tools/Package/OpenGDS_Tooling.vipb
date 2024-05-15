@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-04-11 16:46:28" Modified_Date="2024-05-15 11:54:24" Creator="VI-Tech" Comments="" ID="fa672b0b396456f14fcdcec546b6a2f2">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-04-11 16:46:28" Modified_Date="2024-05-15 13:20:13" Creator="VI-Tech" Comments="" ID="166e11f6d9fad4a187a5e627397083a6">
   <Library_General_Settings>
     <Package_File_Name>OpenGDS_Tooling</Package_File_Name>
-    <Library_Version>1.0.0.8</Library_Version>
+    <Library_Version>1.0.0.9</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\..</Library_Source_Folder>
     <Library_Output_Folder>..\..\Builds</Library_Output_Folder>
@@ -146,21 +146,6 @@ This package contains tooling for creating and editing OpenGDS classes.
       </Exclusions>
       <Exclusions>
         <Path>.gitignore</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/ActiveObjects</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/ClassAttributes</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/GOOPDebugger</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/Persistent</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>resource/Framework/Providers/Open_GDS/ClassProviders/DesignPatterns/ReferencedVariables</Path>
       </Exclusions>
       <Exclusions>
         <Path>menus</Path>
