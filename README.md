@@ -44,4 +44,8 @@ Workflow:
 5. Submit a pull request
 
 
+## License
+
+The OpenGDS is licensed under the MIT License
+
 
