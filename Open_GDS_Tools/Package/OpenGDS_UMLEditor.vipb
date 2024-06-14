@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-04-11 16:46:28" Modified_Date="2024-06-14 13:07:33" Creator="VI-Tech" Comments="" ID="0d1a1ce9aea1df4a5252d552038d931e">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-04-11 16:46:28" Modified_Date="2024-06-14 16:30:30" Creator="VI-Tech" Comments="" ID="4b35d1346164ee5ad8c627d6e3732649">
   <Library_General_Settings>
     <Package_File_Name>OpenGDS_UMLEditor</Package_File_Name>
-    <Library_Version>2.0.0.4</Library_Version>
+    <Library_Version>2.0.0.5</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\..</Library_Source_Folder>
     <Library_Output_Folder>..\..\Builds</Library_Output_Folder>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>opengds_tooling &gt;=2.0.0.13</Additional_External_Dependencies>
+      <Additional_External_Dependencies>opengds_tooling &gt;=2.0.0.14</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -39,7 +39,8 @@ This package contains the OpenGDS UML Editor.
       <Copyright/>
       <Packager>OpenGDS</Packager>
       <URL>https://opengds.github.io/</URL>
-      <Release_Notes/>
+      <Release_Notes>- Changed license to MIT
+- Split of the UML Editor from the rest of the OpenGDS</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
