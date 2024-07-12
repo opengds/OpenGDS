@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-04-11 16:46:28" Modified_Date="2024-06-14 16:30:30" Creator="VI-Tech" Comments="" ID="4b35d1346164ee5ad8c627d6e3732649">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-04-11 16:46:28" Modified_Date="2024-07-12 15:29:55" Creator="VI-Tech" Comments="" ID="f2aeb6a88003d4b3767a9d4976867c31">
   <Library_General_Settings>
     <Package_File_Name>OpenGDS_UMLEditor</Package_File_Name>
-    <Library_Version>2.0.0.5</Library_Version>
+    <Library_Version>2.1.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\..</Library_Source_Folder>
     <Library_Output_Folder>..\..\Builds</Library_Output_Folder>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>opengds_tooling &gt;=2.0.0.14</Additional_External_Dependencies>
+      <Additional_External_Dependencies>opengds_tooling &gt;=2.1.0.19</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
@@ -39,8 +39,9 @@ This package contains the OpenGDS UML Editor.
       <Copyright/>
       <Packager>OpenGDS</Packager>
       <URL>https://opengds.github.io/</URL>
-      <Release_Notes>- Changed license to MIT
-- Split of the UML Editor from the rest of the OpenGDS</Release_Notes>
+      <Release_Notes>- Updated the Icon
+- Fixed a bug where the inheritance of the diagram would not reflect in the code
+- Updated the dependencies</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -358,6 +359,9 @@ This package contains the OpenGDS UML Editor.
       </Exclusions>
       <Exclusions>
         <Path>resource/Framework/Providers/GProviders</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>resource/Framework/Providers/Open_GDS/OpenGDS.png</Path>
       </Exclusions>
       <Compile_Exclusions>
         <Path>resource/Framework/Providers/Open_GDS/ClassProviders</Path>
