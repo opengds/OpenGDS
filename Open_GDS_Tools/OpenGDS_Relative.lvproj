@@ -646,10 +646,10 @@
 							<Item Name="Provider_EndevoGOOP400" Type="Folder">
 								<Item Name="GOOP400_SubVIs" Type="Folder">
 									<Item Name="GOOP400_ConfigurationMemory.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/GOOP400_SubVIs/GOOP400_ConfigurationMemory.vi"/>
-									<Item Name="GOOP400_FindFilesToExchange.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/GOOP400_SubVIs/GOOP400_FindFilesToExchange.vi"/>
-									<Item Name="GOOP400_MethodScopeType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/GOOP400_SubVIs/GOOP400_MethodScopeType.ctl"/>
+									<Item Name="GOOP400_FindFilesToExchange.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/GOOP400_SubVIs/GOOP400_FindFilesToExchange.vi"/>
+									<Item Name="GOOP400_MethodScopeType.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/GOOP400_SubVIs/GOOP400_MethodScopeType.ctl"/>
 									<Item Name="GOOP400_Options.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/GOOP400_SubVIs/GOOP400_Options.ctl"/>
-									<Item Name="GOOP400_RemoveUnwantedChars.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/GOOP400_SubVIs/GOOP400_RemoveUnwantedChars.vi"/>
+									<Item Name="GOOP400_RemoveUnwantedChars.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/GOOP400_SubVIs/GOOP400_RemoveUnwantedChars.vi"/>
 								</Item>
 								<Item Name="Templates" Type="Folder">
 									<Item Name="EndevoG4TemplateNames.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/Templates/EndevoG4TemplateNames.ctl"/>
@@ -672,7 +672,7 @@
 								<Item Name="ClassReaderGOOP400.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/ClassReaderGOOP400_class/ClassReaderGOOP400.lvclass"/>
 								<Item Name="ClassWriterGOOP400.lvclass" Type="LVClass" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/ClassWriterGOOP400_class/ClassWriterGOOP400.lvclass"/>
 								<Item Name="EndevoG4ProviderName.ctl" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/EndevoG4ProviderName.ctl"/>
-								<Item Name="EndevoGOOP400Provider_Configuration.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/EndevoGOOP400Provider_Configuration.vi"/>
+								<Item Name="EndevoGOOP400Provider_Configuration.vi" Type="VI" URL="../../resource/Framework/Providers/Open_GDS/ClassProviders/Provider_EndevoGOOP400/EndevoGOOP400Provider_Configuration.vi"/>
 							</Item>
 							<Item Name="Provider_LvNativeClass" Type="Folder">
 								<Item Name="ClassReaderNative_class" Type="Folder">
