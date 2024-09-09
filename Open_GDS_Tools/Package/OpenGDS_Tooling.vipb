@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-04-11 16:46:28" Modified_Date="2024-07-05 17:30:13" Creator="VI-Tech" Comments="" ID="16977f7227e37a630d0247fb318f1af8">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-04-11 16:46:28" Modified_Date="2024-09-09 14:39:16" Creator="VI-Tech" Comments="" ID="1e816e7225ab045ca254b7405f5268ac">
   <Library_General_Settings>
     <Package_File_Name>OpenGDS_Tooling</Package_File_Name>
-    <Library_Version>2.1.0.20</Library_Version>
+    <Library_Version>2.2.0.23</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\..</Library_Source_Folder>
     <Library_Output_Folder>..\..\Builds</Library_Output_Folder>
@@ -43,11 +43,11 @@ This package contains tooling for creating and editing OpenGDS classes.
       <Copyright/>
       <Packager>OpenGDS</Packager>
       <URL>https://opengds.github.io/</URL>
-      <Release_Notes>- Added Filter to filter the parent classes in the create class dialog #102
-- Fixed a bug where the inheritance in the UML Editor would not reflect in the code #104
-- Fixed a bug where saving the project would fail if the project is read only when cloning a class #77
-- Fixed a bug where the "Add method" dialog would take a long time to load when the class was read-only #77
-- Changed the logo of the OpenGDS</Release_Notes>
+      <Release_Notes>- Added a singleton private method template with reference wires #108
+- Added Get/Set naming for property node methods #94
+- Fixed a bug where the "Create Method" and "Create and Open Method" buttons were disabled when creating a property method #105
+- Fixed a bug where you were not able to use the icon editor when a class was not in a project #106
+- Fixed a bug where the class icon would turn into an interfaceicon when changing the wire #111</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>

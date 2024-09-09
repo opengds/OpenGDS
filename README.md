@@ -21,6 +21,8 @@ This is the package that installs the tooling to create and edit GOOP Classes. T
 
 ### OpenGDS UML Editor
 
+<a href="https://www.vipm.io/package/opengds_umleditor/"> <img src="https://www.vipm.io/package/opengds_umleditor/badge.svg?metric=installs"></a> <a href="https://www.vipm.io/package/opengds_umleditor/"><img src="https://www.vipm.io/package/opengds_umleditor/badge.svg?metric=stars"></a>
+
 This is the package that installs the UML Editor.
 
 This package has a dependency to the OpenGDS Tooling Package
