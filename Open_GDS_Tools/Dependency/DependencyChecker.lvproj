@@ -10,12 +10,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Base2.lvclass" Type="LVClass" URL="../Base2_class/Base2.lvclass"/>
 		<Item Name="DependencyChecker.lvlib" Type="Library" URL="../DependencyChecker/DependencyChecker.lvlib"/>
 		<Item Name="DependencyChecker_Example.vi" Type="VI" URL="../DependencyChecker_Example.vi"/>
-		<Item Name="RootLibrary.lvlib" Type="Library" URL="../RootLibrary.lvlib"/>
-		<Item Name="VISJS Viewer.vi" Type="VI" URL="../VISJS-Viewer/VISJS Viewer.vi"/>
-		<Item Name="VISJS Viewer_EscapePath.vi" Type="VI" URL="../VISJS-Viewer/VISJS Viewer_EscapePath.vi"/>
+		<Item Name="VISJS Viewer.lvlib" Type="Library" URL="../VISJS-Viewer/VISJS Viewer.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
