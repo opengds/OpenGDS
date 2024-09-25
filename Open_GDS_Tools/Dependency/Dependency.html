@@ -76,6 +76,32 @@
             data.edges = edges;
             network.setData(data);
         }
+
+        async function fetchAndUpdate() {
+          console.log("Fetch Started");
+            try {
+                let response = await fetch('http://localhost:3000/network-data'); // Update with your endpoint
+                if (response.ok) {
+                    let data = await response.json();
+                    let nodes = new vis.DataSet(data.nodes);
+                    let edges = new vis.DataSet(data.edges);
+                    let options = data.options;
+
+                    // Update the network chart with new data and options
+                    network.setData({ nodes: nodes, edges: edges });
+                    network.setOptions(options);
+                } else {
+                    console.error('Server error:', response.status);
+                }
+            } catch (error) {
+                console.error('Fetch error:', error);
+            }
+            finally {
+              console.log("Fetch Done");
+              setTimeout(fetchAndUpdate, 50); 
+            }
+        }
+        fetchAndUpdate();
     </script>
   </body>
 </html>
