@@ -27,4 +27,5 @@
 	<Item Name="FilterOptions.ctl" Type="VI" URL="../FilterOptions.ctl"/>
 	<Item Name="RemoveItemsBelongingToLibrary.vi" Type="VI" URL="../RemoveItemsBelongingToLibrary.vi"/>
 	<Item Name="OnlyKeepCircularDepedentItems.vi" Type="VI" URL="../OnlyKeepCircularDepedentItems.vi"/>
+	<Item Name="AnalyseClassFile.vi" Type="VI" URL="../AnalyseClassFile.vi"/>
 </Library>
