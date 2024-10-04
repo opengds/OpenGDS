@@ -32,9 +32,9 @@
 			<Item Name="Library1.lvlib" Type="Library" URL="../ExampleClasses/Library1.lvlib"/>
 			<Item Name="NoLibraryVI.vi" Type="VI" URL="../ExampleClasses/NoLibraryVI.vi"/>
 		</Item>
-		<Item Name="DependencyChecker.lvlib" Type="Library" URL="../DependencyChecker/DependencyChecker.lvlib"/>
 		<Item Name="DependencyChecker_Example.vi" Type="VI" URL="../DependencyChecker_Example.vi"/>
-		<Item Name="VISJS Viewer.lvlib" Type="Library" URL="../VISJS-Viewer/VISJS Viewer.lvlib"/>
+		<Item Name="DependencyChecker.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/DependencyViewer/DependencyChecker/DependencyChecker.lvlib"/>
+		<Item Name="VISJS Viewer.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/DependencyViewer/VISJS-Viewer/VISJS Viewer.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
