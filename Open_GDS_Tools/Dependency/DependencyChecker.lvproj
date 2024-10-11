@@ -35,6 +35,7 @@
 		<Item Name="DependencyChecker_Example.vi" Type="VI" URL="../DependencyChecker_Example.vi"/>
 		<Item Name="DependencyChecker.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/DependencyViewer/DependencyChecker/DependencyChecker.lvlib"/>
 		<Item Name="VISJS Viewer.lvlib" Type="Library" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/DependencyViewer/VISJS-Viewer/VISJS Viewer.lvlib"/>
+		<Item Name="DependencyViewer_Configuration.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/DependencyViewer/DependencyViewer_Configuration.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>

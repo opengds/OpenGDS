@@ -14,18 +14,20 @@
 	<Property Name="NI.SortType" Type="Int">3</Property>
 	<Item Name="Private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="GetLibraryDependencies.vi" Type="VI" URL="../GetLibraryDependencies.vi"/>
-		<Item Name="GetLinkerDependencyFromFiles.vi" Type="VI" URL="../GetLinkerDependencyFromFiles.vi"/>
-		<Item Name="ResolveSymbolicPath.vi" Type="VI" URL="../ResolveSymbolicPath.vi"/>
-		<Item Name="UpdateOwnerPath.vi" Type="VI" URL="../UpdateOwnerPath.vi"/>
+		<Item Name="GetLibraryDependencies.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/DependencyViewer/DependencyChecker/GetLibraryDependencies.vi"/>
+		<Item Name="GetLinkerDependencyFromFiles.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/DependencyViewer/DependencyChecker/GetLinkerDependencyFromFiles.vi"/>
+		<Item Name="ResolveSymbolicPath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/DependencyViewer/DependencyChecker/ResolveSymbolicPath.vi"/>
+		<Item Name="UpdateOwnerPath.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/DependencyViewer/DependencyChecker/UpdateOwnerPath.vi"/>
 	</Item>
-	<Item Name="GetFileDependencies.vi" Type="VI" URL="../GetFileDependencies.vi"/>
-	<Item Name="FileDependencyType.ctl" Type="VI" URL="../FileDependencyType.ctl"/>
-	<Item Name="LibraryDependentInfo.vi" Type="VI" URL="../LibraryDependentInfo.vi"/>
-	<Item Name="GetFullQualifierName.vi" Type="VI" URL="../GetFullQualifierName.vi"/>
-	<Item Name="DependencyFilter.vi" Type="VI" URL="../DependencyFilter.vi"/>
-	<Item Name="FilterOptions.ctl" Type="VI" URL="../FilterOptions.ctl"/>
-	<Item Name="RemoveItemsBelongingToLibrary.vi" Type="VI" URL="../RemoveItemsBelongingToLibrary.vi"/>
-	<Item Name="OnlyKeepCircularDepedentItems.vi" Type="VI" URL="../OnlyKeepCircularDepedentItems.vi"/>
-	<Item Name="AnalyseClassFile.vi" Type="VI" URL="../AnalyseClassFile.vi"/>
+	<Item Name="GetFileDependencies.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/DependencyViewer/DependencyChecker/GetFileDependencies.vi"/>
+	<Item Name="FileDependencyType.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/DependencyViewer/DependencyChecker/FileDependencyType.ctl"/>
+	<Item Name="LibraryDependentInfo.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/DependencyViewer/DependencyChecker/LibraryDependentInfo.vi"/>
+	<Item Name="GetFullQualifierName.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/DependencyViewer/DependencyChecker/GetFullQualifierName.vi"/>
+	<Item Name="DependencyFilter.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/DependencyViewer/DependencyChecker/DependencyFilter.vi"/>
+	<Item Name="FilterOptions.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/DependencyViewer/DependencyChecker/FilterOptions.ctl"/>
+	<Item Name="RemoveItemsBelongingToLibrary.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/DependencyViewer/DependencyChecker/RemoveItemsBelongingToLibrary.vi"/>
+	<Item Name="OnlyKeepCircularDepedentItems.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/DependencyViewer/DependencyChecker/OnlyKeepCircularDepedentItems.vi"/>
+	<Item Name="AnalyseClassFile.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/DependencyViewer/DependencyChecker/AnalyseClassFile.vi"/>
+	<Item Name="DependencyConfiguration.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/DependencyViewer/DependencyChecker/DependencyConfiguration.ctl"/>
+	<Item Name="SaveSettings.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/DependencyViewer/DependencyChecker/SaveSettings.vi"/>
 </Library>

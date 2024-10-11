@@ -729,6 +729,9 @@
 						<Item Name="SubVIs" Type="Folder" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/SubVIs">
 							<Property Name="NI.DISK" Type="Bool">true</Property>
 						</Item>
+						<Item Name="DependencyViewer" Type="Folder" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/DependencyViewer">
+							<Property Name="NI.DISK" Type="Bool">true</Property>
+						</Item>
 						<Item Name="GOOP_MyComputer_Item_Exit.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_MyComputer_Item_Exit.vi"/>
 						<Item Name="GOOP_MyComputer_Item_Init.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_MyComputer_Item_Init.vi"/>
 						<Item Name="GOOP_MyComputer_Item_Interface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/GOOP_MyComputer_Item_Interface.vi"/>
@@ -868,7 +871,6 @@
 				</Item>
 			</Item>
 		</Item>
-		<Item Name="DependencyViewer Main.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/DependencyViewer/DependencyViewer Main.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="vi.lib" Type="Folder">
@@ -1028,6 +1030,7 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_SystemLogging.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/SystemLogging/NI_SystemLogging.lvlib"/>
 				<Item Name="NI_Unzip.lvlib" Type="Library" URL="/&lt;vilib&gt;/zip/NI_Unzip.lvlib"/>
+				<Item Name="NI_WebServices.lvlib" Type="Library" URL="/&lt;vilib&gt;/wsapi/NI_WebServices.lvlib"/>
 				<Item Name="NI_XNodeSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/XNodeSupport/NI_XNodeSupport.lvlib"/>
 				<Item Name="niwsid2_proxy.dll" Type="Document" URL="/&lt;vilib&gt;/Platform/idfinder/niwsid2_proxy.dll"/>
 				<Item Name="niwsmgr2_proxy.dll" Type="Document" URL="/&lt;vilib&gt;/Platform/idfinder/niwsmgr2_proxy.dll"/>
@@ -1208,6 +1211,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="systemLogging.dll" Type="Document" URL="systemLogging.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="ws_runtime.dll" Type="Document" URL="ws_runtime.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
