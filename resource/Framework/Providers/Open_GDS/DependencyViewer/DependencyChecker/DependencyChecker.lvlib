@@ -30,4 +30,5 @@
 	<Item Name="AnalyseClassFile.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/DependencyViewer/DependencyChecker/AnalyseClassFile.vi"/>
 	<Item Name="DependencyConfiguration.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/DependencyViewer/DependencyChecker/DependencyConfiguration.ctl"/>
 	<Item Name="SaveSettings.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/DependencyViewer/DependencyChecker/SaveSettings.vi"/>
+	<Item Name="WorkingDialog.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/DependencyViewer/DependencyChecker/WorkingDialog.vi"/>
 </Library>
