@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-04-11 16:46:28" Modified_Date="2024-09-09 14:39:16" Creator="VI-Tech" Comments="" ID="1e816e7225ab045ca254b7405f5268ac">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-04-11 16:46:28" Modified_Date="2024-11-15 16:41:19" Creator="VI-Tech" Comments="" ID="8e9eb9cfd8652f129b2829802aece69b">
   <Library_General_Settings>
     <Package_File_Name>OpenGDS_Tooling</Package_File_Name>
-    <Library_Version>2.2.0.23</Library_Version>
+    <Library_Version>2.3.0.24</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\..</Library_Source_Folder>
     <Library_Output_Folder>..\..\Builds</Library_Output_Folder>
@@ -43,11 +43,11 @@ This package contains tooling for creating and editing OpenGDS classes.
       <Copyright/>
       <Packager>OpenGDS</Packager>
       <URL>https://opengds.github.io/</URL>
-      <Release_Notes>- Added a singleton private method template with reference wires #108
-- Added Get/Set naming for property node methods #94
-- Fixed a bug where the "Create Method" and "Create and Open Method" buttons were disabled when creating a property method #105
-- Fixed a bug where you were not able to use the icon editor when a class was not in a project #106
-- Fixed a bug where the class icon would turn into an interfaceicon when changing the wire #111</Release_Notes>
+      <Release_Notes>- Fixed a bug where the clone vi class dialog did not handle classes with a name containing "." #117
+- Fixed a bug where the get/set property method didn't conside the file naming option "File names with spaces" #94
+- Fixed a bug where cloning methods from an interface did not replace the class references correctly
+- Icon text color is now using background brightness value to decide it should be black or white
+- Updated the About dialog to match the new style and update the version</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
