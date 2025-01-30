@@ -1,3 +1,8 @@
+Before:
 This folder should contains exe files named: UmlMessager_20xx.exe
 These exe files will be called by Windows, if you double click on a file with the extension .uml
 The VI: GOOP_LVClass_Global_Init.vi, updates the Windows Registry.
+
+But now (since 2025-February):
+We configure Windows to use this PowerShell exe file to send a signal to the OpenGDS TCP/IP listener of port: 58693 to open the uml file in the UML modeller
+
