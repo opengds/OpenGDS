@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-04-11 16:46:28" Modified_Date="2025-01-27 11:24:32" Creator="VI-Tech" Comments="" ID="74b664d8f0ece0e5584c66c1ec98f91b">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-04-11 16:46:28" Modified_Date="2025-02-26 20:10:38" Creator="VI-Tech" Comments="" ID="a0b4f5ef09d2ef4005efabeebe735927">
   <Library_General_Settings>
     <Package_File_Name>OpenGDS_Tooling</Package_File_Name>
-    <Library_Version>2.4.0.27</Library_Version>
+    <Library_Version>2.4.0.28</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\..</Library_Source_Folder>
     <Library_Output_Folder>..\..\Builds</Library_Output_Folder>
@@ -20,7 +20,7 @@
       <Additional_External_Dependencies>opengds_utils &gt;=2.1.0.7</Additional_External_Dependencies>
     </Package_Dependencies>
     <Custom_Action_VIs>
-      <Pre-Build_VI/>
+      <Pre-Build_VI>Pre-Build Custom Action.vi</Pre-Build_VI>
       <Post-Build_VI/>
       <Pre-Install_VI/>
       <Post-Install_VI/>
@@ -162,9 +162,6 @@ This package contains tooling for creating and editing OpenGDS classes.
       </Exclusions>
       <Exclusions>
         <Path>resource/Framework/Providers/Open_GDS/ClassProviders/Common/String/GDSString_ParseStateQueue.vi</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>resource/Framework/Providers/Open_GDS/HelpFiles/.vs</Path>
       </Exclusions>
       <Compile_Exclusions>
         <Path>resource/Framework/Providers/Open_GDS/ClassProviders</Path>
