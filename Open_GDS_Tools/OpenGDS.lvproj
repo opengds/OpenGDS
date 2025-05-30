@@ -1172,6 +1172,7 @@
 			<Item Name="CLSUIP_TidyAllClassesList.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/LVClassLibrary/CLSUIP_TidyAllClassesList.vi"/>
 			<Item Name="CreateNewWizard_Interface.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/API/CreateNewWizard_Interface.ctl"/>
 			<Item Name="DialogCreateClass_FilterAndOrderClassTemplates.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/ClassWriterNative_class/private/DialogCreateClass_FilterAndOrderClassTemplates.vi"/>
+			<Item Name="GDSLvClass_MethodOverrideCheck.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvClass_class/GDSLvClass_MethodOverrideCheck.vi"/>
 			<Item Name="GDSLvIcon_AnalyseViIcon(ClassFix).vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/GDSLvIcon_AnalyseViIcon(ClassFix).vi"/>
 			<Item Name="GDSLvIcon_CalculateBrightness.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_CalculateBrightness.vi"/>
 			<Item Name="GDSLvIcon_FindIconSplitter.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/LvIcon_class/subvis/GDSLvIcon_FindIconSplitter.vi"/>

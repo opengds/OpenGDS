@@ -11,17 +11,17 @@
 	<Property Name="NI.Lib.SourceVersion" Type="Int">536903680</Property>
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Item Name="ChangeMethodTreeSelection.vi" Type="VI" URL="../ChangeMethodTreeSelection.vi"/>
-	<Item Name="CreateInterface.vi" Type="VI" URL="../CreateInterface.vi"/>
-	<Item Name="CreateMethodTree.vi" Type="VI" URL="../CreateMethodTree.vi"/>
-	<Item Name="GetInterfaceDetails.vi" Type="VI" URL="../GetInterfaceDetails.vi"/>
-	<Item Name="GetInterfaceParents.vi" Type="VI" URL="../GetInterfaceParents.vi"/>
-	<Item Name="GetInterfacesInProject.vi" Type="VI" URL="../GetInterfacesInProject.vi"/>
-	<Item Name="GetInterfacesOfClass.vi" Type="VI" URL="../GetInterfacesOfClass.vi"/>
-	<Item Name="ImplementInterface.vi" Type="VI" URL="../ImplementInterface.vi"/>
-	<Item Name="InterfaceInfo.ctl" Type="VI" URL="../InterfaceInfo.ctl"/>
-	<Item Name="RemoveInterface.vi" Type="VI" URL="../RemoveInterface.vi"/>
-	<Item Name="SelectMethodsOfInterfaces.vi" Type="VI" URL="../SelectMethodsOfInterfaces.vi"/>
-	<Item Name="SetMethodTreeCaption.vi" Type="VI" URL="../SetMethodTreeCaption.vi"/>
-	<Item Name="SetParentInterfaces.vi" Type="VI" URL="../SetParentInterfaces.vi"/>
+	<Item Name="ChangeMethodTreeSelection.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/InterfaceLibrary/ChangeMethodTreeSelection.vi"/>
+	<Item Name="CreateInterface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/InterfaceLibrary/CreateInterface.vi"/>
+	<Item Name="CreateMethodTree.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/InterfaceLibrary/CreateMethodTree.vi"/>
+	<Item Name="GetInterfaceDetails.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/InterfaceLibrary/GetInterfaceDetails.vi"/>
+	<Item Name="GetInterfaceParents.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/InterfaceLibrary/GetInterfaceParents.vi"/>
+	<Item Name="GetInterfacesInProject.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/InterfaceLibrary/GetInterfacesInProject.vi"/>
+	<Item Name="GetInterfacesOfClass.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/InterfaceLibrary/GetInterfacesOfClass.vi"/>
+	<Item Name="ImplementInterface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/InterfaceLibrary/ImplementInterface.vi"/>
+	<Item Name="InterfaceInfo.ctl" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/InterfaceLibrary/InterfaceInfo.ctl"/>
+	<Item Name="RemoveInterface.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/InterfaceLibrary/RemoveInterface.vi"/>
+	<Item Name="SelectMethodsOfInterfaces.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/InterfaceLibrary/SelectMethodsOfInterfaces.vi"/>
+	<Item Name="SetMethodTreeCaption.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/InterfaceLibrary/SetMethodTreeCaption.vi"/>
+	<Item Name="SetParentInterfaces.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/InterfaceLibrary/SetParentInterfaces.vi"/>
 </Library>
