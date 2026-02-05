@@ -118,7 +118,16 @@
 		<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
 	</Item>
 	<Item Name="Scripting_GetClassPathFromControlRef.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_GetClassPathFromControlRef.vi">
-		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#?!!!!"1!%!!!!&amp;%!S`````QJD&lt;'&amp;T=S"Q982I!!!31(!!#!!!!!)!!!67;6*F:A!91(!!#!!!!!9!!!J$&lt;WZU=G^M)'FO!!"5!0!!$!!!!!!!!!!"!!!!!!!!!!!!!!!!!!)!!Q-!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!!%!!!!!!"!!1!!!!!</Property>
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#?!!!!"1!%!!!!&amp;%!S`````QJD&lt;'&amp;T=S"Q982I!!!31(!!#!!!!!)!!!67;6*F:A!91(!!#!!!!!9!!!J$&lt;WZU=G^M)'FO!!"5!0!!$!!!!!!!!!!"!!!!!!!!!!!!!!!!!!)!!Q-!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1!!!!%A!!!!!"!!1!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
+	</Item>
+	<Item Name="Scripting_AlignToConnectorPane.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Common/ScriptingFunctions/Scripting_AlignToConnectorPane.vi">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%N!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!""!5QN798*J97ZU)'^V&gt;!!11&amp;-+6G&amp;S;7&amp;O&gt;#"J&lt;A!!&amp;%!B$F.I;7:U)&amp;"S:8.T:71`!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!"Z!=!!)!!!!(1!!%&amp;&amp;%)%.P&lt;7*P)%*P?#"3:79!!"Z!=!!)!!!!!A!!%&amp;&amp;%)%RB&gt;7ZD;#"733"3:79!!&amp;1!]!!-!!-!"!!%!!1!"1!%!!9!"Q!)!!1!#1!+!Q!!?!!!$1A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!#!!!!"!!!!!+!!!!!!!!!"!!!!!3!!!!!!%!#Q!!!!!</Property>
 		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 		<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
