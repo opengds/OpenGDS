@@ -101,6 +101,15 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1117782544</Property>
 		</Item>
+		<Item Name="MergeOverrideViWithMethod_V2.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/ClassWriterNative_class/protected/MergeOverrideViWithMethod_V2.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$@!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!":!5!!$!!!!!1!##'6S=G^S)'FO!!!;1(!!#!!!!!)!!!V0&gt;G6S=GFE:6:*5G6G!"*!=!!)!!!!!A!!"6:J5G6G!&amp;1!]!!-!!-!"!!%!!1!"!!%!!1!"!!&amp;!!1!"A!(!Q!!?!!!$1A!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!")!!!!3!!!!!!%!#!!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">1073741824</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074278928</Property>
+		</Item>
 		<Item Name="PopulatePropertyTreeControl.vi" Type="VI" URL="/&lt;resource&gt;/Framework/Providers/Open_GDS/ClassProviders/Provider_LvNativeClass/ClassWriterNative_class/protected/PopulatePropertyTreeControl.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">)!#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'D!!!!$Q!)!$$`````!"J!=!!)!!%!!!"#!!!,6(*F:5.P&lt;H2S&lt;WQ!$E!Q`````Q2/97VF!!!C1%!!!P``````````!!)14W*K:7.U182U=GFC&gt;82F=Q!!)%"!!!,``````````Q!#$U.M98.T182U=GFC&gt;82F=Q!11$$`````"F.U=GFO:Q!!'E"!!!(`````!!5.4W*K:7.U1WRB=X.F=Q!;1%!!!@````]!"1R$&lt;'&amp;T=U.M98.T:8-!!!R!)1:T&gt;'&amp;U&gt;8-!!!N!!Q!%9W^E:1!!%%!Q`````Q:T&lt;X6S9W5!!#"!5!!$!!A!#1!+%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!"!!!!":!5!!$!!A!#1!+#76S=G^S)'^V&gt;!#%!0!!&amp;!!"!!-!"!!'!!=!#Q!-!!Q!$!!-!!Q!$!!-!!Q!$!!-!!Q!$!!-!!U$!!%1!!!+!!!##!!!!AA!!!))!!!##!!!!!I!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!$15!!!!"!!Y!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>

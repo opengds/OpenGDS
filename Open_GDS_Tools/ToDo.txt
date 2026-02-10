@@ -73,3 +73,11 @@ When VI/CTl found to probablky beloing to a class, then ask what accessibility t
 Guess private, protected.
 But if Flat strcuture, we need to ask.
 Use a new UI
+
+
+When Virtual Folder don't match real folder
+I guess the best is to Don't create the folder when doing the virtual folder since the folder will be carted anyway
+
+In OverrideViWithMerge, the Ctrl.Pos and term pos might not exist alwasy.
+If so use fixed positon.
+But why not also use the Clean Up BD Always in the end???
