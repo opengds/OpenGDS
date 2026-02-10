@@ -1,0 +1,155 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+  <title>GOOP 3 vs GOOP 2</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=Windows-1252">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <style type="text/css">
+    <!--
+    body {
+      margin: 5px 5px 5px 5px;
+
+    }
+
+    /* ========== Text Styles ========== */
+    hr,
+    body,
+    table,
+    span.rvts0 {
+      font-style: normal;
+      font-weight: normal;
+
+      text-decoration: none;
+    }
+
+    span.rvts1 {
+      font-weight: bold;
+    }
+
+    span.rvts2 {
+      font-weight: bold;
+    }
+
+    span.rvts3 {
+      font-style: italic;
+    }
+
+    a.rvts4,
+    span.rvts4 {
+      text-decoration: underline;
+    }
+
+    a.rvts5,
+    span.rvts5 {
+      text-decoration: underline;
+    }
+
+    span.rvts7 {
+      font-weight: bold;
+    }
+
+    span.rvts8 {
+      font-weight: bold;
+    }
+
+    span.rvts9 {
+      font-style: italic;
+    }
+
+    span.rvts12 {
+
+      font-weight: bold;
+    }
+
+    span.rvts13 {
+      font-weight: bold;
+    }
+
+    /* ========== Para Styles ========== */
+    p,
+    ul,
+    ol {
+      text-align: left;
+      text-indent: 0px;
+      padding: 0px;
+      margin: 0px;
+    }
+
+    ul,
+    ol {
+      padding-left: 35px;
+    }
+
+    .rvps1 {
+      text-align: center;
+    }
+
+    .rvps2 {
+      background: #000000;
+      padding: 5px 5px 2px 5px;
+      margin: -5px -5px 18px -5px;
+    }
+
+    .rvps3 {
+      text-align: center;
+      background: #e4e4e4;
+      margin: 20px 0px 0px 0px;
+    }
+    -->
+  </style>
+  <link rel="StyleSheet" href="content.css" type="text/css" />
+  <script
+    type="text/javascript">if (top.frames.length == 0) { sTopic = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length); top.location.href = "../index.html#" + sTopic; }</script>
+
+
+
+
+<body>
+  <h1>GOOP 3 vs GOOP 2</h1>
+  <b>The (lack of) Wizard</b>
+  <p><span class=rvts10>There are some differences between GOOP 3 and GOOP 2.</span></p>
+  <p><span class=rvts10>There is no GOOP Wizard in GOOP3. Look under </span><span class=rvts12>Finding the
+      Features</span><span class=rvts10> to see where they can be found.</span></p>
+  <b>Portability</b>
+  <p><span class=rvts10>In LabVIEW 8.2.1 lvclasses do no run on LV realtime. GOOP 2 classes runs on LV realtime and
+      therefore enables an object oriented design on this target. Use the GOOP Inheritance Toolkit to create GOOP 2
+      classes.</span></p>
+  <b>Virtual Methods</b>
+  <p><span class=rvts10>In GOOP 3 the GOOP 2 virtual methods are replaced by LabVIEW Dynamic Dispatch VI:s. The dynamic
+      dispatch VI:s has a constant lookup overhead independent on the depth of the inheritance hierarchy. The GOOP 2
+      virtual methods are run by VI server and dynamically loaded into memory at object creation (and thereafter they
+      are cashed). The GOOP 2 virtual methods are likely to be slower than dynamic dispatch VI:s although it is not
+      bench-marked. On the other hand they allow child classes to be used as dynamic plug</span><span
+      class=rvts11>-</span><span class=rvts10>ins.</span></p>
+  <p><span class=rvts10>Maintaining the dynamic dispatch VI:s promises to be easier compared to the GOOP 2 virtual
+      methods. The reason is that you don't need to wire up the Call By Reference Node call when you add/remove
+      controls. Also, if there is a mismatch preventing execution the LabVIEW error window should pinpoint this.</span>
+  </p>
+  <b>Attributes</b>
+  <p><span class=rvts10>Reading/modifying object attributes in GOOP 3 should have the same performance as </span></p>
+  <p><span class=rvts10>GOOP 2 since the object repository of the GOOP kernel is not changed. This also warrants for a
+      good stability of the GOOP 3 architecture. Thousands of classes have been created using the GOOP 2 class
+      templates.</span></p>
+  <b>Access control</b>
+  <p><span class=rvts10>The&nbsp; visibility of attributes and methods could not be enforced in GOOP 2. It was a
+      convention using a different color for private VI icons and a private file folder. In GOOP 3 the visibility of
+      methods and attributes is enforced by LabVIEW which is a great improvement.</span></p>
+  <b>The Object Reference</b>
+  <p><span class=rvts10>In GOOP 2 the object reference has the type of the root base class. The reason for this was that
+      we didn't have any elegant way of sub typing the object reference. In GOOP 3 each class in the inheritance
+      hierarchy will have its own object type. There are two benefits of this:</span></p>
+  <p><span class=rvts10>1. If you have two child classes you cannot wire an object from one class into the other</span>
+  </p>
+  <p><span class=rvts10>without getting a broken wire. In GOOP 2 you could wire up this scenario and instead get</span>
+  </p>
+  <p><span class=rvts10>a run</span><span class=rvts11>-</span><span class=rvts10>time error. </span></p>
+  <p><span class=rvts10>2. If you have several levels in an inheritance hierarchy the object reference may not be
+      descriptive enough and you will probably use many objects from some intermediate base class rather than through
+      the root. The most extreme example of this is the LabVIEW classes which has "Object" as root base class. If you
+      implemented that in GOOP 2 all objects would share the same object reference, it would be easy to mix (mess)
+      objects of different types.</span></p>
+
+</body>
+
+</html>
