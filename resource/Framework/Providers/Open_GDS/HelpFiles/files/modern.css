@@ -1,0 +1,277 @@
+:root {
+  --primary-color: #007bff;
+  --sidebar-width: 300px;
+  --header-height: 60px;
+  --bg-color: #f4f7f6;
+  --text-color: #333;
+  --sidebar-bg: #ffffff;
+  --sidebar-border: #e0e0e0;
+  --hover-color: #f0f4ff;
+  --active-color: #e6f0ff;
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Header */
+.app-header {
+  height: var(--header-height);
+  background-color: #fff;
+  border-bottom: 1px solid var(--sidebar-border);
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.02);
+  z-index: 10;
+}
+
+.brand {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1a1a1a;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.brand-logo {
+  height: 32px;
+  width: auto;
+  display: block;
+}
+
+/* Main Layout */
+.app-container {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* Sidebar */
+.sidebar {
+  width: var(--sidebar-width);
+  min-width: 400px;
+  max-width: 600px;
+  background-color: var(--sidebar-bg);
+  border-right: 1px solid var(--sidebar-border);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: transform 0.3s ease;
+  flex-shrink: 0;
+}
+
+.resizer {
+  width: 1px;
+  cursor: col-resize;
+  background-color: var(--sidebar-border);
+  transition: background-color 0.2s;
+  z-index: 5;
+}
+
+.resizer:hover,
+.resizer.resizing {
+  background-color: var(--primary-color);
+  width: 41x;
+}
+
+.search-container {
+  padding: 15px;
+  border-bottom: 1px solid var(--sidebar-border);
+}
+
+#search-input {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  transition: border-color 0.2s;
+  font-family: inherit;
+}
+
+#search-input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.1);
+}
+
+.toc-container {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px 0;
+}
+
+/* TOC Items */
+.toc-list,
+.toc-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.toc-list ul {
+  padding-left: 20px;
+  /* Base indent */
+  display: none;
+  /* Collapsed by default */
+}
+
+/* Increase indentation for sub-levels */
+.toc-list ul ul {
+  padding-left: 20px;
+  /* Add more padding for deeper levels */
+}
+
+.toc-list ul.expanded {
+  display: block;
+}
+
+.toc-item {
+  margin: 2px 0;
+}
+
+.toc-link {
+  display: flex;
+  align-items: center;
+  padding: 6px 15px 6px 10px;
+  /* Reduced vertical padding */
+  color: #555;
+  text-decoration: none;
+  font-size: 0.9rem;
+  border-left: 3px solid transparent;
+  cursor: pointer;
+  transition: background-color 0.1s, color 0.1s;
+  user-select: none;
+  white-space: nowrap;
+  /* Prevent wrap */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.toc-link:hover {
+  background-color: var(--hover-color);
+  color: #000;
+}
+
+.toc-link.active {
+  background-color: var(--active-color);
+  border-left-color: var(--primary-color);
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+/* Icon Styling */
+.toc-icon {
+  margin-right: 8px;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+}
+
+.toc-link.active .toc-icon {
+  color: var(--primary-color);
+}
+
+.toc-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  /* Fixed width */
+  height: 20px;
+  margin-right: 2px;
+  border-radius: 4px;
+  color: #999;
+  font-size: 0.7rem;
+  /* Smaller arrow */
+  transition: transform 0.2s;
+  /* Add transform transition */
+  cursor: pointer;
+}
+
+.toc-toggle:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: #666;
+}
+
+.toc-toggle.expanded {
+  transform: rotate(90deg);
+  /* Rotate arrow */
+}
+
+/* Empty spacer for items without children to align text */
+.toc-spacer {
+  display: inline-block;
+  width: 22px;
+  /* Set to match toggle width + margin */
+  flex-shrink: 0;
+}
+
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  background-color: #fff;
+  position: relative;
+  overflow: hidden;
+  padding: 0 20px;
+  /* Added horizontal padding */
+}
+
+#content-frame {
+  width: 100%;
+  height: 100%;
+  border: none;
+  display: block;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .sidebar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+    transform: translateX(-100%);
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .sidebar.open {
+    transform: translateX(0);
+  }
+
+  .menu-toggle {
+    display: block;
+    /* Show menu toggle on mobile */
+  }
+}
+
+/* Document360-like improvements */
+.section-header {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #999;
+  padding: 15px 20px 5px;
+  letter-spacing: 0.5px;
+}

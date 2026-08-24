@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOOP Development Suite Documentation</title>
+    <!-- Fonts -->
+    <!-- Fonts: Using system fonts for offline capability -->
+
+    <link rel="stylesheet" href="files/modern.css">
+</head>
+
+<body>
+
+    <header class="app-header">
+        <div class="brand">
+            <img src="files/OpenGDS.png" alt="Open GDS Logo" class="brand-logo">
+            <span>GOOP Development Suite</span>
+        </div>
+    </header>
+
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search documentation...">
+            </div>
+
+            <div class="toc-container" id="toc-container">
+                <!-- TOC will be loaded here via JS -->
+            </div>
+        </aside>
+
+        <div class="resizer" id="resizer"></div>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <iframe id="content-frame" name="FrameMain" src="files/GettingStartedwithGOOPDevelopm5.html"></iframe>
+        </main>
+    </div>
+
+    <!-- Load Data First -->
+    <script src="js/tree_data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
