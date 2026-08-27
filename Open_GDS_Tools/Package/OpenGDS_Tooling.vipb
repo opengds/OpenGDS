@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-04-11 16:46:28" Modified_Date="2026-02-11 11:18:54" Creator="VI-Tech" Comments="" ID="8737d30d92240c1082cef47b40f28dd8">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2024-04-11 16:46:28" Modified_Date="2026-08-27 13:39:44" Creator="VI-Tech" Comments="" ID="d7be769b27e4654f1ad3fa9bb5781940">
   <Library_General_Settings>
     <Package_File_Name>OpenGDS_Tooling</Package_File_Name>
-    <Library_Version>2.5.2.31</Library_Version>
+    <Library_Version>2.6.0.32</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\..</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\..\..\Projects\OpenGDS-Builds</Library_Output_Folder>
@@ -14,6 +14,8 @@
     <Product_Name>OpenGDS Tooling</Product_Name>
     <Was_Built>true</Was_Built>
     <Target>LabVIEW</Target>
+    <Package_LabVIEW_Save_Version>false</Package_LabVIEW_Save_Version>
+    <LabVIEW_Save_Version/>
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
@@ -43,10 +45,7 @@ This package contains tooling for creating and editing OpenGDS classes.
       <Copyright/>
       <Packager>OpenGDS</Packager>
       <URL>https://opengds.github.io/</URL>
-      <Release_Notes>- Fixed an issues when creating override VIs where the VI you override doesn't have the 4 connector pane's corner assigned to any controls.
-- Fixed an issues when you edit the Class icon, and select White Text. If the BG private colour, was white it did White on White, so the VI Icon became blank.
-- Fixed a bug in the create method function that would have issues when the connectorpane was not the standard connectorpane.
-- Updated the Help to a more modern look.</Release_Notes>
+      <Release_Notes>- Added option to control if the BD should be cleaned up for Property methods</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
